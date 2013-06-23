@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/pie_controls_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pie_controls_title" android:key="pie_control">
+        <CheckBoxPreference android:title="@string/pie_controls_title" android:key="pie_controls" android:summary="@string/pie_controls_summary" android:defaultValue="false" />
+        <ListPreference android:entries="@array/entries_pie_trigger" android:title="@string/pie_trigger_title" android:key="pie_trigger" android:summary="@string/pie_trigger_summary" android:dialogTitle="@string/pie_trigger_title" android:entryValues="@array/values_pie_trigger" />
+        <ListPreference android:entries="@array/entries_pie_gravity" android:title="@string/pie_gravity_title" android:key="pie_gravity" android:summary="@string/pie_gravity_summary" android:dialogTitle="@string/pie_gravity_title" android:entryValues="@array/values_pie_gravity" />
+        <ListPreference android:entries="@array/entries_pie_size" android:title="@string/pie_size_title" android:key="pie_size" android:summary="@string/pie_size_summary" android:dialogTitle="@string/pie_size_title" android:entryValues="@array/values_pie_size" />
+        <ListPreference android:entries="@array/entries_pie_mode" android:title="@string/pie_mode_title" android:key="pie_mode" android:summary="@string/pie_mode_summary" android:dialogTitle="@string/pie_mode_title" android:entryValues="@array/values_pie_mode" />
+        <ListPreference android:entries="@array/entries_pie_angle" android:title="@string/pie_angle_title" android:key="pie_angle" android:summary="@string/pie_angle_summary" android:dialogTitle="@string/pie_angle_title" android:entryValues="@array/values_pie_angle" />
+        <ListPreference android:entries="@array/entries_pie_gap" android:title="@string/pie_gap_title" android:key="pie_gap" android:summary="@string/pie_gap_summary" android:dialogTitle="@string/pie_gap_title" android:entryValues="@array/values_pie_gap" />
+        <CheckBoxPreference android:title="@string/pie_notifications_title" android:key="pie_notifications" android:summary="@string/pie_notifications_summary" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/pie_stick_title" android:key="pie_stick" android:summary="@string/pie_stick_summary" />
+        <CheckBoxPreference android:title="@string/pie_center_title" android:key="pie_center" android:summary="@string/pie_center_summary" />
+        <CheckBoxPreference android:title="@string/pie_restart_launcher_title" android:key="pie_restart_launcher" android:summary="@string/pie_restart_launcher_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pie_targets_title" android:key="pie_targets">
+        <CheckBoxPreference android:title="@string/pie_menu_title" android:key="pie_menu" android:summary="@string/pie_menu_summary" />
+        <CheckBoxPreference android:title="@string/pie_search_title" android:key="pie_search" android:summary="@string/pie_search_summary" />
+        <CheckBoxPreference android:title="@string/pie_lastapp_title" android:key="pie_lastapp" android:summary="@string/pie_lastapp_summary" />
+        <CheckBoxPreference android:title="@string/pie_killtask_title" android:key="pie_killtask" android:summary="@string/pie_killtask_summary" />
+        <CheckBoxPreference android:title="@string/pie_appwindow_title" android:key="pie_appwindow" android:summary="@string/pie_appwindow_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

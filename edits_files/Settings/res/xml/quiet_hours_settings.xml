@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/quiet_hours_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <CheckBoxPreference android:title="@string/quiet_hours_enabled_title" android:key="quiet_hours_enabled" android:defaultValue="false" />
+    <com.android.settings.TimeRangePreference android:key="quiet_hours_timerange" android:dependency="quiet_hours_enabled" />
+    <CheckBoxPreference android:title="@string/quiet_hours_notifications_title" android:key="quiet_hours_notifications" android:dependency="quiet_hours_enabled" />
+    <CheckBoxPreference android:title="@string/quiet_hours_ringer_title" android:key="quiet_hours_ringer" android:dependency="quiet_hours_enabled" />
+    <CheckBoxPreference android:title="@string/quiet_hours_still_title" android:key="quiet_hours_still" android:dependency="quiet_hours_enabled" />
+    <CheckBoxPreference android:title="@string/quiet_hours_dim_title" android:key="quiet_hours_dim" android:dependency="quiet_hours_enabled" />
+</PreferenceScreen>

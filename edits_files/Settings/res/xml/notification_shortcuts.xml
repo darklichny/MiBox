@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/notification_shortcuts_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <SwitchPreference android:title="@string/notification_shortcuts_settings_title" android:key="pref_notification_shortcuts_toggle" android:summary="@string/notification_shortcuts_settings_summary" android:defaultValue="false" />
+    <ListPreference android:entries="@array/notification_shortcuts_quantity_entries" android:title="@string/notification_shortcuts_quantity_title" android:key="pref_notification_shortcuts_quantity" android:summary="@string/notification_shortcuts_quantity_summary" android:dependency="pref_notification_shortcuts_toggle" android:defaultValue="6" android:entryValues="@array/notification_shortcuts_quantity_values" />
+    <net.margaritov.preference.colorpicker.ColorPickerPreference android:title="@string/notification_shortcuts_color_title" android:key="pref_notification_shortcuts_color" android:summary="@string/notification_shortcuts_color_summary" android:dependency="pref_notification_shortcuts_toggle" android:defaultValue="\#DFE0E0" />
+    <CheckBoxPreference android:title="@string/notification_shortcuts_colorize_toggle_title" android:key="pref_notification_shortcuts_colorize_toggle" android:summary="@string/notification_shortcuts_colorize_toggle_summary" android:dependency="pref_notification_shortcuts_toggle" />
+    <CheckBoxPreference android:title="@string/notification_shortcuts_hide_carrier_title" android:key="pref_notification_shortcuts_hide_carrier" />
+    <PreferenceCategory android:title="@string/notification_shortcuts_title" android:key="pref_notification_shortcuts_list" />
+    <PreferenceCategory android:title="@string/notification_shortcuts_category_reset_title" android:dependency="pref_notification_shortcuts_toggle" />
+    <Preference android:title="@string/notification_shortcuts_reset_title" android:key="pref_notification_shortcuts_reset" android:dependency="pref_notification_shortcuts_toggle" />
+</PreferenceScreen>

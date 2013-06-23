@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/about_rb_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:rb="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceScreen android:layout="@layout/logo_row" android:key="rb_logo" />
+    <PreferenceCategory android:title="@string/rootbox" android:key="links">
+        <Preference android:title="@string/rootbox_site_title" android:key="rootbox_site" android:summary="@string/rootbox_site_summary" />
+        <com.android.settings.widgets.DeveloperPreference android:title="RootBox" rb:twitterHandle="rootbox_rom" rb:nameDev="RootBox" rb:githubLink="@string/github_rootbox" rb:googleLink="@string/google_rootbox" rb:facebookLink="@string/facebook_rootbox" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/devs" android:key="devs">
+        <com.android.settings.widgets.DeveloperPreference android:title="Bajee" rb:twitterHandle="Bajee11" rb:nameDev="Bajee" rb:donateLink="@string/donate_rootbox" rb:githubLink="@string/github_rootbox" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/maintainers_team_title" android:key="maintainers">
+        <com.android.settings.widgets.DeveloperPreference android:title="Myles Nystrom" rb:twitterHandle="Mylesnystrom" rb:nameDev="Myles N. (Grouper)" />
+        <com.android.settings.widgets.DeveloperPreference android:title="Joao" rb:twitterHandle="manelscout4life" rb:nameDev="Joao (t0lte)" rb:githubLink="@string/github_joao" />
+        <com.android.settings.widgets.DeveloperPreference android:title="Ricky S" rb:twitterHandle="slickrick_xda" rb:nameDev="Ricky S. (l900/i605)" rb:githubLink="@string/github_slick" />
+        <com.android.settings.widgets.DeveloperPreference android:title="Ashley Sykes" rb:twitterHandle="ashsykes15" rb:nameDev="Ashley Sykes (Maguro)" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/graphics_team_title" android:key="graphics">
+        <com.android.settings.widgets.DeveloperPreference android:title="Kroz" rb:twitterHandle="kroz46" rb:nameDev="Kroz" rb:githubLink="@string/github_kroz" />
+        <com.android.settings.widgets.DeveloperPreference android:title="OlliG" rb:twitterHandle="OliverGeith" rb:nameDev="OlliG" rb:githubLink="@string/github_ollig" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/support_team_title" android:key="support">
+        <com.android.settings.widgets.DeveloperPreference android:title="Kubics" rb:twitterHandle="kubics77" rb:nameDev="Kubics" />
+        <com.android.settings.widgets.DeveloperPreference android:title="Hannibal226" rb:twitterHandle="Hannibal226" rb:nameDev="Hannibal226" />
+        <com.android.settings.widgets.DeveloperPreference android:title="GaboWinter" rb:twitterHandle="gabofv" rb:nameDev="GaboWinter" />
+        <com.android.settings.widgets.DeveloperPreference android:title="Christiancs1969" rb:twitterHandle="christiancs1969" rb:nameDev="Christiancs1969" />
+        <com.android.settings.widgets.DeveloperPreference android:title="Blue Falcon" rb:twitterHandle="bluefa1con" rb:nameDev="Blue Falcon" rb:githubLink="@string/github_bluefalcon" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/contributors_title" android:key="contributors">
+        <com.android.settings.widgets.DeveloperPreference android:title="Pier" rb:twitterHandle="XniX" rb:nameDev="PieR" rb:donateLink="@string/donate_pier" rb:githubLink="@string/github_pier" />
+        <com.android.settings.widgets.DeveloperPreference android:title="AOKP" rb:twitterHandle="aokp_rom" rb:nameDev="AOKP" rb:donateLink="@string/donate_aokp" rb:githubLink="@string/github_aokp" />
+        <com.android.settings.widgets.DeveloperPreference android:title="CyanogenMod" rb:twitterHandle="cyanogenmod" rb:nameDev="CyanogenMod" rb:donateLink="@string/donate_cyanogenmod" rb:githubLink="@string/github_cyanogenmod" />
+		<com.android.settings.widgets.DeveloperPreference android:title="MiBoxMod" rb:nameDev="DarkLichNY" rb:donateLink="@string/donate_mibox" rb:githubLink="@string/github_mibox" />
+    </PreferenceCategory>
+</PreferenceScreen>
