@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/V5.Widget.SecondaryTabIndicator"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/resource_list_tab_title_color" android:gravity="center" android:id="@id/long_ringtone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/long_ringtone_resource" android:layout_weight="1.0" style="@style/V5.Widget.SecondaryTab" />
+    <TextView android:textColor="@color/resource_list_tab_title_color" android:gravity="center" android:id="@id/short_ringtone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/short_ringtone_resource" android:layout_weight="1.0" style="@style/V5.Widget.SecondaryTab" />
+    <TextView android:textColor="@color/resource_list_tab_title_color" android:gravity="center" android:id="@id/all_ringtone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/all_ringtone_resource" android:layout_weight="1.0" style="@style/V5.Widget.SecondaryTab" />
+</LinearLayout>

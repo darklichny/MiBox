@@ -1318,7 +1318,7 @@
     .line 148
     iget-object v3, p0, Lcom/android/settings/slim/notificationshortcuts/NotificationShortcuts;->mPrefList:Landroid/preference/PreferenceGroup;
 
-    const v4, 0x7f0808ee
+    const v4, 0x7f0808e3
 
     invoke-virtual {v3, v4}, Landroid/preference/PreferenceGroup;->setTitle(I)V
 
@@ -2104,7 +2104,7 @@
 
     move-result-object v0
 
-    const v2, 0x7f0808e9
+    const v2, 0x7f0808de
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 

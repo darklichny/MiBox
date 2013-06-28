@@ -153,7 +153,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0c0054
+    const v3, 0x7f0c0052
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -179,7 +179,7 @@
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setTitle(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
 
     .line 130
-    const v2, 0x7f0c0053
+    const v2, 0x7f0c0051
 
     iget v3, p0, Lcom/android/settings/profiles/ProfileConnectionPreference;->currentChoice:I
 

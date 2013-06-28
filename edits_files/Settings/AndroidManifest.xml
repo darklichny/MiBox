@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest android:sharedUserId="android.uid.system" android:versionCode="17" android:versionName="4.2.2-eng.rootbox.20130621.170510" package="com.android.settings" coreApp="true"
+<manifest android:sharedUserId="android.uid.system" android:versionCode="17" android:versionName="4.2.2-eng.rootbox.20130627.132602" package="com.android.settings" coreApp="true"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <original-package android:name="com.android.settings" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -888,6 +888,7 @@
         <activity android:name=".profiles.AppGroupList" />
         <activity android:name=".profiles.AppGroupConfig" />
         <activity android:name=".profiles.ProfileGroupConfig" />
+        <activity android:name=".profiles.WifiTriggers" />
         <activity android:name=".profiles.NFCProfileWriter" />
         <activity android:name=".profiles.NFCProfileSelect" />
         <activity android:theme="@*android:style/Theme.NoDisplay" android:name=".profiles.NFCProfile">

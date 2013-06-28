@@ -822,7 +822,7 @@
     .end local v1           #toneName:Ljava/lang/String;
     .end local v2           #toneUriPath:Ljava/lang/String;
     :cond_0
-    const v4, 0x7f080988
+    const v4, 0x7f08099d
 
     invoke-virtual {p0, v4}, Lcom/android/settings/SoundSettings;->getString(I)Ljava/lang/String;
 
@@ -2486,7 +2486,7 @@
 
     move-object/from16 v16, v0
 
-    const v17, 0x7f080988
+    const v17, 0x7f08099d
 
     move-object/from16 v0, p0
 

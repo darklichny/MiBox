@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_font_size_large" android:textColor="@color/primary_color" android:id="@id/balance" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/common_padding" android:singleLine="true" />
+    <ListView android:scrollbarStyle="outsideOverlay" android:id="@id/list" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:cacheColorHint="@null" android:divider="@null" android:layout_weight="1.0" android:fastScrollEnabled="true" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ProgressBar android:id="@id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateOnly="true" />
+        <TextView android:textSize="@dimen/text_font_size_small" android:textColor="@color/secondary_color" android:id="@id/error" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="13.0dip">
+        <Button android:textColor="@color/text_color_white" android:id="@id/button_recharge" android:background="@drawable/btn_pay_orange_bkg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/btn_mili_center_recharge" />
+        <Button android:id="@id/button_voucher" android:background="@drawable/btn_pay_white_bkg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" />
+    </LinearLayout>
+</LinearLayout>

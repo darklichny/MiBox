@@ -96,7 +96,7 @@
     .line 108
     iget-object v1, p0, Lcom/android/settings/profiles/NFCProfileSelect$3;->this$0:Lcom/android/settings/profiles/NFCProfileSelect;
 
-    const v2, 0x7f0808a9
+    const v2, 0x7f080884
 
     const/4 v3, 0x1
 

@@ -356,7 +356,7 @@
 
     if-eqz v3, :cond_1
 
-    const v1, 0x7f08096a
+    const v1, 0x7f08097f
 
     .line 860
     .local v1, resId:I
@@ -433,7 +433,7 @@
     .line 856
     .restart local v2       #row:Lcom/android/settings/AutoBrightnessCustomizeDialog$SettingRow;
     :cond_1
-    const v1, 0x7f080969
+    const v1, 0x7f08097e
 
     goto :goto_1
 .end method

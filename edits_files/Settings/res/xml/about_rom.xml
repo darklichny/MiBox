@@ -5,9 +5,11 @@
     <PreferenceScreen android:layout="@layout/logo_row" android:key="rb_logo" />
     <PreferenceCategory android:title="@string/rootbox" android:key="links">
         <Preference android:title="@string/rootbox_site_title" android:key="rootbox_site" android:summary="@string/rootbox_site_summary" />
+        <com.android.settings.widgets.DeveloperPreference android:title="MiBox" rb:twitterHandle="mibox_rom" rb:nameDev="MiBox" rb:githubLink="@string/github_mibox" rb:googleLink="@string/google_mibox" rb:facebookLink="@string/facebook_mibox" />
         <com.android.settings.widgets.DeveloperPreference android:title="RootBox" rb:twitterHandle="rootbox_rom" rb:nameDev="RootBox" rb:githubLink="@string/github_rootbox" rb:googleLink="@string/google_rootbox" rb:facebookLink="@string/facebook_rootbox" />
     </PreferenceCategory>
     <PreferenceCategory android:title="@string/devs" android:key="devs">
+        <com.android.settings.widgets.DeveloperPreference android:title="DarkLichNY" rb:twitterHandle=" " rb:nameDev="DarkLichNY" rb:donateLink="@string/donate_mibox" rb:githubLink="@string/github_mibox" />
         <com.android.settings.widgets.DeveloperPreference android:title="Bajee" rb:twitterHandle="Bajee11" rb:nameDev="Bajee" rb:donateLink="@string/donate_rootbox" rb:githubLink="@string/github_rootbox" />
     </PreferenceCategory>
     <PreferenceCategory android:title="@string/maintainers_team_title" android:key="maintainers">
@@ -31,6 +33,5 @@
         <com.android.settings.widgets.DeveloperPreference android:title="Pier" rb:twitterHandle="XniX" rb:nameDev="PieR" rb:donateLink="@string/donate_pier" rb:githubLink="@string/github_pier" />
         <com.android.settings.widgets.DeveloperPreference android:title="AOKP" rb:twitterHandle="aokp_rom" rb:nameDev="AOKP" rb:donateLink="@string/donate_aokp" rb:githubLink="@string/github_aokp" />
         <com.android.settings.widgets.DeveloperPreference android:title="CyanogenMod" rb:twitterHandle="cyanogenmod" rb:nameDev="CyanogenMod" rb:donateLink="@string/donate_cyanogenmod" rb:githubLink="@string/github_cyanogenmod" />
-		<com.android.settings.widgets.DeveloperPreference android:title="MiBoxMod" rb:nameDev="DarkLichNY" rb:donateLink="@string/donate_mibox" rb:githubLink="@string/github_mibox" />
     </PreferenceCategory>
 </PreferenceScreen>

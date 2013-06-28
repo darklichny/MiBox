@@ -153,7 +153,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0c0054
+    const v3, 0x7f0c0052
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -172,12 +172,12 @@
     iput v2, p0, Lcom/android/settings/profiles/ProfileAirplaneModePreference;->currentChoice:I
 
     .line 130
-    const v2, 0x7f080892
+    const v2, 0x7f08087b
 
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
     .line 131
-    const v2, 0x7f0c0053
+    const v2, 0x7f0c0051
 
     iget v3, p0, Lcom/android/settings/profiles/ProfileAirplaneModePreference;->currentChoice:I
 
@@ -438,7 +438,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080823
+    const v2, 0x7f080809
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -456,7 +456,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080822
+    const v2, 0x7f080808
 
     invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

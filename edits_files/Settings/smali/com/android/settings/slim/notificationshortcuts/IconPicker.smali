@@ -134,7 +134,7 @@
 
     .line 106
     .local v0, dialog:Landroid/app/Dialog;
-    const v5, 0x7f080926
+    const v5, 0x7f08091b
 
     invoke-virtual {v0, v5}, Landroid/app/Dialog;->setTitle(I)V
 
@@ -366,7 +366,7 @@
     .local v2, items:Ljava/util/ArrayList;,"Ljava/util/ArrayList<Ljava/lang/String;>;"
     iget-object v3, p0, Lcom/android/settings/slim/notificationshortcuts/IconPicker;->mResources:Landroid/content/res/Resources;
 
-    const v4, 0x7f0808ef
+    const v4, 0x7f0808e4
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -377,7 +377,7 @@
     .line 76
     iget-object v3, p0, Lcom/android/settings/slim/notificationshortcuts/IconPicker;->mResources:Landroid/content/res/Resources;
 
-    const v4, 0x7f080927
+    const v4, 0x7f08091c
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -403,7 +403,7 @@
     .line 79
     iget-object v3, p0, Lcom/android/settings/slim/notificationshortcuts/IconPicker;->mResources:Landroid/content/res/Resources;
 
-    const v4, 0x7f080928
+    const v4, 0x7f08091d
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -419,7 +419,7 @@
 
     invoke-direct {v3, v4}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v4, 0x7f080924
+    const v4, 0x7f080919
 
     invoke-virtual {v3, v4}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 

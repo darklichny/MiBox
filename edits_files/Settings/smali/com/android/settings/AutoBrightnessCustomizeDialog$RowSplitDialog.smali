@@ -150,7 +150,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f080975
+    const v4, 0x7f08098a
 
     const/4 v5, 0x2
 
@@ -319,7 +319,7 @@
     iput-object v2, p0, Lcom/android/settings/AutoBrightnessCustomizeDialog$RowSplitDialog;->mValue:Landroid/widget/EditText;
 
     .line 634
-    const v2, 0x7f08096f
+    const v2, 0x7f080984
 
     invoke-virtual {p0, v2}, Lcom/android/settings/AutoBrightnessCustomizeDialog$RowSplitDialog;->setTitle(I)V
 
@@ -340,7 +340,7 @@
     .line 641
     const/4 v2, -0x1
 
-    const v3, 0x7f08080f
+    const v3, 0x7f0807f5
 
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

@@ -52,7 +52,7 @@
     .line 54
     invoke-direct {p0}, Lcom/android/settings/SettingsPreferenceFragment;-><init>()V
 
-    .line 446
+    .line 463
     return-void
 .end method
 
@@ -71,7 +71,7 @@
     .locals 3
 
     .prologue
-    .line 383
+    .line 400
     iget-object v0, p0, Lcom/android/settings/profiles/ProfileConfig;->mProfile:Landroid/app/Profile;
 
     invoke-virtual {v0}, Landroid/app/Profile;->getUuid()Ljava/util/UUID;
@@ -94,12 +94,12 @@
 
     if-eqz v0, :cond_0
 
-    .line 384
+    .line 401
     invoke-virtual {p0}, Lcom/android/settings/profiles/ProfileConfig;->getActivity()Landroid/app/Activity;
 
     move-result-object v0
 
-    const v1, 0x7f08081e
+    const v1, 0x7f080804
 
     invoke-virtual {p0, v1}, Lcom/android/settings/profiles/ProfileConfig;->getString(I)Ljava/lang/String;
 
@@ -111,14 +111,14 @@
 
     move-result-object v0
 
-    .line 386
+    .line 403
     invoke-virtual {v0}, Landroid/widget/Toast;->show()V
 
-    .line 404
+    .line 421
     :goto_0
     return-void
 
-    .line 388
+    .line 405
     :cond_0
     new-instance v0, Landroid/app/AlertDialog$Builder;
 
@@ -128,22 +128,22 @@
 
     invoke-direct {v0, v1}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    .line 389
-    const v1, 0x7f08080c
+    .line 406
+    const v1, 0x7f0807f2
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
-    .line 390
+    .line 407
     const v1, 0x1010355
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setIconAttribute(I)Landroid/app/AlertDialog$Builder;
 
-    .line 391
-    const v1, 0x7f08081c
+    .line 408
+    const v1, 0x7f080802
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
-    .line 392
+    .line 409
     const v1, 0x7f08005d
 
     new-instance v2, Lcom/android/settings/profiles/ProfileConfig$1;
@@ -152,7 +152,7 @@
 
     invoke-virtual {v0, v1, v2}, Landroid/app/AlertDialog$Builder;->setPositiveButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
-    .line 397
+    .line 414
     const v1, 0x7f080142
 
     new-instance v2, Lcom/android/settings/profiles/ProfileConfig$2;
@@ -161,7 +161,7 @@
 
     invoke-virtual {v0, v1, v2}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
-    .line 402
+    .line 419
     invoke-virtual {v0}, Landroid/app/AlertDialog$Builder;->create()Landroid/app/AlertDialog;
 
     move-result-object v0
@@ -175,22 +175,22 @@
     .locals 2
 
     .prologue
-    .line 407
+    .line 424
     iget-object v0, p0, Lcom/android/settings/profiles/ProfileConfig;->mProfileManager:Landroid/app/ProfileManager;
 
     iget-object v1, p0, Lcom/android/settings/profiles/ProfileConfig;->mProfile:Landroid/app/Profile;
 
     invoke-virtual {v0, v1}, Landroid/app/ProfileManager;->removeProfile(Landroid/app/Profile;)V
 
-    .line 408
+    .line 425
     const/4 v0, 0x0
 
     iput-object v0, p0, Lcom/android/settings/profiles/ProfileConfig;->mProfile:Landroid/app/Profile;
 
-    .line 409
+    .line 426
     invoke-virtual {p0}, Lcom/android/settings/profiles/ProfileConfig;->finish()V
 
-    .line 410
+    .line 427
     return-void
 .end method
 
@@ -198,12 +198,12 @@
     .locals 26
 
     .prologue
-    .line 185
+    .line 202
     invoke-virtual/range {p0 .. p0}, Lcom/android/settings/profiles/ProfileConfig;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
 
     move-result-object v14
 
-    .line 188
+    .line 205
     .local v14, prefSet:Landroid/preference/PreferenceScreen;
     const-string v23, "profile_general_section"
 
@@ -215,14 +215,14 @@
 
     check-cast v9, Landroid/preference/PreferenceGroup;
 
-    .line 189
+    .line 206
     .local v9, generalPrefs:Landroid/preference/PreferenceGroup;
     if-eqz v9, :cond_0
 
-    .line 190
+    .line 207
     invoke-virtual {v9}, Landroid/preference/PreferenceGroup;->removeAll()V
 
-    .line 193
+    .line 210
     new-instance v23, Lcom/android/settings/profiles/NamePreference;
 
     invoke-virtual/range {p0 .. p0}, Lcom/android/settings/profiles/ProfileConfig;->getActivity()Landroid/app/Activity;
@@ -247,7 +247,7 @@
 
     iput-object v0, v1, Lcom/android/settings/profiles/ProfileConfig;->mNamePreference:Lcom/android/settings/profiles/NamePreference;
 
-    .line 194
+    .line 211
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/android/settings/profiles/ProfileConfig;->mNamePreference:Lcom/android/settings/profiles/NamePreference;
@@ -260,7 +260,7 @@
 
     invoke-virtual {v0, v1}, Lcom/android/settings/profiles/NamePreference;->setOnPreferenceChangeListener(Landroid/preference/Preference$OnPreferenceChangeListener;)V
 
-    .line 195
+    .line 212
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/android/settings/profiles/ProfileConfig;->mNamePreference:Lcom/android/settings/profiles/NamePreference;
@@ -271,7 +271,7 @@
 
     invoke-virtual {v9, v0}, Landroid/preference/PreferenceGroup;->addPreference(Landroid/preference/Preference;)Z
 
-    .line 199
+    .line 216
     :cond_0
     const-string v23, "profile_system_settings"
 
@@ -283,14 +283,14 @@
 
     check-cast v21, Landroid/preference/PreferenceGroup;
 
-    .line 200
+    .line 217
     .local v21, systemPrefs:Landroid/preference/PreferenceGroup;
     if-eqz v21, :cond_6
 
-    .line 201
+    .line 218
     invoke-virtual/range {v21 .. v21}, Landroid/preference/PreferenceGroup;->removeAll()V
 
-    .line 203
+    .line 220
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/android/settings/profiles/ProfileConfig;->mRingMode:Lcom/android/settings/profiles/ProfileConfig$RingModeItem;
@@ -299,7 +299,7 @@
 
     if-nez v23, :cond_1
 
-    .line 204
+    .line 221
     new-instance v23, Lcom/android/settings/profiles/ProfileConfig$RingModeItem;
 
     invoke-direct/range {v23 .. v23}, Lcom/android/settings/profiles/ProfileConfig$RingModeItem;-><init>()V
@@ -310,7 +310,7 @@
 
     iput-object v0, v1, Lcom/android/settings/profiles/ProfileConfig;->mRingMode:Lcom/android/settings/profiles/ProfileConfig$RingModeItem;
 
-    .line 206
+    .line 223
     :cond_1
     move-object/from16 v0, p0
 
@@ -322,17 +322,17 @@
 
     move-result-object v17
 
-    .line 207
+    .line 224
     .local v17, rms:Landroid/app/RingModeSettings;
     if-nez v17, :cond_2
 
-    .line 208
+    .line 225
     new-instance v17, Landroid/app/RingModeSettings;
 
     .end local v17           #rms:Landroid/app/RingModeSettings;
     invoke-direct/range {v17 .. v17}, Landroid/app/RingModeSettings;-><init>()V
 
-    .line 209
+    .line 226
     .restart local v17       #rms:Landroid/app/RingModeSettings;
     move-object/from16 v0, p0
 
@@ -346,7 +346,7 @@
 
     invoke-virtual {v0, v1}, Landroid/app/Profile;->setRingMode(Landroid/app/RingModeSettings;)V
 
-    .line 211
+    .line 228
     :cond_2
     move-object/from16 v0, p0
 
@@ -360,7 +360,7 @@
 
     iput-object v0, v1, Lcom/android/settings/profiles/ProfileConfig$RingModeItem;->mSettings:Landroid/app/RingModeSettings;
 
-    .line 212
+    .line 229
     new-instance v16, Lcom/android/settings/profiles/ProfileRingModePreference;
 
     invoke-virtual/range {p0 .. p0}, Lcom/android/settings/profiles/ProfileConfig;->getActivity()Landroid/app/Activity;
@@ -373,7 +373,7 @@
 
     invoke-direct {v0, v1}, Lcom/android/settings/profiles/ProfileRingModePreference;-><init>(Landroid/content/Context;)V
 
-    .line 213
+    .line 230
     .local v16, rmp:Lcom/android/settings/profiles/ProfileRingModePreference;
     move-object/from16 v0, p0
 
@@ -387,8 +387,8 @@
 
     invoke-virtual {v0, v1}, Lcom/android/settings/profiles/ProfileRingModePreference;->setRingModeItem(Lcom/android/settings/profiles/ProfileConfig$RingModeItem;)V
 
-    .line 214
-    const v23, 0x7f080836
+    .line 231
+    const v23, 0x7f08081f
 
     move-object/from16 v0, v16
 
@@ -396,7 +396,7 @@
 
     invoke-virtual {v0, v1}, Lcom/android/settings/profiles/ProfileRingModePreference;->setTitle(I)V
 
-    .line 215
+    .line 232
     const/16 v23, 0x0
 
     move-object/from16 v0, v16
@@ -405,7 +405,7 @@
 
     invoke-virtual {v0, v1}, Lcom/android/settings/profiles/ProfileRingModePreference;->setPersistent(Z)V
 
-    .line 216
+    .line 233
     invoke-virtual/range {p0 .. p0}, Lcom/android/settings/profiles/ProfileConfig;->getActivity()Landroid/app/Activity;
 
     move-result-object v23
@@ -416,14 +416,14 @@
 
     invoke-virtual {v0, v1}, Lcom/android/settings/profiles/ProfileRingModePreference;->setSummary(Landroid/content/Context;)V
 
-    .line 217
+    .line 234
     move-object/from16 v0, v16
 
     move-object/from16 v1, p0
 
     invoke-virtual {v0, v1}, Lcom/android/settings/profiles/ProfileRingModePreference;->setOnPreferenceChangeListener(Landroid/preference/Preference$OnPreferenceChangeListener;)V
 
-    .line 218
+    .line 235
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/android/settings/profiles/ProfileConfig;->mRingMode:Lcom/android/settings/profiles/ProfileConfig$RingModeItem;
@@ -436,14 +436,14 @@
 
     iput-object v0, v1, Lcom/android/settings/profiles/ProfileConfig$RingModeItem;->mCheckbox:Lcom/android/settings/profiles/ProfileRingModePreference;
 
-    .line 219
+    .line 236
     move-object/from16 v0, v21
 
     move-object/from16 v1, v16
 
     invoke-virtual {v0, v1}, Landroid/preference/PreferenceGroup;->addPreference(Landroid/preference/Preference;)Z
 
-    .line 222
+    .line 239
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/android/settings/profiles/ProfileConfig;->mAirplaneMode:Lcom/android/settings/profiles/ProfileConfig$AirplaneModeItem;
@@ -452,7 +452,7 @@
 
     if-nez v23, :cond_3
 
-    .line 223
+    .line 240
     new-instance v23, Lcom/android/settings/profiles/ProfileConfig$AirplaneModeItem;
 
     invoke-direct/range {v23 .. v23}, Lcom/android/settings/profiles/ProfileConfig$AirplaneModeItem;-><init>()V
@@ -463,7 +463,7 @@
 
     iput-object v0, v1, Lcom/android/settings/profiles/ProfileConfig;->mAirplaneMode:Lcom/android/settings/profiles/ProfileConfig$AirplaneModeItem;
 
-    .line 225
+    .line 242
     :cond_3
     move-object/from16 v0, p0
 
@@ -475,17 +475,17 @@
 
     move-result-object v4
 
-    .line 226
+    .line 243
     .local v4, ams:Landroid/app/AirplaneModeSettings;
     if-nez v4, :cond_4
 
-    .line 227
+    .line 244
     new-instance v4, Landroid/app/AirplaneModeSettings;
 
     .end local v4           #ams:Landroid/app/AirplaneModeSettings;
     invoke-direct {v4}, Landroid/app/AirplaneModeSettings;-><init>()V
 
-    .line 228
+    .line 245
     .restart local v4       #ams:Landroid/app/AirplaneModeSettings;
     move-object/from16 v0, p0
 
@@ -497,7 +497,7 @@
 
     invoke-virtual {v0, v4}, Landroid/app/Profile;->setAirplaneMode(Landroid/app/AirplaneModeSettings;)V
 
-    .line 230
+    .line 247
     :cond_4
     move-object/from16 v0, p0
 
@@ -509,7 +509,7 @@
 
     iput-object v4, v0, Lcom/android/settings/profiles/ProfileConfig$AirplaneModeItem;->mSettings:Landroid/app/AirplaneModeSettings;
 
-    .line 231
+    .line 248
     new-instance v3, Lcom/android/settings/profiles/ProfileAirplaneModePreference;
 
     invoke-virtual/range {p0 .. p0}, Lcom/android/settings/profiles/ProfileConfig;->getActivity()Landroid/app/Activity;
@@ -520,7 +520,7 @@
 
     invoke-direct {v3, v0}, Lcom/android/settings/profiles/ProfileAirplaneModePreference;-><init>(Landroid/content/Context;)V
 
-    .line 232
+    .line 249
     .local v3, amp:Lcom/android/settings/profiles/ProfileAirplaneModePreference;
     move-object/from16 v0, p0
 
@@ -532,21 +532,21 @@
 
     invoke-virtual {v3, v0}, Lcom/android/settings/profiles/ProfileAirplaneModePreference;->setAirplaneModeItem(Lcom/android/settings/profiles/ProfileConfig$AirplaneModeItem;)V
 
-    .line 233
-    const v23, 0x7f080892
+    .line 250
+    const v23, 0x7f08087b
 
     move/from16 v0, v23
 
     invoke-virtual {v3, v0}, Lcom/android/settings/profiles/ProfileAirplaneModePreference;->setTitle(I)V
 
-    .line 234
+    .line 251
     const/16 v23, 0x0
 
     move/from16 v0, v23
 
     invoke-virtual {v3, v0}, Lcom/android/settings/profiles/ProfileAirplaneModePreference;->setPersistent(Z)V
 
-    .line 235
+    .line 252
     invoke-virtual/range {p0 .. p0}, Lcom/android/settings/profiles/ProfileConfig;->getActivity()Landroid/app/Activity;
 
     move-result-object v23
@@ -555,12 +555,12 @@
 
     invoke-virtual {v3, v0}, Lcom/android/settings/profiles/ProfileAirplaneModePreference;->setSummary(Landroid/content/Context;)V
 
-    .line 236
+    .line 253
     move-object/from16 v0, p0
 
     invoke-virtual {v3, v0}, Lcom/android/settings/profiles/ProfileAirplaneModePreference;->setOnPreferenceChangeListener(Landroid/preference/Preference$OnPreferenceChangeListener;)V
 
-    .line 237
+    .line 254
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/android/settings/profiles/ProfileConfig;->mAirplaneMode:Lcom/android/settings/profiles/ProfileConfig$AirplaneModeItem;
@@ -571,12 +571,12 @@
 
     iput-object v3, v0, Lcom/android/settings/profiles/ProfileConfig$AirplaneModeItem;->mCheckbox:Lcom/android/settings/profiles/ProfileAirplaneModePreference;
 
-    .line 238
+    .line 255
     move-object/from16 v0, v21
 
     invoke-virtual {v0, v3}, Landroid/preference/PreferenceGroup;->addPreference(Landroid/preference/Preference;)Z
 
-    .line 241
+    .line 258
     new-instance v23, Landroid/preference/ListPreference;
 
     invoke-virtual/range {p0 .. p0}, Lcom/android/settings/profiles/ProfileConfig;->getActivity()Landroid/app/Activity;
@@ -591,18 +591,29 @@
 
     iput-object v0, v1, Lcom/android/settings/profiles/ProfileConfig;->mScreenLockModePreference:Landroid/preference/ListPreference;
 
-    .line 242
+    .line 259
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/android/settings/profiles/ProfileConfig;->mScreenLockModePreference:Landroid/preference/ListPreference;
 
     move-object/from16 v23, v0
 
-    const v24, 0x7f08088b
+    const v24, 0x7f080874
 
     invoke-virtual/range {v23 .. v24}, Landroid/preference/ListPreference;->setTitle(I)V
 
-    .line 243
+    .line 260
+    move-object/from16 v0, p0
+
+    iget-object v0, v0, Lcom/android/settings/profiles/ProfileConfig;->mScreenLockModePreference:Landroid/preference/ListPreference;
+
+    move-object/from16 v23, v0
+
+    const v24, 0x7f0c0053
+
+    invoke-virtual/range {v23 .. v24}, Landroid/preference/ListPreference;->setEntries(I)V
+
+    .line 261
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/android/settings/profiles/ProfileConfig;->mScreenLockModePreference:Landroid/preference/ListPreference;
@@ -611,20 +622,9 @@
 
     const v24, 0x7f0c0055
 
-    invoke-virtual/range {v23 .. v24}, Landroid/preference/ListPreference;->setEntries(I)V
-
-    .line 244
-    move-object/from16 v0, p0
-
-    iget-object v0, v0, Lcom/android/settings/profiles/ProfileConfig;->mScreenLockModePreference:Landroid/preference/ListPreference;
-
-    move-object/from16 v23, v0
-
-    const v24, 0x7f0c0057
-
     invoke-virtual/range {v23 .. v24}, Landroid/preference/ListPreference;->setEntryValues(I)V
 
-    .line 245
+    .line 262
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/android/settings/profiles/ProfileConfig;->mScreenLockModePreference:Landroid/preference/ListPreference;
@@ -635,7 +635,7 @@
 
     invoke-virtual/range {v23 .. v24}, Landroid/preference/ListPreference;->setPersistent(Z)V
 
-    .line 246
+    .line 263
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/android/settings/profiles/ProfileConfig;->mScreenLockModePreference:Landroid/preference/ListPreference;
@@ -646,7 +646,7 @@
 
     move-result-object v24
 
-    const v25, 0x7f0c0056
+    const v25, 0x7f0c0054
 
     invoke-virtual/range {v24 .. v25}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -666,7 +666,7 @@
 
     invoke-virtual/range {v23 .. v24}, Landroid/preference/ListPreference;->setSummary(Ljava/lang/CharSequence;)V
 
-    .line 248
+    .line 265
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/android/settings/profiles/ProfileConfig;->mScreenLockModePreference:Landroid/preference/ListPreference;
@@ -689,7 +689,7 @@
 
     invoke-virtual/range {v23 .. v24}, Landroid/preference/ListPreference;->setValue(Ljava/lang/String;)V
 
-    .line 249
+    .line 266
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/android/settings/profiles/ProfileConfig;->mScreenLockModePreference:Landroid/preference/ListPreference;
@@ -702,7 +702,7 @@
 
     invoke-virtual {v0, v1}, Landroid/preference/ListPreference;->setOnPreferenceChangeListener(Landroid/preference/Preference$OnPreferenceChangeListener;)V
 
-    .line 251
+    .line 268
     const-string v23, "device_policy"
 
     move-object/from16 v0, p0
@@ -715,7 +715,7 @@
 
     check-cast v8, Landroid/app/admin/DevicePolicyManager;
 
-    .line 252
+    .line 269
     .local v8, dpm:Landroid/app/admin/DevicePolicyManager;
     invoke-virtual {v8}, Landroid/app/admin/DevicePolicyManager;->requireSecureKeyguard()Z
 
@@ -723,7 +723,7 @@
 
     if-eqz v23, :cond_5
 
-    .line 253
+    .line 270
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/android/settings/profiles/ProfileConfig;->mScreenLockModePreference:Landroid/preference/ListPreference;
@@ -734,7 +734,7 @@
 
     invoke-virtual/range {v23 .. v24}, Landroid/preference/ListPreference;->setEnabled(Z)V
 
-    .line 254
+    .line 271
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/android/settings/profiles/ProfileConfig;->mScreenLockModePreference:Landroid/preference/ListPreference;
@@ -745,7 +745,7 @@
 
     invoke-virtual/range {v23 .. v24}, Landroid/preference/ListPreference;->setSummary(I)V
 
-    .line 257
+    .line 274
     :cond_5
     move-object/from16 v0, p0
 
@@ -759,7 +759,7 @@
 
     invoke-virtual {v0, v1}, Landroid/preference/PreferenceGroup;->addPreference(Landroid/preference/Preference;)Z
 
-    .line 261
+    .line 278
     .end local v3           #amp:Lcom/android/settings/profiles/ProfileAirplaneModePreference;
     .end local v4           #ams:Landroid/app/AirplaneModeSettings;
     .end local v8           #dpm:Landroid/app/admin/DevicePolicyManager;
@@ -778,7 +778,7 @@
 
     check-cast v2, Landroid/media/AudioManager;
 
-    .line 262
+    .line 279
     .local v2, am:Landroid/media/AudioManager;
     const-string v23, "profile_volumeoverrides"
 
@@ -790,14 +790,14 @@
 
     check-cast v20, Landroid/preference/PreferenceGroup;
 
-    .line 263
+    .line 280
     .local v20, streamList:Landroid/preference/PreferenceGroup;
     if-eqz v20, :cond_8
 
-    .line 264
+    .line 281
     invoke-virtual/range {v20 .. v20}, Landroid/preference/PreferenceGroup;->removeAll()V
 
-    .line 265
+    .line 282
     move-object/from16 v0, p0
 
     iget-object v5, v0, Lcom/android/settings/profiles/ProfileConfig;->mStreams:[Lcom/android/settings/profiles/ProfileConfig$StreamItem;
@@ -814,7 +814,7 @@
 
     aget-object v19, v5, v11
 
-    .line 266
+    .line 283
     .local v19, stream:Lcom/android/settings/profiles/ProfileConfig$StreamItem;
     move-object/from16 v0, p0
 
@@ -832,11 +832,11 @@
 
     move-result-object v18
 
-    .line 267
+    .line 284
     .local v18, settings:Landroid/app/StreamSettings;
     if-nez v18, :cond_7
 
-    .line 268
+    .line 285
     new-instance v18, Landroid/app/StreamSettings;
 
     .end local v18           #settings:Landroid/app/StreamSettings;
@@ -852,7 +852,7 @@
 
     invoke-direct {v0, v1}, Landroid/app/StreamSettings;-><init>(I)V
 
-    .line 269
+    .line 286
     .restart local v18       #settings:Landroid/app/StreamSettings;
     move-object/from16 v0, p0
 
@@ -866,7 +866,7 @@
 
     invoke-virtual {v0, v1}, Landroid/app/Profile;->setStreamSettings(Landroid/app/StreamSettings;)V
 
-    .line 271
+    .line 288
     :cond_7
     move-object/from16 v0, v18
 
@@ -874,7 +874,7 @@
 
     iput-object v0, v1, Lcom/android/settings/profiles/ProfileConfig$StreamItem;->mSettings:Landroid/app/StreamSettings;
 
-    .line 272
+    .line 289
     new-instance v13, Lcom/android/settings/profiles/StreamVolumePreference;
 
     invoke-virtual/range {p0 .. p0}, Lcom/android/settings/profiles/ProfileConfig;->getActivity()Landroid/app/Activity;
@@ -885,7 +885,7 @@
 
     invoke-direct {v13, v0}, Lcom/android/settings/profiles/StreamVolumePreference;-><init>(Landroid/content/Context;)V
 
-    .line 273
+    .line 290
     .local v13, pref:Lcom/android/settings/profiles/StreamVolumePreference;
     new-instance v23, Ljava/lang/StringBuilder;
 
@@ -915,7 +915,7 @@
 
     invoke-virtual {v13, v0}, Lcom/android/settings/profiles/StreamVolumePreference;->setKey(Ljava/lang/String;)V
 
-    .line 274
+    .line 291
     move-object/from16 v0, v19
 
     iget-object v0, v0, Lcom/android/settings/profiles/ProfileConfig$StreamItem;->mLabel:Ljava/lang/String;
@@ -926,12 +926,12 @@
 
     invoke-virtual {v13, v0}, Lcom/android/settings/profiles/StreamVolumePreference;->setTitle(Ljava/lang/CharSequence;)V
 
-    .line 275
+    .line 292
     new-instance v23, Ljava/lang/StringBuilder;
 
     invoke-direct/range {v23 .. v23}, Ljava/lang/StringBuilder;-><init>()V
 
-    const v24, 0x7f080824
+    const v24, 0x7f08080a
 
     move-object/from16 v0, p0
 
@@ -989,34 +989,34 @@
 
     invoke-virtual {v13, v0}, Lcom/android/settings/profiles/StreamVolumePreference;->setSummary(Ljava/lang/CharSequence;)V
 
-    .line 277
+    .line 294
     const/16 v23, 0x0
 
     move/from16 v0, v23
 
     invoke-virtual {v13, v0}, Lcom/android/settings/profiles/StreamVolumePreference;->setPersistent(Z)V
 
-    .line 278
+    .line 295
     move-object/from16 v0, v19
 
     invoke-virtual {v13, v0}, Lcom/android/settings/profiles/StreamVolumePreference;->setStreamItem(Lcom/android/settings/profiles/ProfileConfig$StreamItem;)V
 
-    .line 279
+    .line 296
     move-object/from16 v0, v19
 
     iput-object v13, v0, Lcom/android/settings/profiles/ProfileConfig$StreamItem;->mCheckbox:Lcom/android/settings/profiles/StreamVolumePreference;
 
-    .line 280
+    .line 297
     move-object/from16 v0, v20
 
     invoke-virtual {v0, v13}, Landroid/preference/PreferenceGroup;->addPreference(Landroid/preference/Preference;)Z
 
-    .line 265
+    .line 282
     add-int/lit8 v11, v11, 0x1
 
     goto/16 :goto_0
 
-    .line 285
+    .line 302
     .end local v5           #arr$:[Lcom/android/settings/profiles/ProfileConfig$StreamItem;
     .end local v11           #i$:I
     .end local v12           #len$:I
@@ -1034,14 +1034,14 @@
 
     check-cast v7, Landroid/preference/PreferenceGroup;
 
-    .line 286
+    .line 303
     .local v7, connectionList:Landroid/preference/PreferenceGroup;
     if-eqz v7, :cond_b
 
-    .line 287
+    .line 304
     invoke-virtual {v7}, Landroid/preference/PreferenceGroup;->removeAll()V
 
-    .line 288
+    .line 305
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/android/settings/profiles/ProfileConfig;->mConnections:Ljava/util/ArrayList;
@@ -1066,7 +1066,7 @@
 
     check-cast v6, Lcom/android/settings/profiles/ProfileConfig$ConnectionItem;
 
-    .line 289
+    .line 306
     .local v6, connection:Lcom/android/settings/profiles/ProfileConfig$ConnectionItem;
     move-object/from16 v0, p0
 
@@ -1082,11 +1082,11 @@
 
     move-result-object v18
 
-    .line 290
+    .line 307
     .local v18, settings:Landroid/app/ConnectionSettings;
     if-nez v18, :cond_9
 
-    .line 291
+    .line 308
     new-instance v18, Landroid/app/ConnectionSettings;
 
     .end local v18           #settings:Landroid/app/ConnectionSettings;
@@ -1100,7 +1100,7 @@
 
     invoke-direct {v0, v1}, Landroid/app/ConnectionSettings;-><init>(I)V
 
-    .line 292
+    .line 309
     .restart local v18       #settings:Landroid/app/ConnectionSettings;
     move-object/from16 v0, p0
 
@@ -1114,13 +1114,13 @@
 
     invoke-virtual {v0, v1}, Landroid/app/Profile;->setConnectionSettings(Landroid/app/ConnectionSettings;)V
 
-    .line 294
+    .line 311
     :cond_9
     move-object/from16 v0, v18
 
     iput-object v0, v6, Lcom/android/settings/profiles/ProfileConfig$ConnectionItem;->mSettings:Landroid/app/ConnectionSettings;
 
-    .line 295
+    .line 312
     new-instance v13, Lcom/android/settings/profiles/ProfileConnectionPreference;
 
     invoke-virtual/range {p0 .. p0}, Lcom/android/settings/profiles/ProfileConfig;->getActivity()Landroid/app/Activity;
@@ -1131,7 +1131,7 @@
 
     invoke-direct {v13, v0}, Lcom/android/settings/profiles/ProfileConnectionPreference;-><init>(Landroid/content/Context;)V
 
-    .line 296
+    .line 313
     .local v13, pref:Lcom/android/settings/profiles/ProfileConnectionPreference;
     new-instance v23, Ljava/lang/StringBuilder;
 
@@ -1159,7 +1159,7 @@
 
     invoke-virtual {v13, v0}, Lcom/android/settings/profiles/ProfileConnectionPreference;->setKey(Ljava/lang/String;)V
 
-    .line 297
+    .line 314
     iget-object v0, v6, Lcom/android/settings/profiles/ProfileConfig$ConnectionItem;->mLabel:Ljava/lang/String;
 
     move-object/from16 v23, v0
@@ -1168,7 +1168,7 @@
 
     invoke-virtual {v13, v0}, Lcom/android/settings/profiles/ProfileConnectionPreference;->setTitle(Ljava/lang/CharSequence;)V
 
-    .line 298
+    .line 315
     invoke-virtual/range {v18 .. v18}, Landroid/app/ConnectionSettings;->getValue()I
 
     move-result v23
@@ -1181,7 +1181,7 @@
 
     if-ne v0, v1, :cond_a
 
-    const v23, 0x7f080823
+    const v23, 0x7f080809
 
     move-object/from16 v0, p0
 
@@ -1196,27 +1196,27 @@
 
     invoke-virtual {v13, v0}, Lcom/android/settings/profiles/ProfileConnectionPreference;->setSummary(Ljava/lang/CharSequence;)V
 
-    .line 300
+    .line 317
     const/16 v23, 0x0
 
     move/from16 v0, v23
 
     invoke-virtual {v13, v0}, Lcom/android/settings/profiles/ProfileConnectionPreference;->setPersistent(Z)V
 
-    .line 301
+    .line 318
     invoke-virtual {v13, v6}, Lcom/android/settings/profiles/ProfileConnectionPreference;->setConnectionItem(Lcom/android/settings/profiles/ProfileConfig$ConnectionItem;)V
 
-    .line 302
+    .line 319
     iput-object v13, v6, Lcom/android/settings/profiles/ProfileConfig$ConnectionItem;->mCheckbox:Lcom/android/settings/profiles/ProfileConnectionPreference;
 
-    .line 303
+    .line 320
     invoke-virtual {v7, v13}, Landroid/preference/PreferenceGroup;->addPreference(Landroid/preference/Preference;)Z
 
     goto/16 :goto_1
 
-    .line 298
+    .line 315
     :cond_a
-    const v23, 0x7f080822
+    const v23, 0x7f080808
 
     move-object/from16 v0, p0
 
@@ -1228,7 +1228,7 @@
 
     goto :goto_2
 
-    .line 308
+    .line 325
     .end local v6           #connection:Lcom/android/settings/profiles/ProfileConfig$ConnectionItem;
     .end local v11           #i$:Ljava/util/Iterator;
     .end local v13           #pref:Lcom/android/settings/profiles/ProfileConnectionPreference;
@@ -1244,14 +1244,14 @@
 
     check-cast v10, Landroid/preference/PreferenceGroup;
 
-    .line 309
+    .line 326
     .local v10, groupList:Landroid/preference/PreferenceGroup;
     if-eqz v10, :cond_c
 
-    .line 310
+    .line 327
     invoke-virtual {v10}, Landroid/preference/PreferenceGroup;->removeAll()V
 
-    .line 311
+    .line 328
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/android/settings/profiles/ProfileConfig;->mProfile:Landroid/app/Profile;
@@ -1274,7 +1274,7 @@
 
     aget-object v15, v5, v11
 
-    .line 312
+    .line 329
     .local v15, profileGroup:Landroid/app/ProfileGroup;
     new-instance v13, Landroid/preference/PreferenceScreen;
 
@@ -1290,13 +1290,13 @@
 
     invoke-direct {v13, v0, v1}, Landroid/preference/PreferenceScreen;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    .line 313
+    .line 330
     .local v13, pref:Landroid/preference/PreferenceScreen;
     invoke-virtual {v15}, Landroid/app/ProfileGroup;->getUuid()Ljava/util/UUID;
 
     move-result-object v22
 
-    .line 314
+    .line 331
     .local v22, uuid:Ljava/util/UUID;
     invoke-virtual/range {v22 .. v22}, Ljava/util/UUID;->toString()Ljava/lang/String;
 
@@ -1306,7 +1306,7 @@
 
     invoke-virtual {v13, v0}, Landroid/preference/PreferenceScreen;->setKey(Ljava/lang/String;)V
 
-    .line 315
+    .line 332
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/android/settings/profiles/ProfileConfig;->mProfileManager:Landroid/app/ProfileManager;
@@ -1329,29 +1329,29 @@
 
     invoke-virtual {v13, v0}, Landroid/preference/PreferenceScreen;->setTitle(Ljava/lang/CharSequence;)V
 
-    .line 317
+    .line 334
     const/16 v23, 0x0
 
     move/from16 v0, v23
 
     invoke-virtual {v13, v0}, Landroid/preference/PreferenceScreen;->setPersistent(Z)V
 
-    .line 318
+    .line 335
     const/16 v23, 0x1
 
     move/from16 v0, v23
 
     invoke-virtual {v13, v0}, Landroid/preference/PreferenceScreen;->setSelectable(Z)V
 
-    .line 319
+    .line 336
     invoke-virtual {v10, v13}, Landroid/preference/PreferenceGroup;->addPreference(Landroid/preference/Preference;)Z
 
-    .line 311
+    .line 328
     add-int/lit8 v11, v11, 0x1
 
     goto :goto_3
 
-    .line 322
+    .line 339
     .end local v5           #arr$:[Landroid/app/ProfileGroup;
     .end local v11           #i$:I
     .end local v12           #len$:I
@@ -1366,14 +1366,14 @@
     .locals 4
 
     .prologue
-    .line 177
+    .line 186
     invoke-virtual {p0}, Lcom/android/settings/profiles/ProfileConfig;->getActivity()Landroid/app/Activity;
 
     move-result-object v0
 
     check-cast v0, Landroid/preference/PreferenceActivity;
 
-    .line 178
+    .line 187
     new-instance v1, Landroid/content/Intent;
 
     invoke-virtual {p0}, Lcom/android/settings/profiles/ProfileConfig;->getActivity()Landroid/app/Activity;
@@ -1384,7 +1384,7 @@
 
     invoke-direct {v1, v2, v3}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
-    .line 179
+    .line 188
     const-string v2, "PROFILE_UUID"
 
     iget-object v3, p0, Lcom/android/settings/profiles/ProfileConfig;->mProfile:Landroid/app/Profile;
@@ -1399,15 +1399,15 @@
 
     invoke-virtual {v1, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 180
+    .line 189
     const/high16 v2, 0x2000
 
     invoke-virtual {v1, v2}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
-    .line 181
+    .line 190
     invoke-virtual {v0, v1}, Landroid/preference/PreferenceActivity;->startActivity(Landroid/content/Intent;)V
 
-    .line 182
+    .line 191
     return-void
 .end method
 
@@ -1417,12 +1417,12 @@
     .parameter
 
     .prologue
-    .line 371
+    .line 388
     new-instance v2, Landroid/os/Bundle;
 
     invoke-direct {v2}, Landroid/os/Bundle;-><init>()V
 
-    .line 372
+    .line 389
     const-string v0, "ProfileGroup"
 
     invoke-virtual {p1}, Ljava/lang/String;->toString()Ljava/lang/String;
@@ -1431,14 +1431,14 @@
 
     invoke-virtual {v2, v0, v1}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 373
+    .line 390
     const-string v0, "Profile"
 
     iget-object v1, p0, Lcom/android/settings/profiles/ProfileConfig;->mProfile:Landroid/app/Profile;
 
     invoke-virtual {v2, v0, v1}, Landroid/os/Bundle;->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V
 
-    .line 375
+    .line 392
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -1475,14 +1475,14 @@
 
     move-result-object v4
 
-    .line 376
+    .line 393
     invoke-virtual {p0}, Lcom/android/settings/profiles/ProfileConfig;->getActivity()Landroid/app/Activity;
 
     move-result-object v0
 
     check-cast v0, Landroid/preference/PreferenceActivity;
 
-    .line 377
+    .line 394
     const-class v1, Lcom/android/settings/profiles/ProfileGroupConfig;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -1497,7 +1497,51 @@
 
     invoke-virtual/range {v0 .. v6}, Landroid/preference/PreferenceActivity;->startPreferencePanel(Ljava/lang/String;Landroid/os/Bundle;ILjava/lang/CharSequence;Landroid/app/Fragment;I)V
 
-    .line 379
+    .line 396
+    return-void
+.end method
+
+.method private startTriggerFragment()V
+    .locals 7
+
+    .prologue
+    const/4 v3, 0x0
+
+    .line 194
+    invoke-virtual {p0}, Lcom/android/settings/profiles/ProfileConfig;->getActivity()Landroid/app/Activity;
+
+    move-result-object v0
+
+    check-cast v0, Landroid/preference/PreferenceActivity;
+
+    .line 195
+    new-instance v2, Landroid/os/Bundle;
+
+    invoke-direct {v2}, Landroid/os/Bundle;-><init>()V
+
+    .line 196
+    const-string v1, "profile"
+
+    iget-object v4, p0, Lcom/android/settings/profiles/ProfileConfig;->mProfile:Landroid/app/Profile;
+
+    invoke-virtual {v2, v1, v4}, Landroid/os/Bundle;->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V
+
+    .line 198
+    const-class v1, Lcom/android/settings/profiles/TriggersFragment;
+
+    invoke-virtual {v1}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    move-result-object v1
+
+    const-string v4, ""
+
+    const/4 v5, 0x0
+
+    move v6, v3
+
+    invoke-virtual/range {v0 .. v6}, Landroid/preference/PreferenceActivity;->startPreferencePanel(Ljava/lang/String;Landroid/os/Bundle;ILjava/lang/CharSequence;Landroid/app/Fragment;I)V
+
+    .line 199
     return-void
 .end method
 
@@ -1518,10 +1562,10 @@
 
     const/4 v7, 0x1
 
-    .line 86
+    .line 88
     invoke-super {p0, p1}, Lcom/android/settings/SettingsPreferenceFragment;->onCreate(Landroid/os/Bundle;)V
 
-    .line 88
+    .line 90
     new-array v3, v10, [Lcom/android/settings/profiles/ProfileConfig$StreamItem;
 
     new-instance v4, Lcom/android/settings/profiles/ProfileConfig$StreamItem;
@@ -1576,28 +1620,28 @@
 
     iput-object v3, p0, Lcom/android/settings/profiles/ProfileConfig;->mStreams:[Lcom/android/settings/profiles/ProfileConfig$StreamItem;
 
-    .line 95
+    .line 97
     new-instance v3, Ljava/util/ArrayList;
 
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
 
     iput-object v3, p0, Lcom/android/settings/profiles/ProfileConfig;->mConnections:Ljava/util/ArrayList;
 
-    .line 96
+    .line 98
     invoke-static {}, Landroid/bluetooth/BluetoothAdapter;->getDefaultAdapter()Landroid/bluetooth/BluetoothAdapter;
 
     move-result-object v3
 
     if-eqz v3, :cond_0
 
-    .line 97
+    .line 99
     iget-object v3, p0, Lcom/android/settings/profiles/ProfileConfig;->mConnections:Ljava/util/ArrayList;
 
     new-instance v4, Lcom/android/settings/profiles/ProfileConfig$ConnectionItem;
 
     const/4 v5, 0x7
 
-    const v6, 0x7f080899
+    const v6, 0x7f080890
 
     invoke-virtual {p0, v6}, Lcom/android/settings/profiles/ProfileConfig;->getString(I)Ljava/lang/String;
 
@@ -1607,13 +1651,13 @@
 
     invoke-virtual {v3, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 99
+    .line 101
     :cond_0
     iget-object v3, p0, Lcom/android/settings/profiles/ProfileConfig;->mConnections:Ljava/util/ArrayList;
 
     new-instance v4, Lcom/android/settings/profiles/ProfileConfig$ConnectionItem;
 
-    const v5, 0x7f08089a
+    const v5, 0x7f080891
 
     invoke-virtual {p0, v5}, Lcom/android/settings/profiles/ProfileConfig;->getString(I)Ljava/lang/String;
 
@@ -1623,12 +1667,12 @@
 
     invoke-virtual {v3, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 100
+    .line 102
     iget-object v3, p0, Lcom/android/settings/profiles/ProfileConfig;->mConnections:Ljava/util/ArrayList;
 
     new-instance v4, Lcom/android/settings/profiles/ProfileConfig$ConnectionItem;
 
-    const v5, 0x7f080897
+    const v5, 0x7f08088e
 
     invoke-virtual {p0, v5}, Lcom/android/settings/profiles/ProfileConfig;->getString(I)Ljava/lang/String;
 
@@ -1638,14 +1682,14 @@
 
     invoke-virtual {v3, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 101
+    .line 103
     iget-object v3, p0, Lcom/android/settings/profiles/ProfileConfig;->mConnections:Ljava/util/ArrayList;
 
     new-instance v4, Lcom/android/settings/profiles/ProfileConfig$ConnectionItem;
 
     const/4 v5, 0x5
 
-    const v6, 0x7f08089c
+    const v6, 0x7f080893
 
     invoke-virtual {p0, v6}, Lcom/android/settings/profiles/ProfileConfig;->getString(I)Ljava/lang/String;
 
@@ -1655,7 +1699,7 @@
 
     invoke-virtual {v3, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 103
+    .line 105
     invoke-virtual {p0}, Lcom/android/settings/profiles/ProfileConfig;->getActivity()Landroid/app/Activity;
 
     move-result-object v3
@@ -1664,7 +1708,7 @@
 
     move-result-object v2
 
-    .line 104
+    .line 106
     .local v2, pm:Landroid/content/pm/PackageManager;
     const-string v3, "android.hardware.telephony"
 
@@ -1672,16 +1716,16 @@
 
     move-result v1
 
-    .line 105
+    .line 107
     .local v1, isMobileData:Z
     if-eqz v1, :cond_1
 
-    .line 106
+    .line 108
     iget-object v3, p0, Lcom/android/settings/profiles/ProfileConfig;->mConnections:Ljava/util/ArrayList;
 
     new-instance v4, Lcom/android/settings/profiles/ProfileConfig$ConnectionItem;
 
-    const v5, 0x7f08089b
+    const v5, 0x7f080892
 
     invoke-virtual {p0, v5}, Lcom/android/settings/profiles/ProfileConfig;->getString(I)Ljava/lang/String;
 
@@ -1691,12 +1735,12 @@
 
     invoke-virtual {v3, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 107
+    .line 109
     iget-object v3, p0, Lcom/android/settings/profiles/ProfileConfig;->mConnections:Ljava/util/ArrayList;
 
     new-instance v4, Lcom/android/settings/profiles/ProfileConfig$ConnectionItem;
 
-    const v5, 0x7f080898
+    const v5, 0x7f08088f
 
     invoke-virtual {p0, v5}, Lcom/android/settings/profiles/ProfileConfig;->getString(I)Ljava/lang/String;
 
@@ -1706,7 +1750,7 @@
 
     invoke-virtual {v3, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 109
+    .line 111
     :cond_1
     invoke-virtual {p0}, Lcom/android/settings/profiles/ProfileConfig;->getActivity()Landroid/app/Activity;
 
@@ -1718,12 +1762,12 @@
 
     if-eqz v3, :cond_2
 
-    .line 110
+    .line 112
     iget-object v3, p0, Lcom/android/settings/profiles/ProfileConfig;->mConnections:Ljava/util/ArrayList;
 
     new-instance v4, Lcom/android/settings/profiles/ProfileConfig$ConnectionItem;
 
-    const v5, 0x7f0808a5
+    const v5, 0x7f08089c
 
     invoke-virtual {p0, v5}, Lcom/android/settings/profiles/ProfileConfig;->getString(I)Ljava/lang/String;
 
@@ -1733,7 +1777,7 @@
 
     invoke-virtual {v3, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 112
+    .line 114
     :cond_2
     invoke-virtual {p0}, Lcom/android/settings/profiles/ProfileConfig;->getActivity()Landroid/app/Activity;
 
@@ -1745,14 +1789,14 @@
 
     if-eqz v3, :cond_3
 
-    .line 113
+    .line 115
     iget-object v3, p0, Lcom/android/settings/profiles/ProfileConfig;->mConnections:Ljava/util/ArrayList;
 
     new-instance v4, Lcom/android/settings/profiles/ProfileConfig$ConnectionItem;
 
     const/16 v5, 0x8
 
-    const v6, 0x7f0808a6
+    const v6, 0x7f08089d
 
     invoke-virtual {p0, v6}, Lcom/android/settings/profiles/ProfileConfig;->getString(I)Ljava/lang/String;
 
@@ -1762,13 +1806,13 @@
 
     invoke-virtual {v3, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 116
+    .line 118
     :cond_3
     const v3, 0x7f050023
 
     invoke-virtual {p0, v3}, Lcom/android/settings/profiles/ProfileConfig;->addPreferencesFromResource(I)V
 
-    .line 118
+    .line 120
     invoke-virtual {p0}, Lcom/android/settings/profiles/ProfileConfig;->getActivity()Landroid/app/Activity;
 
     move-result-object v3
@@ -1783,12 +1827,12 @@
 
     iput-object v3, p0, Lcom/android/settings/profiles/ProfileConfig;->mProfileManager:Landroid/app/ProfileManager;
 
-    .line 120
+    .line 122
     invoke-virtual {p0}, Lcom/android/settings/profiles/ProfileConfig;->getArguments()Landroid/os/Bundle;
 
     move-result-object v0
 
-    .line 121
+    .line 123
     .local v0, args:Landroid/os/Bundle;
     if-eqz v0, :cond_5
 
@@ -1803,15 +1847,15 @@
     :goto_0
     iput-object v3, p0, Lcom/android/settings/profiles/ProfileConfig;->mProfile:Landroid/app/Profile;
 
-    .line 123
+    .line 125
     iget-object v3, p0, Lcom/android/settings/profiles/ProfileConfig;->mProfile:Landroid/app/Profile;
 
     if-nez v3, :cond_4
 
-    .line 124
+    .line 126
     new-instance v3, Landroid/app/Profile;
 
-    const v4, 0x7f080815
+    const v4, 0x7f0807fb
 
     invoke-virtual {p0, v4}, Lcom/android/settings/profiles/ProfileConfig;->getString(I)Ljava/lang/String;
 
@@ -1821,21 +1865,21 @@
 
     iput-object v3, p0, Lcom/android/settings/profiles/ProfileConfig;->mProfile:Landroid/app/Profile;
 
-    .line 125
+    .line 127
     iget-object v3, p0, Lcom/android/settings/profiles/ProfileConfig;->mProfileManager:Landroid/app/ProfileManager;
 
     iget-object v4, p0, Lcom/android/settings/profiles/ProfileConfig;->mProfile:Landroid/app/Profile;
 
     invoke-virtual {v3, v4}, Landroid/app/ProfileManager;->addProfile(Landroid/app/Profile;)V
 
-    .line 128
+    .line 130
     :cond_4
     invoke-virtual {p0, v7}, Lcom/android/settings/profiles/ProfileConfig;->setHasOptionsMenu(Z)V
 
-    .line 130
+    .line 132
     return-void
 
-    .line 121
+    .line 123
     :cond_5
     const/4 v3, 0x0
 
@@ -1843,67 +1887,86 @@
 .end method
 
 .method public onCreateOptionsMenu(Landroid/view/Menu;Landroid/view/MenuInflater;)V
-    .locals 7
+    .locals 8
     .parameter "menu"
     .parameter "inflater"
 
     .prologue
+    const/4 v7, 0x1
+
     const/4 v6, 0x5
 
-    const/4 v5, 0x1
+    const/4 v5, 0x0
 
-    const/4 v4, 0x0
-
-    .line 134
+    .line 136
     invoke-virtual {p0}, Lcom/android/settings/profiles/ProfileConfig;->getActivity()Landroid/app/Activity;
 
-    move-result-object v2
+    move-result-object v3
 
-    invoke-static {v2}, Landroid/nfc/NfcAdapter;->getDefaultAdapter(Landroid/content/Context;)Landroid/nfc/NfcAdapter;
+    invoke-static {v3}, Landroid/nfc/NfcAdapter;->getDefaultAdapter(Landroid/content/Context;)Landroid/nfc/NfcAdapter;
 
-    move-result-object v2
+    move-result-object v3
 
-    if-eqz v2, :cond_0
+    if-eqz v3, :cond_0
 
-    .line 135
-    const v2, 0x7f0808a7
+    .line 137
+    const v3, 0x7f080882
 
-    invoke-interface {p1, v4, v5, v4, v2}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
+    invoke-interface {p1, v5, v7, v5, v3}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
-    move-result-object v2
+    move-result-object v3
 
-    const v3, 0x7f020072
+    const v4, 0x7f020073
 
-    invoke-interface {v2, v3}, Landroid/view/MenuItem;->setIcon(I)Landroid/view/MenuItem;
+    invoke-interface {v3, v4}, Landroid/view/MenuItem;->setIcon(I)Landroid/view/MenuItem;
 
     move-result-object v1
 
-    .line 137
+    .line 139
     .local v1, nfc:Landroid/view/MenuItem;
     invoke-interface {v1, v6}, Landroid/view/MenuItem;->setShowAsAction(I)V
 
-    .line 140
+    .line 142
     .end local v1           #nfc:Landroid/view/MenuItem;
     :cond_0
-    const/4 v2, 0x2
+    const/4 v3, 0x3
 
-    const v3, 0x7f08080c
+    const v4, 0x7f08087e
 
-    invoke-interface {p1, v4, v2, v5, v3}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
+    invoke-interface {p1, v5, v3, v5, v4}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
+
+    move-result-object v3
+
+    const v4, 0x7f020069
+
+    invoke-interface {v3, v4}, Landroid/view/MenuItem;->setIcon(I)Landroid/view/MenuItem;
 
     move-result-object v2
 
-    const v3, 0x7f020077
+    .line 144
+    .local v2, triggers:Landroid/view/MenuItem;
+    invoke-interface {v2, v6}, Landroid/view/MenuItem;->setShowAsAction(I)V
 
-    invoke-interface {v2, v3}, Landroid/view/MenuItem;->setIcon(I)Landroid/view/MenuItem;
+    .line 146
+    const/4 v3, 0x2
+
+    const v4, 0x7f0807f2
+
+    invoke-interface {p1, v5, v3, v7, v4}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
+
+    move-result-object v3
+
+    const v4, 0x7f020078
+
+    invoke-interface {v3, v4}, Landroid/view/MenuItem;->setIcon(I)Landroid/view/MenuItem;
 
     move-result-object v0
 
-    .line 142
+    .line 148
     .local v0, delete:Landroid/view/MenuItem;
     invoke-interface {v0, v6}, Landroid/view/MenuItem;->setShowAsAction(I)V
 
-    .line 144
+    .line 150
     return-void
 .end method
 
@@ -1914,36 +1977,43 @@
     .prologue
     const/4 v0, 0x1
 
-    .line 148
+    .line 154
     invoke-interface {p1}, Landroid/view/MenuItem;->getItemId()I
 
     move-result v1
 
     packed-switch v1, :pswitch_data_0
 
-    .line 156
+    .line 165
     const/4 v0, 0x0
 
     :goto_0
     return v0
 
-    .line 150
+    .line 156
     :pswitch_0
     invoke-direct {p0}, Lcom/android/settings/profiles/ProfileConfig;->deleteProfile()V
 
     goto :goto_0
 
-    .line 153
+    .line 159
     :pswitch_1
     invoke-direct {p0}, Lcom/android/settings/profiles/ProfileConfig;->startNFCProfileWriter()V
 
     goto :goto_0
 
-    .line 148
+    .line 162
+    :pswitch_2
+    invoke-direct {p0}, Lcom/android/settings/profiles/ProfileConfig;->startTriggerFragment()V
+
+    goto :goto_0
+
+    .line 154
     :pswitch_data_0
     .packed-switch 0x1
         :pswitch_1
         :pswitch_0
+        :pswitch_2
     .end packed-switch
 .end method
 
@@ -1951,22 +2021,22 @@
     .locals 2
 
     .prologue
-    .line 169
+    .line 178
     invoke-super {p0}, Lcom/android/settings/SettingsPreferenceFragment;->onPause()V
 
-    .line 171
+    .line 180
     iget-object v0, p0, Lcom/android/settings/profiles/ProfileConfig;->mProfile:Landroid/app/Profile;
 
     if-eqz v0, :cond_0
 
-    .line 172
+    .line 181
     iget-object v0, p0, Lcom/android/settings/profiles/ProfileConfig;->mProfileManager:Landroid/app/ProfileManager;
 
     iget-object v1, p0, Lcom/android/settings/profiles/ProfileConfig;->mProfile:Landroid/app/Profile;
 
     invoke-virtual {v0, v1}, Landroid/app/ProfileManager;->updateProfile(Landroid/app/Profile;)V
 
-    .line 174
+    .line 183
     :cond_0
     return-void
 .end method
@@ -1979,12 +2049,12 @@
     .prologue
     const/4 v9, 0x1
 
-    .line 326
+    .line 343
     instance-of v6, p1, Lcom/android/settings/profiles/StreamVolumePreference;
 
     if-eqz v6, :cond_1
 
-    .line 327
+    .line 344
     iget-object v0, p0, Lcom/android/settings/profiles/ProfileConfig;->mStreams:[Lcom/android/settings/profiles/ProfileConfig$StreamItem;
 
     .local v0, arr$:[Lcom/android/settings/profiles/ProfileConfig$StreamItem;
@@ -1999,13 +2069,13 @@
 
     aget-object v5, v0, v2
 
-    .line 328
+    .line 345
     .local v5, stream:Lcom/android/settings/profiles/ProfileConfig$StreamItem;
     iget-object v6, v5, Lcom/android/settings/profiles/ProfileConfig$StreamItem;->mCheckbox:Lcom/android/settings/profiles/StreamVolumePreference;
 
     if-ne p1, v6, :cond_0
 
-    .line 329
+    .line 346
     iget-object v7, v5, Lcom/android/settings/profiles/ProfileConfig$StreamItem;->mSettings:Landroid/app/StreamSettings;
 
     move-object v6, p2
@@ -2018,13 +2088,13 @@
 
     invoke-virtual {v7, v6}, Landroid/app/StreamSettings;->setOverride(Z)V
 
-    .line 327
+    .line 344
     :cond_0
     add-int/lit8 v2, v2, 0x1
 
     goto :goto_0
 
-    .line 332
+    .line 349
     .end local v0           #arr$:[Lcom/android/settings/profiles/ProfileConfig$StreamItem;
     .end local v2           #i$:I
     .end local v3           #len$:I
@@ -2034,7 +2104,7 @@
 
     if-eqz v6, :cond_3
 
-    .line 333
+    .line 350
     iget-object v6, p0, Lcom/android/settings/profiles/ProfileConfig;->mConnections:Ljava/util/ArrayList;
 
     invoke-virtual {v6}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
@@ -2056,13 +2126,13 @@
 
     check-cast v1, Lcom/android/settings/profiles/ProfileConfig$ConnectionItem;
 
-    .line 334
+    .line 351
     .local v1, connection:Lcom/android/settings/profiles/ProfileConfig$ConnectionItem;
     iget-object v6, v1, Lcom/android/settings/profiles/ProfileConfig$ConnectionItem;->mCheckbox:Lcom/android/settings/profiles/ProfileConnectionPreference;
 
     if-ne p1, v6, :cond_2
 
-    .line 335
+    .line 352
     iget-object v7, v1, Lcom/android/settings/profiles/ProfileConfig$ConnectionItem;->mSettings:Landroid/app/ConnectionSettings;
 
     move-object v6, p2
@@ -2077,7 +2147,7 @@
 
     goto :goto_1
 
-    .line 338
+    .line 355
     .end local v1           #connection:Lcom/android/settings/profiles/ProfileConfig$ConnectionItem;
     .end local v2           #i$:Ljava/util/Iterator;
     :cond_3
@@ -2087,7 +2157,7 @@
 
     if-ne p1, v6, :cond_5
 
-    .line 339
+    .line 356
     iget-object v6, p0, Lcom/android/settings/profiles/ProfileConfig;->mRingMode:Lcom/android/settings/profiles/ProfileConfig$RingModeItem;
 
     iget-object v6, v6, Lcom/android/settings/profiles/ProfileConfig$RingModeItem;->mSettings:Landroid/app/RingModeSettings;
@@ -2101,12 +2171,12 @@
 
     invoke-virtual {v6, v7}, Landroid/app/RingModeSettings;->setOverride(Z)V
 
-    .line 357
+    .line 374
     :cond_4
     :goto_2
     return v9
 
-    .line 340
+    .line 357
     .restart local p2
     :cond_5
     iget-object v6, p0, Lcom/android/settings/profiles/ProfileConfig;->mAirplaneMode:Lcom/android/settings/profiles/ProfileConfig$AirplaneModeItem;
@@ -2115,7 +2185,7 @@
 
     if-ne p1, v6, :cond_6
 
-    .line 341
+    .line 358
     iget-object v6, p0, Lcom/android/settings/profiles/ProfileConfig;->mAirplaneMode:Lcom/android/settings/profiles/ProfileConfig$AirplaneModeItem;
 
     iget-object v6, v6, Lcom/android/settings/profiles/ProfileConfig$AirplaneModeItem;->mSettings:Landroid/app/AirplaneModeSettings;
@@ -2131,14 +2201,14 @@
 
     goto :goto_2
 
-    .line 342
+    .line 359
     .restart local p2
     :cond_6
     iget-object v6, p0, Lcom/android/settings/profiles/ProfileConfig;->mNamePreference:Lcom/android/settings/profiles/NamePreference;
 
     if-ne p1, v6, :cond_8
 
-    .line 343
+    .line 360
     iget-object v6, p0, Lcom/android/settings/profiles/ProfileConfig;->mNamePreference:Lcom/android/settings/profiles/NamePreference;
 
     invoke-virtual {v6}, Lcom/android/settings/profiles/NamePreference;->getName()Ljava/lang/String;
@@ -2149,7 +2219,7 @@
 
     move-result-object v4
 
-    .line 344
+    .line 361
     .local v4, name:Ljava/lang/String;
     iget-object v6, p0, Lcom/android/settings/profiles/ProfileConfig;->mProfile:Landroid/app/Profile;
 
@@ -2163,7 +2233,7 @@
 
     if-nez v6, :cond_4
 
-    .line 345
+    .line 362
     iget-object v6, p0, Lcom/android/settings/profiles/ProfileConfig;->mProfileManager:Landroid/app/ProfileManager;
 
     invoke-virtual {v6, v4}, Landroid/app/ProfileManager;->profileExists(Ljava/lang/String;)Z
@@ -2172,14 +2242,14 @@
 
     if-nez v6, :cond_7
 
-    .line 346
+    .line 363
     iget-object v6, p0, Lcom/android/settings/profiles/ProfileConfig;->mProfile:Landroid/app/Profile;
 
     invoke-virtual {v6, v4}, Landroid/app/Profile;->setName(Ljava/lang/String;)V
 
     goto :goto_2
 
-    .line 348
+    .line 365
     :cond_7
     iget-object v6, p0, Lcom/android/settings/profiles/ProfileConfig;->mNamePreference:Lcom/android/settings/profiles/NamePreference;
 
@@ -2191,12 +2261,12 @@
 
     invoke-virtual {v6, v7}, Lcom/android/settings/profiles/NamePreference;->setName(Ljava/lang/String;)V
 
-    .line 349
+    .line 366
     invoke-virtual {p0}, Lcom/android/settings/profiles/ProfileConfig;->getActivity()Landroid/app/Activity;
 
     move-result-object v6
 
-    const v7, 0x7f080818
+    const v7, 0x7f0807fe
 
     invoke-static {v6, v7, v9}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -2206,14 +2276,14 @@
 
     goto :goto_2
 
-    .line 352
+    .line 369
     .end local v4           #name:Ljava/lang/String;
     :cond_8
     iget-object v6, p0, Lcom/android/settings/profiles/ProfileConfig;->mScreenLockModePreference:Landroid/preference/ListPreference;
 
     if-ne p1, v6, :cond_4
 
-    .line 353
+    .line 370
     iget-object v6, p0, Lcom/android/settings/profiles/ProfileConfig;->mProfile:Landroid/app/Profile;
 
     check-cast p2, Ljava/lang/String;
@@ -2229,14 +2299,14 @@
 
     invoke-virtual {v6, v7}, Landroid/app/Profile;->setScreenLockMode(I)V
 
-    .line 354
+    .line 371
     iget-object v6, p0, Lcom/android/settings/profiles/ProfileConfig;->mScreenLockModePreference:Landroid/preference/ListPreference;
 
     invoke-virtual {p0}, Lcom/android/settings/profiles/ProfileConfig;->getResources()Landroid/content/res/Resources;
 
     move-result-object v7
 
-    const v8, 0x7f0c0056
+    const v8, 0x7f0c0054
 
     invoke-virtual {v7, v8}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -2261,7 +2331,7 @@
     .parameter "preference"
 
     .prologue
-    .line 362
+    .line 379
     const-string v0, "ProfileConfig"
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -2296,12 +2366,12 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 363
+    .line 380
     instance-of v0, p2, Landroid/preference/PreferenceScreen;
 
     if-eqz v0, :cond_0
 
-    .line 364
+    .line 381
     invoke-virtual {p2}, Landroid/preference/Preference;->getKey()Ljava/lang/String;
 
     move-result-object v0
@@ -2316,10 +2386,10 @@
 
     invoke-direct {p0, v0, v1}, Lcom/android/settings/profiles/ProfileConfig;->startProfileGroupActivity(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 365
+    .line 382
     const/4 v0, 0x1
 
-    .line 367
+    .line 384
     :goto_0
     return v0
 
@@ -2335,10 +2405,10 @@
     .locals 2
 
     .prologue
-    .line 162
+    .line 171
     invoke-super {p0}, Lcom/android/settings/SettingsPreferenceFragment;->onResume()V
 
-    .line 163
+    .line 172
     iget-object v0, p0, Lcom/android/settings/profiles/ProfileConfig;->mProfileManager:Landroid/app/ProfileManager;
 
     iget-object v1, p0, Lcom/android/settings/profiles/ProfileConfig;->mProfile:Landroid/app/Profile;
@@ -2353,9 +2423,9 @@
 
     iput-object v0, p0, Lcom/android/settings/profiles/ProfileConfig;->mProfile:Landroid/app/Profile;
 
-    .line 164
+    .line 173
     invoke-direct {p0}, Lcom/android/settings/profiles/ProfileConfig;->fillList()V
 
-    .line 165
+    .line 174
     return-void
 .end method

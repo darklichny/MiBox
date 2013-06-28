@@ -137,12 +137,12 @@
 
     .line 340
     .local v0, builder:Landroid/app/AlertDialog$Builder;
-    const v4, 0x7f080882
+    const v4, 0x7f08086b
 
     invoke-virtual {v0, v4}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
     .line 341
-    const v4, 0x7f080884
+    const v4, 0x7f08086d
 
     invoke-virtual {v0, v4}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
@@ -236,12 +236,12 @@
 
     .line 293
     .local v0, builder:Landroid/app/AlertDialog$Builder;
-    const v4, 0x7f080813
+    const v4, 0x7f0807f9
 
     invoke-virtual {v0, v4}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
     .line 294
-    const v4, 0x7f080812
+    const v4, 0x7f0807f8
 
     invoke-virtual {v0, v4}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
@@ -346,7 +346,7 @@
 
     .line 320
     .local v0, alert:Landroid/app/AlertDialog$Builder;
-    const v1, 0x7f08081a
+    const v1, 0x7f080800
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -356,12 +356,12 @@
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setIconAttribute(I)Landroid/app/AlertDialog$Builder;
 
     .line 322
-    const v1, 0x7f08081b
+    const v1, 0x7f080801
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
     .line 323
-    const v1, 0x7f08080f
+    const v1, 0x7f0807f5
 
     new-instance v2, Lcom/android/settings/profiles/ProfilesSettings$3;
 
@@ -677,9 +677,9 @@
     .parameter "inflater"
 
     .prologue
-    const v6, 0x7f08080b
+    const v6, 0x7f0807f1
 
-    const v5, 0x7f02006f
+    const v5, 0x7f020070
 
     const/16 v4, 0x61
 
@@ -693,13 +693,13 @@
     .line 184
     const/4 v0, 0x1
 
-    const v1, 0x7f08081a
+    const v1, 0x7f080800
 
     invoke-interface {p1, v2, v0, v2, v1}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
     move-result-object v0
 
-    const v1, 0x7f0200ae
+    const v1, 0x7f0200b0
 
     invoke-interface {v0, v1}, Landroid/view/MenuItem;->setIcon(I)Landroid/view/MenuItem;
 
@@ -1089,7 +1089,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080828
+    const v2, 0x7f08080e
 
     invoke-virtual {p0, v2}, Lcom/android/settings/profiles/ProfilesSettings;->getString(I)Ljava/lang/String;
 
@@ -1114,7 +1114,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f08082b
+    const v2, 0x7f080811
 
     invoke-virtual {p0, v2}, Lcom/android/settings/profiles/ProfilesSettings;->getString(I)Ljava/lang/String;
 

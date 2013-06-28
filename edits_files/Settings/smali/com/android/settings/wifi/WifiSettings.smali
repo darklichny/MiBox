@@ -2197,7 +2197,7 @@
     .parameter "inflater"
 
     .prologue
-    const v6, 0x7f0200f4
+    const v6, 0x7f0200f6
 
     const/4 v2, 0x4
 
@@ -2282,7 +2282,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f02006f
+    const v2, 0x7f020070
 
     invoke-interface {v1, v2}, Landroid/view/MenuItem;->setIcon(I)Landroid/view/MenuItem;
 

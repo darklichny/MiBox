@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" style="@style/V5.Widget.ListView.Item.DoubleLine"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="end" android:id="@*android:id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:ellipsize="end" android:id="@id/subTitle" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <ProgressBar android:id="@id/playProgress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" style="?android:attr/progressBarStyleSmall" />
+    <ImageView android:id="@id/stateFlag" android:paddingRight="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageButton android:id="@id/operatorBtn" android:background="@null" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <CheckBox android:id="@*android:id/checkbox" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

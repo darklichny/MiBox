@@ -164,7 +164,7 @@
 
     const-string v9, "@koush"
 
-    const v10, 0x7f0200f5
+    const v10, 0x7f0200f7
 
     move-object v6, p0
 
@@ -283,7 +283,7 @@
 
     const-string v9, "Use your phone\'s web connection on a laptop or PC"
 
-    const v10, 0x7f020123
+    const v10, 0x7f020125
 
     move-object v6, p0
 

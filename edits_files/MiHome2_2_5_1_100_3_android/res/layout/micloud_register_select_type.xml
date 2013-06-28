@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/a_main_padding" android:paddingRight="@dimen/a_main_padding" android:paddingBottom="@dimen/a_main_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/bottom_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a_common_padding" android:layout_alignParentBottom="true">
+        <Button android:id="@id/btn_previous" android:layout_width="0.0dip" android:layout_marginRight="@dimen/common_padding" android:text="@string/prev" android:layout_weight="1.0" style="@style/AccountButton" />
+        <Button android:id="@id/btn_next" android:layout_width="0.0dip" android:text="@string/next" android:layout_weight="1.0" style="@style/AccountButton" />
+    </LinearLayout>
+    <ScrollView android:scrollbarStyle="insideOverlay" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_panel">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RadioGroup android:id="@id/account_types" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="vertical" android:id="@id/email_input_panel" android:paddingTop="@dimen/common_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/micloud_input_email_prompt" style="@style/TextStyle.Title" />
+                <EditText android:id="@id/et_email" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/common_padding" android:hint="@string/micloud_email" android:singleLine="true" android:inputType="textEmailAddress" android:imeOptions="actionNext" style="@style/TextStyle.Editor" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

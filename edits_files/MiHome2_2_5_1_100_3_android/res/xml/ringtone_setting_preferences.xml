@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/pref_ringtone_setting"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.launcher2.V5PreferenceCategory>
+        <com.android.launcher2.V5Preference android:title="@string/theme_component_title_ringtone" android:key="key_ringtone_settings" />
+        <com.android.launcher2.V5Preference android:title="@string/theme_component_title_notification" android:key="key_notification_settings" />
+        <com.android.launcher2.V5Preference android:title="@string/theme_component_title_alarm" android:key="key_alarm_settings" />
+    </com.android.launcher2.V5PreferenceCategory>
+</PreferenceScreen>

@@ -30,7 +30,7 @@
     .parameter
 
     .prologue
-    .line 475
+    .line 500
     iput-object p1, p0, Lcom/android/settings/Rootbox$2;->this$0:Lcom/android/settings/Rootbox;
 
     iput-object p2, p0, Lcom/android/settings/Rootbox$2;->val$colorView:Lnet/margaritov/preference/colorpicker/ColorPickerView;
@@ -48,7 +48,7 @@
     .parameter "which"
 
     .prologue
-    .line 478
+    .line 503
     iget-object v0, p0, Lcom/android/settings/Rootbox$2;->this$0:Lcom/android/settings/Rootbox;
 
     invoke-virtual {v0}, Lcom/android/settings/Rootbox;->getContentResolver()Landroid/content/ContentResolver;
@@ -65,12 +65,12 @@
 
     invoke-static {v0, v1, v2}, Landroid/provider/Settings$System;->putInt(Landroid/content/ContentResolver;Ljava/lang/String;I)Z
 
-    .line 480
+    .line 505
     iget-object v0, p0, Lcom/android/settings/Rootbox$2;->this$0:Lcom/android/settings/Rootbox;
 
     #calls: Lcom/android/settings/Rootbox;->updateCustomBackgroundSummary()V
     invoke-static {v0}, Lcom/android/settings/Rootbox;->access$000(Lcom/android/settings/Rootbox;)V
 
-    .line 481
+    .line 506
     return-void
 .end method

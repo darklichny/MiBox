@@ -294,7 +294,7 @@
     .local v5, url:Ljava/lang/String;
     iget-object v6, p0, Lcom/android/settings/widgets/DeveloperPreference;->photoView:Landroid/widget/ImageView;
 
-    const v7, 0x7f02007f
+    const v7, 0x7f020080
 
     const-wide/32 v8, 0x240c8400
 

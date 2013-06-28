@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/a_main_padding" android:paddingRight="@dimen/a_main_padding" android:paddingBottom="@dimen/a_main_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/et_account_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/account_hint_text" android:singleLine="true" style="@style/TextStyle.Editor" />
+    <EditText android:id="@id/et_account_password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a_common_padding" android:hint="@string/password" android:singleLine="true" android:inputType="textPassword" android:imeOptions="actionDone" style="@style/TextStyle.Editor" />
+    <Button android:id="@id/btn_login" android:layout_marginTop="@dimen/a_common_padding" android:text="@string/login" style="@style/AccountButton.Highlight" />
+    <TextView android:layout_gravity="right" android:id="@id/tv_forget_pwd" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a_common_padding" android:text="@string/forget_password" style="@style/TextStyle.HyperLink" />
+</LinearLayout>

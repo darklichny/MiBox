@@ -585,7 +585,7 @@
 
     invoke-direct {v1, v2}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f08097c
+    const v2, 0x7f080991
 
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -601,7 +601,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f08096d
+    const v2, 0x7f080982
 
     invoke-virtual {v1, v2, v3}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
@@ -742,7 +742,7 @@
 
     invoke-direct {v7, v8}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v8, 0x7f08097b
+    const v8, 0x7f080990
 
     invoke-virtual {v7, v8}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -758,7 +758,7 @@
 
     move-result-object v7
 
-    const v8, 0x7f08096d
+    const v8, 0x7f080982
 
     invoke-virtual {v7, v8, v9}, Landroid/app/AlertDialog$Builder;->setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
@@ -796,7 +796,7 @@
 
     invoke-direct {v1, v2}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v2, 0x7f080973
+    const v2, 0x7f080988
 
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -808,13 +808,13 @@
 
     move-result-object v1
 
-    const v2, 0x7f080974
+    const v2, 0x7f080989
 
     invoke-virtual {v1, v2}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
     move-result-object v1
 
-    const v2, 0x7f08080f
+    const v2, 0x7f0807f5
 
     new-instance v3, Lcom/android/settings/AutoBrightnessCustomizeDialog$4;
 
@@ -1134,7 +1134,7 @@
     invoke-virtual {p0, v3}, Lcom/android/settings/AutoBrightnessCustomizeDialog;->setView(Landroid/view/View;)V
 
     .line 107
-    const v4, 0x7f080968
+    const v4, 0x7f08097d
 
     invoke-virtual {p0, v4}, Lcom/android/settings/AutoBrightnessCustomizeDialog;->setTitle(I)V
 
@@ -1157,7 +1157,7 @@
     .line 111
     const/4 v4, -0x3
 
-    const v5, 0x7f08096e
+    const v5, 0x7f080983
 
     invoke-virtual {v0, v5}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -1304,12 +1304,12 @@
 
     .line 197
     .local v0, info:Landroid/widget/AdapterView$AdapterContextMenuInfo;
-    const v1, 0x7f080976
+    const v1, 0x7f08098b
 
     invoke-interface {p1, v1}, Landroid/view/ContextMenu;->setHeaderTitle(I)Landroid/view/ContextMenu;
 
     .line 199
-    const v1, 0x7f080977
+    const v1, 0x7f08098c
 
     invoke-interface {p1, v3, v2, v3, v1}, Landroid/view/ContextMenu;->add(IIII)Landroid/view/MenuItem;
 
@@ -1332,7 +1332,7 @@
     invoke-interface {v4, v1}, Landroid/view/MenuItem;->setEnabled(Z)Landroid/view/MenuItem;
 
     .line 201
-    const v1, 0x7f080978
+    const v1, 0x7f08098d
 
     invoke-interface {p1, v3, v6, v2, v1}, Landroid/view/ContextMenu;->add(IIII)Landroid/view/MenuItem;
 
@@ -1351,7 +1351,7 @@
     .line 203
     const/4 v1, 0x3
 
-    const v4, 0x7f080979
+    const v4, 0x7f08098e
 
     invoke-interface {p1, v3, v1, v6, v4}, Landroid/view/ContextMenu;->add(IIII)Landroid/view/MenuItem;
 

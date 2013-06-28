@@ -387,7 +387,7 @@
     invoke-virtual {v5, v10}, Landroid/preference/Preference;->setLayoutResource(I)V
 
     .line 103
-    const v10, 0x7f08080e
+    const v10, 0x7f0807f4
 
     invoke-virtual {v5, v10}, Landroid/preference/Preference;->setTitle(I)V
 

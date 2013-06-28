@@ -46,7 +46,7 @@
 
     const-string v3, "toggleAirplane"
 
-    const v4, 0x7f080942
+    const v4, 0x7f080957
 
     const-string v5, "com.android.systemui:drawable/stat_airplane_on"
 
@@ -63,7 +63,7 @@
 
     const-string v3, "toggleAutoRotate"
 
-    const v4, 0x7f080941
+    const v4, 0x7f080956
 
     const-string v5, "com.android.systemui:drawable/stat_orientation_on"
 
@@ -80,7 +80,7 @@
 
     const-string v3, "toggleBluetooth"
 
-    const v4, 0x7f080937
+    const v4, 0x7f08094c
 
     const-string v5, "com.android.systemui:drawable/stat_bluetooth_on"
 
@@ -97,7 +97,7 @@
 
     const-string v3, "toggleBrightness"
 
-    const v4, 0x7f08093a
+    const v4, 0x7f08094f
 
     const-string v5, "com.android.systemui:drawable/stat_brightness_on"
 
@@ -114,7 +114,7 @@
 
     const-string v3, "toggleFlashlight"
 
-    const v4, 0x7f080943
+    const v4, 0x7f080958
 
     const-string v5, "com.android.systemui:drawable/stat_flashlight_on"
 
@@ -131,7 +131,7 @@
 
     const-string v3, "toggleGPS"
 
-    const v4, 0x7f080938
+    const v4, 0x7f08094d
 
     const-string v5, "com.android.systemui:drawable/stat_gps_on"
 
@@ -148,7 +148,7 @@
 
     const-string v3, "toggleLockScreen"
 
-    const v4, 0x7f08093f
+    const v4, 0x7f080954
 
     const-string v5, "com.android.systemui:drawable/stat_lock_screen_on"
 
@@ -165,7 +165,7 @@
 
     const-string v3, "toggleMobileData"
 
-    const v4, 0x7f08093e
+    const v4, 0x7f080953
 
     const-string v5, "com.android.systemui:drawable/stat_data_on"
 
@@ -182,7 +182,7 @@
 
     const-string v3, "toggleNetworkMode"
 
-    const v4, 0x7f080940
+    const v4, 0x7f080955
 
     const-string v5, "com.android.systemui:drawable/stat_2g3g_on"
 
@@ -199,7 +199,7 @@
 
     const-string v3, "toggleScreenTimeout"
 
-    const v4, 0x7f08093d
+    const v4, 0x7f080952
 
     const-string v5, "com.android.systemui:drawable/stat_screen_timeout_on"
 
@@ -216,7 +216,7 @@
 
     const-string v3, "toggleSleepMode"
 
-    const v4, 0x7f080944
+    const v4, 0x7f080959
 
     const-string v5, "com.android.systemui:drawable/stat_sleep"
 
@@ -233,7 +233,7 @@
 
     const-string v3, "toggleSound"
 
-    const v4, 0x7f080939
+    const v4, 0x7f08094e
 
     const-string v5, "com.android.systemui:drawable/stat_ring_on"
 
@@ -250,7 +250,7 @@
 
     const-string v3, "toggleSync"
 
-    const v4, 0x7f08093b
+    const v4, 0x7f080950
 
     const-string v5, "com.android.systemui:drawable/stat_sync_on"
 
@@ -267,7 +267,7 @@
 
     const-string v3, "toggleWifi"
 
-    const v4, 0x7f080936
+    const v4, 0x7f08094b
 
     const-string v5, "com.android.systemui:drawable/stat_wifi_on"
 
@@ -284,7 +284,7 @@
 
     const-string v3, "toggleWifiAp"
 
-    const v4, 0x7f08093c
+    const v4, 0x7f080951
 
     const-string v5, "com.android.systemui:drawable/stat_wifi_ap_on"
 
@@ -301,7 +301,7 @@
 
     const-string v3, "toggleMediaPrevious"
 
-    const v4, 0x7f080946
+    const v4, 0x7f08095b
 
     const-string v5, "com.android.systemui:drawable/stat_media_previous"
 
@@ -318,7 +318,7 @@
 
     const-string v3, "toggleMediaPlayPause"
 
-    const v4, 0x7f080945
+    const v4, 0x7f08095a
 
     const-string v5, "com.android.systemui:drawable/stat_media_play"
 
@@ -335,7 +335,7 @@
 
     const-string v3, "toggleMediaNext"
 
-    const v4, 0x7f080947
+    const v4, 0x7f08095c
 
     const-string v5, "com.android.systemui:drawable/stat_media_next"
 
@@ -376,7 +376,7 @@
 
     const-string v3, "toggleLte"
 
-    const v4, 0x7f080948
+    const v4, 0x7f08095d
 
     const-string v5, "com.android.systemui:drawable/stat_lte_on"
 
@@ -394,7 +394,7 @@
 
     const-string v3, "toggleWimax"
 
-    const v4, 0x7f080949
+    const v4, 0x7f08095e
 
     const-string v5, "com.android.systemui:drawable/stat_wimax_on"
 

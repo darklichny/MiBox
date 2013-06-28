@@ -479,7 +479,7 @@
     nop
 
     :pswitch_data_0
-    .packed-switch 0x7f08080c
+    .packed-switch 0x7f0807f2
         :pswitch_0
     .end packed-switch
 .end method
@@ -584,7 +584,7 @@
     .parameter "menuInfo"
 
     .prologue
-    const v1, 0x7f08080c
+    const v1, 0x7f0807f2
 
     const/4 v0, 0x0
 
@@ -600,7 +600,7 @@
     .parameter "id"
 
     .prologue
-    const v7, 0x7f08080c
+    const v7, 0x7f0807f2
 
     const v6, 0x1040013
 
@@ -647,7 +647,7 @@
     invoke-virtual {v2, v3}, Landroid/widget/ListView;->setAdapter(Landroid/widget/ListAdapter;)V
 
     .line 259
-    const v3, 0x7f080888
+    const v3, 0x7f080871
 
     invoke-virtual {v0, v3}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -673,7 +673,7 @@
     .end local v1           #dialog:Landroid/app/Dialog;
     .end local v2           #list:Landroid/widget/ListView;
     :pswitch_1
-    const v3, 0x7f08081d
+    const v3, 0x7f080803
 
     invoke-virtual {v0, v3}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
@@ -709,7 +709,7 @@
     .line 292
     .end local v1           #dialog:Landroid/app/Dialog;
     :pswitch_2
-    const v3, 0x7f080883
+    const v3, 0x7f08086c
 
     invoke-virtual {v0, v3}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
@@ -764,13 +764,13 @@
     .line 114
     const/4 v2, 0x1
 
-    const v3, 0x7f08080c
+    const v3, 0x7f0807f2
 
     invoke-interface {p1, v4, v2, v4, v3}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
     move-result-object v2
 
-    const v3, 0x7f020077
+    const v3, 0x7f020078
 
     invoke-interface {v2, v3}, Landroid/view/MenuItem;->setIcon(I)Landroid/view/MenuItem;
 
@@ -783,13 +783,13 @@
     .line 119
     const/4 v2, 0x2
 
-    const v3, 0x7f08080b
+    const v3, 0x7f0807f1
 
     invoke-interface {p1, v4, v2, v4, v3}, Landroid/view/Menu;->add(IIII)Landroid/view/MenuItem;
 
     move-result-object v2
 
-    const v3, 0x7f02006f
+    const v3, 0x7f020070
 
     invoke-interface {v2, v3}, Landroid/view/MenuItem;->setIcon(I)Landroid/view/MenuItem;
 
@@ -949,7 +949,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f080819
+    const v2, 0x7f0807ff
 
     invoke-static {v1, v2, v3}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 

@@ -53,7 +53,7 @@
 
     const/4 v2, 0x2
 
-    .line 9237
+    .line 9274
     const/16 v0, 0x9
 
     new-array v0, v0, [I
@@ -62,7 +62,7 @@
 
     sput-object v0, Lcom/koushikdutta/superuser/R$styleable;->BatteryHistoryChart:[I
 
-    .line 9330
+    .line 9367
     const/4 v0, 0x4
 
     new-array v0, v0, [I
@@ -71,7 +71,7 @@
 
     sput-object v0, Lcom/koushikdutta/superuser/R$styleable;->ChartGridView:[I
 
-    .line 9392
+    .line 9429
     const/4 v0, 0x3
 
     new-array v0, v0, [I
@@ -80,21 +80,21 @@
 
     sput-object v0, Lcom/koushikdutta/superuser/R$styleable;->ChartNetworkSeriesView:[I
 
-    .line 9460
+    .line 9497
     new-array v0, v1, [I
 
     fill-array-data v0, :array_3
 
     sput-object v0, Lcom/koushikdutta/superuser/R$styleable;->ChartSweepView:[I
 
-    .line 9560
+    .line 9597
     new-array v0, v2, [I
 
     fill-array-data v0, :array_4
 
     sput-object v0, Lcom/koushikdutta/superuser/R$styleable;->ChartView:[I
 
-    .line 9621
+    .line 9658
     const/16 v0, 0x8
 
     new-array v0, v0, [I
@@ -103,14 +103,14 @@
 
     sput-object v0, Lcom/koushikdutta/superuser/R$styleable;->CubicSplinePreviewView:[I
 
-    .line 9769
+    .line 9806
     new-array v0, v1, [I
 
     fill-array-data v0, :array_6
 
     sput-object v0, Lcom/koushikdutta/superuser/R$styleable;->DeveloperPreference:[I
 
-    .line 9867
+    .line 9904
     new-array v0, v4, [I
 
     const v1, 0x7f010017
@@ -119,28 +119,28 @@
 
     sput-object v0, Lcom/koushikdutta/superuser/R$styleable;->IconPreferenceScreen:[I
 
-    .line 9892
+    .line 9929
     new-array v0, v2, [I
 
     fill-array-data v0, :array_7
 
     sput-object v0, Lcom/koushikdutta/superuser/R$styleable;->ImageListPreference:[I
 
-    .line 9927
+    .line 9964
     new-array v0, v2, [I
 
     fill-array-data v0, :array_8
 
     sput-object v0, Lcom/koushikdutta/superuser/R$styleable;->ListPreferenceMultiSelect:[I
 
-    .line 9970
+    .line 10007
     new-array v0, v2, [I
 
     fill-array-data v0, :array_9
 
     sput-object v0, Lcom/koushikdutta/superuser/R$styleable;->PercentageBarChart:[I
 
-    .line 10018
+    .line 10055
     new-array v0, v4, [I
 
     const v1, 0x7f010016
@@ -151,7 +151,7 @@
 
     return-void
 
-    .line 9237
+    .line 9274
     nop
 
     :array_0
@@ -167,7 +167,7 @@
         0x64t 0x1t 0x1t 0x1t
     .end array-data
 
-    .line 9330
+    .line 9367
     :array_1
     .array-data 0x4
         0x21t 0x0t 0x1t 0x7ft
@@ -176,7 +176,7 @@
         0x24t 0x0t 0x1t 0x7ft
     .end array-data
 
-    .line 9392
+    .line 9429
     :array_2
     .array-data 0x4
         0x25t 0x0t 0x1t 0x7ft
@@ -184,7 +184,7 @@
         0x27t 0x0t 0x1t 0x7ft
     .end array-data
 
-    .line 9460
+    .line 9497
     :array_3
     .array-data 0x4
         0x1ct 0x0t 0x1t 0x7ft
@@ -195,14 +195,14 @@
         0x21t 0x0t 0x1t 0x7ft
     .end array-data
 
-    .line 9560
+    .line 9597
     :array_4
     .array-data 0x4
         0x1at 0x0t 0x1t 0x7ft
         0x1bt 0x0t 0x1t 0x7ft
     .end array-data
 
-    .line 9621
+    .line 9658
     :array_5
     .array-data 0x4
         0x32t 0x0t 0x1t 0x7ft
@@ -215,7 +215,7 @@
         0x39t 0x0t 0x1t 0x7ft
     .end array-data
 
-    .line 9769
+    .line 9806
     :array_6
     .array-data 0x4
         0x2at 0x0t 0x1t 0x7ft
@@ -226,21 +226,21 @@
         0x2ft 0x0t 0x1t 0x7ft
     .end array-data
 
-    .line 9892
+    .line 9929
     :array_7
     .array-data 0x4
         0x30t 0x0t 0x1t 0x7ft
         0x31t 0x0t 0x1t 0x7ft
     .end array-data
 
-    .line 9927
+    .line 9964
     :array_8
     .array-data 0x4
         0x28t 0x0t 0x1t 0x7ft
         0x29t 0x0t 0x1t 0x7ft
     .end array-data
 
-    .line 9970
+    .line 10007
     :array_9
     .array-data 0x4
         0x18t 0x0t 0x1t 0x7ft
@@ -252,7 +252,7 @@
     .locals 0
 
     .prologue
-    .line 9210
+    .line 9247
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

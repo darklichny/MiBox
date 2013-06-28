@@ -141,7 +141,7 @@
     invoke-virtual {p0, v0}, Lcom/android/settings/profiles/NFCProfileWriter;->setContentView(I)V
 
     .line 63
-    const v0, 0x7f0808a7
+    const v0, 0x7f080882
 
     invoke-virtual {p0, v0}, Lcom/android/settings/profiles/NFCProfileWriter;->setTitle(I)V
 
@@ -193,7 +193,7 @@
     if-eqz v1, :cond_1
 
     .line 107
-    const v1, 0x7f0808a9
+    const v1, 0x7f080884
 
     invoke-static {p0, v1, v3}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 
@@ -216,7 +216,7 @@
     .line 110
     .restart local v0       #detectedTag:Landroid/nfc/Tag;
     :cond_1
-    const v1, 0x7f0808aa
+    const v1, 0x7f080885
 
     invoke-static {p0, v1, v3}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
 

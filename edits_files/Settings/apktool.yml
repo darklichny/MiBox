@@ -1,5 +1,5 @@
 version: 1.5.3.f3e50fbc56
-apkFileName: Settings.apk
+apkFileName: settings.apk
 isFrameworkApk: false
 usesFramework:
   ids:

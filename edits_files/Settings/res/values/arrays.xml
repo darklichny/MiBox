@@ -524,24 +524,6 @@
         <item>100</item>
         <item>200</item>
     </string-array>
-    <string-array name="hardware_keys_action_entries">
-        <item>@string/hardware_keys_action_nothing</item>
-        <item>@string/hardware_keys_action_menu</item>
-        <item>@string/hardware_keys_action_app_switch</item>
-        <item>@string/hardware_keys_action_search</item>
-        <item>@string/hardware_keys_action_voice_search</item>
-        <item>@string/hardware_keys_action_in_app_search</item>
-        <item>@string/hardware_keys_action_torch</item>
-    </string-array>
-    <string-array name="hardware_keys_action_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-    </string-array>
     <string-array name="lockscreen_long_key_press_entries">
         <item>@string/lockscreen_buttons_no_action</item>
         <item>@string/lockscreen_buttons_next</item>
@@ -796,49 +778,59 @@
         <item>@string/notification_shortcuts_icon_picker_unlock</item>
     </string-array>
     <array name="notification_shortcuts_icon_picker_icons">
-        <item>@*android:drawable/ic_shortcut_alarm</item>
-        <item>@*android:drawable/ic_shortcut_andy</item>
-        <item>@*android:drawable/ic_shortcut_battery</item>
-        <item>@*android:drawable/ic_shortcut_browser</item>
-        <item>@*android:drawable/ic_shortcut_calendar</item>
-        <item>@*android:drawable/ic_shortcut_camera</item>
-        <item>@*android:drawable/ic_shortcut_cloud</item>
-        <item>@*android:drawable/ic_shortcut_contact</item>
-        <item>@*android:drawable/ic_shortcut_directdial</item>
-        <item>@*android:drawable/ic_shortcut_directmessage</item>
-        <item>@*android:drawable/ic_shortcut_email</item>
-        <item>@*android:drawable/ic_shortcut_email2</item>
-        <item>@*android:drawable/ic_shortcut_facebook</item>
-        <item>@*android:drawable/ic_shortcut_favorite</item>
-        <item>@*android:drawable/ic_shortcut_file_browser</item>
-        <item>@*android:drawable/ic_shortcut_file_browser2</item>
-        <item>@*android:drawable/ic_shortcut_gallery</item>
-        <item>@*android:drawable/ic_shortcut_google_small</item>
-        <item>@*android:drawable/ic_shortcut_gplus</item>
-        <item>@*android:drawable/ic_shortcut_gtalk</item>
-        <item>@*android:drawable/ic_shortcut_help</item>
-        <item>@*android:drawable/ic_shortcut_joystick</item>
-        <item>@*android:drawable/ic_shortcut_key</item>
-        <item>@*android:drawable/ic_shortcut_laptop</item>
-        <item>@*android:drawable/ic_shortcut_luggage</item>
-        <item>@*android:drawable/ic_shortcut_maps</item>
-        <item>@*android:drawable/ic_shortcut_market</item>
-        <item>@*android:drawable/ic_shortcut_movie</item>
-        <item>@*android:drawable/ic_shortcut_music</item>
-        <item>@*android:drawable/ic_shortcut_nav</item>
-        <item>@*android:drawable/ic_shortcut_phone</item>
-        <item>@*android:drawable/ic_shortcut_pinterest</item>
-        <item>@*android:drawable/ic_shortcut_play</item>
-        <item>@*android:drawable/ic_shortcut_podcast</item>
-        <item>@*android:drawable/ic_shortcut_quicksettings</item>
-        <item>@*android:drawable/ic_shortcut_rss</item>
-        <item>@*android:drawable/ic_shortcut_sdcard</item>
-        <item>@*android:drawable/ic_shortcut_search</item>
-        <item>@*android:drawable/ic_shortcut_sms</item>
-        <item>@*android:drawable/ic_shortcut_terminal</item>
-        <item>@*android:drawable/ic_shortcut_twitter</item>
-        <item>@*android:drawable/ic_shortcut_unlock</item>
+        <item>@*android:drawable/jog_dial_arrow_long_left_green</item>
+        <item>@*android:drawable/jog_dial_arrow_long_left_yellow</item>
+        <item>@*android:drawable/jog_dial_arrow_long_middle_yellow</item>
+        <item>@*android:drawable/jog_dial_arrow_long_right_red</item>
+        <item>@*android:drawable/jog_dial_arrow_long_right_yellow</item>
+        <item>@*android:drawable/jog_dial_arrow_short_left</item>
+        <item>@*android:drawable/jog_dial_arrow_short_left_and_right</item>
+        <item>@*android:drawable/jog_dial_arrow_short_right</item>
+        <item>@*android:drawable/jog_dial_bg</item>
+        <item>@*android:drawable/jog_dial_dimple</item>
+        <item>@*android:drawable/jog_dial_dimple_dim</item>
+        <item>@*android:drawable/jog_tab_bar_left_answer</item>
+        <item>@*android:drawable/jog_tab_bar_left_end_confirm_gray</item>
+        <item>@*android:drawable/jog_tab_bar_left_end_confirm_green</item>
+        <item>@*android:drawable/jog_tab_bar_left_end_confirm_red</item>
+        <item>@*android:drawable/jog_tab_bar_left_end_confirm_yellow</item>
+        <item>@*android:drawable/jog_tab_bar_left_end_normal</item>
+        <item>@*android:drawable/jog_tab_bar_left_end_pressed</item>
+        <item>@*android:drawable/jog_tab_bar_left_generic</item>
+        <item>@*android:drawable/jog_tab_bar_left_unlock</item>
+        <item>@*android:drawable/jog_tab_bar_right_decline</item>
+        <item>@*android:drawable/jog_tab_bar_right_end_confirm_gray</item>
+        <item>@*android:drawable/jog_tab_bar_right_end_confirm_green</item>
+        <item>@*android:drawable/jog_tab_bar_right_end_confirm_red</item>
+        <item>@*android:drawable/jog_tab_bar_right_end_confirm_yellow</item>
+        <item>@*android:drawable/jog_tab_bar_right_end_normal</item>
+        <item>@*android:drawable/jog_tab_bar_right_end_pressed</item>
+        <item>@*android:drawable/jog_tab_bar_right_generic</item>
+        <item>@*android:drawable/jog_tab_bar_right_sound_off</item>
+        <item>@*android:drawable/jog_tab_bar_right_sound_on</item>
+        <item>@*android:drawable/jog_tab_left_answer</item>
+        <item>@*android:drawable/jog_tab_left_confirm_gray</item>
+        <item>@*android:drawable/jog_tab_left_confirm_green</item>
+        <item>@*android:drawable/jog_tab_left_confirm_red</item>
+        <item>@*android:drawable/jog_tab_left_confirm_yellow</item>
+        <item>@*android:drawable/jog_tab_left_generic</item>
+        <item>@*android:drawable/jog_tab_left_normal</item>
+        <item>@*android:drawable/jog_tab_left_pressed</item>
+        <item>@*android:drawable/jog_tab_left_unlock</item>
+        <item>@*android:drawable/jog_tab_right_confirm_gray</item>
+        <item>@*android:drawable/jog_tab_right_confirm_green</item>
+        <item>@*android:drawable/jog_tab_right_confirm_red</item>
     </array>
+    <string-array name="profile_trigger_wifi_options">
+        <item>@string/profile_trigger_connect</item>
+        <item>@string/profile_trigger_disconnect</item>
+        <item>@string/profile_trigger_notrigger</item>
+    </string-array>
+    <string-array name="profile_trigger_filters">
+        <item>@string/profile_trigger_filter_all</item>
+        <item>@string/profile_trigger_filter_wifi</item>
+        <item>@string/profile_trigger_filter_bluetooth</item>
+    </string-array>
     <string-array name="keyboard_rotation_timeout_entries">
         <item>2s</item>
         <item>5s</item>
@@ -883,6 +875,38 @@
         <item>75%</item>
         <item>100%</item>
     </string-array>
+    <string-array name="hardware_keys_action_entries">
+        <item>@string/hardware_keys_action_nothing</item>
+        <item>@string/hardware_keys_action_home</item>
+        <item>@string/hardware_keys_action_back</item>
+        <item>@string/hardware_keys_action_menu</item>
+        <item>@string/hardware_keys_action_app_switch</item>
+        <item>@string/hardware_keys_action_search</item>
+        <item>@string/hardware_keys_action_voice_search</item>
+        <item>@string/hardware_keys_action_in_app_search</item>
+        <item>@string/hardware_keys_action_power</item>
+        <item>@string/hardware_keys_action_notifications</item>
+        <item>@string/hardware_keys_action_expanded</item>
+        <item>@string/hardware_keys_action_kill_app</item>
+        <item>@string/hardware_keys_action_last_app</item>
+        <item>@string/hardware_keys_action_custom_app</item>
+    </string-array>
+    <string-array name="hardware_keys_action_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+    </string-array>
     <string-array name="values_brightness_widget">
         <item>0</item>
         <item>1</item>
@@ -890,6 +914,9 @@
         <item>3</item>
         <item>4</item>
         <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
     </string-array>
     <string-array name="brightness_location_entries">
         <item>@string/brightness_slider_top</item>
@@ -989,19 +1016,27 @@
         <item>1</item>
         <item>0</item>
     </string-array>
-    <string-array name="recents_style_entries">
+    <string-array name="recents_clear_entries">
         <item>@string/recents_disabled</item>
         <item>@string/recents_bottom_right</item>
         <item>@string/recents_bottom_left</item>
         <item>@string/recents_top_right</item>
         <item>@string/recents_top_left</item>
     </string-array>
-    <string-array name="recents_style_values">
+    <string-array name="recents_clear_values">
         <item>0</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
         <item>4</item>
+    </string-array>
+    <string-array name="recents_style_entries">
+        <item>@string/recents_stock</item>
+        <item>@string/recents_rootbox</item>
+    </string-array>
+    <string-array name="recents_style_values">
+        <item>0</item>
+        <item>1</item>
     </string-array>
     <string-array name="volume_overlay_entries">
         <item>@string/volume_overlay_single</item>
@@ -1014,24 +1049,6 @@
         <item>1</item>
         <item>2</item>
         <item>3</item>
-    </string-array>
-    <string-array name="entries_halo_style">
-        <item>@string/halo_blue</item>
-        <item>@string/halo_green</item>
-        <item>@string/halo_white</item>
-        <item>@string/halo_purple</item>
-        <item>@string/halo_red</item>
-        <item>@string/halo_yellow</item>
-        <item>@string/halo_black</item>
-    </string-array>
-    <string-array name="values_halo_style">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
     </string-array>
     <string-array name="input_method_selector_titles">
         <item>@string/input_method_selector_show_automatically_title</item>

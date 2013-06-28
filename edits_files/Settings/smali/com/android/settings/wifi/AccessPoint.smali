@@ -1509,7 +1509,7 @@
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageLevel(I)V
 
     .line 214
-    const v1, 0x7f020125
+    const v1, 0x7f020127
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 

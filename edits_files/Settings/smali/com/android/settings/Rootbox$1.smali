@@ -27,7 +27,7 @@
     .parameter
 
     .prologue
-    .line 483
+    .line 508
     iput-object p1, p0, Lcom/android/settings/Rootbox$1;->this$0:Lcom/android/settings/Rootbox;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -43,9 +43,9 @@
     .parameter "which"
 
     .prologue
-    .line 486
+    .line 511
     invoke-interface {p1}, Landroid/content/DialogInterface;->dismiss()V
 
-    .line 487
+    .line 512
     return-void
 .end method

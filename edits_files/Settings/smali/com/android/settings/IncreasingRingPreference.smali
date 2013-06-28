@@ -51,7 +51,7 @@
     invoke-virtual {p0, v0}, Lcom/android/settings/IncreasingRingPreference;->setDialogLayoutResource(I)V
 
     .line 56
-    const v0, 0x7f0200c5
+    const v0, 0x7f0200c7
 
     invoke-virtual {p0, v0}, Lcom/android/settings/IncreasingRingPreference;->setDialogIcon(I)V
 
@@ -258,7 +258,7 @@
 
     move-result-object v5
 
-    const v8, 0x7f0c006b
+    const v8, 0x7f0c0069
 
     invoke-virtual {v5, v8}, Landroid/content/res/Resources;->getIntArray(I)[I
 

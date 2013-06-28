@@ -145,7 +145,7 @@
     invoke-virtual {p0, v1}, Lcom/android/settings/BrightnessPreference;->setDialogLayoutResource(I)V
 
     .line 102
-    const v1, 0x7f0200b7
+    const v1, 0x7f0200b9
 
     invoke-virtual {p0, v1}, Lcom/android/settings/BrightnessPreference;->setDialogIcon(I)V
 
@@ -938,7 +938,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f0c008a
+    const v6, 0x7f0c008c
 
     const v7, 0x1090008
 
@@ -992,7 +992,7 @@
 
     move-result-object v5
 
-    const v6, 0x7f0c008b
+    const v6, 0x7f0c008d
 
     invoke-virtual {v5, v6}, Landroid/content/res/Resources;->getIntArray(I)[I
 
@@ -1210,7 +1210,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0c008b
+    const v5, 0x7f0c008d
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getIntArray(I)[I
 
@@ -1268,7 +1268,7 @@
     if-eqz v0, :cond_0
 
     .line 108
-    const v0, 0x7f08096c
+    const v0, 0x7f080981
 
     new-instance v1, Lcom/android/settings/BrightnessPreference$3;
 

@@ -93,7 +93,7 @@
 
     iget-object v3, v1, Lcom/android/settings/slim/notificationshortcuts/NotificationShortcuts$8;->this$0:Lcom/android/settings/slim/notificationshortcuts/NotificationShortcuts;
 
-    const v4, 0x7f0808f4
+    const v4, 0x7f0808e9
 
     new-array v5, v9, [Ljava/lang/Object;
 

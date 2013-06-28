@@ -1387,11 +1387,11 @@
 
     .line 701
     .local v4, textId:I
-    const v3, 0x7f020122
+    const v3, 0x7f020124
 
     .line 702
     .local v3, phoneCallIcon:I
-    const v5, 0x7f020122
+    const v5, 0x7f020124
 
     invoke-virtual {v0, v5, v6, v6, v6}, Landroid/widget/Button;->setCompoundDrawablesWithIntrinsicBounds(IIII)V
 

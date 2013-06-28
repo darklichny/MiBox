@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="@dimen/common_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_font_size_small" android:textColor="@color/text_color_gray" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/paytool_picker_hint" android:singleLine="true" />
+    <com.xiaomi.xmsf.payment.DenominationGrid android:gravity="center" android:id="@id/denomination" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:background="@drawable/editor_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip">
+        <TextView android:textSize="@dimen/text_font_size_small" android:textColor="@color/text_color_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/paytool_edit_hint" />
+        <EditText android:textSize="@dimen/text_font_size_small" android:textColor="@color/text_color_orange" android:id="@id/denomination_edit" android:background="@null" android:layout_width="0.0dip" android:layout_height="wrap_content" android:ems="10" android:layout_weight="1.0" android:inputType="number" />
+    </LinearLayout>
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <Button android:textColor="@color/text_color_white" android:id="@id/button_recharge" android:background="@drawable/btn_pay_orange_bkg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/btn_recharge_large" />
+    <TextView android:textSize="@dimen/text_font_size_small" android:textColor="@color/text_color_orange" android:layout_gravity="center" android:id="@id/recharge_other" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:layout_marginBottom="15.0dip" android:text="@string/recharge_other" />
+</LinearLayout>

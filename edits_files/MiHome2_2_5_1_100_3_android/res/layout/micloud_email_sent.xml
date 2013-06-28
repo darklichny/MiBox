@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/a_main_padding" android:paddingRight="@dimen/a_main_padding" android:paddingBottom="@dimen/a_main_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/btn_finish" android:layout_marginTop="@dimen/a_common_padding" android:text="@string/completed" android:layout_alignParentBottom="true" style="@style/AccountButton" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/btn_finish">
+        <TextView android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/micloud_active_email_sent_1" style="@style/TextStyle.Notice" />
+        <TextView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/email" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a_common_padding" style="@style/TextStyle.Notice" />
+        <TextView android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a_common_padding" android:text="@string/micloud_click_email" style="@style/TextStyle.Notice" />
+    </LinearLayout>
+</RelativeLayout>

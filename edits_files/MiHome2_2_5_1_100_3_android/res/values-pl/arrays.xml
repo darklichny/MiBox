@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="transformation_entries">
+        <item>Klasyczne</item>
+        <item>Klasyczne (Bez odbijania)</item>
+        <item>Przenikanie</item>
+        <item>Opadanie</item>
+        <item>Stronnicowanie</item>
+        <item>Kaskada</item>
+        <item>Rotacja</item>
+        <item>Kostka 3D</item>
+    </string-array>
+    <string-array name="wallpaper_scroll_entries">
+        <item>Wg motywu</item>
+        <item>Wyśrodkowana</item>
+        <item>Lewo</item>
+        <item>Prawo</item>
+    </string-array>
+</resources>

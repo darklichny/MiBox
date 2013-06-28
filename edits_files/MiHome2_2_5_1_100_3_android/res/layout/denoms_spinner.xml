@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="@drawable/btn_pay_white_bkg" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_font_size_small" android:textColor="@color/text_color_black" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/prepaid_picker_title" android:layout_weight="1.0" />
+    <TextView android:textSize="@dimen/text_font_size_small" android:textColor="@color/text_color_orange" android:id="@id/value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/prepaid_picker_value_default" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/arrow_down" />
+</LinearLayout>

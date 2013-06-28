@@ -287,7 +287,7 @@
 
     sget-object v2, Lcom/android/settings/fuelgauge/PowerUsageDetail$DrainType;->BLUETOOTH:Lcom/android/settings/fuelgauge/PowerUsageDetail$DrainType;
 
-    const v5, 0x7f0200b0
+    const v5, 0x7f0200b2
 
     iget-wide v8, p0, Lcom/android/settings/fuelgauge/PowerUsageSummary;->mBluetoothPower:D
 
@@ -431,7 +431,7 @@
 
     sget-object v2, Lcom/android/settings/fuelgauge/PowerUsageDetail$DrainType;->IDLE:Lcom/android/settings/fuelgauge/PowerUsageDetail$DrainType;
 
-    const v5, 0x7f0200bf
+    const v5, 0x7f0200c1
 
     move-object v0, p0
 
@@ -517,7 +517,7 @@
 
     sget-object v2, Lcom/android/settings/fuelgauge/PowerUsageDetail$DrainType;->PHONE:Lcom/android/settings/fuelgauge/PowerUsageDetail$DrainType;
 
-    const v5, 0x7f0200ca
+    const v5, 0x7f0200cc
 
     move-object v0, p0
 
@@ -632,7 +632,7 @@
 
     sget-object v2, Lcom/android/settings/fuelgauge/PowerUsageDetail$DrainType;->CELL:Lcom/android/settings/fuelgauge/PowerUsageDetail$DrainType;
 
-    const v5, 0x7f0200b2
+    const v5, 0x7f0200b4
 
     move-object v0, p0
 
@@ -789,7 +789,7 @@
 
     sget-object v2, Lcom/android/settings/fuelgauge/PowerUsageDetail$DrainType;->SCREEN:Lcom/android/settings/fuelgauge/PowerUsageDetail$DrainType;
 
-    const v5, 0x7f0200b7
+    const v5, 0x7f0200b9
 
     move-object v0, p0
 
@@ -1059,7 +1059,7 @@
 
     sget-object v2, Lcom/android/settings/fuelgauge/PowerUsageDetail$DrainType;->WIFI:Lcom/android/settings/fuelgauge/PowerUsageDetail$DrainType;
 
-    const v5, 0x7f0200cb
+    const v5, 0x7f0200cd
 
     iget-wide v8, p0, Lcom/android/settings/fuelgauge/PowerUsageSummary;->mWifiPower:D
 
@@ -3319,7 +3319,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f020073
+    const v4, 0x7f020074
 
     invoke-interface {v3, v4}, Landroid/view/MenuItem;->setIcon(I)Landroid/view/MenuItem;
 

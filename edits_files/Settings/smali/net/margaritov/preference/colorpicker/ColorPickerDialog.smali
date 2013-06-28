@@ -129,7 +129,7 @@
     invoke-virtual {p0, v1}, Lnet/margaritov/preference/colorpicker/ColorPickerDialog;->setContentView(Landroid/view/View;)V
 
     .line 76
-    const v2, 0x7f080876
+    const v2, 0x7f08085f
 
     invoke-virtual {p0, v2}, Lnet/margaritov/preference/colorpicker/ColorPickerDialog;->setTitle(I)V
 

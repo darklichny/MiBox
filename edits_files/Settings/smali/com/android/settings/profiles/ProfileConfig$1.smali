@@ -27,7 +27,7 @@
     .parameter
 
     .prologue
-    .line 392
+    .line 409
     iput-object p1, p0, Lcom/android/settings/profiles/ProfileConfig$1;->this$0:Lcom/android/settings/profiles/ProfileConfig;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -43,12 +43,12 @@
     .parameter "id"
 
     .prologue
-    .line 394
+    .line 411
     iget-object v0, p0, Lcom/android/settings/profiles/ProfileConfig$1;->this$0:Lcom/android/settings/profiles/ProfileConfig;
 
     #calls: Lcom/android/settings/profiles/ProfileConfig;->doDelete()V
     invoke-static {v0}, Lcom/android/settings/profiles/ProfileConfig;->access$000(Lcom/android/settings/profiles/ProfileConfig;)V
 
-    .line 395
+    .line 412
     return-void
 .end method

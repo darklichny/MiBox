@@ -333,7 +333,7 @@
     iput-object v2, p0, Lcom/android/settings/AutoBrightnessCustomizeDialog$RowSetupDialog;->mBacklightInput:Landroid/widget/EditText;
 
     .line 511
-    const v2, 0x7f080970
+    const v2, 0x7f080985
 
     invoke-virtual {p0, v2}, Lcom/android/settings/AutoBrightnessCustomizeDialog$RowSetupDialog;->setTitle(I)V
 
@@ -368,7 +368,7 @@
     .line 519
     const/4 v2, -0x1
 
-    const v3, 0x7f08080f
+    const v3, 0x7f0807f5
 
     invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 

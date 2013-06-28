@@ -175,7 +175,7 @@
 
     iget-object v2, p0, Lcom/android/settings/profiles/ProfilesPreference;->mSettingsBundle:Landroid/os/Bundle;
 
-    const v3, 0x7f080829
+    const v3, 0x7f08080f
 
     const/4 v4, 0x0
 

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<miui.mihome.resourcebrowser.view.ResourceFilterView android:orientation="horizontal" android:id="@id/resource_filter" android:background="@drawable/list_group_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/filter_name" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scrollHorizontally="true" android:singleLine="true" android:layout_weight="1.0" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/arrow_mark" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</miui.mihome.resourcebrowser.view.ResourceFilterView>

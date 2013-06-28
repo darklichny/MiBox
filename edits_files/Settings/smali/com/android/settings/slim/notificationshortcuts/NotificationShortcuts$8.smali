@@ -80,12 +80,12 @@
 
     .line 350
     .local v0, builder:Landroid/app/AlertDialog$Builder;
-    const v6, 0x7f0808ea
+    const v6, 0x7f0808df
 
     invoke-virtual {v0, v6}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
     .line 351
-    const v6, 0x7f0808eb
+    const v6, 0x7f0808e0
 
     invoke-virtual {v0, v6}, Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
 
@@ -335,7 +335,7 @@
     invoke-virtual {v0, v5}, Landroid/app/AlertDialog$Builder;->setView(Landroid/view/View;)Landroid/app/AlertDialog$Builder;
 
     .line 420
-    const v6, 0x7f08080f
+    const v6, 0x7f0807f5
 
     new-instance v7, Lcom/android/settings/slim/notificationshortcuts/NotificationShortcuts$8$5;
 

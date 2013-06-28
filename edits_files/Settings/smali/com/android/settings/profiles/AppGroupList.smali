@@ -47,7 +47,7 @@
 
     move-result-object v1
 
-    const v3, 0x7f08082c
+    const v3, 0x7f080812
 
     const/4 v4, 0x0
 
@@ -313,7 +313,7 @@
     invoke-virtual {v6, v9}, Landroid/preference/Preference;->setLayoutResource(I)V
 
     .line 86
-    const v9, 0x7f08080e
+    const v9, 0x7f0807f4
 
     invoke-virtual {v6, v9}, Landroid/preference/Preference;->setTitle(I)V
 

@@ -31,15 +31,15 @@
     .parameter "label"
 
     .prologue
-    .line 418
+    .line 435
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 419
+    .line 436
     iput p1, p0, Lcom/android/settings/profiles/ProfileConfig$StreamItem;->mStreamId:I
 
-    .line 420
+    .line 437
     iput-object p2, p0, Lcom/android/settings/profiles/ProfileConfig$StreamItem;->mLabel:Ljava/lang/String;
 
-    .line 421
+    .line 438
     return-void
 .end method

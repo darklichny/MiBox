@@ -346,7 +346,7 @@
 
     move-object/from16 v20, v0
 
-    const v21, 0x7f08094c
+    const v21, 0x7f080961
 
     move-object/from16 v0, p0
 
@@ -511,7 +511,7 @@
 
     move-object/from16 v20, v0
 
-    const v21, 0x7f080952
+    const v21, 0x7f080967
 
     move-object/from16 v0, p0
 
@@ -1090,7 +1090,7 @@
 
     iget-object v4, p0, Lcom/android/settings/cyanogenmod/PowerWidget$PowerWidgetChooser;->mBrightnessMode:Landroid/preference/MultiSelectListPreference;
 
-    const v5, 0x7f08094c
+    const v5, 0x7f080961
 
     invoke-direct {p0, v3, v4, v5}, Lcom/android/settings/cyanogenmod/PowerWidget$PowerWidgetChooser;->updateSummary(Ljava/lang/String;Landroid/preference/MultiSelectListPreference;I)V
 
@@ -1291,7 +1291,7 @@
 
     iget-object v4, p0, Lcom/android/settings/cyanogenmod/PowerWidget$PowerWidgetChooser;->mRingMode:Landroid/preference/MultiSelectListPreference;
 
-    const v5, 0x7f080952
+    const v5, 0x7f080967
 
     invoke-direct {p0, v3, v4, v5}, Lcom/android/settings/cyanogenmod/PowerWidget$PowerWidgetChooser;->updateSummary(Ljava/lang/String;Landroid/preference/MultiSelectListPreference;I)V
 

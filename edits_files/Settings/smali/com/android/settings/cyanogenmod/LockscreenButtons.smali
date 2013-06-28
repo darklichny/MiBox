@@ -499,7 +499,7 @@
     .restart local v12       #oldValues:[Ljava/lang/CharSequence;
     .restart local v13       #pref:Landroid/preference/ListPreference;
     :cond_6
-    const v15, 0x7f0807b8
+    const v15, 0x7f08079e
 
     move-object/from16 v0, p0
 

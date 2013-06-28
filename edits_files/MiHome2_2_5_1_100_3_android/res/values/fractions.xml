@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="resource_thumbnail_double_height_vs_width_ratio">69.266%</fraction>
+    <fraction name="resource_thumbnail_triple_height_vs_width_ratio">156.25%</fraction>
+    <fraction name="resource_thumbnail_triple_flat_height_vs_width_ratio">88.888%</fraction>
+    <fraction name="resource_thumbnail_double_flat_icon_height_vs_width_ratio">82.569%</fraction>
+    <fraction name="resource_thumbnail_ratio">177.7771%</fraction>
+    <fraction name="resource_thumbnail_crop_ratio">156.25%</fraction>
+    <fraction name="resource_thumbnail_flat_ratio">88.889%</fraction>
+    <fraction name="resource_thumbnail_flat_icon_ratio">82.569%</fraction>
+    <fraction name="resource_thumbnail_flat_font_ratio">69.266%</fraction>
+    <fraction name="config_cell_editing_offset_v">1.9999981%</fraction>
+    <fraction name="config_dragViewScale">109.99756%</fraction>
+</resources>

@@ -2,13 +2,15 @@
 <PreferenceScreen android:title="@string/rootbox_settings_title"
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
-    <PreferenceScreen android:layout="@layout/logo_row" android:key="rb_logo" />
     <PreferenceCategory android:title="@string/general_ui_header" android:key="rb_general_ui">
         <PreferenceScreen android:icon="@drawable/ic_rb_pie" android:title="@string/pie_controls_title" android:key="pie_control" android:summary="@string/pie_controls_summary" android:fragment="com.android.settings.paranoid.Pie" />
         <PreferenceScreen android:icon="@drawable/ic_rb_halo" android:title="@string/halo_settings_title" android:key="halo" android:summary="@string/halo_settings_summary" android:fragment="com.android.settings.paranoid.Halo" />
-        <ListPreference android:icon="@drawable/ic_rb_recents" android:entries="@array/recents_style_entries" android:title="@string/recent_kill_all" android:key="pref_recents_style" android:defaultValue="0" android:entryValues="@array/recents_style_values" />
         <ListPreference android:icon="@drawable/ic_rb_battery_warning" android:entries="@array/pref_low_battery_warning_policy_entries" android:title="@string/pref_low_battery_warning_policy_title" android:key="pref_low_battery_warning_policy" android:defaultValue="3" android:entryValues="@array/pref_low_battery_warning_policy_values" />
         <CheckBoxPreference android:icon="@drawable/ic_rb_battery_pac" android:title="@string/pac_status_title" android:key="pac_status" android:summary="@string/pac_status_summary" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/recents_header" android:key="rb_recents">
+        <ListPreference android:icon="@drawable/ic_rb_recents" android:entries="@array/recents_clear_entries" android:title="@string/recents_kill_all" android:key="pref_recents_clear" android:defaultValue="0" android:entryValues="@array/recents_clear_values" />
+        <ListPreference android:icon="@drawable/ic_rb_recent_style" android:entries="@array/recents_style_entries" android:title="@string/recents_style" android:key="pref_recents_style" android:defaultValue="0" android:entryValues="@array/recents_style_values" />
     </PreferenceCategory>
     <PreferenceCategory android:title="@string/keyboard_header" android:key="rb_keyboard">
         <CheckBoxPreference android:icon="@drawable/ic_rb_keyboard_enter" android:persistent="false" android:title="@string/show_enter_key_title" android:key="show_enter_key" android:summary="@string/show_enter_key_summary" />
@@ -43,6 +45,7 @@
         <CheckBoxPreference android:icon="@drawable/ic_rb_headset" android:persistent="false" android:title="@string/headset_connect_player_title" android:key="headset_connect_player" android:summary="@string/headset_connect_player_summary" />
         <CheckBoxPreference android:icon="@drawable/ic_rb_sound" android:persistent="true" android:title="@string/volume_adjust_sounds_enable_title" android:key="volume_adjust_sounds" android:summary="@string/volume_adjust_sounds_enable_summary" />
         <CheckBoxPreference android:icon="@drawable/ic_rb_volume_swap" android:title="@string/swap_volume_keys_title" android:key="swap_volume_buttons" android:summary="@string/swap_volume_keys_summary" />
+        <CheckBoxPreference android:icon="@drawable/ic_rb_sound" android:title="@string/volume_keys_control_ring_stream" android:key="volume_keys_control_ring_stream" android:summary="@string/volume_keys_control_ring_stream_summary" android:defaultValue="false" />
     </PreferenceCategory>
     <PreferenceCategory android:title="@string/hardware_keys_header" android:key="rb_hardware_keys">
         <CheckBoxPreference android:icon="@drawable/ic_rb_home_wake" android:title="@string/pref_home_wake_title" android:key="pref_home_wake" android:summary="@string/pref_home_wake_summary" android:defaultValue="true" />

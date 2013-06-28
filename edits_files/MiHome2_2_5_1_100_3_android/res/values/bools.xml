@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="resource_decode_image_with_low_quality">false</bool>
+    <bool name="enable_magnifier_when_input">false</bool>
+    <bool name="support_font_replacement">true</bool>
+    <bool name="config_hardwareAccelerated">true</bool>
+    <bool name="config_use_software_icon">true</bool>
+    <bool name="config_protect_csp">false</bool>
+    <bool name="config_recents_interface_for_tablets">false</bool>
+    <bool name="abs__action_bar_embed_tabs">true</bool>
+    <bool name="abs__split_action_bar_is_narrow">true</bool>
+    <bool name="abs__action_bar_expanded_action_views_exclusive">true</bool>
+    <bool name="abs__config_showMenuShortcutsWhenKeyboardPresent">false</bool>
+    <bool name="abs__config_actionMenuItemAllCaps">true</bool>
+    <bool name="abs__config_allowActionMenuItemTextWithIcon">true</bool>
+</resources>

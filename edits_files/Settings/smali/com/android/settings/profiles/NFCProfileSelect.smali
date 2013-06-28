@@ -99,7 +99,7 @@
     invoke-virtual {p0, v0}, Lcom/android/settings/profiles/NFCProfileSelect;->setContentView(I)V
 
     .line 64
-    const v0, 0x7f0808ad
+    const v0, 0x7f080888
 
     invoke-virtual {p0, v0}, Lcom/android/settings/profiles/NFCProfileSelect;->setTitle(I)V
 
@@ -209,7 +209,7 @@
 
     .line 94
     .local v0, builder:Landroid/app/AlertDialog$Builder;
-    const v4, 0x7f08080d
+    const v4, 0x7f0807f3
 
     invoke-virtual {v0, v4}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 

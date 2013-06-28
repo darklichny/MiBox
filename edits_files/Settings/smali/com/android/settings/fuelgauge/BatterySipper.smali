@@ -801,7 +801,7 @@
     .line 119
     :cond_1
     :goto_1
-    const v5, 0x7f020080
+    const v5, 0x7f020081
 
     iput v5, p0, Lcom/android/settings/fuelgauge/BatterySipper;->iconId:I
 
