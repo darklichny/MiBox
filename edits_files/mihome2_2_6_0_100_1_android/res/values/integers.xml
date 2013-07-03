@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="button_text_shadow_dy">1</integer>
+    <integer name="expandlistview_header_shadow_dy">1</integer>
+    <integer name="config_defaultNotificationLedFreq">4000</integer>
+    <integer name="comment_info_desc_line_num">4</integer>
+    <integer name="config_cell_count_x">4</integer>
+    <integer name="config_cell_count_y">4</integer>
+    <integer name="config_cell_count_y_gemini">5</integer>
+    <integer name="config_folder_columns_count">3</integer>
+    <integer name="config_folder_animation_duration">20</integer>
+    <integer name="config_delete_zone_animation_duration">30</integer>
+    <integer name="delete_color_alpha">180</integer>
+    <integer name="error_notification_duration">1500</integer>
+    <integer name="config_dragOutlineFadeTime">900</integer>
+    <integer name="config_dragViewAlpha">230</integer>
+    <integer name="config_dragOutlineMaxAlpha">128</integer>
+    <integer name="config_dropAnimMaxDuration">500</integer>
+    <integer name="config_folderAnimDuration">120</integer>
+    <integer name="config_dropAnimMaxDist">800</integer>
+    <integer name="config_itemShakeTime">400</integer>
+    <integer name="flash_on_value">100</integer>
+    <integer name="config_shortAnimTime">200</integer>
+    <integer name="config_mediumAnimTime">400</integer>
+    <integer name="config_longAnimTime">500</integer>
+    <integer name="config_editmodeAnimTime">300</integer>
+    <integer name="abs__max_action_buttons">2</integer>
+</resources>

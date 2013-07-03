@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/a_main_padding" android:paddingRight="@dimen/a_main_padding" android:paddingBottom="@dimen/a_main_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/bottom_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a_common_padding" android:layout_alignParentBottom="true">
+        <Button android:id="@id/btn_cancel" android:layout_width="0.0dip" android:layout_marginRight="@dimen/common_padding" android:text="@*android:string/cancel" android:layout_weight="1.0" style="@style/AccountButton" />
+        <Button android:id="@id/btn_retry" android:layout_width="0.0dip" android:text="@string/login_retry" android:layout_weight="1.0" style="@style/AccountButton" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_panel">
+        <TextView android:layout_gravity="center_horizontal" android:id="@id/reason" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextStyle.Notice" />
+    </LinearLayout>
+</RelativeLayout>

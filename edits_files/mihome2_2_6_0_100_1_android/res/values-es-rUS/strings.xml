@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="application_name">Launcher</string>
+    <string name="folder_name">Carpeta</string>
+    <string name="chooser_wallpaper">Seleccionar papel tapiz desde</string>
+    <string name="activity_not_found">La aplicación no está instalada en tu computadora.</string>
+    <string name="cancel_action">Cancelar</string>
+    <string name="menu_item_add_item">Agregar a la pantalla Página principal</string>
+    <string name="group_shortcuts">Accesos directos</string>
+    <string name="out_of_space">No hay más espacio en esta pantalla de la página principal</string>
+    <string name="title_select_shortcut">Seleccionar acceso directo</string>
+    <string name="menu_add">Agregar</string>
+    <string name="menu_wallpaper">Papel tapiz</string>
+    <string name="menu_search">Buscar</string>
+    <string name="menu_settings">Configuración</string>
+    <string name="permlab_install_shortcut">instalar accesos directos</string>
+    <string name="permdesc_install_shortcut">Permite a una aplicación agregar accesos directos sin intervención del usuario.</string>
+    <string name="permlab_uninstall_shortcut">desinstalar papel tapiz</string>
+    <string name="permdesc_uninstall_shortcut">Permite a una aplicación suprimir accesos directos sin intervención del usuario.</string>
+    <string name="permlab_read_settings">leer configuración y accesos directos de la página principal</string>
+    <string name="permdesc_read_settings">Permite a una aplicación leer la configuración y los accesos directos de la página principal.</string>
+    <string name="permlab_write_settings">escribir configuración y accesos directos de la página principal</string>
+    <string name="permdesc_write_settings">Permite a una aplicación cambiar la configuración y los accesos directos de la página principal.</string>
+    <string name="gadget_error_text">Problema al cargar el widget</string>
+</resources>

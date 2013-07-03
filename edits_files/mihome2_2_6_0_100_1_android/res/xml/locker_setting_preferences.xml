@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/pref_locker_setting"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.launcher2.V5PreferenceCategory android:key="key_locker_setting">
+        <com.android.launcher2.V5CheckBoxPreference android:title="@string/pref_locker_enable" android:key="toggle_enable" />
+        <com.android.launcher2.V5Preference android:title="@string/locker_style_settings_title" android:key="locker_style_settings" />
+        <com.android.launcher2.V5Preference android:title="@string/locker_wallpaper_settings_title" android:key="locker_wallpaper_settings" />
+        <com.android.launcher2.V5CheckBoxPreference android:title="@string/setting_fullscreen" android:key="fullscreen" />
+        <com.android.launcher2.V5CheckBoxPreference android:title="@string/setting_hapticfeedback" android:key="hapticfeedback" />
+        <com.android.launcher2.V5CheckBoxPreference android:title="@string/setting_sound_effect" android:key="sound_effect" android:summary="@string/setting_sound_effect_summary" />
+    </com.android.launcher2.V5PreferenceCategory>
+</PreferenceScreen>

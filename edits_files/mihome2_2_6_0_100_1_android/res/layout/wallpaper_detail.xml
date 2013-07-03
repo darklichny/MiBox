@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root" android:background="@drawable/wallpaper_detail_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.thememanager.view.WallpaperView android:id="@id/wallpaperView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/previewMask" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:layout_gravity="bottom" android:id="@id/operatorAreaShade" android:background="@drawable/wallpaper_bottom_shade" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/operatorArea" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.android.thememanager.view.HorzontalSliderView android:id="@id/slider" android:background="@drawable/wallpaper_slider_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wallpaper_slider" />
+        <LinearLayout android:id="@id/operationBar" android:background="@drawable/wallpaper_detial_bottombar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+            <RelativeLayout android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/infoButton" android:background="@drawable/wallpaper_detail_info_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                    <Button android:gravity="center" android:id="@id/previewButton" android:background="@drawable/wallpaper_op_btn_bg" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/resource_preview" android:layout_weight="1.0" />
+                    <Button android:gravity="center" android:id="@id/downloadButton" android:background="@drawable/wallpaper_op_btn_bg" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                </LinearLayout>
+                <ImageView android:id="@id/menuButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wallpaper_detail_menu_btn" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

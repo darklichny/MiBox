@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="application_name">Startbild</string>
+    <string name="folder_name">Mapp</string>
+    <string name="chooser_wallpaper">Välj bakgrund från</string>
+    <string name="activity_not_found">Programmet är inte installerat på din telefon.</string>
+    <string name="cancel_action">Avbryt</string>
+    <string name="menu_item_add_item">Lägg till på startsidan</string>
+    <string name="group_shortcuts">Genvägar</string>
+    <string name="out_of_space">Det finns inte plats för mer på den här startsidan.</string>
+    <string name="title_select_shortcut">Välj genväg</string>
+    <string name="menu_add">Lägg till</string>
+    <string name="menu_wallpaper">Bakgrund</string>
+    <string name="menu_search">Sök</string>
+    <string name="menu_settings">Inställningar</string>
+    <string name="permlab_install_shortcut">installera genvägar</string>
+    <string name="permdesc_install_shortcut">Tillåter att ett program lägger till genvägar utan åtgärd från användaren.</string>
+    <string name="permlab_uninstall_shortcut">avinstallera genvägar</string>
+    <string name="permdesc_uninstall_shortcut">Tillåter att ett program tar bort genvägar utan åtgärd från användaren.</string>
+    <string name="permlab_read_settings">läsa inställningar och genvägar för startsidan</string>
+    <string name="permdesc_read_settings">Tillåter att ett program läser inställningar och genvägar på startsidan.</string>
+    <string name="permlab_write_settings">skriva inställningar och genvägar för startsidan</string>
+    <string name="permdesc_write_settings">Tillåter att ett program ändrar inställningar och genvägar på startsidan.</string>
+    <string name="gadget_error_text">Det gick inte att läsa in widgeten</string>
+</resources>

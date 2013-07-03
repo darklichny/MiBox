@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/pref_backup_restore_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.launcher2.V5PreferenceCategory android:key="pref_backup_restore_key">
+        <com.android.launcher2.V5Preference android:title="@string/pref_backup_desktop_layout_title" android:key="pref_backup_desktop_layout_key" />
+        <com.android.launcher2.V5Preference android:title="@string/pref_restore_desktop_layout_title" android:key="pref_restore_desktop_layout_key" android:summary="@string/pref_restore_desktop_layout_summary" />
+    </com.android.launcher2.V5PreferenceCategory>
+</PreferenceScreen>

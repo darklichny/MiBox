@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/pref_launcher_setting"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.launcher2.V5PreferenceCategory android:key="pref_key_checkboxes">
+        <com.android.launcher2.V5ListPreference android:entries="@array/transformation_entries" android:title="@string/pref_screen_transformation_type_title" android:key="pref_screen_transformation_type" android:entryValues="@array/transformation_values" />
+        <com.android.launcher2.V5Preference android:title="@string/wallpaper_settings_title" android:key="wallpaper_settings" />
+        <com.android.launcher2.V5ListPreference android:entries="@array/wallpaper_scroll_entries" android:title="@string/pref_wallpaper_scroll_type_title" android:key="pref_key_wallpaper_scroll_type" android:entryValues="@array/wallpaper_scroll_values" />
+        <com.android.launcher2.V5ListPreference android:entries="@array/cell_layout_size_entries" android:title="@string/pref_cell_layout_size" android:key="pref_key_cell_layout_size" android:entryValues="@array/cell_layout_size_values" />
+        <com.android.launcher2.V5CheckBoxPreference android:title="@string/pref_render_in_truecolor_title" android:key="pref_key_render_in_truecolor" android:summary="@string/pref_render_in_truecolor_summary" />
+        <com.android.launcher2.V5CheckBoxPreference android:title="@string/pref_icon_shadow_title" android:key="pref_key_icon_shadow" android:summary="@string/pref_icon_shadow_summary" android:defaultValue="true" />
+        <com.android.launcher2.V5Preference android:title="@string/default_launcher_settings_title" android:key="default_launcher_settings" />
+    </com.android.launcher2.V5PreferenceCategory>
+    <com.android.launcher2.V5PreferenceCategory android:key="pref_key_gesture">
+        <com.android.launcher2.V5CheckBoxPreference android:title="@string/pref_key_open_gesture_title" android:key="pref_key_open_gesture" android:defaultValue="true" />
+        <com.android.launcher2.V5ListPreference android:entries="@array/gesture_up_entries" android:title="@string/pref_key_select_gesture_up_title" android:key="pref_key_gesture_up" android:entryValues="@array/gesture_up_values" />
+    </com.android.launcher2.V5PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="@integer/config_delete_zone_animation_duration" android:drawable="@drawable/dismiss_folder_06" />
+    <item android:duration="@integer/config_delete_zone_animation_duration" android:drawable="@drawable/dismiss_folder_05" />
+    <item android:duration="@integer/config_delete_zone_animation_duration" android:drawable="@drawable/dismiss_folder_04" />
+    <item android:duration="@integer/config_delete_zone_animation_duration" android:drawable="@drawable/dismiss_folder_03" />
+    <item android:duration="@integer/config_delete_zone_animation_duration" android:drawable="@drawable/dismiss_folder_02" />
+    <item android:duration="@integer/config_delete_zone_animation_duration" android:drawable="@drawable/dismiss_folder_01" />
+</animation-list>

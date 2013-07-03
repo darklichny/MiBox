@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="@dimen/v5_preference_icon_minWidth">
+        <ImageView android:layout_gravity="center" android:id="@*android:id/icon" android:paddingRight="@dimen/v5_preference_item_padding_inner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="48.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:paddingTop="@dimen/v5_preference_item_padding_top" android:paddingRight="@dimen/v5_preference_item_padding_inner" android:paddingBottom="@dimen/v5_preference_item_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textAppearance="@style/V5.TextAppearance.PreferenceList" android:id="@*android:id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textAppearance="@style/V5.TextAppearance.List.Secondary" android:ellipsize="marquee" android:gravity="right" android:id="@*android:id/summary" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@*android:id/widget_frame" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="@dimen/v5_preference_widget_width" />
+    <ImageView android:gravity="center" android:layout_gravity="right|center" android:id="@id/right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/v5_arrow_right" />
+</LinearLayout>

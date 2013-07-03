@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="v5_edit_mode_title">
+        <item quantity="other">已选择%1$d项</item>
+        <item quantity="one">已选择%1$d项</item>
+    </plurals>
+</resources>
