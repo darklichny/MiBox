@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/ic_innerlist" android:paddingLeft="@dimen/inside_side_left_padding_one" android:paddingTop="@dimen/inside_side_padding" android:paddingRight="@dimen/inside_side_right_padding_one" android:paddingBottom="@dimen/inside_side_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/secondline" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="@drawable/av_list_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:background="@drawable/av_list_divider" android:layout_width="1.0px" android:layout_height="fill_parent" />
+            <TextView android:textAppearance="@style/TextAppearance.Medium" android:id="@id/viruslevel" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="12.0dip" android:layout_weight="1.0" />
+            <View android:background="@drawable/av_list_divider" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        </LinearLayout>
+        <View android:background="@drawable/av_list_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:background="@drawable/av_list_divider" android:layout_width="1.0px" android:layout_height="fill_parent" />
+            <TextView android:textAppearance="@style/TextAppearance.Medium" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:text="@string/AV_StoragePath" />
+            <View android:background="@drawable/av_list_divider" android:layout_width="1.0px" android:layout_height="fill_parent" />
+            <TextView android:textAppearance="@style/TextAppearance.Medium" android:ellipsize="end" android:id="@id/path" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="12.0dip" android:layout_weight="1.0" />
+            <View android:layout_gravity="right" android:background="@drawable/av_list_divider" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        </LinearLayout>
+        <View android:background="@drawable/av_list_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:background="@drawable/av_list_divider" android:layout_width="1.0px" android:layout_height="fill_parent" />
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip">
+                <TextView android:textAppearance="@style/TextAppearance.Medium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/AV_VirusDetail1" />
+                <TextView android:textAppearance="@style/TextAppearance.Medium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/AV_VirusDetail2" />
+            </LinearLayout>
+            <View android:background="@drawable/av_list_divider" android:layout_width="1.0px" android:layout_height="fill_parent" />
+            <TextView android:textAppearance="@style/TextAppearance.Medium" android:ellipsize="end" android:layout_gravity="center" android:id="@id/detail" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="12.0dip" android:layout_weight="1.0" />
+            <View android:layout_gravity="right" android:background="@drawable/av_list_divider" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        </LinearLayout>
+        <View android:background="@drawable/av_list_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    </LinearLayout>
+</LinearLayout>

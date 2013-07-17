@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:lbesec="http://schemas.android.com/apk/res/com.lbe.security">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/page_padding">
+        <ImageView android:id="@id/image" android:layout_width="38.0dip" android:layout_height="wrap_content" android:src="@drawable/icon_battery_health" />
+        <TextView android:textAppearance="@style/TextAppearance" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/Battery_AvailableTime_CurrentBattery" android:layout_weight="1.0" />
+        <TextView android:textAppearance="@style/TextAppearance" android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

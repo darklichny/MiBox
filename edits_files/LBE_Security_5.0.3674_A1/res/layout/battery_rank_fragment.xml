@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment android:name="com.lbe.security.ui.batterymanager.ConsumeHardwareFragment" android:id="@id/battery_consume_hardware" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <fragment android:name="com.lbe.security.ui.batterymanager.ConsumeSoftwareFragment" android:id="@id/battery_consume_software" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lbe.security.ui.widgets.IcsSpinner android:id="@id/type_spinner" android:background="@drawable/spinner_bg_selector" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/indicator_height" android:dropDownSelector="@drawable/list_selector_background" android:prompt="@string/SoftMgr_Order" android:spinnerMode="dialog" />
+    <com.lbe.security.ui.widgets.ListViewEx android:id="@id/listviewex" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

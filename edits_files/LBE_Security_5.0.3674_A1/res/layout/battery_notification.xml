@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/frameLayout1" android:paddingLeft="3.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="center" android:id="@id/linearLayout1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/notif_icon_left" />
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/notif_level_bg" />
+                <ImageView android:layout_gravity="left" android:id="@id/level" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textColor="@color/window_background_dark_transparent" android:layout_gravity="center" android:id="@id/percent" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </FrameLayout>
+            <ImageView android:paddingRight="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/notif_icon_right" />
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:paddingLeft="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/TextAppearance.Medium" android:textColor="@color/primary_text" android:ellipsize="marquee" android:id="@id/status" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+        <TextView android:textAppearance="@style/TextAppearance.Small" android:textColor="@color/primary_text" android:ellipsize="marquee" android:id="@id/status2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+    </LinearLayout>
+</LinearLayout>

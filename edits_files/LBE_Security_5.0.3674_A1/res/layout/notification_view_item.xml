@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/notification_cover" android:background="@drawable/list_selector_background4" android:layout_width="fill_parent" android:layout_height="64.0dip">
+        <FrameLayout android:id="@id/notification_content" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="64.0dip" />
+        <View android:id="@id/notification_block_mask" android:background="#80ffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="64.0dip" />
+        <ImageView android:id="@id/notification_blocked" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/blocked" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <include layout="@layout/notification_list_action" />
+</LinearLayout>

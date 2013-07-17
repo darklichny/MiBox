@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/adv" android:background="@drawable/appconfig_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="-8.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="13.0dip" android:layout_below="@id/top">
+        <com.lbe.security.ui.widgets.ListViewEx android:id="@id/advviewex" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/appcfg_gradient_blue_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/list_content" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_weight="1.0">
+                <ImageView android:id="@id/list_image" android:layout_width="48.0dip" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/icon" android:scaleType="fitCenter" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginBottom="3.0dip" android:layout_weight="1.0">
+                    <TextView android:textAppearance="@style/TextAppearance.Medium.Inverse" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/appname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name" android:singleLine="true" />
+                    <TextView android:textAppearance="@style/TextAppearance.Small.Inverse" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/appversion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name" android:singleLine="true" />
+                    <TextView android:textAppearance="@style/TextAppearance.Small.Inverse" android:textColor="#ffa6e9ff" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/trustext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name" android:singleLine="true" />
+                </LinearLayout>
+            </LinearLayout>
+            <CheckBox android:layout_gravity="center_vertical" android:id="@id/trustswitch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:button="@drawable/check_switch" android:minWidth="56.0dip" />
+        </LinearLayout>
+        <View android:background="@drawable/appconfig__bg" android:layout_width="fill_parent" android:layout_height="18.0dip" />
+    </LinearLayout>
+</RelativeLayout>

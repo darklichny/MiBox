@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="preferencescreen"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:layout="@layout/widget_preference" android:title="@string/Battery_Mode_ScreenPreference" android:key="battery_mode_switch_bright" android:summary="@string/Pref_Saving_Screen_Summary" />
+    <com.lbe.security.ui.batterymanager.ButtonPreference android:title="@string/Battery_Mode_BatteryModeNameNull" android:key="battery_modesettings_name" android:summary="@string/Battery_Mode_BatteryModeName" />
+    <com.lbe.security.ui.batterymanager.ButtonPreference android:title="@string/Battery_Mode_BatteryModeTipsNull" android:key="battery_modesettings_tips" android:summary="@string/Battery_Mode_BatteryModeTips" />
+    <CheckBoxPreference android:title="@string/Battery_Mode_BatteryCheckBoxWifi" android:key="battery_mode_switch_wifi" android:defaultValue="false" android:summaryOn="@string/Generic_Enable" android:summaryOff="@string/Generic_Disable" />
+    <CheckBoxPreference android:title="@string/Battery_Mode_BatteryCheckBoxVibration" android:key="battery_mode_switch_haptic" android:defaultValue="false" android:summaryOn="@string/Generic_Enable" android:summaryOff="@string/Generic_Disable" />
+    <CheckBoxPreference android:title="@string/Battery_Mode_BatteryCheckBoxBluetooth" android:key="battery_mode_switch_bt" android:defaultValue="false" android:summaryOn="@string/Generic_Enable" android:summaryOff="@string/Generic_Disable" />
+    <CheckBoxPreference android:title="@string/Battery_Mode_BatteryCheckBoxAutoData" android:key="battery_mode_switch_data" android:defaultValue="false" android:summaryOn="@string/Generic_Enable" android:summaryOff="@string/Generic_Disable" />
+    <CheckBoxPreference android:title="@string/Battery_Mode_BatteryCheckBoxAir" android:key="battery_mode_switch_airplean" android:defaultValue="false" android:summaryOn="@string/Generic_Enable" android:summaryOff="@string/Generic_Disable" />
+    <CheckBoxPreference android:title="@string/Battery_Mode_BatteryCheckBoxSync" android:key="battery_mode_switch_sync" android:defaultValue="false" android:summaryOn="@string/Generic_Enable" android:summaryOff="@string/Generic_Disable" />
+</PreferenceScreen>

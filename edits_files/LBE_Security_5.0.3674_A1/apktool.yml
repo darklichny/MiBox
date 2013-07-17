@@ -1,0 +1,13 @@
+version: 1.5.3.f3e50fbc56
+apkFileName: LBE_Security_5.0.3674_A1.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '5'
+  targetSdkVersion: '14'
+packageInfo:
+  cur_package: com.lbe.security
+  orig_package: com.lbe.security
+compressionType: true

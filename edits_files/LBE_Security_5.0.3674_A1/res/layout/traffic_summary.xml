@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="265.0dip">
+            <LinearLayout android:orientation="vertical" android:id="@id/fragment_graph_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <TextView android:textAppearance="@style/TextAppearance" android:gravity="center" android:id="@id/mobile2wifi" android:background="@drawable/traffic_btn_right" android:layout_width="84.0dip" android:layout_height="32.0dip" android:layout_marginTop="8.0dip" android:text="@string/Traffic_WIFI" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+            <TextView android:textAppearance="@style/TextAppearance" android:gravity="center" android:id="@id/traffic_action" android:background="@drawable/traffic_btn_left" android:layout_width="84.0dip" android:layout_height="32.0dip" android:layout_marginTop="8.0dip" android:text="@string/Traffic_DataPlan_Set" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        </RelativeLayout>
+        <View android:background="@drawable/two_pixs_divider" android:layout_width="fill_parent" android:layout_height="2.0px" />
+        <com.lbe.security.ui.widgets.DisScrollListView android:id="@id/info_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/list_foreground_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/titleview" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.lbe.security.ui.widgets.EntryScrollView android:id="@id/entry" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

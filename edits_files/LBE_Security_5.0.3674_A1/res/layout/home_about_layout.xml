@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.lbe.security.ui.widgets.DisScrollListView android:id="@id/home_about_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="32.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="16.0dip" android:listSelector="@*android:color/transparent" android:cacheColorHint="@*android:color/transparent" android:divider="@null" android:dividerHeight="0.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="16.0dip">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/about_attention_us" android:background="@drawable/round_item_first_selector" android:layout_width="fill_parent" android:layout_height="48.0dip">
+                <ImageView android:background="@drawable/ic_sina_weibo" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginLeft="8.0dip" />
+                <TextView android:gravity="left|center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:text="@string/attention_sina_weibo" android:drawableRight="@drawable/ic_arrows_right" style="@style/TextAppearance.Medium" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/about_visit_website" android:background="@drawable/round_item_last_selector" android:layout_width="fill_parent" android:layout_height="48.0dip">
+                <ImageView android:background="@drawable/icon" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginLeft="8.0dip" />
+                <TextView android:gravity="left|center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:text="@string/visit_website" android:drawableRight="@drawable/ic_arrows_right" style="@style/TextAppearance.Medium" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:gravity="bottom|center" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="16.0dip" android:text="@string/copyright" style="@style/TextAppearance.Small" />
+    </LinearLayout>
+</ScrollView>

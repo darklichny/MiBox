@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/page_padding" android:paddingTop="14.0dip" android:paddingRight="@dimen/page_padding" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/TextAppearance.Medium" android:id="@id/traffic_mobile_desc" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <Button android:id="@id/traffic_dataplan_set" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="36.0dip" android:minWidth="110.0dip" android:text="@string/Traffic_DataPlan_Set" />
+        </LinearLayout>
+        <View android:background="@drawable/list_divider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textAppearance="@style/TextAppearance" android:ellipsize="end" android:id="@id/traffic_mobile_used" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+                <TextView android:textAppearance="@style/TextAppearance" android:ellipsize="end" android:id="@id/traffic_mobile_remain" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+            </LinearLayout>
+            <Button android:id="@id/traffic_calibrate" android:layout_width="wrap_content" android:layout_height="36.0dip" android:minWidth="110.0dip" android:text="@string/Traffic_Calibrate" style="@style/Button.Green" />
+        </LinearLayout>
+        <LinearLayout android:background="#fff9f9f9" android:padding="@dimen/page_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/page_padding">
+            <com.lbe.security.ui.widgets.TrafficGraph android:id="@id/traffic_mobilegraph" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

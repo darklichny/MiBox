@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/window_background" android:padding="@dimen/page_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance.Medium" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/page_padding" android:text="@string/Home_Feedback_Title" />
+    <EditText android:gravity="top" android:id="@id/EditText" android:paddingTop="@dimen/page_padding" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

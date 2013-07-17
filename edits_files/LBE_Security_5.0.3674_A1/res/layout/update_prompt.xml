@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/page_padding" android:paddingTop="25.0dip" android:paddingRight="@dimen/page_padding" android:paddingBottom="25.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:lbesec="http://schemas.android.com/apk/res/com.lbe.security">
+    <TextView android:textColor="@color/primary_text" android:id="@id/status" android:paddingBottom="@dimen/page_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/TextAppearance.Medium" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="18.0dip">
+        <ProgressBar android:id="@id/progress" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Widget.ProgressBar.Horizontal" />
+        <TextView android:textSize="13.0sp" android:gravity="center" android:id="@id/speed" android:background="@null" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Button" />
+    </FrameLayout>
+</LinearLayout>

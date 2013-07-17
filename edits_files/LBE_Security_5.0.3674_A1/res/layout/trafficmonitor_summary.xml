@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:orientation="horizontal" android:id="@id/traffic_summary" android:background="@color/secondary_tab_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RadioButton android:id="@id/traffic_summary_mobile" android:layout_width="0.0dip" android:layout_height="wrap_content" android:checked="true" android:text="@string/Traffic_Mobile" android:layout_weight="1.0" style="@style/Widget.CompoundButton.RadioButton.SecondaryTab" />
+        <RadioButton android:id="@id/traffic_summary_wifi" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/Traffic_WIFI" android:layout_weight="1.0" style="@style/Widget.CompoundButton.RadioButton.SecondaryTab" />
+    </RadioGroup>
+    <android.support.v4.view.ViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

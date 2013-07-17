@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="preferencescreen"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:layout="@layout/widget_preference" android:title="@string/Battery_NigthSaving_NightSaveMode" android:key="battery_scene_night" />
+    <Preference android:layout="@layout/widget_preference" android:title="@string/Battery_Scene_Lowpower" android:key="battery_scene_lowpower" />
+    <CheckBoxPreference android:title="@string/Battery_Settings_ScreenOffKillTask" android:key="battery_screenoffkilltask" android:summaryOn="@string/Generic_Enable" android:summaryOff="@string/Generic_Disable" />
+    <ListPreference android:entries="@array/battery_scene_killtask_interval" android:title="@string/Battery_Settings_ScreenOffKillTaskTitle" android:key="battery_screenoffkilltask_interval" android:defaultValue="5" android:dialogTitle="@string/Battery_Settings_ScreenOffKillTaskTitle" android:positiveButtonText="@*android:string/cancel" android:entryValues="@array/battery_scene_killtask_interval_values" />
+    <CheckBoxPreference android:title="@string/Battery_Settings_CPUFrequency" android:key="battery_cpufrequency" android:summaryOn="@string/Generic_Enable" android:summaryOff="@string/Generic_Disable" />
+    <CheckBoxPreference android:title="@string/Battery_Settings_FullPromptRing" android:key="battery_fullpromptring" android:summary="@string/Battery_Settings_FullPromptRingSummary" />
+</PreferenceScreen>

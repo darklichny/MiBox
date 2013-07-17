@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffe3e3e3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:scrollbarAlwaysDrawVerticalTrack="true" android:scrollbarStyle="insideInset" android:id="@id/private_msg_list" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="1.0dip" android:drawSelectorOnTop="true" android:stackFromBottom="true" android:transcriptMode="alwaysScroll" android:divider="#ff9cfc00" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:background="#fff4f4f4" android:paddingLeft="5.0dip" android:paddingTop="5.0dip" android:paddingRight="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:id="@id/mms_content" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:hint="@string/private_input_msgcontent" android:maxLines="4" android:layout_weight="1.0" />
+        <LinearLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:id="@id/reply_msg_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/private_reply" style="@style/Button.Small.Blue" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

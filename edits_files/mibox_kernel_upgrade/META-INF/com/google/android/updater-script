@@ -1,0 +1,36 @@
+show_progress(0.500000, 0);
+mount("ext4", "EMMC", "/dev/block/mmcblk0p14", "/system");
+package_extract_dir("system", "/system");
+set_perm(0, 0, 0755, "/system/bin/fix_permissions");
+unmount("/system");
+assert(package_extract_file("boot.img", "/cache/boot.img"),
+       write_raw_image("/cache/boot.img", "/dev/block/mmcblk0p7"),
+       delete("/cache/boot.img"));
+show_progress(0.100000, 0);
+ui_print("");
+ui_print("");
+ui_print("  ______  _ ______             ");
+ui_print(" |  ___ \(_|____  \            ");
+ui_print(" | | _ | |_ ____)  ) ___ _   _ ");
+ui_print(" | || || | |  __  ( / _ ( \ / )");
+ui_print(" | || || | | |__)  ) |_| ) X ( ");
+ui_print(" |_||_||_|_|______/ \___(_/ \_)");
+ui_print(" _    _                        _ ");
+ui_print("| |  / )                      | |");
+ui_print("| | / / ____  ____ ____   ____| |");
+ui_print("| |< < / _  )/ ___)  _ \ / _  ) |");
+ui_print("| | \ ( (/ /| |   | | | ( (/ /| |");
+ui_print("|_|  \_)____)_|   |_| |_|\____)_|");
+ui_print("*********************************");
+ui_print("    Bleeding Edge/Linaro 4.7");
+ui_print("*********************************");
+set_perm(0, 0, 0755, "/system/media/bootanimation.zip");
+ui_print("");
+ui_print("");
+ui_print("Kernel successfully updated.");
+ui_print("Please reboot now.");
+ui_print("");
+ui_print("");
+ui_print("");
+ui_print("");
+ui_print("");

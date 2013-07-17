@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LBESEC_Theme" parent="@*android:style/Theme.Holo.Light">
+        <item name="android:colorForeground">#ff272727</item>
+        <item name="android:colorBackground">#ffededed</item>
+        <item name="android:textAppearance">@style/TextAppearance</item>
+        <item name="android:textColorPrimary">@color/primary_text</item>
+        <item name="android:textColorSecondary">@color/secondary_text</item>
+        <item name="android:textAppearanceLarge">@style/TextAppearance.Large</item>
+        <item name="android:textAppearanceMedium">@style/TextAppearance.Medium</item>
+        <item name="android:textAppearanceSmall">@style/TextAppearance.Small</item>
+        <item name="android:textAppearanceLargeInverse">@style/TextAppearance.Large.Inverse</item>
+        <item name="android:textCheckMark">@drawable/check_correct_rect</item>
+        <item name="android:buttonStyle">@style/Button</item>
+        <item name="android:buttonStyleToggle">@style/Widget.Button.Toggle</item>
+        <item name="android:listPreferredItemHeight">64.0dip</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:alertDialogStyle">@style/AlertDialog</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scrollbar</item>
+        <item name="android:checkboxStyle">@style/CompoundButton.CheckBox</item>
+        <item name="android:editTextStyle">@style/EditText</item>
+        <item name="android:listViewStyle">@style/ListView</item>
+        <item name="android:listViewWhiteStyle">@style/ListView</item>
+        <item name="android:progressBarStyle">@style/Widget.ProgressBar</item>
+        <item name="android:radioButtonStyle">@style/Widget.CompoundButton.RadioButton</item>
+        <item name="android:preferenceScreenStyle">@style/Preference.PreferenceScreen</item>
+        <item name="android:preferenceCategoryStyle">@style/Preference.Category</item>
+        <item name="android:preferenceInformationStyle">@style/Preference.Information</item>
+        <item name="android:preferenceStyle">@style/Preference</item>
+        <item name="android:checkBoxPreferenceStyle">@style/Preference.CheckBoxPreference</item>
+        <item name="android:yesNoPreferenceStyle">@style/Preference.DialogPreference.YesNoPreference</item>
+        <item name="android:dialogPreferenceStyle">@style/Preference.DialogPreference</item>
+        <item name="android:preferenceLayoutChild">@layout/widget_preference_child</item>
+        <item name="android:windowAnimationStyle">@style/ActivityAnimation</item>
+        <item name="android:dividerHeight">2.0px</item>
+        <item name="android:colorForegroundInverse">#ffffffff</item>
+        <item name="android:textAppearanceButton">@style/TextAppearance.Widget.Button</item>
+        <item name="android:listSeparatorTextViewStyle">@style/TextView.ListSeparator</item>
+        <item name="android:textColorTertiary">@color/secondary_text</item>
+        <item name="android:listDivider">@drawable/list_divider</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/radio</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/check_correct_rect</item>
+        <item name="alertDialogStyle">@style/AlertDialog</item>
+    </style>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/liner0" android:background="@drawable/list_selector_background" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight">
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textAppearance="@style/TextAppearance" android:gravity="center_vertical" android:id="@id/title0" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:text="@string/Phone_Block_Type_Norm" android:layout_weight="1.0" />
+                    <TextView android:textColor="@color/secondary_text" android:gravity="center_vertical" android:id="@id/content0" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:text="@string/Phone_Block_Type_Norm_Content" android:layout_weight="1.0" style="@style/TextAppearance.Small" />
+                </LinearLayout>
+                <ImageView android:id="@id/select0" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:src="@drawable/btn_radio_default" android:scaleType="center" />
+            </LinearLayout>
+            <View android:background="@drawable/list_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/liner1" android:background="@drawable/list_selector_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight">
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textAppearance="@style/TextAppearance" android:gravity="center_vertical" android:id="@id/title1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:text="@string/Phone_Block_Type_Black" android:layout_weight="1.0" />
+                    <TextView android:textColor="@color/secondary_text" android:gravity="center_vertical" android:id="@id/content1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:text="@string/Phone_Block_Type_Black_Content" android:layout_weight="1.0" style="@style/TextAppearance.Small" />
+                </LinearLayout>
+                <ImageView android:id="@id/select1" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:src="@drawable/btn_radio_default" android:scaleType="center" />
+            </LinearLayout>
+            <View android:background="@drawable/list_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/liner2" android:background="@drawable/list_selector_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight">
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textAppearance="@style/TextAppearance" android:gravity="center_vertical" android:id="@id/title2" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:text="@string/Phone_Block_Type_White" android:layout_weight="1.0" />
+                    <TextView android:textColor="@color/secondary_text" android:gravity="center_vertical" android:id="@id/content2" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:text="@string/Phone_Block_Type_White_Content" android:layout_weight="1.0" style="@style/TextAppearance.Small" />
+                </LinearLayout>
+                <ImageView android:id="@id/select2" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:src="@drawable/btn_radio_default" android:scaleType="center" />
+            </LinearLayout>
+            <View android:background="@drawable/list_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/liner3" android:background="@drawable/list_selector_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight">
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textAppearance="@style/TextAppearance" android:gravity="center_vertical" android:id="@id/title3" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:text="@string/Phone_Block_Type_ALlReject" android:layout_weight="1.0" />
+                    <TextView android:textColor="@color/secondary_text" android:gravity="center_vertical" android:id="@id/content3" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:text="@string/Phone_Block_Type_ALlReject_Content" android:layout_weight="1.0" style="@style/TextAppearance.Small" />
+                </LinearLayout>
+                <ImageView android:id="@id/select3" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:src="@drawable/btn_radio_default" android:scaleType="center" />
+            </LinearLayout>
+            <View android:background="@drawable/list_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/liner4" android:background="@drawable/list_selector_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight">
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textAppearance="@style/TextAppearance" android:gravity="center_vertical" android:id="@id/title4" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:text="@string/Phone_Block_Type_AllAllow" android:layout_weight="1.0" />
+                    <TextView android:textColor="@color/secondary_text" android:gravity="center_vertical" android:id="@id/content4" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:text="@string/Phone_Block_Type_AllAllow_Content" android:layout_weight="1.0" style="@style/TextAppearance.Small" />
+                </LinearLayout>
+                <ImageView android:id="@id/select4" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:src="@drawable/btn_radio_default" android:scaleType="center" />
+            </LinearLayout>
+            <View android:background="@drawable/list_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/liner5" android:background="@drawable/list_selector_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight">
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textAppearance="@style/TextAppearance" android:gravity="center_vertical" android:id="@id/title5" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:text="@string/Phone_Block_Type_Contact" android:layout_weight="1.0" />
+                    <TextView android:textColor="@color/secondary_text" android:gravity="center_vertical" android:id="@id/content5" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:text="@string/Phone_Block_Type_Contact_Content" android:layout_weight="1.0" style="@style/TextAppearance.Small" />
+                </LinearLayout>
+                <ImageView android:id="@id/select5" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:src="@drawable/btn_radio_default" android:scaleType="center" />
+            </LinearLayout>
+            <View android:background="@drawable/list_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/liner6" android:background="@drawable/list_selector_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight">
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textAppearance="@style/TextAppearance" android:gravity="center_vertical" android:id="@id/title6" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginRight="15.0dip" android:text="@string/Phone_Block_Type_ContactAndWhite" android:layout_weight="1.0" />
+                    <TextView android:textColor="@color/secondary_text" android:gravity="center_vertical" android:id="@id/content6" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:text="@string/Phone_Block_Type_ContactAndWhite_Content" android:layout_weight="1.0" style="@style/TextAppearance.Small" />
+                </LinearLayout>
+                <ImageView android:id="@id/select6" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:src="@drawable/btn_radio_default" android:scaleType="center" />
+            </LinearLayout>
+            <View android:background="@drawable/list_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/liner7" android:background="@drawable/list_selector_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight">
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textAppearance="@style/TextAppearance" android:gravity="center_vertical" android:id="@id/title7" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginRight="15.0dip" android:text="@string/Phone_Block_Type_UserDefine" android:layout_weight="1.0" />
+                    <TextView android:textColor="@color/secondary_text" android:gravity="center_vertical" android:id="@id/content7" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:text="@string/Phone_Block_Type_UserDefine_Content" android:layout_weight="1.0" style="@style/TextAppearance.Small" />
+                </LinearLayout>
+                <ImageView android:id="@id/select7" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:src="@drawable/btn_radio_default" android:scaleType="center" />
+            </LinearLayout>
+            <View android:background="@drawable/list_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/liner8" android:background="@drawable/list_selector_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight">
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textAppearance="@style/TextAppearance" android:gravity="center_vertical" android:id="@id/title8" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:text="@string/Phone_Block_Type_UserDefine_Edit" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

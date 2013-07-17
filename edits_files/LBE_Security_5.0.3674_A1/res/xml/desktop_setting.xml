@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="preferencescreen"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/Pref_Shortcut_Settings">
+        <Preference android:layout="@layout/widget_preference_widget_button" android:title="@string/Pref_Shortcut_Settings" android:key="Shortcut_Settings" android:summary="@string/Desktop_Float_Window_Settings_Desc" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/Pref_Main_Cat_Password">
+        <CheckBoxPreference android:title="@string/Pref_Main_Password" android:key="use_password" android:defaultValue="false" android:summaryOn="@string/Generic_Summary_Enabled" android:summaryOff="@string/Generic_Summary_Disabled" />
+        <Preference android:layout="@layout/widget_preference" android:title="@string/Pref_Main_Password_Config" android:key="password" android:dependency="use_password" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/Pref_Clear_Task">
+        <Preference android:layout="@layout/widget_preference_widget_button" android:title="@string/Pref_Clear_Task_WhiteList" android:key="clear_task_whiteList" android:summary="@string/Pref_Clear_Ingore_Desc" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_layout" android:title="@string/Pref_Battery_Saver">
+        <CheckBoxPreference android:title="@string/Battery_Settings_NotificationTitle" android:key="battery_notification" android:summaryOn="@string/Generic_Summary_Enabled" android:summaryOff="@string/Generic_Summary_Disabled" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/Pref_Main_Cat_System">
+        <CheckBoxPreference android:title="@string/Pref_Main_AnonymousReport" android:key="enable_anonymous_report" android:defaultValue="true" android:summaryOn="@string/Generic_Summary_Enabled" android:summaryOff="@string/Generic_Summary_Disabled" />
+        <CheckBoxPreference android:title="@string/Pref_Main_ErrorReport" android:key="send_error_report" android:defaultValue="true" android:summaryOn="@string/Generic_Summary_Enabled" android:summaryOff="@string/Generic_Summary_Disabled" />
+        <CheckBoxPreference android:title="@string/Pref_Main_Notification" android:key="enable_notification" android:defaultValue="true" android:summaryOn="@string/Generic_Summary_Enabled" android:summaryOff="@string/Generic_Summary_Disabled" />
+        <CheckBoxPreference android:title="@string/Pref_Main_AutoStart" android:key="enable_auto_start" android:defaultValue="true" android:summaryOn="@string/Generic_Summary_Enabled" android:summaryOff="@string/Generic_Summary_Disabled" />
+    </PreferenceCategory>
+</PreferenceScreen>

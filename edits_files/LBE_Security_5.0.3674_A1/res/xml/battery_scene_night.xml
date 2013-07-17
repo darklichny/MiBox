@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="preferencescreen"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/Battery_NightSavingMode" android:key="battery_night_enable" android:defaultValue="false" android:summaryOn="@string/Generic_Summary_Enabled" android:summaryOff="@string/Generic_Summary_Disabled" />
+    <PreferenceCategory android:title="@string/Pref_NightSaving_Cat_Config">
+        <Preference android:layout="@layout/widget_preference" android:title="@string/Battery_NigthSaving_NightSaveMode_Setting" android:key="battery_night_mode_preference" />
+        <Preference android:layout="@layout/widget_preference" android:title="@string/Pref_NightSaving_BeginTime" android:key="battery_night_begin" />
+        <Preference android:layout="@layout/widget_preference" android:title="@string/Pref_NightSaving_EndTime" android:key="battery_night_end" />
+        <Preference android:layout="@layout/widget_preference" android:title="@string/Battery_NightSaving_ResumeMode" android:key="battery_night_restore" />
+        <Preference android:layout="@layout/widget_preference" android:title="@string/Battery_Scene_Repeat" android:key="battery_night_daysofweek" />
+    </PreferenceCategory>
+</PreferenceScreen>

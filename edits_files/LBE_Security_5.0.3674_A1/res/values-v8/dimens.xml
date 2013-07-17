@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="checkup_padding">52.0dip</dimen>
+    <dimen name="checkup_result_score_right">10.0dip</dimen>
+    <dimen name="checkup_result_score_top">6.0dip</dimen>
+</resources>

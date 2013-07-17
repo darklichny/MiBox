@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/guide_page_bg_shape" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v4.view.ViewPager android:id="@id/guide_container" android:paddingTop="16.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <com.lbe.security.ui.widgets.PageIndicator android:id="@id/gudie_page_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <TextView android:gravity="center" android:id="@id/guide_btn_enter" android:background="@drawable/guide_page_btn_enter_selector" android:visibility="gone" android:layout_width="200.0dip" android:layout_height="43.0dip" android:text="@string/begin_use" android:singleLine="true" style="@style/TextAppearance.Medium.Inverse" />
+    </LinearLayout>
+</LinearLayout>

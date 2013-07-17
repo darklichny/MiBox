@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:maxLevel="0">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_low" />
+            <item android:drawable="@drawable/battery_digit_0" android:left="10.0dip" android:top="8.0dip" android:right="12.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="1">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_low" />
+            <item android:drawable="@drawable/battery_digit_1" android:left="10.0dip" android:top="8.0dip" android:right="12.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="2">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_low" />
+            <item android:drawable="@drawable/battery_digit_2" android:left="10.0dip" android:top="8.0dip" android:right="12.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="3">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_low" />
+            <item android:drawable="@drawable/battery_digit_3" android:left="10.0dip" android:top="8.0dip" android:right="12.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="4">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_low" />
+            <item android:drawable="@drawable/battery_digit_4" android:left="10.0dip" android:top="8.0dip" android:right="12.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="5">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_low" />
+            <item android:drawable="@drawable/battery_digit_5" android:left="10.0dip" android:top="8.0dip" android:right="12.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="6">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_low" />
+            <item android:drawable="@drawable/battery_digit_6" android:left="10.0dip" android:top="8.0dip" android:right="12.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="7">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_low" />
+            <item android:drawable="@drawable/battery_digit_7" android:left="10.0dip" android:top="8.0dip" android:right="12.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="8">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_low" />
+            <item android:drawable="@drawable/battery_digit_8" android:left="10.0dip" android:top="8.0dip" android:right="12.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="9">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_low" />
+            <item android:drawable="@drawable/battery_digit_9" android:left="10.0dip" android:top="8.0dip" android:right="12.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="10">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_low" />
+            <item android:drawable="@drawable/battery_digit_1" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_0" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="11">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_low" />
+            <item android:drawable="@drawable/battery_digit_1" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_1" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="12">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_low" />
+            <item android:drawable="@drawable/battery_digit_1" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_2" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="13">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_low" />
+            <item android:drawable="@drawable/battery_digit_1" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_3" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="14">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_low" />
+            <item android:drawable="@drawable/battery_digit_1" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_4" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="15">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_low" />
+            <item android:drawable="@drawable/battery_digit_1" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_5" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="16">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_low" />
+            <item android:drawable="@drawable/battery_digit_1" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_6" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="17">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_low" />
+            <item android:drawable="@drawable/battery_digit_1" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_7" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="18">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_low" />
+            <item android:drawable="@drawable/battery_digit_1" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_8" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="19">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_low" />
+            <item android:drawable="@drawable/battery_digit_1" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_9" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="20">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_low" />
+            <item android:drawable="@drawable/battery_digit_2" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_0" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="21">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_low" />
+            <item android:drawable="@drawable/battery_digit_2" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_1" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="22">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_low" />
+            <item android:drawable="@drawable/battery_digit_2" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_2" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="23">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_low" />
+            <item android:drawable="@drawable/battery_digit_2" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_3" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="24">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_low" />
+            <item android:drawable="@drawable/battery_digit_2" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_4" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="25">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_low" />
+            <item android:drawable="@drawable/battery_digit_2" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_5" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="26">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_low" />
+            <item android:drawable="@drawable/battery_digit_2" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_6" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="27">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_low" />
+            <item android:drawable="@drawable/battery_digit_2" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_7" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="28">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_low" />
+            <item android:drawable="@drawable/battery_digit_2" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_8" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="29">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_low" />
+            <item android:drawable="@drawable/battery_digit_2" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_9" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="30">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_low" />
+            <item android:drawable="@drawable/battery_digit_3" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_0" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="31">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_mid" />
+            <item android:drawable="@drawable/battery_digit_3" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_1" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="32">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_mid" />
+            <item android:drawable="@drawable/battery_digit_3" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_2" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="33">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_mid" />
+            <item android:drawable="@drawable/battery_digit_3" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_3" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="34">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_mid" />
+            <item android:drawable="@drawable/battery_digit_3" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_4" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="35">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_mid" />
+            <item android:drawable="@drawable/battery_digit_3" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_5" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="36">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_mid" />
+            <item android:drawable="@drawable/battery_digit_3" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_6" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="37">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_mid" />
+            <item android:drawable="@drawable/battery_digit_3" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_7" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="38">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_mid" />
+            <item android:drawable="@drawable/battery_digit_3" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_8" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="39">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_mid" />
+            <item android:drawable="@drawable/battery_digit_3" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_9" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="40">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_mid" />
+            <item android:drawable="@drawable/battery_digit_4" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_0" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="41">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_4" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_1" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="42">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_4" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_2" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="43">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_4" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_3" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="44">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_4" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_4" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="45">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_4" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_5" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="46">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_4" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_6" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="47">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_4" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_7" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="48">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_4" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_8" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="49">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_4" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_9" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="50">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_5" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_0" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="51">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_5" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_1" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="52">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_5" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_2" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="53">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_5" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_3" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="54">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_5" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_4" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="55">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_5" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_5" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="56">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_5" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_6" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="57">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_5" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_7" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="58">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_5" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_8" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="59">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_5" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_9" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="60">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_6" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_0" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="61">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_6" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_1" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="62">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_6" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_2" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="63">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_6" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_3" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="64">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_6" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_4" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="65">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_6" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_5" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="66">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_6" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_6" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="67">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_6" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_7" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="68">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_6" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_8" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="69">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_6" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_9" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="70">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_7" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_0" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="71">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_7" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_1" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="72">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_7" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_2" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="73">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_7" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_3" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="74">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_7" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_4" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="75">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_7" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_5" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="76">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_7" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_6" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="77">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_7" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_7" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="78">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_7" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_8" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="79">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_7" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_9" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="80">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_8" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_0" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="81">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_8" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_1" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="82">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_8" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_2" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="83">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_8" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_3" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="84">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_8" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_4" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="85">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_8" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_5" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="86">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_8" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_6" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="87">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_8" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_7" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="88">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_8" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_8" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="89">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_8" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_9" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="90">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_9" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_0" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="91">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_9" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_1" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="92">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_9" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_2" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="93">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_9" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_3" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="94">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_9" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_4" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="95">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_9" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_5" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="96">
+        <layer-list android:maxLevel="96">
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_9" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_6" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="97">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_9" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_7" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="98">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_9" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_8" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="99">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_9" android:left="7.0dip" android:top="8.0dip" android:right="15.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_9" android:left="14.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+    <item android:maxLevel="100">
+        <layer-list>
+            <item android:drawable="@drawable/battery_statusbar_high" />
+            <item android:drawable="@drawable/battery_digit_1" android:left="4.0dip" android:top="8.0dip" android:right="18.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_0" android:left="10.0dip" android:top="8.0dip" android:right="12.0dip" android:bottom="8.0dip" />
+            <item android:drawable="@drawable/battery_digit_0" android:left="16.0dip" android:top="8.0dip" android:right="6.0dip" android:bottom="8.0dip" />
+        </layer-list>
+    </item>
+</level-list>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="15.0dip" android:paddingTop="15.0dip" android:paddingRight="15.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:lbesec="http://schemas.android.com/apk/res/com.lbe.security">
+    <LinearLayout android:gravity="top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/event_icon" android:layout_width="32.0dip" android:layout_height="32.0dip" android:scaleType="fitCenter" />
+        <TextView android:textColor="@color/primary_text" android:id="@id/event_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_weight="1.0" style="@style/TextAppearance.Medium" />
+    </LinearLayout>
+    <TextView android:textColor="@color/secondary_text" android:id="@id/event_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="42.0dip" android:layout_marginTop="25.0dip" android:lineSpacingExtra="10.0sp" style="@style/TextAppearance" />
+    <CheckBox android:textColor="@color/primary_text" android:id="@id/event_remember" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip" android:text="@string/HIPS_SecurityPrompt_Remember" style="@style/CompoundButton.CheckBox.Toggle" />
+    <ProgressBar android:id="@id/event_countdown" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:max="200" android:progress="0" style="@style/Widget.ProgressBar.Horizontal" />
+</LinearLayout>

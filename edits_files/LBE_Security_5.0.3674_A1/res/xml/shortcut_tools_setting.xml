@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="preferencescreen"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/Pref_Main_Cat_Shortcut">
+        <Preference android:layout="@layout/widget_preference" android:title="@string/Pref_Main_CleanShortcut" android:key="Create_CleanShortcut" android:summary="@string/Pref_Main_CleanShortcut_Summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/Desktop_Float_Window_Settings">
+        <CheckBoxPreference android:title="@string/Desktop_Float_Window_Enable" android:key="shortcut_entry_enable" android:defaultValue="true" android:summaryOn="@string/Generic_Summary_Enabled" android:summaryOff="@string/Generic_Summary_Disabled" />
+        <CheckBoxPreference android:title="@string/Desktop_Float_Window_Show_Just_When_Desktop" android:key="shortcut_entry_just_show_when_desktop" android:dependency="shortcut_entry_enable" android:defaultValue="true" android:summaryOn="@string/Generic_Summary_Enabled" android:summaryOff="@string/Generic_Summary_Disabled" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_layout" android:title="@string/Pref_LBE_Shortcut">
+        <Preference android:layout="@layout/widget_preference" android:title="@string/Desktop_Homekey_Launch" android:key="home_launch_task_manager" />
+        <Preference android:layout="@layout/widget_preference" android:title="@string/Desktop_Homekey_Launch_Disable" android:key="home_launch_task_manager_disable" />
+        <Preference android:layout="@layout/widget_preference" android:title="@string/Desktop_Longsearch_Launch" android:key="search_long_task_manager" />
+        <Preference android:layout="@layout/widget_preference" android:title="@string/Pref_Shortcut_Preferred_Launcher" android:key="default_home_launcher" />
+        <CheckBoxPreference android:title="@string/Pref_Shortcut_Notification" android:key="notification_to_shortcut" android:defaultValue="false" android:summaryOn="@string/Generic_Summary_Enabled" android:summaryOff="@string/Generic_Summary_Disabled" />
+    </PreferenceCategory>
+</PreferenceScreen>

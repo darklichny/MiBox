@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="trafficsettingScreen"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/Pref_Main_Traffic_Service" android:key="enable_traffic_monitor" android:defaultValue="true" android:summaryOn="@string/Generic_Service_Enabled" android:summaryOff="@string/Generic_Service_Disabled" />
+    <PreferenceCategory android:title="@string/Pref_Main_Traffic_Service" />
+    <Preference android:layout="@layout/widget_preference" android:title="@string/Pref_Traffic_Operator_Setting" android:key="operator_setting" android:dependency="enable_traffic_monitor" />
+    <Preference android:layout="@layout/widget_preference" android:title="@string/Pref_Traffic_DataPlan" android:key="TrafficDataPlan" android:summary="@string/Traffic_Monitor_DataPlan_Unlimited" android:dependency="enable_traffic_monitor" />
+    <ListPreference android:entries="@array/trafficBillingDay" android:title="@string/Pref_Traffic_BillingDay" android:key="TrafficBillingDay" android:summary="@string/Pref_Traffic_BillingDay_Summary" android:dependency="enable_traffic_monitor" android:defaultValue="1" android:dialogTitle="@string/Pref_Traffic_BillingDay" android:entryValues="@array/trafficBillingDay_values" />
+    <Preference android:layout="@layout/widget_preference" android:title="@string/Pref_Traffic_Adjust" android:key="TrafficAdjust" android:summary="@string/Traffic_Monitor_DataPlan_Unlimited" android:dependency="enable_traffic_monitor" />
+    <Preference android:layout="@layout/widget_preference" android:title="@string/Pref_Traffic_OnTime_Update_Setting" android:key="traffic_auto_update_period" android:dependency="enable_traffic_monitor" />
+    <PreferenceCategory android:title="@string/Traffic_Monitor_Discount">
+        <CheckBoxPreference android:title="@string/Traffic_Monitor_Discount" android:key="traffic_discount" android:summaryOn="@string/Generic_Enabled" android:summaryOff="@string/Generic_Disabled" />
+        <Preference android:title="@string/Traffic_Monitor_Discount_Start" android:key="traffic_discount_start" android:dependency="traffic_discount" />
+        <Preference android:title="@string/Traffic_Monitor_Discount_End" android:key="traffic_discount_end" android:dependency="traffic_discount" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/Pref_Traffic_Alarm" />
+    <CheckBoxPreference android:title="@string/Pref_Traffic_Alarm" android:key="TrafficAlarmSetting" android:summary="@string/Pref_Traffic_Alarm_Summary" android:dependency="enable_traffic_monitor" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/Pref_Traffic_Auto_Close" android:key="TrafficAutoClose" android:summary="@string/Pref_Traffic_Auto_Close_Summary" android:dependency="enable_traffic_monitor" android:defaultValue="true" />
+    <PreferenceCategory android:title="@string/Pref_Traffic_FloatWindow" />
+    <CheckBoxPreference android:title="@string/Pref_Traffic_FloatWindow" android:key="traffic_floatwindow" android:dependency="enable_traffic_monitor" android:defaultValue="false" android:summaryOn="@string/Generic_Summary_Enabled" android:summaryOff="@string/Generic_Summary_Disabled" />
+    <ListPreference android:entries="@array/flowwindow_style" android:title="@string/Pref_Traffic_FloatWindow_Style" android:key="traffic_floatshow_style" android:dependency="traffic_floatwindow" android:defaultValue="0" android:dialogTitle="@string/Pref_Traffic_FloatWindow_Style" android:entryValues="@array/flowwindow_style_values" />
+    <CheckBoxPreference android:title="@string/Pref_Traffic_FloatWindow_Fixed" android:key="traffic_floatwindow_fixed" android:dependency="traffic_floatwindow" android:defaultValue="false" android:summaryOn="@string/Generic_Summary_Enabled" android:summaryOff="@string/Generic_Summary_Disabled" />
+    <CheckBoxPreference android:title="@string/Pref_Traffic_FloatWindow_On_Statusbar" android:key="traffic_floatwindow_on_statusbar" android:dependency="traffic_floatwindow" android:defaultValue="true" android:summaryOn="@string/Generic_Summary_Enabled" android:summaryOff="@string/Generic_Summary_Disabled" />
+    <CheckBoxPreference android:title="@string/Pref_Traffic_FloatWindow_NoFocus" android:key="traffic_floatwindow_nofocus" android:dependency="traffic_floatwindow_fixed" android:summaryOn="@string/Generic_Enabled" android:summaryOff="@string/Generic_Disabled" />
+    <ListPreference android:entries="@array/traffic_refresh" android:title="@string/Pref_Traffic_FloatWindow_Refresh" android:key="traffic_refresh" android:summary="@string/Pref_Traffic_FloatWindow_Refresh_Summary" android:dependency="traffic_floatwindow" android:defaultValue="4000" android:dialogTitle="@string/Pref_Traffic_FloatWindow_Refresh" android:entryValues="@array/traffic_refresh_values" />
+    <ListPreference android:entries="@array/traffic_autodim" android:title="@string/Pref_Traffic_FloatWindow_AutoDim" android:key="traffic_autodim" android:summary="@string/Pref_Traffic_FloatWindow_AutoDim_Summary" android:dependency="traffic_floatwindow" android:defaultValue="15000" android:dialogTitle="@string/Pref_Traffic_FloatWindow_AutoDim" android:entryValues="@array/traffic_autodim_values" />
+    <PreferenceCategory android:title="@string/Pref_Traffic_Clean" />
+    <Preference android:layout="@layout/widget_preference" android:title="@string/Pref_Traffic_Clean" android:key="TrafficDataClean" />
+</PreferenceScreen>

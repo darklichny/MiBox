@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/Phone_MissCall_Title" android:key="misscallalert" android:defaultValue="false" />
+    <CheckBoxPreference android:title="@string/Phone_MissMsg_Title" android:key="missmsgalert" android:defaultValue="false" />
+    <ListPreference android:entries="@array/misscalltype" android:title="@string/Phone_MissCallAlert_Type" android:key="misscalltype" android:defaultValue="0" android:dialogTitle="@string/Phone_MissCallAlert_Type" android:entryValues="@array/misscalltype_value" />
+    <ListPreference android:entries="@array/miss_alert_time" android:title="@string/Phone_MissCallAlert_Time" android:key="misscalltime" android:defaultValue="5" android:dialogTitle="@string/Phone_MissCallAlert_Time" android:entryValues="@array/miss_alert_time_value" />
+    <RingtonePreference android:layout="@layout/widget_preference" android:title="@string/Phone_MissCall_SelectRing" android:key="misscallring" android:defaultValue="content://settings/system/notification_sound" android:ringtoneType="notification" />
+</PreferenceScreen>

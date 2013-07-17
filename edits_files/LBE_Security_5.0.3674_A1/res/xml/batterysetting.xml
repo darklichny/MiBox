@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="preferencescreen"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:layout="@layout/preference_layout" android:title="@string/Pref_Saving_NotificationCategory">
+        <CheckBoxPreference android:title="@string/Battery_Settings_NotificationTitle" android:key="battery_notification" android:summaryOn="@string/Generic_Summary_Enabled" android:summaryOff="@string/Generic_Summary_Disabled" />
+    </PreferenceCategory>
+</PreferenceScreen>

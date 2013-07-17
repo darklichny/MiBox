@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:lbesec="http://schemas.android.com/apk/res/com.lbe.security">
+    <ScrollView android:id="@id/mainBatteryScroll" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:background="@drawable/main_tile_bg" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <AbsoluteLayout android:orientation="vertical" android:id="@id/absoluteLayout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <com.lbe.security.ui.widgets.BatteryCapacity android:layout_gravity="center" android:id="@id/progressBarBatteryImage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:progress="100" style="@style/ProgressBar.Battery" />
+                        <TextView android:textAppearance="@style/TextAppearance.Large" android:textSize="24.0sp" android:layout_gravity="center" android:id="@id/charge_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="#ffffffff" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="3.0" />
+                    </FrameLayout>
+                </AbsoluteLayout>
+                <LinearLayout android:gravity="right|center" android:orientation="vertical" android:paddingTop="10.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textAppearance="@style/TextAppearance.White" android:gravity="center" android:layout_gravity="right" android:id="@id/estimate_tip" android:background="@drawable/battery_chargetitle_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_marginBottom="20.0dip" android:text="@string/Battery_ChargeEst" />
+                    <LinearLayout android:gravity="center" android:layout_gravity="right" android:orientation="horizontal" android:id="@id/availableTimeView" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_marginBottom="20.0dip">
+                        <ImageView android:id="@id/imageview1" android:background="@drawable/battery_digit_big_0" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <ImageView android:id="@id/imageview2" android:background="@drawable/battery_digit_big_0" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <TextView android:textAppearance="@style/TextAppearance" android:layout_gravity="bottom" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Battery_Charging_Hour" android:singleLine="true" />
+                        <ImageView android:id="@id/imageview3" android:background="@drawable/battery_digit_big_0" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <ImageView android:id="@id/imageview4" android:background="@drawable/battery_digit_big_0" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <TextView android:textAppearance="@style/TextAppearance" android:layout_gravity="bottom" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Battery_Charging_Minute" android:singleLine="true" />
+                    </LinearLayout>
+                    <TextView android:textAppearance="@style/TextAppearance.Blue" android:gravity="left|center" android:id="@id/intelligentModebutton" android:background="@drawable/battery_mode_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Battery_IntelligentSaving" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/tips_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/buttonTip" android:background="@drawable/battery_tips_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Battery_Charging_SwitchPrompt" />
+                <View android:id="@id/tips_wave" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_tips_wave_height" />
+            </LinearLayout>
+            <TableLayout android:id="@id/TableLayoutSwitchSetting" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="0,1,2,3">
+                <TableRow android:layout_marginBottom="10.0dip" android:layout_weight="1.0">
+                    <LinearLayout android:orientation="vertical" android:id="@id/LinearLayoutWifi" android:background="@drawable/batterylayout_checkbox_selector_background" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <CheckBox android:layout_gravity="center_horizontal" android:id="@id/wifi" android:background="@drawable/check_battery_wifi" android:layout_width="36.0dip" android:layout_height="36.0dip" android:checked="true" android:button="@null" />
+                        <TextView android:layout_gravity="center_horizontal" android:id="@id/TxvWifi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Battery_Mode_BatteryCheckBoxWifi" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/LinearLayoutApn" android:background="@drawable/batterylayout_checkbox_selector_background" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <CheckBox android:layout_gravity="center_horizontal" android:id="@id/apn" android:background="@drawable/check_battery_apn" android:layout_width="36.0dip" android:layout_height="36.0dip" android:checked="true" android:button="@null" />
+                        <TextView android:layout_gravity="center_horizontal" android:id="@id/TxvApn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Battery_Mode_BatteryCheckBoxAutoData" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/LinearLayoutSync" android:background="@drawable/batterylayout_checkbox_selector_background" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <CheckBox android:layout_gravity="center_horizontal" android:id="@id/sync" android:background="@drawable/check_battery_sync" android:layout_width="36.0dip" android:layout_height="36.0dip" android:checked="true" android:button="@null" />
+                        <TextView android:layout_gravity="center_horizontal" android:id="@id/TxvSync" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Battery_Mode_BatteryCheckBoxSync" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/LinearLayoutBright" android:background="@drawable/batterylayout_checkbox_selector_background" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <ImageButton android:layout_gravity="center_horizontal" android:id="@id/bright" android:background="@null" android:layout_width="36.0dip" android:layout_height="36.0dip" />
+                        <TextView android:textColor="@color/textcolor_green" android:layout_gravity="center_horizontal" android:id="@id/TxvBright" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Battery_Mode_BatteryCheckBoxBright" />
+                    </LinearLayout>
+                </TableRow>
+                <TableRow android:layout_weight="1.0">
+                    <LinearLayout android:orientation="vertical" android:id="@id/LinearLayoutGps" android:background="@drawable/batterylayout_checkbox_selector_background" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <ImageButton android:layout_gravity="center_horizontal" android:id="@id/gps" android:background="@null" android:layout_width="36.0dip" android:layout_height="36.0dip" />
+                        <TextView android:textColor="@color/textcolor_green" android:layout_gravity="center_horizontal" android:id="@id/TxvGps" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Battery_Mode_BatteryCheckBoxScreenLockTime" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/LinearLayoutHaptic" android:background="@drawable/batterylayout_checkbox_selector_background" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <CheckBox android:layout_gravity="center_horizontal" android:id="@id/haptic" android:background="@drawable/check_battery_haptic" android:layout_width="36.0dip" android:layout_height="36.0dip" android:checked="true" android:button="@null" />
+                        <TextView android:layout_gravity="center_horizontal" android:id="@id/TxvHaptic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Battery_Mode_BatteryCheckBoxHaptic" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/LinearLayoutAirmode" android:background="@drawable/batterylayout_checkbox_selector_background" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <CheckBox android:layout_gravity="center_horizontal" android:id="@id/airmode" android:background="@drawable/check_battery_airplane" android:layout_width="36.0dip" android:layout_height="36.0dip" android:checked="true" android:button="@null" />
+                        <TextView android:layout_gravity="center_horizontal" android:id="@id/TxvAirmode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Battery_Mode_BatteryCheckBoxAir" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/LinearLayoutBt" android:background="@drawable/batterylayout_checkbox_selector_background" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <CheckBox android:layout_gravity="center_horizontal" android:id="@id/bluetooth" android:background="@drawable/check_battery_bt" android:layout_width="36.0dip" android:layout_height="36.0dip" android:checked="true" android:button="@null" />
+                        <TextView android:layout_gravity="center_horizontal" android:id="@id/TxvBt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Battery_Mode_BatteryCheckBoxBluetooth" />
+                    </LinearLayout>
+                </TableRow>
+            </TableLayout>
+            <View android:id="@id/separatedView1" android:background="@drawable/list_divider" android:layout_width="fill_parent" android:layout_height="2.0px" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/modechangeLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/charingLayout" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:id="@id/linearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <ImageView android:layout_gravity="center" android:id="@id/imageView_lighting1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_battery_fastcharge" android:layout_weight="1.0" />
+                        <TextView android:textSize="14.0sp" android:textColor="@color/secondary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Battery_FastCharing" />
+                    </LinearLayout>
+                    <ImageView android:id="@id/imageView_lightRadio1" android:background="@drawable/icon_battery_chargingseparated" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" />
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <ImageView android:layout_gravity="center" android:id="@id/imageView_lighting2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_battery_continuecharge" android:layout_weight="1.0" />
+                        <TextView android:textSize="14.0sp" android:textColor="@color/secondary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Battery_ContinueCharing" />
+                    </LinearLayout>
+                    <ImageView android:id="@id/imageView_lightRadio2" android:background="@drawable/icon_battery_chargingseparated" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" />
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <ImageView android:layout_gravity="center" android:id="@id/imageView_lighting3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_battery_tricklecharge" />
+                        <TextView android:textSize="14.0sp" android:textColor="@color/secondary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Battery_TrickleCharing" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <View android:id="@id/separatedView" android:background="@drawable/list_divider" android:layout_width="fill_parent" android:layout_height="2.0px" />
+            <LinearLayout android:orientation="vertical" android:id="@id/viewPagerLayout" android:paddingTop="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.lbe.security.ui.batterymanager.ViewPagerInsideScrollView android:id="@id/viewPager" android:paddingLeft="@dimen/page_padding" android:paddingRight="@dimen/page_padding" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/expandable_list_group_bg_default" android:layout_width="fill_parent" android:layout_height="36.0dip">
+        <TextView android:textAppearance="@style/TextAppearance.Gray" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Traffic_Net_App" android:layout_weight="1.0" />
+        <ImageButton android:id="@id/mobile_action" android:background="@drawable/list_selector_background" android:layout_width="60.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_actionbar_mobile" android:scaleType="center" />
+        <ImageButton android:id="@id/wifi_action" android:background="@drawable/list_selector_background" android:layout_width="60.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_actionbar_wifi" android:scaleType="center" />
+    </LinearLayout>
+    <View android:background="@drawable/list_divider" android:layout_width="fill_parent" android:layout_height="2.0px" />
+    <com.lbe.security.ui.widgets.ListViewEx android:id="@*android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

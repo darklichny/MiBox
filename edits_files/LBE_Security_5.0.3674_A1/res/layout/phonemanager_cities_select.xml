@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/page_padding" android:paddingRight="@dimen/page_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="fill_parent" android:layout_height="@dimen/page_padding" />
+    <Spinner android:id="@id/province_select" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <Spinner android:id="@id/city_select" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/blocktype" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <CheckBox android:textAppearance="@style/TextAppearance" android:textColor="@color/textcolor_black" android:layout_gravity="center_horizontal" android:id="@id/callcheck" android:layout_width="0.0px" android:layout_height="wrap_content" android:checked="true" android:text="@string/Phone_Call_Intercept" android:layout_weight="1.0" style="@style/CompoundButton.CheckBox.Toggle" />
+        <CheckBox android:textAppearance="@style/TextAppearance" android:textColor="@color/textcolor_black" android:layout_gravity="center_horizontal" android:id="@id/msgcheck" android:layout_width="0.0px" android:layout_height="wrap_content" android:checked="true" android:text="@string/Phone_Msg_Intercept" android:layout_weight="1.0" style="@style/CompoundButton.CheckBox.Toggle" />
+    </LinearLayout>
+</LinearLayout>

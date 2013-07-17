@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.lbe.security">
+    <LinearLayout android:id="@id/notification_item" android:background="@drawable/transparent_selector_bg" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.lbe.security.ui.widgets.GenericListItem android:id="@id/notification_app_holder" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <include layout="@layout/notification_list_action" />
+</LinearLayout>

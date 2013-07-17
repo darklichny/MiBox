@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="right" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/ic_popup_background" android:layout_width="wrap_content" android:layout_height="56.0dip">
+        <LinearLayout android:gravity="center" android:id="@id/accept" android:background="@drawable/list_selector_background" android:focusable="true" android:clickable="true" android:layout_width="90.0dip" android:layout_height="fill_parent">
+            <ImageView android:background="@drawable/accept" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="fitCenter" />
+            <TextView android:textAppearance="@style/TextAppearance.Medium" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/HIPS_Action_Accept" />
+        </LinearLayout>
+        <View android:id="@id/divider1" android:background="@drawable/dialog_btn_interval" android:layout_width="2.0px" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center" android:id="@id/prompt" android:background="@drawable/list_selector_background" android:focusable="true" android:clickable="true" android:layout_width="90.0dip" android:layout_height="fill_parent">
+            <ImageView android:background="@drawable/prompt" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="fitCenter" />
+            <TextView android:textAppearance="@style/TextAppearance.Medium" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/HIPS_Action_Prompt" />
+        </LinearLayout>
+        <View android:id="@id/divider2" android:background="@drawable/dialog_btn_interval" android:layout_width="2.0px" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center" android:id="@id/reject" android:background="@drawable/list_selector_background" android:focusable="true" android:clickable="true" android:layout_width="90.0dip" android:layout_height="fill_parent">
+            <ImageView android:background="@drawable/reject" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="fitCenter" />
+            <TextView android:textAppearance="@style/TextAppearance.Medium" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/HIPS_Action_Reject" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

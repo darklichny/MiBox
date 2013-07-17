@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchColumns="1"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:lbesec="http://schemas.android.com/apk/res/com.lbe.security">
+    <TableRow>
+        <TextView android:gravity="left" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:text="@string/Phone_Custom_Blacklist" style="@style/TextAppearance" />
+        <TextView android:gravity="right" android:paddingRight="15.0dip" android:text="@string/Phone_Rule_No" style="@style/TextAppearance" />
+    </TableRow>
+    <TableRow>
+        <TextView android:gravity="left" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:text="@string/Phone_Custom_Whitelist" style="@style/TextAppearance" />
+        <TextView android:gravity="right" android:paddingRight="15.0dip" android:text="@string/Phone_Rule_Yes" style="@style/TextAppearance" />
+    </TableRow>
+    <TableRow>
+        <TextView android:gravity="left" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:text="@string/Phone_Custom_Contact" style="@style/TextAppearance" />
+        <TextView android:gravity="right" android:paddingRight="15.0dip" android:text="@string/Phone_Rule_Yes" style="@style/TextAppearance" />
+    </TableRow>
+    <TableRow>
+        <TextView android:gravity="left" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:text="@string/Phone_Custom_Conversation" style="@style/TextAppearance" />
+        <TextView android:gravity="right" android:paddingRight="15.0dip" android:text="@string/Phone_Rule_Yes" style="@style/TextAppearance" />
+    </TableRow>
+    <TableRow>
+        <TextView android:gravity="left" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:text="@string/Phone_Custom_KeyWord" style="@style/TextAppearance" />
+        <TextView android:gravity="right" android:paddingRight="15.0dip" android:text="@string/Phone_Rule_No" style="@style/TextAppearance" />
+    </TableRow>
+    <TableRow>
+        <TextView android:gravity="left" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:text="@string/Phone_Custom_Smart" style="@style/TextAppearance" />
+        <TextView android:gravity="right" android:paddingRight="15.0dip" android:text="@string/Phone_Rule_Smart" style="@style/TextAppearance" />
+    </TableRow>
+</TableLayout>

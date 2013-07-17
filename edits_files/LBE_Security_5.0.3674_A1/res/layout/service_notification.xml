@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/window_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="64.0dip">
+        <ImageView android:id="@id/main_notification_icon" android:focusable="false" android:clickable="false" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/main_notification_icon" />
+        <LinearLayout android:background="@drawable/main_notification_divider" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:layout_weight="1.0">
+            <TextView android:textAppearance="@style/TextAppearance.Medium" android:textColor="@color/textcolor_black" android:ellipsize="end" android:id="@id/hint" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Service_ServiceStarted" android:maxLines="1" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="18.0dip">
+                <ProgressBar android:id="@id/traffic_progress" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:progressDrawable="@drawable/progress_h_notificatioin" style="?android:attr/progressBarStyleHorizontal" />
+                <TextView android:textSize="13.0sp" android:textColor="@color/textcolor_black" android:gravity="center" android:id="@id/traffic_hint" android:background="@null" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/Service_TrafficMon_None" />
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:background="@drawable/main_notification_divider" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/notification_phone_event_container" android:background="@drawable/list_selector_background" android:layout_width="60.0dip" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/main_notification_phoneaction_bg" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="50.0dip" android:layout_height="20.0dip">
+                <LinearLayout android:background="@drawable/main_notification_phone" android:layout_width="15.0dip" android:layout_height="15.0dip" />
+                <TextView android:textAppearance="@style/TextAppearance.Small.Blue" android:ellipsize="end" android:gravity="right" android:id="@id/notification_block_call_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:singleLine="true" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="5.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/main_notification_phoneaction_bg" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="50.0dip" android:layout_height="20.0dip">
+                <LinearLayout android:background="@drawable/main_notification_mms" android:layout_width="15.0dip" android:layout_height="15.0dip" />
+                <TextView android:textAppearance="@style/TextAppearance.Small.Blue" android:ellipsize="end" android:gravity="right" android:id="@id/notification_block_mms_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:singleLine="true" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

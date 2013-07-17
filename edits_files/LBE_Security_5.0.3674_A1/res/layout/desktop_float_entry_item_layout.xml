@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/desktop_toggle_item_bg_selector" android:layout_width="fill_parent" android:layout_height="64.0dip">
+        <ImageView android:id="@id/desktop_float_toggle_entry_icon" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/icon" />
+    </LinearLayout>
+</LinearLayout>

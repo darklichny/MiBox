@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/action" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:id="@id/app_hint" android:background="@drawable/notification_app_name_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="26.0dip" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/notification_action_bg" android:layout_width="fill_parent" android:layout_height="52.0dip">
+        <LinearLayout android:gravity="center" android:id="@id/action1" android:background="@drawable/list_selector_background" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/action1_img" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/accept" android:scaleType="fitCenter" />
+            <TextView android:textAppearance="@style/TextAppearance.Medium" android:id="@id/action1_txt" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Generic_Accept" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/action2" android:background="@drawable/list_selector_background" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/action2_img" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/prompt" android:scaleType="fitCenter" />
+            <TextView android:textAppearance="@style/TextAppearance.Medium" android:id="@id/action2_txt" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Generic_Prompt" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/action3" android:background="@drawable/list_selector_background" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/action3_img" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/reject" android:scaleType="fitCenter" />
+            <TextView android:textAppearance="@style/TextAppearance.Medium" android:id="@id/action3_txt" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Generic_Reject" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@null" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/body" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false">
+            <com.lbe.security.ui.widgets.RotateView android:id="@id/rotate" android:background="@drawable/rotate_view_loading_big" android:layout_width="52.0dip" android:layout_height="52.0dip" android:layout_marginRight="12.0dip" />
+            <TextView android:textAppearance="@style/TextAppearance.Medium" android:id="@id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

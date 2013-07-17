@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="40.0dip">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/titleview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TextView android:textAppearance="@style/TextAppearance.Medium.Inverse" android:layout_gravity="bottom|right|center" android:id="@id/tiponly" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="150.0dip" android:layout_marginBottom="30.0dip" android:text="@string/SoftMgr_Ram_Warning" />
+        <LinearLayout android:layout_gravity="bottom|right|center" android:id="@id/operate" android:background="@drawable/btn_image_layer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="145.0dip" android:layout_marginBottom="20.0dip">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="38.0dip" android:src="@drawable/blue_dot" />
+            <TextView android:textAppearance="@style/TextAppearance.Small" android:textColor="#ff00b4ed" android:layout_gravity="center_vertical" android:id="@id/newapptip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_weight="1.0" />
+            <ImageView android:layout_gravity="right|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/ic_arrows_right_blue" />
+        </LinearLayout>
+    </FrameLayout>
+    <com.lbe.security.ui.widgets.EntryScrollView android:id="@id/entry" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

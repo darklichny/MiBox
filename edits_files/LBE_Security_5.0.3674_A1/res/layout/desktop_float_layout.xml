@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="36.0dip" android:minHeight="36.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lbe.security.ui.widgets.PercentImageView android:id="@id/desktop_float_indicator" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/desktop_float_bg" />
+    <TextView android:textSize="12.0sp" android:textColor="@*android:color/white" android:id="@id/desktop_float_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:singleLine="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

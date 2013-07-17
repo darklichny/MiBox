@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/status" style="@style/TextView.StatusBar" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@id/spinner" android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="46.0dip">
+            <com.lbe.security.ui.widgets.IcsSpinner android:id="@id/type_spinner" android:background="@drawable/spinner_bg_selector" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:dropDownSelector="@drawable/list_selector_background" android:prompt="@string/SoftMgr_SDHelper_Type" android:layout_weight="1.0" android:spinnerMode="dialog" />
+            <View android:layout_width="6.0dip" android:layout_height="fill_parent" />
+            <com.lbe.security.ui.widgets.IcsSpinner android:id="@id/sort_spinner" android:background="@drawable/spinner_bg_selector" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:dropDownSelector="@drawable/list_selector_background" android:prompt="@string/SoftMgr_Order" android:layout_weight="1.0" android:spinnerMode="dialog" />
+        </LinearLayout>
+        <com.lbe.security.ui.widgets.ListViewEx android:id="@id/listviewex" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</FrameLayout>

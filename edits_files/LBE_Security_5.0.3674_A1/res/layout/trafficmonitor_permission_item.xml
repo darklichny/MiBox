@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/list_content" android:background="@drawable/list_selector_background" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/list_image" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginRight="12.0dip" android:src="@drawable/icon" android:scaleType="fitCenter" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginBottom="3.0dip" android:minHeight="48.0dip" android:layout_weight="1.0">
+            <TextView android:textAppearance="@style/TextAppearance.Medium" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/list_text1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <LinearLayout android:gravity="bottom" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <TextView android:textAppearance="@style/TextAppearance.Small" android:gravity="center_vertical" android:id="@id/list_text2" android:layout_width="0.0px" android:layout_height="wrap_content" android:drawableLeft="@drawable/traffic_fg_fresh" android:drawablePadding="2.0dip" android:layout_weight="1.0" />
+                <TextView android:textAppearance="@style/TextAppearance.Small" android:gravity="center_vertical" android:id="@id/list_text3" android:layout_width="0.0px" android:layout_height="wrap_content" android:drawableLeft="@drawable/traffic_fg_wifi_fresh" android:drawablePadding="2.0dip" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <ImageButton android:id="@id/list_mobile_perm" android:background="@drawable/list_selector_background" android:layout_width="60.0dip" android:layout_height="fill_parent" android:src="@drawable/accept" android:scaleType="center" />
+    <ImageButton android:id="@id/list_wifi_perm" android:background="@drawable/list_selector_background" android:layout_width="60.0dip" android:layout_height="fill_parent" android:src="@drawable/accept" android:scaleType="center" />
+</LinearLayout>

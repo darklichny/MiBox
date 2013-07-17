@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:lbesec="http://schemas.android.com/apk/res/com.lbe.security">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="12.0dip">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/classified_list_header" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <TextView android:textAppearance="@style/TextAppearance.Medium" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="@dimen/page_padding" android:text="@string/HIPS_Root_Failed" style="@style/TextAppearance.Large.Black" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/classified_list_footer" android:padding="@dimen/page_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/TextAppearance.Medium" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/HIPS_Root_Failed_Explain" />
+            <Button android:id="@id/root_tryagain" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/HIPS_Root_TryAgain" style="@style/Button.Green" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/classified_list_header" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <TextView android:textAppearance="@style/TextAppearance.Medium" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/page_padding" android:text="@string/HIPS_Root_Shuame" style="@style/TextAppearance.Large.Black" />
+        </LinearLayout>
+        <RelativeLayout android:background="@drawable/classified_list_footer" android:padding="@dimen/page_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/root_shuame_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_lberoot" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/page_padding" android:layout_toRightOf="@id/root_shuame_left" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <TextView android:textAppearance="@style/TextAppearance.Medium" android:textColor="@color/textcolor_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/HIPS_Root_LBERoot" />
+                <TextView android:textAppearance="@style/TextAppearance.Medium" android:textColor="@color/textcolor_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/page_padding" android:text="@string/HIPS_Root_Shuame_2" />
+                <TextView android:textAppearance="@style/TextAppearance" android:textColor="@color/textcolor_blue" android:id="@id/root_link_shuame" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/HIPS_Root_Shuame_3" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:background="@drawable/classified_list_footer" android:padding="@dimen/page_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/root_shuame_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_shuame" />
+                <TextView android:textAppearance="@style/TextAppearance.Large" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/HIPS_Root_Shuame_App" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/page_padding" android:layout_toRightOf="@id/root_shuame_left" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <TextView android:textAppearance="@style/TextAppearance.Medium" android:textColor="@color/textcolor_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/HIPS_Root_Shuame_1" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

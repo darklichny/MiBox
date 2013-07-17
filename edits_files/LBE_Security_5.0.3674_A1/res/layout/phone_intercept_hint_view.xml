@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/phone_intercept_hint_selector" android:layout_width="fill_parent" android:layout_height="44.0dip" android:minHeight="44.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/hint" android:paddingTop="6.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/Phone_MsgBlock_Fail_Hint" />
+</LinearLayout>

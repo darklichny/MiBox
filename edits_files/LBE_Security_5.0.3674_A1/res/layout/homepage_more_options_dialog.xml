@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/homepage_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/actionbar_bg" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_height">
+            <LinearLayout android:gravity="right" android:orientation="horizontal" android:background="@drawable/actionbar_texture" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageButton android:layout_gravity="center_vertical" android:id="@id/btn_arrow_down" android:background="@drawable/actionbar_back_btn_bg" android:layout_width="48.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_arrows_down" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <GridView android:id="@id/more_options_girdview" android:background="@null" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:listSelector="@*android:color/transparent" android:cacheColorHint="@*android:color/transparent" android:horizontalSpacing="8.0dip" android:verticalSpacing="8.0dip" android:numColumns="3" />
+</LinearLayout>

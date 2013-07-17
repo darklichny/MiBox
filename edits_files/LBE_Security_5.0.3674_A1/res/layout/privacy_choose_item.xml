@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="44.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/pkg_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="fitCenter" />
+    <CheckedTextView android:textAppearance="@style/TextAppearance.Medium" android:textColor="@color/primary_text" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/pkg_name" android:paddingLeft="12.0dip" android:paddingRight="7.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:checkMark="@drawable/radio" android:layout_weight="1.0" />
+</LinearLayout>

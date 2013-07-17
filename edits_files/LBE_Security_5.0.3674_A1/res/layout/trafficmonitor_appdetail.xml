@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="#fff9f9f9" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lbe.security.ui.widgets.TrafficGraph android:id="@id/traffic_appgraph" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textAppearance="@style/TextAppearance.Small" android:textColor="#ff333333" android:id="@id/traffic_permtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <include android:id="@id/traffic_permcontent" android:layout_width="wrap_content" android:layout_height="56.0dip" layout="@layout/widget_permission_popup" />
+</LinearLayout>

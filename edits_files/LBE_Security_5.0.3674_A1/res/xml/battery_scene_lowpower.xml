@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="preferencescreen"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/Battery_Settings_LowMode" android:key="battery_autosave_enable" android:defaultValue="false" android:summaryOn="@string/Generic_Summary_Enabled" android:summaryOff="@string/Generic_Summary_Disabled" />
+    <PreferenceCategory android:title="@string/Pref_Saving_Cat_Config" android:key="powersave_setting_category" android:dependency="battery_autosave_enable">
+        <Preference android:layout="@layout/widget_preference" android:title="@string/Battery_Settings_LowerThan" android:key="battery_autosave_threshold" android:dependency="battery_autosave_enable" />
+        <Preference android:layout="@layout/widget_preference" android:title="@string/Battery_Settings_AutoInto" android:key="battery_autosave_mode" android:dependency="battery_autosave_enable" />
+    </PreferenceCategory>
+</PreferenceScreen>

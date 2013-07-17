@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/window_background" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lbe.security.ui.widgets.RotateView android:id="@id/listview_loading_image" android:background="@drawable/rotate_view_loading_big" android:layout_width="90.0dip" android:layout_height="90.0dip" />
+    <TextView android:textAppearance="@style/TextAppearance.Medium.Gray" android:id="@id/listview_loading_text" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Generic_Loading" android:singleLine="true" />
+</LinearLayout>

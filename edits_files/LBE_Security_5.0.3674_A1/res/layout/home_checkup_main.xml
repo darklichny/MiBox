@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/checking" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/checkup_bg" android:scaleType="fitCenter" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/checkup_padding" android:layout_centerHorizontal="true">
+                <ImageView android:id="@id/number_000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/digital_number" android:scaleType="fitCenter" />
+                <ImageView android:id="@id/number_00" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/digital_number" android:scaleType="fitCenter" />
+                <ImageView android:id="@id/number_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/digital_number" android:scaleType="fitCenter" />
+            </LinearLayout>
+            <ImageView android:layout_gravity="center" android:id="@id/pointer" android:background="@drawable/traffic_apn_pointer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        </FrameLayout>
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/checkup_progress" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="7.0">
+                <TextView android:textAppearance="@style/TextAppearance.Medium" android:layout_gravity="center" android:id="@id/scanpercent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" />
+                <ProgressBar android:layout_gravity="center" android:id="@id/scanprogress" android:layout_width="0.0dip" android:layout_height="18.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:max="100" android:progress="50" android:layout_weight="1.0" style="@style/Widget.ProgressBar.Horizontal.Round" />
+                <Button android:gravity="right" android:layout_gravity="center" android:id="@id/cancelscan" android:background="@drawable/home_scan_cancel" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginRight="10.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textAppearance="@style/TextAppearance.Medium" android:gravity="center" android:layout_gravity="center" android:id="@id/scantip" android:background="#ffdfdfdf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="4" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/checkresult" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:id="@id/container" android:background="@drawable/gradient_blue" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:id="@id/gold100" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/checkup_circle_gold" android:scaleType="fitCenter" />
+                <FrameLayout android:id="@id/medal99" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="10.0dip">
+                    <ImageView android:layout_gravity="center" android:id="@id/medal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/checkup_circle_green" android:scaleType="fitCenter" />
+                    <TextView android:textAppearance="@style/TextAppearance.Score" android:gravity="right" android:layout_gravity="center" android:id="@id/score" android:layout_width="50.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/checkup_result_score_right" android:singleLine="true" android:layout_centerVertical="true" />
+                    <TextView android:textAppearance="@style/TextAppearance.Medium.Inverse" android:layout_gravity="right|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/checkup_result_score_top" android:layout_marginRight="12.0dip" android:text="分" />
+                </FrameLayout>
+                <TextView android:textAppearance="@style/TextAppearance.Medium.Inverse" android:layout_gravity="center" android:id="@id/scoretip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:text="@string/Scan_Result_Good" />
+            </LinearLayout>
+            <com.lbe.security.ui.widgets.ExpandableListViewEx android:id="@id/listviewex" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

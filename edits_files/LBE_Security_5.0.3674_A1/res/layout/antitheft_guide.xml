@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:lbesec="http://schemas.android.com/apk/res/com.lbe.security">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:padding="@dimen/page_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:background="@drawable/round_rect" android:padding="@dimen/page_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Plugin_AntiTheft_Welcome" style="@style/TextAppearance.Large" />
+                <View android:layout_width="wrap_content" android:layout_height="@dimen/page_padding" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Plugin_AntiTheft_Introduction" style="@style/TextAppearance" />
+            </LinearLayout>
+            <View android:layout_width="fill_parent" android:layout_height="@dimen/page_padding" android:layout_weight="1.0" />
+            <LinearLayout android:orientation="vertical" android:id="@id/root_container" android:background="@drawable/round_rect" android:padding="@dimen/page_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Plugin_AntiTheft_RootInstall" style="@style/TextAppearance.Large.Black" />
+                    <View android:layout_width="0.0dip" android:layout_height="1.0px" android:layout_weight="1.0" />
+                    <CheckBox android:id="@id/root" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="66.0dip" android:minHeight="34.0dip" />
+                </LinearLayout>
+                <View android:layout_width="wrap_content" android:layout_height="@dimen/page_padding" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Plugin_AntiTheft_RootIntroduction" style="@style/TextAppearance" />
+            </LinearLayout>
+            <View android:layout_width="fill_parent" android:layout_height="@dimen/page_padding" android:layout_weight="1.0" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

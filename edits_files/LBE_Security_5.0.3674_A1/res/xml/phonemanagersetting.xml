@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="preferencescreen"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/Pref_Main_Phone_Service" android:key="enable_phone_firewall" android:defaultValue="true" android:summaryOn="@string/Generic_Service_Enabled" android:summaryOff="@string/Generic_Service_Disabled" />
+    <CheckBoxPreference android:title="@string/Phone_Data_Upload_Title" android:key="phonemsg_dataupload" android:summary="@string/Pref_Phone_Data_Upload_Summary" android:defaultValue="true" android:summaryOn="@string/Generic_Enable" android:summaryOff="@string/Generic_Disable" />
+    <PreferenceCategory android:title="@string/Phone_Block_Blackwhitelist">
+        <Preference android:layout="@layout/widget_preference_widget_button" android:title="@string/Phone_Custom_Blacklist" android:key="blackList" />
+        <Preference android:layout="@layout/widget_preference_widget_button" android:title="@string/Phone_Custom_Whitelist" android:key="whiteList" />
+        <Preference android:layout="@layout/widget_preference_widget_button" android:title="@string/Phone_Custom_KeyWord" android:key="keyWord" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/Phone_MIUI_Helper" android:key="miuiHelperCategory">
+        <Preference android:layout="@layout/widget_preference_widget_button" android:title="@string/Phone_MIUI_Help_Title" android:key="miuiHelper" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/Phone_BlockSetting">
+        <Preference android:layout="@layout/widget_preference" android:title="@string/Phone_BlockType" android:key="phoneBlockType" />
+        <CheckBoxPreference android:title="@string/Phone_BlockOneRing" android:key="phone_onering_service" android:defaultValue="true" android:summaryOn="@string/Generic_Enable" android:summaryOff="@string/Generic_Disable" />
+        <ListPreference android:entries="@array/endcalltype" android:title="@string/Pref_Phone_Block_Method" android:key="Pref_Phone_Block_Method" android:defaultValue="3" android:dialogTitle="@string/Pref_Phone_Block_Method" android:positiveButtonText="@*android:string/cancel" android:entryValues="@array/stopcalltype_values" />
+        <Preference android:layout="@layout/widget_preference" android:title="@string/Pref_Phone_Block_Occur_Error" android:key="Block_Occur_Error" android:summary="@string/Pref_Phone_Block_Occur_Error_Desc" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/Pref_Phone_Cat_Night">
+        <ListPreference android:entries="@array/preference_stopcalltype_options" android:title="@string/Pref_Phone_NightMode" android:key="nightnotroubleset" android:defaultValue="0" android:dialogTitle="@string/Pref_Phone_NightMode" android:positiveButtonText="@*android:string/cancel" android:entryValues="@array/preference_stopcalltype_values" />
+        <Preference android:layout="@layout/widget_preference" android:title="@string/Pref_Phone_NightMode_BeginTime" android:key="notroublebegintime" />
+        <Preference android:layout="@layout/widget_preference" android:title="@string/Pref_Phone_NightMode_EndTime" android:key="notroubleendtime" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/Phone_SupperSetting">
+        <CheckBoxPreference android:title="@string/Phone_Alert_AddTo_Black" android:key="phone_marker_service" android:defaultValue="true" />
+        <ListPreference android:entries="@array/blocklog_save_time" android:title="@string/Phone_BlockLog_Save_Time" android:key="phonemanager_msglog_savetime" android:defaultValue="0" android:dialogTitle="@string/Phone_BlockLog_Save_Time" android:positiveButtonText="@*android:string/cancel" android:entryValues="@array/blocklog_save_time_values" />
+    </PreferenceCategory>
+</PreferenceScreen>

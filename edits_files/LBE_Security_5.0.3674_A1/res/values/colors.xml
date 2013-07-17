@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="window_background">#fff3f3f3</color>
+    <color name="window_background_dark_transparent">#c0000000</color>
+    <color name="window_background_light_transparent">#a0ffffff</color>
+    <color name="notification_cover_default">#00000000</color>
+    <color name="notification_cover_select">#c059c138</color>
+    <color name="title_indicator_tab_color">#6633b5e5</color>
+    <color name="notification_cover_blocked">#a0ffffff</color>
+    <color name="textcolor_blue">#ff4799ee</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_select">#ffbce7ff</color>
+    <color name="textcolor_blue_deep">#ff11aaee</color>
+    <color name="textcolor_brown">#ff864e0d</color>
+    <color name="textcolor_green">#ff59c138</color>
+    <color name="textcolor_red">#ffe03311</color>
+    <color name="textcolor_white">#ffffffff</color>
+    <color name="textcolor_gray">#ff636163</color>
+    <color name="textcolor_gray_scan_item">#ff656565</color>
+    <color name="textcolor_green_score">#ff7dad1d</color>
+    <color name="textcolor_black">#ff333333</color>
+    <color name="flowitem_background">#ffa7cddf</color>
+    <color name="textcolor_widget_button_gray">#fff4f4f4</color>
+    <color name="textcolor_widget_button_Green">#ff333333</color>
+    <color name="textcolor_widget_button_White">#ffffffff</color>
+    <color name="textcolor_widget_button_thin_Gray">#ff9b9b9b</color>
+    <color name="textcolor_widget_button_depp_Gray">#ff666666</color>
+    <color name="textcolor_title">#ff444444</color>
+    <color name="textcolor_title_secondary">#ff777777</color>
+    <color name="btn_pressed_appconfig">#ffe7eff5</color>
+    <color name="list_foreground_color">#00000000</color>
+    <color name="list_selector_background_color">#ffbce7ff</color>
+    <color name="list_selector_background_light_color">#ffe7eff5</color>
+    <color name="action_list_selector">#ffe6e6e6</color>
+    <color name="action_list_divider">#ffd6d9de</color>
+    <color name="list_item_child_background">#fff3f3f3</color>
+    <color name="home_list_item_line">#ffffd9de</color>
+    <color name="home_page_divider">#ffebebeb</color>
+    <color name="home_page_item_divider">#ffebedef</color>
+    <color name="home_page_item_child_pressed">#ffbebebe</color>
+    <color name="secondary_tab_bg">#ffb6b6b6</color>
+    <color name="startColor">#ff202020</color>
+    <color name="endColor">#ff484848</color>
+    <color name="light">#ee888888</color>
+    <color name="dark">#99000000</color>
+    <color name="none">#00000000</color>
+    <color name="guide_background">#ff3c97f5</color>
+    <color name="settings_group_backgroud">#ff409cfa</color>
+    <color name="textcolor_orange">#ffff7e00</color>
+    <color name="actionbar_back_btn_pressed_color">#33000000</color>
+    <color name="homepage_bg_color">#fff3f3f3</color>
+    <color name="homepage_btn_text_color">#ff898989</color>
+    <color name="homepage_btn_text_color_secondary">#ffc0c0c0</color>
+    <color name="homepage_btn_text_color_third">#ffffffff</color>
+    <color name="homepage_btn_text_bg_color_third">#ffc0c0c0</color>
+    <color name="actionbar_tips_bg_color_normal">#fffdfbe9</color>
+    <color name="actionbar_tips_bg_color_pressed">#fff0e9cc</color>
+    <color name="desktop_float_dialog_outside_bg_color">#7f000000</color>
+    <color name="desktop_float_toggle_on_color">#ff58be37</color>
+    <color name="desktop_float_toggle_off_color">#ff595757</color>
+    <color name="desktop_float_drawer_content_color">#fff1f1f1</color>
+    <color name="viewpager_title_bg">#ff003ba7</color>
+    <color name="expandable_list_group_bg_default">#ffe7eff5</color>
+    <color name="expandable_list_group_bg_pressed">#ffbfd3e3</color>
+    <color name="vpi__background_holo_dark">#ff000000</color>
+    <color name="vpi__background_holo_light">#fff3f3f3</color>
+    <item type="color" name="vpi__bright_foreground_holo_dark">@color/vpi__background_holo_light</item>
+    <item type="color" name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</item>
+    <color name="vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <item type="color" name="vpi__bright_foreground_inverse_holo_dark">@color/vpi__bright_foreground_holo_light</item>
+    <item type="color" name="vpi__bright_foreground_inverse_holo_light">@color/vpi__bright_foreground_holo_dark</item>
+    <color name="default_title_indicator_footer_color">#ff33b5e5</color>
+    <color name="default_title_indicator_selected_color">#ffffffff</color>
+    <color name="default_title_indicator_text_color">#bbffffff</color>
+</resources>

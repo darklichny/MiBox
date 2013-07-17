@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="preferencescreen"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/Battery_SavingMode" android:key="enable_powersave" android:defaultValue="false" android:summaryOn="@string/Generic_Summary_Enabled" android:summaryOff="@string/Generic_Summary_Disabled" />
+    <CheckBoxPreference android:title="@string/Pref_Saving_AutoSave" android:key="powersave_autosave" android:defaultValue="false" android:summaryOn="@string/Generic_Summary_Enabled" android:summaryOff="@string/Generic_Summary_Disabled" />
+    <CheckBoxPreference android:title="@string/Battery_NightSavingMode" android:key="night_enable_powersave" android:defaultValue="false" android:summaryOn="@string/Generic_Summary_Enabled" android:summaryOff="@string/Generic_Summary_Disabled" />
+    <PreferenceCategory android:title="@string/Pref_Saving_Cat_Config">
+        <Preference android:layout="@layout/widget_preference" android:title="@string/Pref_Saving_Screen" android:key="powersave_brightness" android:summary="@string/Pref_Saving_Screen_Summary" />
+        <CheckBoxPreference android:title="@string/Pref_Saving_BT" android:key="powersave_bt" android:defaultValue="true" android:summaryOn="@string/Pref_Saving_BT_SummaryOn" android:summaryOff="@string/Pref_Saving_BT_SummaryOff" />
+        <CheckBoxPreference android:title="@string/Pref_Saving_WIFI" android:key="powersave_wifi" android:defaultValue="true" android:summaryOn="@string/Pref_Saving_WIFI_SummaryOn" android:summaryOff="@string/Pref_Saving_WIFI_SummaryOff" />
+        <CheckBoxPreference android:title="@string/Pref_Saving_Data" android:key="powersave_data" android:defaultValue="true" android:summaryOn="@string/Pref_Saving_Data_SummaryOn" android:summaryOff="@string/Pref_Saving_Data_SummaryOff" />
+        <CheckBoxPreference android:title="@string/Pref_Saving_AutoSync" android:key="powersave_autosync" android:defaultValue="true" android:summaryOn="@string/Pref_Saving_AutoSync_SummaryOn" android:summaryOff="@string/Pref_Saving_AutoSync_SummaryOff" />
+        <CheckBoxPreference android:title="@string/Pref_Saving_Vibration" android:key="powersave_vibration" android:defaultValue="true" android:summaryOn="@string/Pref_Saving_Vibration_SummaryOn" android:summaryOff="@string/Pref_Saving_Vibration_SummaryOff" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/Pref_NightSaving_Cat_Config">
+        <Preference android:layout="@layout/widget_preference" android:title="@string/Pref_Saving_Screen" android:key="night_powersave_brightness" android:summary="@string/Pref_NightSaving_Screen_Summary" />
+        <Preference android:layout="@layout/widget_preference" android:title="@string/Pref_NightSaving_BeginTime" android:key="night_powersave_begintime" />
+        <Preference android:layout="@layout/widget_preference" android:title="@string/Pref_NightSaving_EndTime" android:key="night_powersave_endtime" />
+        <CheckBoxPreference android:title="@string/Pref_NightSaving_Airplane" android:key="night_powersave_airplane" android:defaultValue="false" android:summaryOn="@string/Pref_NightSaving_Airplane_SummaryOn" android:summaryOff="@string/Pref_NightSaving_Airplane_SummaryOff" />
+        <CheckBoxPreference android:title="@string/Pref_Saving_BT" android:key="night_powersave_bt" android:defaultValue="true" android:summaryOn="@string/Pref_NightSaving_BT_SummaryOn" android:summaryOff="@string/Pref_NightSaving_BT_SummaryOff" />
+        <CheckBoxPreference android:title="@string/Pref_Saving_WIFI" android:key="night_powersave_wifi" android:defaultValue="true" android:summaryOn="@string/Pref_NightSaving_WIFI_SummaryOn" android:summaryOff="@string/Pref_NightSaving_WIFI_SummaryOff" />
+        <CheckBoxPreference android:title="@string/Pref_Saving_Data" android:key="night_powersave_data" android:defaultValue="true" android:summaryOn="@string/Pref_NightSaving_Data_SummaryOn" android:summaryOff="@string/Pref_NightSaving_Data_SummaryOff" />
+        <CheckBoxPreference android:title="@string/Pref_Saving_AutoSync" android:key="night_powersave_autosync" android:defaultValue="true" android:summaryOn="@string/Pref_NightSaving_AutoSync_SummaryOn" android:summaryOff="@string/Pref_NightSaving_AutoSync_SummaryOff" />
+        <CheckBoxPreference android:title="@string/Pref_Saving_Vibration" android:key="night_powersave_vibration" android:defaultValue="true" android:summaryOn="@string/Pref_NightSaving_Vibration_SummaryOn" android:summaryOff="@string/Pref_NightSaving_Vibration_SummaryOff" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="preferencescreen"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/Phone_Mark_StrangeNumber" android:key="phonemanager_sign_strange_number" android:defaultValue="true" android:summaryOn="@string/Generic_Service_Enabled" android:summaryOff="@string/Generic_Service_Disabled" />
+    <Preference android:layout="@layout/widget_preference" android:title="@string/Phone_Mark_StrangeNumber_Manage" android:key="phonemanager_sign_strange_number_manager" android:summary="@string/Phone_Mark_StrangeNumber_Manage_Summary" />
+</PreferenceScreen>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/private_password_set">
+        <Preference android:layout="@layout/widget_preference" android:title="@string/private_update_password" android:key="update_password" />
+        <Preference android:layout="@layout/widget_preference" android:title="@string/private_setfalseui_password" android:key="set_false_password" android:summary="@string/private_open_fake_ui_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/private_newmessage_notification_type">
+        <CheckBoxPreference android:title="@string/private_newmessage_notification" android:key="private_notification" android:defaultValue="true" />
+        <RingtonePreference android:layout="@layout/widget_preference" android:title="@string/private_message_ring" android:key="private_message_ring" android:summary="@string/private_click_change" android:dependency="private_notification" android:defaultValue="content://settings/system/notification_sound" android:ringtoneType="notification" />
+        <Preference android:layout="@layout/widget_preference" android:title="@string/private_message_icon" android:key="private_message_icon" android:summary="@string/private_click_change" android:dependency="private_notification" />
+        <Preference android:layout="@layout/widget_preference" android:title="@string/private_call_icon" android:key="private_call_icon" android:summary="@string/private_click_change" android:dependency="private_notification" />
+        <Preference android:layout="@layout/widget_preference" android:title="@string/private_notification_text" android:key="private_notification_text" android:summary="@string/private_click_change" android:dependency="private_notification" />
+        <CheckBoxPreference android:title="@string/private_newmessage_vibrate" android:key="private_notification_vibrate" android:dependency="private_notification" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lbe.security.ui.widgets.ExpandableListViewEx android:id="@id/resultview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@drawable/list_divider" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/scanview" android:background="@drawable/av_gradient_blue_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.lbe.security.ui.antivirus.views.ScanAnimationView android:layout_gravity="center_horizontal" android:id="@id/scanAni" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:src="@drawable/avscan_1" android:scaleType="fitXY" />
+        <View android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="vertical" android:id="@id/scandes" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/TextAppearance.Medium.Inverse" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="15.0dip" android:text="@string/AV_FastScan" />
+            <TextView android:textAppearance="@style/TextAppearance.Small.Inverse" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:text="@string/AV_FastScan_Des" />
+            <TextView android:textAppearance="@style/TextAppearance.Medium.Inverse" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="15.0dip" android:text="@string/AV_DeepScan" />
+            <TextView android:textAppearance="@style/TextAppearance.Small.Inverse" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:text="@string/AV_DeepScan_Des" />
+        </LinearLayout>
+        <View android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <TextView android:textAppearance="@style/TextAppearance.Small.Inverse" android:gravity="center" android:id="@id/version" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/AV_Update_CurrentVer" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/scanprogress" android:background="@*android:color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="45.0dip">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/page_padding" android:src="@drawable/icon" android:adjustViewBounds="true" android:maxWidth="32.0dip" android:maxHeight="32.0dip" />
+            <TextView android:layout_gravity="center_vertical" android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/page_padding" android:text="@string/app_name" />
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/page_padding" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textAppearance="@style/TextAppearance.Small.Inverse" android:ellipsize="middle" android:gravity="center" android:id="@id/progressstatus" android:background="#b2c8ecff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/AV_Init" android:singleLine="true" />
+</FrameLayout>

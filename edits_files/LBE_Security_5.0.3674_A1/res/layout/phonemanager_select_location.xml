@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/round_rect" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/page_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/input_number" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:hint="@string/Phone_Input_Number" android:numeric="integer" />
+    <TextView android:textSize="20.0sp" android:id="@id/location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/page_padding" />
+</LinearLayout>
