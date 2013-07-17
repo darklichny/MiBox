@@ -5,7 +5,7 @@
         <Preference android:layout="@layout/widget_preference" android:title="@string/Pref_Main_CleanShortcut" android:key="Create_CleanShortcut" android:summary="@string/Pref_Main_CleanShortcut_Summary" />
     </PreferenceCategory>
     <PreferenceCategory android:title="@string/Desktop_Float_Window_Settings">
-        <CheckBoxPreference android:title="@string/Desktop_Float_Window_Enable" android:key="shortcut_entry_enable" android:defaultValue="true" android:summaryOn="@string/Generic_Summary_Enabled" android:summaryOff="@string/Generic_Summary_Disabled" />
+        <CheckBoxPreference android:title="@string/Desktop_Float_Window_Enable" android:key="shortcut_entry_enable" android:defaultValue="false" android:summaryOn="@string/Generic_Summary_Enabled" android:summaryOff="@string/Generic_Summary_Disabled" />
         <CheckBoxPreference android:title="@string/Desktop_Float_Window_Show_Just_When_Desktop" android:key="shortcut_entry_just_show_when_desktop" android:dependency="shortcut_entry_enable" android:defaultValue="true" android:summaryOn="@string/Generic_Summary_Enabled" android:summaryOff="@string/Generic_Summary_Disabled" />
     </PreferenceCategory>
     <PreferenceCategory android:layout="@layout/preference_layout" android:title="@string/Pref_LBE_Shortcut">

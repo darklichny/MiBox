@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <CheckBoxPreference android:title="@string/Pref_Phone_CallLocation" android:key="show_call_location" android:defaultValue="true" android:summaryOn="@string/Generic_Enable" android:summaryOff="@string/Generic_Disable" />
+    <CheckBoxPreference android:title="@string/Pref_Phone_CallLocation" android:key="show_call_location" android:defaultValue="false" android:summaryOn="@string/Generic_Enable" android:summaryOff="@string/Generic_Disable" />
     <CheckBoxPreference android:title="@string/Pref_Phone_CallLocation_Fixed" android:key="call_location_fixed" android:dependency="show_call_location" android:defaultValue="false" android:summaryOn="@string/Generic_Enable" android:summaryOff="@string/Generic_Disable" />
     <ListPreference android:entries="@array/location_bg" android:title="@string/Pref_Phone_CallLocation_Background" android:key="call_location_bg" android:dependency="show_call_location" android:defaultValue="0" android:dialogTitle="@string/Pref_Phone_CallLocation_Background" android:entryValues="@array/location_bg_values" />
     <Preference android:layout="@layout/widget_preference" android:title="@string/Phone_Select_Location" android:key="call_select" />

@@ -125,7 +125,7 @@
 
     new-instance v1, Lcom/lbe/security/utility/ao;
 
-    const-string v2, "\u5df2\u5141\u8bb8(%d)"
+    const-string v2, "Allowed (%d)"
 
     new-instance v3, Ljava/util/ArrayList;
 
@@ -139,7 +139,7 @@
 
     new-instance v1, Lcom/lbe/security/utility/ao;
 
-    const-string v2, "\u5df2\u7981\u7528(%d)"
+    const-string v2, "Blocked (%d)"
 
     new-instance v3, Ljava/util/ArrayList;
 

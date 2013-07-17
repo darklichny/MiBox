@@ -2,7 +2,7 @@
 <PreferenceScreen
   xmlns:android="http://schemas.android.com/apk/res/android">
     <CheckBoxPreference android:title="@string/Pref_Main_HIPS_Service" android:key="enable_hips_service" android:defaultValue="true" android:summaryOn="@string/Generic_Service_Enabled" android:summaryOff="@string/Generic_Service_Disabled" />
-    <CheckBoxPreference android:title="@string/Pref_HIPS_Forge_SendReport" android:key="forge_sendreport" android:defaultValue="true" android:summaryOn="@string/Generic_Summary_Enabled" android:summaryOff="@string/Generic_Summary_Disabled" />
-    <ListPreference android:entries="@array/notify_hips_event" android:title="@string/Pref_HIPS_Record_Event" android:key="notify_security_event" android:defaultValue="0" android:dialogTitle="@string/Pref_HIPS_Record_Event" android:entryValues="@array/notify_hips_event_values" />
-    <ListPreference android:entries="@array/record_telephony_event" android:title="@string/Pref_HIPS_Record_Telephony" android:key="record_telephony_event" android:defaultValue="0" android:dialogTitle="@string/Pref_HIPS_Record_Telephony" android:entryValues="@array/record_telephony_event_values" />
+    <CheckBoxPreference android:title="@string/Pref_HIPS_Forge_SendReport" android:key="forge_sendreport" android:defaultValue="false" android:summaryOn="@string/Generic_Summary_Enabled" android:summaryOff="@string/Generic_Summary_Disabled" />
+    <ListPreference android:entries="@array/notify_hips_event" android:title="@string/Pref_HIPS_Record_Event" android:key="notify_security_event" android:defaultValue="1" android:dialogTitle="@string/Pref_HIPS_Record_Event" android:entryValues="@array/notify_hips_event_values" />
+    <ListPreference android:entries="@array/record_telephony_event" android:title="@string/Pref_HIPS_Record_Telephony" android:key="record_telephony_event" android:defaultValue="1" android:dialogTitle="@string/Pref_HIPS_Record_Telephony" android:entryValues="@array/record_telephony_event_values" />
 </PreferenceScreen>

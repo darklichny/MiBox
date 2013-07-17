@@ -61,7 +61,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    const-string v1, "%d\u6b3e\u8f6f\u4ef6\u7b49\u5f85\u914d\u7f6e"
+    const-string v1, "%d new application(s)"
 
     const/4 v2, 0x1
 

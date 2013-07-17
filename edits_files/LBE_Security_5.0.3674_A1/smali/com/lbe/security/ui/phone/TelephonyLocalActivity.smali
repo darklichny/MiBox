@@ -30,7 +30,7 @@
 
     move-result-object v0
 
-    const-string v1, "\u5f52\u5c5e\u5730"
+    const-string v1, "Local calls (China only)"
 
     invoke-virtual {v0, v1}, Lcom/lbe/security/ui/widgets/i;->b(Ljava/lang/CharSequence;)V
 

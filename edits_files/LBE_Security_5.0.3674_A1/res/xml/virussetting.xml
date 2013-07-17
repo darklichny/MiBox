@@ -2,7 +2,7 @@
 <PreferenceScreen android:key="preferencescreen"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <CheckBoxPreference android:title="@string/Pref_AV_Realscan" android:key="scan_realtimescan" android:defaultValue="true" android:summaryOn="@string/Generic_Summary_Enabled" android:summaryOff="@string/Generic_Summary_Disabled" />
-    <ListPreference android:entries="@array/auto_update_period" android:title="@string/AV_AutoUpdate_Title" android:key="virus_auto_period" android:defaultValue="1" android:dialogTitle="@string/AV_AutoUpdate_Title" android:positiveButtonText="@*android:string/cancel" android:entryValues="@array/auto_update_period_values" />
+    <ListPreference android:entries="@array/auto_update_period" android:title="@string/AV_AutoUpdate_Title" android:key="virus_auto_period" android:defaultValue="0" android:dialogTitle="@string/AV_AutoUpdate_Title" android:positiveButtonText="@*android:string/cancel" android:entryValues="@array/auto_update_period_values" />
     <CheckBoxPreference android:title="@string/Pref_AV_AutoDownload" android:key="virus_autoupdate" android:defaultValue="false" android:summaryOn="@string/Generic_Summary_Enabled" android:summaryOff="@string/Generic_Summary_Disabled" />
     <Preference android:title="@string/AV_ScanCleanLog" android:key="virus_logshow" />
 </PreferenceScreen>

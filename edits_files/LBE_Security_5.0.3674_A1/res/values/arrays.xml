@@ -9,11 +9,11 @@
         <item>Add by tags</item>
     </string-array>
     <string-array name="addwhitetype">
-        <item>Add from Contacts</item>
-        <item>Add from Call History</item>
-        <item>Add from Message List</item>
-        <item>Add Manually</item>
-        <item>Add by Region</item>
+        <item>Add from contacts</item>
+        <item>Add from call record</item>
+        <item>Add from SMS list</item>
+        <item>Add by regions</item>
+        <item>Add by tags</item>
     </string-array>
     <string-array name="addnouseiptype">
         <item>Add from contacts</item>
@@ -193,7 +193,7 @@
     </string-array>
     <string-array name="traffic_autodim_values">
         <item>10000</item>
-        <item>15000</item>
+        <item>15,000</item>
         <item>20000</item>
         <item>-1</item>
     </string-array>
@@ -279,9 +279,9 @@ ad pop-up, etc."</item>
         <item>default|Unknown threat</item>
     </string-array>
     <string-array name="traffic_cell_type">
-        <item>Sort by monthly rate</item>
-        <item>Sort by this rate</item>
-        <item>Sort by software name</item>
+        <item>Sorty by traffic this month</item>
+        <item>Sort by traffic today</item>
+        <item>Sort by app name</item>
     </string-array>
     <string-array name="calibration_period">
         <item>Every 3 days</item>
@@ -445,9 +445,9 @@ ad pop-up, etc."</item>
         <item>Restore to phone inbox</item>
     </string-array>
     <string-array name="private_message_operator">
-        <item>Call Contact</item>
-        <item>Delete this session</item>
-        <item>Restored to the phone</item>
+        <item>SMS dialog</item>
+        <item>Call</item>
+        <item>Delete this dialog</item>
     </string-array>
     <string-array name="private_message_dialog_operator">
         <item>Delete this SMS</item>
@@ -487,13 +487,13 @@ ad pop-up, etc."</item>
     <string-array name="desktop_float_toggles_labels">
         <item>Flight mode</item>
         <item>Bluetooth</item>
-        <item>Screen brightness</item>
-        <item>Touch</item>
+        <item>screen brightness</item>
+        <item>touch</item>
         <item>Sync</item>
         <item>WIFI</item>
         <item>GPS</item>
-        <item>Mobile network</item>
-        <item>Screen Rotation</item>
+        <item>mobile network</item>
+        <item>screen rotation</item>
     </string-array>
     <string-array name="homepage_more_options_labels">
         <item>Anti-Virus</item>
@@ -506,48 +506,48 @@ ad pop-up, etc."</item>
         <item>Backup</item>
     </string-array>
     <string-array name="home_about_labels">
-        <item>System Settings</item>
-        <item>Software Update</item>
+        <item>System settings</item>
+        <item>Software update</item>
         <item>Feedback</item>
-        <item>Software scoring</item>
+        <item>Rate this application</item>
         <item>Share with friends</item>
-        <item>Join Us</item>
+        <item>Join us</item>
     </string-array>
     <string-array name="sdapk_sortypes">
-        <item>Sort by Name</item>
+        <item>Sort by name</item>
         <item>Sort by size</item>
         <item>Chronological</item>
     </string-array>
     <string-array name="sdapk_types">
-        <item>All Packages</item>
-        <item>New version package</item>
-        <item>Older version package</item>
-        <item>Installed packages</item>
-        <item>Package is not installed</item>
-        <item>Certification exception Packages</item>
-        <item>Repeat the installation package</item>
+        <item>All</item>
+        <item>Newer versions</item>
+        <item>Older versions</item>
+        <item>Installed</item>
+        <item>Not installed</item>
+        <item>Mismathed signature</item>
+        <item>Duplicates</item>
     </string-array>
     <string-array name="sdapk_status">
-        <item>Your SD does not exist any packages</item>
-        <item>Your SD is not upgradable packages exist</item>
-        <item>Your SD package exists no old version</item>
-        <item>Your SD is not already installed package exists</item>
-        <item>Your SD does not exist is not installed package</item>
-        <item>Your SD package is not certified anomalies exist</item>
-        <item>Your SD does not duplicate packages exist</item>
+        <item>No packages found on SD card</item>
+        <item>No newer packages found on SD card</item>
+        <item>No older packages found on SD card</item>
+        <item>No already installed packages found on SD card</item>
+        <item>No uninstalled packages found on SD card</item>
+        <item>No packages with mismatched signature found on SD card</item>
+        <item>No package duplicates found on SD card</item>
     </string-array>
     <string-array name="task_sortypes">
-        <item>Sort by name</item>
-        <item>Sort by RAM usage</item>
-        <item>Sort by CPU usage</item>
+        <item>Name + Type</item>
+        <item>Memory consumption</item>
+        <item>CPU Usage</item>
     </string-array>
     <string-array name="hipsapk_sortypes">
         <item>Sort by name</item>
-        <item>Sort by the number of permissions</item>
-        <item>Sort by time</item>
+        <item>Sort by permissions count</item>
+        <item>Chronological</item>
     </string-array>
     <string-array name="hipsapk_types">
-        <item>Monitored Software</item>
-        <item>Scanned Software</item>
+        <item>Downloaded</item>
+        <item>System</item>
     </string-array>
 </resources>

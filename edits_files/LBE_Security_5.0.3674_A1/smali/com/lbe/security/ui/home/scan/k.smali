@@ -76,7 +76,7 @@
 
     new-instance v1, Landroid/util/Pair;
 
-    const-string v2, "\u5371\u9669"
+    const-string v2, "Dangerous"
 
     new-instance v3, Ljava/util/ArrayList;
 
@@ -90,7 +90,7 @@
 
     new-instance v1, Landroid/util/Pair;
 
-    const-string v2, "\u53ef\u4f18\u5316"
+    const-string v2, "Optimizations"
 
     new-instance v3, Ljava/util/ArrayList;
 
@@ -104,7 +104,7 @@
 
     new-instance v1, Landroid/util/Pair;
 
-    const-string v2, "\u5b89\u5168"
+    const-string v2, "Security"
 
     new-instance v3, Ljava/util/ArrayList;
 

@@ -711,7 +711,7 @@
 
     new-instance v1, Ljava/lang/StringBuilder;
 
-    const-string v3, "\u7248\u672c:"
+    const-string v3, "Version:"
 
     invoke-direct {v1, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 

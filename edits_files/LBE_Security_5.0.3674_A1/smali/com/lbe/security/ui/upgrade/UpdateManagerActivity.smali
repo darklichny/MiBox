@@ -39,7 +39,7 @@
 
     const/4 v1, 0x0
 
-    const-string v2, "LBE\u5b89\u5168\u5927\u5e08"
+    const-string v2, "LBE Security Master"
 
     invoke-direct {v0, v1, v2}, Lcom/lbe/security/ui/upgrade/d;-><init>(ILjava/lang/String;)V
 
@@ -49,7 +49,7 @@
 
     const/4 v1, 0x1
 
-    const-string v2, "\u75c5\u6bd2\u5e93"
+    const-string v2, "Antivirus database"
 
     invoke-direct {v0, v1, v2}, Lcom/lbe/security/ui/upgrade/d;-><init>(ILjava/lang/String;)V
 
@@ -59,7 +59,7 @@
 
     const/4 v1, 0x3
 
-    const-string v2, "\u5e7f\u544a\u5e93"
+    const-string v2, "Adblock database"
 
     invoke-direct {v0, v1, v2}, Lcom/lbe/security/ui/upgrade/d;-><init>(ILjava/lang/String;)V
 

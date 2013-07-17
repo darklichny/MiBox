@@ -6,12 +6,12 @@
     <string name="HIPS_Action_Accept_Colored">&lt;font color=#478800>Allow&lt;/font></string>
     <string name="HIPS_Action_Prompt_Colored">&lt;font color=#FF8A00>Ask&lt;/font></string>
     <string name="HIPS_Action_Reject_Colored">&lt;font color=#DF0000>Deny&lt;/font></string>
-    <string name="HIPS_Group_Expense">Security Related</string>
+    <string name="HIPS_Group_Expense">"Security Related "</string>
     <string name="HIPS_Group_PIM">Personal information</string>
     <string name="HIPS_Group_Location">Locating</string>
     <string name="HIPS_Group_PhoneID">Device information</string>
     <string name="HIPS_Group_Internet">Internet Access</string>
-    <string name="HIPS_Group_DataPrivacy">Privacy Related</string>
+    <string name="HIPS_Group_DataPrivacy">"Privacy Related "</string>
     <string name="HIPS_Group_ROOT">ROOT</string>
     <string name="HIPS_Perm_SendSMS">SMS Sending</string>
     <string name="HIPS_Perm_SendSMS_Desc">Sends SMS directly</string>
@@ -103,19 +103,19 @@
     <string name="HIPS_Perm_RecordVideo">to record a video</string>
     <string name="HIPS_Perm_Picture">to take a picture</string>
     <string name="download_unknown_title">&lt;Untitled></string>
-    <string name="notification_filename_separator">", "</string>
-    <string name="notification_filename_extras">" and %d more"</string>
+    <string name="notification_filename_separator">,</string>
+    <string name="notification_filename_extras">and %d more</string>
     <string name="notification_download_complete">Download complete</string>
-    <string name="notification_download_failed">Download unsuccessful</string>
+    <string name="notification_download_failed">Download failed</string>
     <string name="notification_need_wifi_for_size">Download size requires Wi-Fi</string>
-    <string name="wifi_required_title">Download file size too large for operator network</string>
-    <string name="wifi_required_body" formatted="false">You must use WiFi to complete this%s download. Click%s to begin this download the next time you are connected to a WiFi network.</string>
+    <string name="wifi_required_title">Download file size is too large for operator network</string>
+    <string name="wifi_required_body" formatted="false">You have to use WiFi to complete %s download. Click %s to begin this download next time you are connected to a WiFi network.</string>
     <string name="wifi_recommended_title">Queue for download later?</string>
-    <string name="wifi_recommended_body" formatted="false">Starting this %s download now may shorten your battery life and/or result in excessive usage of your mobile data connection, which can lead to charges by your mobile operator depending on your data plan.  Click %s below to begin this download the next time you are connected to a WiFi network.</string>
+    <string name="wifi_recommended_body" formatted="false">Starting download of %s now may shorten your battery life and/or result in excessive usage of your mobile data connection, which can lead to charges by your mobile operator depending on your data plan.  Click %s below to begin this download next time you are connected to a WiFi network.</string>
     <string name="button_queue_for_wifi">Queue</string>
     <string name="button_cancel_download">Cancel</string>
     <string name="button_start_now">Start now</string>
-    <string name="more_options">More features</string>
+    <string name="more_options">More...</string>
     <string name="copyright">Copyright ©2013 LBE. All Rights Reserved</string>
     <string name="share_desc">I am using Android phones essential artifact LBE security master protect my phone yo, harassment interception, to advertising, privacy, access control, mobile phones all have accelerated. Download Come try it. Download Link: http://www.lbesec.com</string>
     <string name="visit_website">Visit Website</string>
@@ -127,7 +127,7 @@
     <string name="current_version">Current version</string>
     <string name="recommend_lbe_master">Recommend LBE security master</string>
     <string name="lbe_security_master">LBE security</string>
-    <string name="already_block">has blocked</string>
+    <string name="already_block">Blocked</string>
     <string name="Download_NoSd_Hint">no SD card, insert the SD card to complete the download</string>
     <string name="miui_step_5">5. Congratulations! Complete the setup, you can normally use text messaging blocked.</string>
     <string name="miui_step_4">4. Click Close \"System message priority\", allowing third-party application intercepts the SMS notification.</string>
@@ -177,6 +177,7 @@
     <string name="AD_Risk_App">Containing risky adwares</string>
     <string name="AD_No_Risk_App">Containing non-risky adwares</string>
     <string name="AD_Already_Blokced">Ads blocked</string>
+    <string name="AD_OneClick_Diable">OneClick disable</string>
     <string name="AD_Scan_Activity_Title">Ad Scan</string>
     <string name="AD_Cancel_Scan">Cancel scan</string>
     <string name="AD_User_Feedback">Feedback</string>
@@ -228,7 +229,7 @@
     <string name="AV_Cancel_Message">Anti-virus scan is not finished, stop scanning?</string>
     <string name="AV_FastScan_Progress">Scanning apps %1$d/%2$d</string>
     <string name="AV_DeepScan_Progress">Scanning SD card</string>
-    <string name="AV_Clean">One-click clean-up ( %1$d threats)</string>
+    <string name="AV_Clean">One-click clean-up (%1$d threats)</string>
     <string name="AV_ScanResult">" %1$d objects scanned in total
 Operation took %2$d seconds"</string>
     <string name="AV_ScanResult_Pending">To be cleaned</string>
@@ -265,10 +266,10 @@ clear it?"</string>
     <string name="AV_ClearLog">Clear Log</string>
     <string name="AV_NoneLog">No log</string>
     <string name="AV_ScanResultReport_Report">Scanned: %1$d Viruses: %2$d , Warnings: %3$d Cleared: %4$d</string>
-    <string name="AV_ScanResultReport_ScanCount">Scanned files ( %1$d )</string>
-    <string name="AV_ScanResultReport_VirusCount">Viruses ( %1$d )</string>
-    <string name="AV_ScanResultReport_WarnCount">Warnings ( %1$d )</string>
-    <string name="AV_ScanResultReport_CleanCount">Cleared ( %1$d )</string>
+    <string name="AV_ScanResultReport_ScanCount">Scanned files (%1$d)</string>
+    <string name="AV_ScanResultReport_VirusCount">Viruses (%1$d)</string>
+    <string name="AV_ScanResultReport_WarnCount">Warnings (%1$d)</string>
+    <string name="AV_ScanResultReport_CleanCount">Cleared (%1$d)</string>
     <string name="AV_Scan_JustScanned">Just scanned, your phone is feeling great</string>
     <string name="AV_Scan_Lastscan">Last scan was %1$s</string>
     <string name="AV_Scan_RecommendScan">Not scanned for some time</string>
@@ -280,7 +281,7 @@ clear it?"</string>
     <string name="Battery_BatteryChargeMode">Charging status</string>
     <string name="Battery_SavingMode">PS Modes</string>
     <string name="Battery_SavingModes">Power Saving Modes</string>
-    <string name="Battery_IntelligentSaving">Smart Power-Saving</string>
+    <string name="Battery_IntelligentSaving">Power savings</string>
     <string name="Battery_SavingMode_Current">Current power saving mode</string>
     <string name="Battery_NightSavingMode">NTPS Mode Switch</string>
     <string name="Battery_CustomMode">Custom mode</string>
@@ -293,9 +294,9 @@ clear it?"</string>
     <string name="Battery_Disabled">Power saving mode is off</string>
     <string name="Battery_Night_Disabled">The nighttime power saving mode is off</string>
     <string name="Battery_Consumption">Consumptns</string>
-    <string name="Battery_HardwareConsumption">Hardware Consumption</string>
-    <string name="Battery_HardwareConsumption_None">No hardware battery consumption data</string>
-    <string name="Battery_SoftwareConsumption">Software Consumption</string>
+    <string name="Battery_HardwareConsumption">Power consumption by Hardware</string>
+    <string name="Battery_HardwareConsumption_None">No hardware power consumption data</string>
+    <string name="Battery_SoftwareConsumption">Power consumption by Software</string>
     <string name="Battery_SoftwareConsumption_None">No software battery consumption data</string>
     <string name="Battery_BatteryCapacity">Battery level</string>
     <string name="Battery_BatteryStatus_Charge">Charging status</string>
@@ -363,7 +364,7 @@ clear it?"</string>
     <string name="Battery_Mode_BatteryCheckBoxSync">Sync</string>
     <string name="Battery_Mode_BatteryCheckBoxBright">Brightness</string>
     <string name="Battery_Mode_BatteryCheckBoxGPS">GPS</string>
-    <string name="Battery_Mode_BatteryCheckBoxScreenLockTime">Lockscreen</string>
+    <string name="Battery_Mode_BatteryCheckBoxScreenLockTime">Lock Screen</string>
     <string name="Battery_Mode_BatteryCheckBoxHaptic">Haptic</string>
     <string name="Battery_Mode_BatteryCheckBoxAir">Airplane</string>
     <string name="Battery_Mode_BatteryCheckBoxBluetooth">Bluetooth</string>
@@ -524,474 +525,472 @@ Slower CPU on off-screen can be set up"</string>
     <string name="Generic_Summary_Enabled">Enabled</string>
     <string name="Generic_Summary_Disabled">Disabled</string>
     <string name="Generic_Add">Add</string>
-    <string name="Generic_Clip">clip</string>
+    <string name="Generic_Clip">Streamline</string>
     <string name="Generic_Enable">Enable</string>
     <string name="Generic_Disable">Disable</string>
     <string name="Generic_Enabled">Enabled</string>
     <string name="Generic_Disabled">Disabled</string>
-    <string name="Generic_Blocked">Blocked</string>
+    <string name="Generic_Blocked">Block</string>
     <string name="Generic_Restore">Restore</string>
     <string name="Generic_Optimize">Optimize</string>
-    <string name="Generic_Accept">Accept</string>
-    <string name="Generic_Prompt">Prompt</string>
-    <string name="Generic_Reject">Reject</string>
+    <string name="Generic_Accept">Allow</string>
+    <string name="Generic_Prompt">Ask</string>
+    <string name="Generic_Reject">Deny</string>
     <string name="Generic_Check">Check</string>
     <string name="Generic_Remove">Remove</string>
-    <string name="Generic_Clean">Clean</string>
+    <string name="Generic_Clean">Clean up</string>
     <string name="Generic_Start">Start</string>
-    <string name="Generic_Cleaned">Already Clean</string>
-    <string name="Generic_CustomClean">CustomClean</string>
+    <string name="Generic_Cleaned">Cleaned up</string>
+    <string name="Generic_CustomClean">Manually clean up</string>
     <string name="Generic_Good">Good</string>
-    <string name="Generic_Shortcut">Shortcut</string>
-    <string name="Generic_Return">Return</string>
-    <string name="Generic_SelectAll">Select All</string>
+    <string name="Generic_Shortcut">Shortcuts</string>
+    <string name="Generic_Return">Back</string>
+    <string name="Generic_SelectAll">Select all</string>
     <string name="Generic_Clear">Clear</string>
     <string name="Generic_Delete">Delete</string>
-    <string name="Generic_More">More</string>
-    <string name="Generic_Inform">Inform</string>
-    <string name="Generic_Empty">Empty</string>
+    <string name="Generic_More">more</string>
+    <string name="Generic_Inform">Report</string>
+    <string name="Generic_Empty">No data</string>
     <string name="Generic_SelectReverse">Invert Selection</string>
-    <string name="Generic_Low_Memory">Phone memory is full! Please Delete some files to free up space.</string>
+    <string name="Generic_Low_Memory">The phone memory has run out! Delete some files to free up space.</string>
     <string name="Generic_ON">ON</string>
     <string name="Generic_OFF">OFF</string>
-    <string name="Generic_NoTipsNextShow">known！</string>
+    <string name="Generic_NoTipsNextShow">See that!</string>
     <string name="Generic_NextPage">Next</string>
     <string name="Generic_Enabled_2">Enabled</string>
-    <string name="Generic_Disabled_2">Disabled</string>
-    <string name="Generic_Exception">Exception</string>
-    <string name="Generic_Finish_Setting">Completed</string>
-    <string name="Generic_Time_Today">Not today</string>
-    <string name="Home_Phone_Type">Block mode</string>
-    <string name="Home_Phone_BlockedSms">new %1$d blocked SMS</string>
-    <string name="Home_Phone_BlockedCall">new %1$d blocked calls</string>
-    <string name="Home_Phone_BlockedSmsAndCall">new %1$d SMS and %2$d calls</string>
-    <string name="Home_Block_Phone_Sms">%1$d phone %2$d SMS</string>
-    <string name="Home_Optimize_Memory">Memory: %1$s/%2$s</string>
+    <string name="Generic_Disabled_2">Tap to enable</string>
+    <string name="Generic_Exception">Disabled</string>
+    <string name="Generic_Finish_Setting">Finish setting</string>
+    <string name="Generic_Time_Today">Today</string>
+    <string name="Home_Phone_Type">Blocking Modes</string>
+    <string name="Home_Phone_BlockedSms">%1$d new blocked SMS</string>
+    <string name="Home_Phone_BlockedCall">%1$d new blocked calls</string>
+    <string name="Home_Phone_BlockedSmsAndCall">Newly blocked: %1$d SMS %2$d calls</string>
+    <string name="Home_Block_Phone_Sms">Calls %1$d, SMS %2$d</string>
+    <string name="Home_Optimize_Memory">RAM %1$s/%2$s</string>
     <string name="Home_Traffic_Mobile">%1$s/%2$s/%3$s</string>
-    <string name="Home_Traffic_Unlimited">data limit not set</string>
-    <string name="Home_Optimize_OneClick">OneClick</string>
+    <string name="Home_Traffic_Unlimited">Data plan not set</string>
+    <string name="Home_Optimize_OneClick">One-click boost</string>
     <string name="Home_Feedback">Feedback</string>
-    <string name="Home_Feedback_Saved">Feedback saved</string>
+    <string name="Home_Feedback_Saved">Your feedback has been saved</string>
     <string name="Home_Feedback_Title">Please provide your valuable comments and suggestions:</string>
-    <string name="Home_Feedback_ErrorInput">Sorry, your feedback is too short, can not submit</string>
+    <string name="Home_Feedback_ErrorInput">Sorry, your feedback is too short to be submitted</string>
     <string name="Home_Feedback_Send">Submit Feedback</string>
-    <string name="Home_Feedback_Sending">Sending...</string>
-    <string name="Home_Feedback_NetError">Network error, please check connection</string>
-    <string name="Home_Feedback_Success">Your feedback has been submitted, thank you for your support</string>
-    <string name="Home_Feedback_Error">Server is busy, please re-submit your feedback later</string>
+    <string name="Home_Feedback_Sending">Submitting Feedback ...</string>
+    <string name="Home_Feedback_NetError">Network abnormal, please check your network connection</string>
+    <string name="Home_Feedback_Success">Your feedback has been submitted, Thank you for your support</string>
+    <string name="Home_Feedback_Error">The server is busy. Please re-submit feedback later</string>
     <string name="Home_Feedback_Url">http://bbs.lbesec.com</string>
-    <string name="Home_Feedback_CreatingLogErrorFile">an error report log is being generated...</string>
-    <string name="Home_Feedback_CreateLogErrorFile">Generates an error report log</string>
-    <string name="Home_Feedback_LogErrorFile_Success">Your error log has been submitted, thank you for your support</string>
+    <string name="Home_Feedback_CreatingLogErrorFile">Is to generate an error log report ...</string>
+    <string name="Home_Feedback_CreateLogErrorFile">Generated error log reports</string>
+    <string name="Home_Feedback_LogErrorFile_Success">Your error log has been submitted, thank you very much for your support</string>
     <string name="Home_Feedback_LogErrorFile_Failture">Error log submission failed, please try again later</string>
-    <string name="Home_Feedback_LogErrorFile_Upload_TimeLimit">Commit interval cannot be less than 10 Minute minutes, please submit later</string>
-    <string name="Home_Feedback_Cannotaccess_SDCard">Can not access the SDcard, make sure the SDcard is available</string>
+    <string name="Home_Feedback_LogErrorFile_Upload_TimeLimit">Submit time interval less than 10 minutes later, please submit</string>
+    <string name="Home_Feedback_Cannotaccess_SDCard">Can not access the memory card, make sure that the memory card is available</string>
     <string name="Home_About">About</string>
-    <string name="Home_About_PkgVersion">"%1$s for Android Version %2$s"</string>
-    <string name="Home_About_urls">&lt;p>Official Website: &lt;a href=http://www.lbesec.com>www.lbesec.com&lt;/a>&lt;/p>&lt;p>Product forums: &lt;a href=http://weibo.com/lbesec>LBE group&lt;/a>&lt;/p></string>
-    <string name="Home_About_phones">Contact: &lt;a href=tel:01085997019>010-85997019&lt;/a></string>
-    <string name="Home_About_mail">E-mail: &lt;a href=mailto:lbe@lbesec.com>lbe@lbesec.com&lt;/a></string>
-    <string name="Home_About_Copyright">"Powered by Team LBE©2011 Yong Yang"</string>
-    <string name="Home_Optimize">System Optimize</string>
+    <string name="Home_About_PkgVersion">%1$s for Android Version %2$s</string>
+    <string name="Home_About_urls">&lt;p>Official Site: &lt;a href=http://www.lbesec.com>www.lbesec.com&lt;/a>&lt;/p>&lt;p>Product Weibo: &lt;a href=http://weibo.com/lbesec>Team LBE&lt;/a>&lt;/p></string>
+    <string name="Home_About_phones">Telephone: &lt;a href=tel:01085997019>010-85997019&lt;/a></string>
+    <string name="Home_About_mail">Email: &lt;a href=mailto:lbe@lbesec.com>lbe@lbesec.com&lt;/a></string>
+    <string name="Home_About_Copyright">Powered by Team LBE © 2013 Yong Yang An Feng All rights reserved.</string>
+    <string name="Home_Optimize">System Optimization</string>
     <string name="Home_Security">Security</string>
-    <string name="Home_AlertTab">Switch Home</string>
-    <string name="Home_AlertTab_Toast">Home has been switched to the main screen %1$s</string>
-    <string name="Home_Exit">Close Services</string>
-    <string name="Home_Exit_Warning">Close LBE security master security service, your phone will lose protection, continue？</string>
-    <string name="Home_Guide_Title1">LBE security master upgraded！</string>
-    <string name="Home_Guide_Tips1">"People-oriented and designed to function
-Carefully designed fresh interface
-best security for your phone!
+    <string name="Home_AlertTab">Home switch</string>
+    <string name="Home_AlertTab_Toast">Homescreen is switched to %1$s</string>
+    <string name="Home_Exit">Shut Srvc</string>
+    <string name="Home_Exit_Warning">Your phone will lose protection shutting the LBE Security Master security services. Green button to confirm, grey to cancel.</string>
+    <string name="Home_Guide_Title1">LBE Security Master is updated!</string>
+    <string name="Home_Guide_Tips1">"Delicately designed human functions
+Carefully polished refreshing delicate UI
+We secure your phone whole-heartedly!
 
-New features:
-  1 freshly redesigned interface
+New features: 
+1. Redesigned fresh style interface 
 
-  2 program lock
-  Unique Face Unlock feature
+2. App Lock
+Unique face recognition unlock function 
 
-  3. LBE Task Manager
-  The history of the most convenient task management
+3. LBE task manager
+The most convenient task management functions in history
 
-  4. Enhanced system-level telephone Block (requires ROOT)
-  Added support for HTC series mobile phone, and the phone supports CDMA networks
-  Support strange calls ringing delay 3 Sec
+4. Enhanced system-level call blocking (ROOT required)
+Added support for HTC and CDMA phones
+Supports ringer delay for 3 seconds when stranger numbers call
 
-  5. Communications Toolbox
-  Support connected to vibration, missed call notifications and other convenient functions"</string>
-    <string name="Home_Guide_Title2">The history of the most convenient task manager</string>
-    <string name="Home_Guide_Tips2">"OneKey Cleanup
-Since the launch of housekeeper
-Power Saving Optimization
-Make your phone run like a champ"</string>
-    <string name="Home_Guide_Title3">Task Manager is now enabled</string>
-    <string name="Home_Guide_Tips3">"Active Defense
+5. Communication toolbox
+Supports vibration on pickup, missed call notifications and other functions for your convenience"</string>
+    <string name="Home_Guide_Title2">The most convenient task manager in history</string>
+    <string name="Home_Guide_Tips2">"One-click clean-up
+Auto-Start Manager
+Power saving optimizations
+Make your phone fly easier"</string>
+    <string name="Home_Guide_Title3">Enable Task Manager now</string>
+    <string name="Home_Guide_Tips3">"Proactive Defense
 Virus killing
-Harassment Block
-Make your phone more secure"</string>
-    <string name="Home_Guide_Tips4">"Just one, easy to master
-Security status of your phone"</string>
+Spam blocking
+Make your phone invulnerably safer"</string>
+    <string name="Home_Guide_Tips4">"Just a tap is needed for you to know
+your phone's safety status"</string>
     <string name="Home_Item_Name_PhonePlugin">Communication Toolbox</string>
-    <string name="Home_Item_Name_IpCall">IPCalling</string>
-    <string name="Home_Item_Name_PhoneEnhance">Enhanced Communication</string>
-    <string name="Home_Item_Name_PhoneEnhance_Item_Info">IPCalling Enhanced Communication Number Search</string>
-    <string name="Home_Item_Name_NumberSelect">Number Search</string>
-    <string name="Home_Scan_Warn_NoOptimize">Unable to get system assessment Minute</string>
-    <string name="Home_Scan_Warn_LowGrade">There are obvious risks</string>
-    <string name="Home_Scan_Warn_LongTime">There may be hidden</string>
-    <string name="Home_Scan_Warn_BadOptimized">Not Optimized</string>
+    <string name="Home_Item_Name_IpCall">Auto IP</string>
+    <string name="Home_Item_Name_PhoneEnhance">Comm. Enhanx.</string>
+    <string name="Home_Item_Name_PhoneEnhance_Item_Info">IP Dial, Comm. Enhanx, Num Consult</string>
+    <string name="Home_Item_Name_NumberSelect">Number Consult</string>
+    <string name="Home_Scan_Warn_NoOptimize">System not rated</string>
+    <string name="Home_Scan_Warn_LowGrade">Obviously at risk!</string>
+    <string name="Home_Scan_Warn_LongTime">Hidden dangers may exist</string>
+    <string name="Home_Scan_Warn_BadOptimized">Optimization required</string>
     <string name="Home_Scan_Warn_Perfect">Perfect system</string>
     <string name="Home_BackupTitle">Backup and Restore</string>
-    <string name="Home_Backup">Create Backup</string>
-    <string name="Home_Backup_Comment">In%1$s backup from %2$s %3$s backup</string>
-    <string name="Home_Backup_Comment2">%1$s %2$s version of backup</string>
-    <string name="Home_BackupEmpty">No backup file, click Create Backup button to back up</string>
-    <string name="Home_BackupOK">Backup complete</string>
+    <string name="Home_Backup">Backup</string>
+    <string name="Home_Backup_Comment">Backup of %2$s V%3$s at %1$s</string>
+    <string name="Home_Backup_Comment2">%1$s %2$s version of the backup</string>
+    <string name="Home_BackupEmpty">No backup. Tap on Backup to create one.</string>
+    <string name="Home_BackupOK">Backup successful</string>
     <string name="Home_BackupFail">Backup failed</string>
-    <string name="Home_BackupHint_FileName">Filename</string>
-    <string name="Home_BackupHint_Comment">Comment</string>
-    <string name="Home_BackupProgress">Being backed up %1$d Minute，Total %2$d Minute</string>
+    <string name="Home_BackupHint_FileName">File Name</string>
+    <string name="Home_BackupHint_Comment">Memo</string>
+    <string name="Home_BackupProgress">Backing-up %1$d of total %2$d parts</string>
     <string name="Home_Restore">Restore</string>
-    <string name="Home_RestoreConfirm">Restore this backup, all your settings will be lost Are you sure?</string>
-    <string name="Home_RestoreOK">Restore successful, the software will automatically restart</string>
-    <string name="Home_RestoreFail">Restore failed, please try again</string>
-    <string name="Home_RestoreProgress">Restoring %1$d Minute，共计%2$d Minute remain</string>
+    <string name="Home_RestoreConfirm">Restoring this backup, all your settings will be lost, continue?</string>
+    <string name="Home_RestoreOK">Successfully restored, LBESM will auto-restart.</string>
+    <string name="Home_RestoreFail">Failed to restore, please try again</string>
+    <string name="Home_RestoreProgress">Restoring %1$d of total %2$d parts</string>
     <string name="Home_Delete">Delete</string>
-    <string name="Home_DeleteConfirm">Are you sure you want to Delete the backup file?</string>
-    <string name="Home_Backup_NoSDCard">Please insert the SD card to use the backup and restore capabilities</string>
-    <string name="Home_Security_Plugin">Security plugin</string>
-    <string name="Home_Security_Plugin_Desc">Privacy mobile security plugin</string>
-    <string name="Home_Onekey_Check">OneKey Checkup</string>
-    <string name="Home_Accelerate">Accelleration</string>
-    <string name="Home_Battery_Optimize">Battery Optimize</string>
-    <string name="Home_Software_Manager">Software Management</string>
-    <string name="Home_Distrub_Block">Spam block</string>
-    <string name="Home_Traffic_Monitor">Traffic Monitor</string>
-    <string name="Home_Ad_Block">Ad Block</string>
-    <string name="Home_Running_Slowly">Running Slow</string>
-    <string name="Home_Running_Normal">Running Normal</string>
-    <string name="Home_Running_Fast">Running fast</string>
-    <string name="Home_Task_Wait_To_Clear">Tasks to be cleaned</string>
-    <string name="Home_Block_Already">Has blocked</string>
-    <string name="Home_Remain_Amount">Remaining</string>
-    <string name="Home_Now_Loading">Loading...</string>
-    <string name="Traffic">Traffic Monitoring</string>
-    <string name="Traffic_Setting">Traffic Setting</string>
-    <string name="Traffic_Statistics">Traffic Stats</string>
-    <string name="Traffic_Permission">Traffic Permission</string>
-    <string name="Traffic_Ranks">Traffic Ranks</string>
-    <string name="Traffic_Mobile">Mobile network</string>
-    <string name="Traffic_Mobile_Rank">Top mobile network traffic</string>
-    <string name="Traffic_Mobile_Rank_Empty">No traffic ranking data</string>
-    <string name="Traffic_Mobile_Permission">Mobile network permissions</string>
-    <string name="Traffic_Mobile_Disable">Turn off the mobile network</string>
-    <string name="Traffic_WIFI">WIFI traffic</string>
-    <string name="Traffic_WIFI_Rank">WIFI ranks</string>
-    <string name="Traffic_WIFI_Permission">WIFI Permission</string>
-    <string name="Traffic_DataPlan_Set">Dataplan Set</string>
-    <string name="Traffic_Calibrate">Traffic calibration</string>
-    <string name="Traffic_Calibration_Short">Lack of data in calibration, please try again</string>
-    <string name="Traffic_Calibration_NoNetwork">calibration requires a network connection before use</string>
-    <string name="Traffic_Calibration_Failed_DataPlanNotSet">You need to set data plan before calibration</string>
-    <string name="Traffic_Calibration_Failed">Calibration failed</string>
-    <string name="Traffic_Calibration_Succeed">Calibration successful</string>
-    <string name="Traffic_Calibration_Start">Contacting network server, please wait</string>
-    <string name="Traffic_Calibration_Promo_Content">"It is recommended that you use the automatic data calibration function
-Automatic data calibration function sends queries to the operator via SMS to automatically update traffic monitoring data, more accurate and convenient"</string>
-    <string name="Traffic_Monitor_SetOperator_ButtonOk">Set now</string>
-    <string name="Traffic_Monitor_SetOperator_ButtonCancal">Cancel</string>
-    <string name="Traffic_Monitor_Alarm">You have to use more than 90% of your monthly data plan, in order to avoid traffic overruns, we recommend that you turn off the mobile network. Continue?</string>
-    <string name="Traffic_Monitor_Discount">Lower data rate discount</string>
-    <string name="Traffic_Monitor_Discount_Start">Start Time</string>
-    <string name="Traffic_Monitor_Discount_End">End Time</string>
-    <string name="Traffic_Monitor_DataPlan_NotSet">You have not set data plan</string>
-    <string name="Traffic_Monitor_DataPlan_Unlimited">Unlimited</string>
-    <string name="Traffic_Monitor_Operator_Location">Address</string>
-    <string name="Traffic_Monitor_Operator_Province">State</string>
-    <string name="Traffic_Monitor_Operator_City">City</string>
-    <string name="Traffic_Monitor_Operator_Operator">Cell Carrier</string>
-    <string name="Traffic_Monitor_Operator_Brand">Phone</string>
-    <string name="Traffic_Monitor_Projection_Exceed">Traffic this month is expected to exceed data plan %1$s</string>
-    <string name="Traffic_Monitor_Projection_OK">You are within data rate limits</string>
-    <string name="Traffic_Monitor_Usage">Data used this month: %1$s</string>
-    <string name="Traffic_Monitor_Remain">Remaining: %1$s</string>
+    <string name="Home_DeleteConfirm">Sure to delete this backup?</string>
+    <string name="Home_Backup_NoSDCard">SD card is needed to backup and restore</string>
+    <string name="Home_Security_Plugin">Security Plugins</string>
+    <string name="Home_Security_Plugin_Desc">Privacy Space, Anti-Theft</string>
+    <string name="Home_Onekey_Check">Cleanup</string>
+    <string name="Home_Accelerate">Tasks</string>
+    <string name="Home_Battery_Optimize">Battery</string>
+    <string name="Home_Software_Manager">Apps</string>
+    <string name="Home_Distrub_Block">Blocking</string>
+    <string name="Home_Traffic_Monitor">Traffic</string>
+    <string name="Home_Ad_Block">Ad blocker</string>
+    <string name="Home_Running_Slowly">Running slow</string>
+    <string name="Home_Running_Normal">Running OK</string>
+    <string name="Home_Running_Fast">Runing fast</string>
+    <string name="Home_Task_Wait_To_Clear">task cleanup</string>
+    <string name="Home_Block_Already">Has blocked:</string>
+    <string name="Home_Remain_Amount">Remaining traffic:</string>
+    <string name="Home_Now_Loading">Loading ...</string>
+    <string name="Traffic">Traffic</string>
+    <string name="Traffic_Setting">Traffic monitoring settings</string>
+    <string name="Traffic_Statistics">Traffic Statistics</string>
+    <string name="Traffic_Permission">Network</string>
+    <string name="Traffic_Ranks">Traffic Rank</string>
+    <string name="Traffic_Mobile">Mobile</string>
+    <string name="Traffic_Mobile_Rank">Mobile Data Traffic Ranking</string>
+    <string name="Traffic_Mobile_Rank_Empty">No traffic ranking data currently</string>
+    <string name="Traffic_Mobile_Permission">Mobile data permissions</string>
+    <string name="Traffic_Mobile_Disable">Turn off mobile data</string>
+    <string name="Traffic_WIFI">WiFi</string>
+    <string name="Traffic_WIFI_Rank">WiFi Traffic Ranking</string>
+    <string name="Traffic_WIFI_Permission">WiFi Permissions</string>
+    <string name="Traffic_DataPlan_Set">Data Plan</string>
+    <string name="Traffic_Calibrate">Calibrate</string>
+    <string name="Traffic_Calibration_Short">Last Calibration is less than 3 minutes ago, please try again later</string>
+    <string name="Traffic_Calibration_NoNetwork">Automatic traffic calibration requires a network connection and is only EFFECTIVE IN CHINA.</string>
+    <string name="Traffic_Calibration_Failed_DataPlanNotSet">You need to set your data plan before automatic traffic calibration</string>
+    <string name="Traffic_Calibration_Failed">Automatic traffic calibration failed</string>
+    <string name="Traffic_Calibration_Succeed">Automatic traffic calibration successful</string>
+    <string name="Traffic_Calibration_Start">Contacting cloud servers to analyze SMS, please wait</string>
+    <string name="Traffic_Calibration_Promo_Content">"Automatic Traffic Calibration is only effective in China.
+By sending operators query SMS, the app automatically calibrates traffic data. It's accurate and convenient."</string>
+    <string name="Traffic_Monitor_SetOperator_ButtonOk">Set up immediately</string>
+    <string name="Traffic_Monitor_SetOperator_ButtonCancal">Not now</string>
+    <string name="Traffic_Monitor_Alarm">More than 90%data plan is consumed. Turning off mobile data is suggested to avoid traffic overrun. Continue?</string>
+    <string name="Traffic_Monitor_Discount">Traffic 50%-off hours</string>
+    <string name="Traffic_Monitor_Discount_Start">Start time</string>
+    <string name="Traffic_Monitor_Discount_End">End time</string>
+    <string name="Traffic_Monitor_DataPlan_NotSet">Data plan is not set</string>
+    <string name="Traffic_Monitor_DataPlan_Unlimited">Not set</string>
+    <string name="Traffic_Monitor_Operator_Location">Your Location (China only)</string>
+    <string name="Traffic_Monitor_Operator_Province">Your Province</string>
+    <string name="Traffic_Monitor_Operator_City">Your City</string>
+    <string name="Traffic_Monitor_Operator_Operator">Your mobile phone operator</string>
+    <string name="Traffic_Monitor_Operator_Brand">Your plan</string>
+    <string name="Traffic_Monitor_Projection_Exceed">Traffic this month is expected to cost overruns %1$s</string>
+    <string name="Traffic_Monitor_Projection_OK">Sufficient traffic left, enjoy!</string>
+    <string name="Traffic_Monitor_Usage">Month: %1$s</string>
+    <string name="Traffic_Monitor_Remain">Left: %1$s</string>
     <string name="Traffic_Monitor_Float_Progress">Month</string>
     <string name="Traffic_Rank_NetType">Network type</string>
-    <string name="Traffic_Rank_TimeType">Time type</string>
-    <string name="Traffic_Permission_NoData">Data without permission</string>
+    <string name="Traffic_Rank_TimeType">Time Type</string>
+    <string name="Traffic_Permission_NoData">No authority data</string>
     <string name="Traffic_Permission_Loading">Loading</string>
     <string name="Traffic_Summary_Unknow">Unknown</string>
-    <string name="Traffic_Summary_ConnectionSpeed">Connection speed</string>
-    <string name="Traffic_Summary_IPAddress">IP Address</string>
+    <string name="Traffic_Summary_ConnectionSpeed">Real connection speed</string>
+    <string name="Traffic_Summary_IPAddress">IP address</string>
     <string name="Traffic_Summary_CurrentConnection">Current connection</string>
-    <string name="Traffic_Summary_Operator">Carrier</string>
-    <string name="Traffic_Summary_Hotspot">Hotspot</string>
+    <string name="Traffic_Summary_Operator">Operator</string>
+    <string name="Traffic_Summary_Hotspot">Hotspot name</string>
     <string name="Traffic_Summary_Security">Security</string>
-    <string name="Traffic_Summary_TheoryNetworkSpeed">Estimate net speed</string>
+    <string name="Traffic_Summary_TheoryNetworkSpeed">Theoretical network speed</string>
     <string name="Traffic_Retrieving">Retrieving</string>
     <string name="Traffic_NotConnected">Not connected</string>
-    <string name="Traffic_Monitor_Usage_Hint">Monthly usage</string>
-    <string name="Traffic_Monitor_Plan_Hint">App net usage</string>
-    <string name="Traffic_Monitor_Today_Hint">Traffic today</string>
-    <string name="Traffic_Net_App">Network applications</string>
-    <string name="Traffic_Rank_Month">Top this month</string>
-    <string name="Traffic_Rank_Today">Top today</string>
-    <string name="Traffic_rank_Realtime">Top Real-time</string>
+    <string name="Traffic_Monitor_Usage_Hint">Total</string>
+    <string name="Traffic_Monitor_Plan_Hint">Plan</string>
+    <string name="Traffic_Monitor_Today_Hint">Today</string>
+    <string name="Traffic_Net_App">Network access</string>
+    <string name="Traffic_Rank_Month">This month</string>
+    <string name="Traffic_Rank_Today">Today</string>
+    <string name="Traffic_rank_Realtime">Realtime</string>
     <string name="Nft_Mgr_Title">Notification Manager</string>
-    <string name="Nft_Mgr_Title_Hint">Clear notifications</string>
-    <string name="Nft_Mgr_Title_sub1">Notification bar message</string>
-    <string name="Nft_Mgr_Title_sub2">Program permissions</string>
-    <string name="Nft_Mgr_Title_sub3">Block record</string>
-    <string name="Nft_Mgr_Notification_Permission">Notification bar Permissions</string>
-    <string name="Nft_Mgr_Notification_News">Notification bar message</string>
-    <string name="Nft_Mgr_Notification_News_Empty">There are no messages in notify</string>
-    <string name="Nft_Mgr_App_Hint">Notify from:%1$s</string>
-    <string name="Nft_Mgr_Default_App">Default App</string>
-    <string name="Nft_Mgr_Block_Ads">Block Ads</string>
+    <string name="Nft_Mgr_Title_Hint">Wanna remove notification ads? Easy!</string>
+    <string name="Nft_Mgr_Title_sub1">Notifications</string>
+    <string name="Nft_Mgr_Title_sub2">App Permissions</string>
+    <string name="Nft_Mgr_Title_sub3">Blocking Log</string>
+    <string name="Nft_Mgr_Notification_Permission">Notification bar permissions</string>
+    <string name="Nft_Mgr_Notification_News">Notifications</string>
+    <string name="Nft_Mgr_Notification_News_Empty">No notification</string>
+    <string name="Nft_Mgr_App_Hint">Notification from: %1$s</string>
+    <string name="Nft_Mgr_Default_App">Unknown app</string>
+    <string name="Nft_Mgr_Block_Ads">Block ads</string>
     <string name="Nft_Mgr_Clear_Nft">Clear notifications</string>
-    <string name="Nft_Mgr_Showing">Showing (%1$d)</string>
-    <string name="Nft_Mgr_More">More messages (%1$d)</string>
-    <string name="Nft_Mgr_Blocked_Title">Block logs</string>
-    <string name="Nft_Mgr_No_Blocked">no block log</string>
-    <string name="Nft_Mgr_Clear_Blocked_Record">Delete record</string>
+    <string name="Nft_Mgr_Showing">Displayed (%1$d)</string>
+    <string name="Nft_Mgr_More">More (%1$d)</string>
+    <string name="Nft_Mgr_Blocked_Title">Blocking Log</string>
+    <string name="Nft_Mgr_No_Blocked">No block recorded</string>
+    <string name="Nft_Mgr_Clear_Blocked_Record">Delete records</string>
     <string name="Nft_Mgr_Uninstall_App">Uninstall app</string>
-    <string name="Nft_Mgr_Blocked_List_Title">Recently blocked (%1$d)</string>
-    <string name="Nft_Mgr_App_List_Empty">No notify software detected</string>
-    <string name="Nft_Mgr_App_Title">Program permissions</string>
-    <string name="Nft_Mgr_Reject">Reject</string>
-    <string name="Nft_Mgr_Accept">Accept</string>
-    <string name="Nft_Mgr_Reject_Title">Reject (%1$d)</string>
-    <string name="Nft_Mgr_Accept_Title">Accept (%1$d)</string>
+    <string name="Nft_Mgr_Blocked_List_Title">Recent blocks (%1$d)</string>
+    <string name="Nft_Mgr_App_List_Empty">No app detected sending notifications</string>
+    <string name="Nft_Mgr_App_Title">App permission</string>
+    <string name="Nft_Mgr_Reject">Deny</string>
+    <string name="Nft_Mgr_Accept">Allow</string>
+    <string name="Nft_Mgr_Reject_Title">Denied (%1$d)</string>
+    <string name="Nft_Mgr_Accept_Title">Allowed (%1$d)</string>
     <string name="Nft_Mgr_Custom">Custom</string>
     <string name="Nft_Mgr_App_List_Title">All apps (%1$d)</string>
-    <string name="Nft_Mgr_Advanced_Title">%1$s:Notify details</string>
-    <string name="Nft_Mgr_Advanced_Empty">Records without notice</string>
-    <string name="Phone">Phone Spam intercept</string>
-    <string name="Phone_Setting">Phone Spam settings</string>
-    <string name="Phone_Running">Phone spam intercept protection service</string>
-    <string name="Phone_Stopped">Phone spam intercept service has shut down</string>
-    <string name="Phone_Carrier_CM">Mobile</string>
-    <string name="Phone_Carrier_CU">Unicom</string>
-    <string name="Phone_Carrier_CT">Telecom</string>
+    <string name="Nft_Mgr_Advanced_Title">%1$s: notification details</string>
+    <string name="Nft_Mgr_Advanced_Empty">No notification record</string>
+    <string name="Phone">Blocking Service</string>
+    <string name="Phone_Setting">Harassment preventing settings</string>
+    <string name="Phone_Running">Blocking service protecting</string>
+    <string name="Phone_Stopped">Blocking service is turned off</string>
+    <string name="Phone_Carrier_CM">China Mobile</string>
+    <string name="Phone_Carrier_CU">China Unicom</string>
+    <string name="Phone_Carrier_CT">China Telecom</string>
     <string name="Phone_Blacklist">Blacklist</string>
     <string name="Phone_Whitelist">Whitelist</string>
-    <string name="Phone_Call_Block">Call block</string>
-    <string name="Phone_Msg_Block">SMS block</string>
-    <string name="Phone_MsgAndCall_Block">Call and SMS block</string>
+    <string name="Phone_Call_Intercept">Block calls</string>
+    <string name="Phone_Msg_Intercept">Block SMS</string>
+    <string name="Phone_MsgAndCall_Intercept">Block calls and SMS</string>
     <string name="Phone_Rule_Yes">Receive</string>
     <string name="Phone_Rule_No">Block</string>
-    <string name="Phone_Rule_Smart">Smart block</string>
+    <string name="Phone_Rule_Smart">Smart blocking</string>
     <string name="Phone_Rule_Ignore">Ignore</string>
     <string name="Phone_Add_Keywords">Add keywords</string>
     <string name="Phone_Add_Keywords_Hint">keyword</string>
-    <string name="Phone_Add_Keywords_Explain">keyword separated by comma or space</string>
-    <string name="Phone_Input_Number">Enter number</string>
-    <string name="Phone_Edit_Keywords">Edit keyword</string>
-    <string name="Phone_Have_This_Keyword">keyword %1$s already exists</string>
-    <string name="Phone_Blacklist_Add">Add number</string>
-    <string name="Phone_CallLogTitle">Phone spam log</string>
-    <string name="Phone_MsgLogTitle">SMS Spam log</string>
-    <string name="Phone_ReportMessageTitle">Notify spam SMS</string>
-    <string name="Phone_ReportSelected">reports selected(%1$d)</string>
-    <string name="Phone_Msg_BlockCount">SMS spam %1$d blocked</string>
+    <string name="Phone_Add_Keywords_Explain">Add keywords separated by commas or new lines</string>
+    <string name="Phone_Input_Number">Number to consult</string>
+    <string name="Phone_Edit_Keywords">Edit Keywords</string>
+    <string name="Phone_Have_This_Keyword">Keyword %1$s already exists</string>
+    <string name="Phone_Blacklist_Add">Add a number</string>
+    <string name="Phone_CallLogTitle">Calls</string>
+    <string name="Phone_MsgLogTitle">Spam SMS</string>
+    <string name="Phone_ReportMessageTitle">Report spam SMS</string>
+    <string name="Phone_ReportSelected">Report selected (%1$d)</string>
+    <string name="Phone_Msg_BlockCount">%1$d SMS blocked</string>
     <string name="Phone_Add_Contact">Add from contacts</string>
-    <string name="Phone_Add_CallLog">Add from call log</string>
-    <string name="Phone_Add_SMS">Add from SMS log</string>
-    <string name="Phone_Add_Manual">Manually add</string>
+    <string name="Phone_Add_CallLog">Add from call record</string>
+    <string name="Phone_Add_SMS">Add from SMS record</string>
+    <string name="Phone_Add_Manual">Add manually</string>
     <string name="Phone_Add_Manual_Name">Name</string>
-    <string name="Phone_Add_Manual_Number">Number</string>
+    <string name="Phone_Add_Manual_Number">Phone Number (required)</string>
     <string name="Phone_Add_Manual_Wildcard">"In numbers, you can use * to replace one or more digits
-For example: 138* matches any number starting with 138"</string>
-    <string name="Phone_Call_Block_ShortRing">Alert %1$s Sec</string>
-    <string name="Phone_Operate">Enabled</string>
+e.g. 138* matches any number starting with 138"</string>
+    <string name="Phone_Call_Intercept_ShortRing">Rang for %1$s seconds</string>
+    <string name="Phone_Operate">Operation</string>
     <string name="Phone_Edit">Edit</string>
     <string name="Phone_Unnamed">Unnamed</string>
     <string name="Phone_UnknownNumber">Unknown number</string>
-    <string name="Phone_EmptyNumber">Number can not be empty</string>
-    <string name="Phone_Select_Block_Type">Select block type</string>
-    <string name="Phone_Block_Type_Norm">block normally</string>
-    <string name="Phone_Block_Type_ContactAndWhite">Receive only contacts and whitelist</string>
-    <string name="Phone_Block_Type_Black">Block only blacklist</string>
-    <string name="Phone_Block_Type_White">Receive only whitelist</string>
+    <string name="Phone_EmptyNumber">Number cannot be empty</string>
+    <string name="Phone_Select_Block_Type">Please choose type of blocking</string>
+    <string name="Phone_Block_Type_Norm">Smart Blocking Mode</string>
+    <string name="Phone_Block_Type_ContactAndWhite">Receive only from contacts and the whitelist</string>
+    <string name="Phone_Block_Type_Black">Only block blacklist</string>
+    <string name="Phone_Block_Type_White">Receive from whitelist only</string>
     <string name="Phone_Block_Type_ALlReject">Block all</string>
-    <string name="Phone_Block_Type_AllAllow">Receive all</string>
+    <string name="Phone_Block_Type_AllAllow">Receive from all</string>
     <string name="Phone_Block_Type_UserDefine">Custom mode</string>
-    <string name="Phone_Block_Type_Contact">Receive only contacts</string>
+    <string name="Phone_Block_Type_Contact">Receive from contacts only</string>
     <string name="Phone_Block_Type_UserDefine_Edit">Set custom mode</string>
-    <string name="Phone_Block_Type_Norm_Content">Block blacklist, accept whitelist, contacts, and recently called numbers, block keyword, smart filter message content</string>
-    <string name="Phone_Block_Type_Black_Content">Block blacklist numbers only receive text messages and other phone numbers</string>
-    <string name="Phone_Block_Type_White_Content">Receive only the whitelist numbers, block text messages and other phone numbers</string>
-    <string name="Phone_Block_Type_ALlReject_Content">Block all</string>
-    <string name="Phone_Block_Type_AllAllow_Content">Receive all</string>
-    <string name="Phone_Block_Type_Contact_Content">Receive only contacts, text messages and phone block other numbers</string>
-    <string name="Phone_Block_Type_ContactAndWhite_Content">Receive only contacts and white list, blocking other text messages and phone numbers</string>
-    <string name="Phone_Block_Type_UserDefine_Content">User-defined whitelist, blacklist, contacts, and other smart way to intercept intercept intercept SMS</string>
-    <string name="Phone_Block_Blackwhitelist">black and whitelists</string>
+    <string name="Phone_Block_Type_Norm_Content">Block blacklist, receive from the white list, contacts, and recently contacted number, block keywords, intelligent filtering the content of messages</string>
+    <string name="Phone_Block_Type_Black_Content">Only blocks blacklisted number, receives SMS and calls from other numbers</string>
+    <string name="Phone_Block_Type_White_Content">Receives only from whitelisted numbers, blocks SMS and calls from other numbers</string>
+    <string name="Phone_Block_Type_ALlReject_Content">Blocks all SMS and calls</string>
+    <string name="Phone_Block_Type_AllAllow_Content">Receives all SMS and calls</string>
+    <string name="Phone_Block_Type_Contact_Content">Receives only from contacts, blocks SMS and calls from other numbers</string>
+    <string name="Phone_Block_Type_ContactAndWhite_Content">Receives from contacts and the whitelist, blocks SMS and calls from other numbers</string>
+    <string name="Phone_Block_Type_UserDefine_Content">User defines blocking regulation with white list, black list, contacts, smart blocking, etc.</string>
+    <string name="Phone_Block_Blackwhitelist">B&amp;W Lists</string>
     <string name="Phone_Clear">Clear</string>
-    <string name="Phone_Select_City">Select City</string>
+    <string name="Phone_Select_City">Select Area</string>
     <string name="Phone_Select_All_Discrict">All regions</string>
-    <string name="Phone_Select_category">Select tag category</string>
-    <string name="Phone_Select_category_Empty">Have not added tag category</string>
-    <string name="Phone_Block_Multimedia_Message">block MMS content</string>
-    <string name="Phone_Use_IpCall">Use IP Dialing</string>
-    <string name="Phone_Auto_Ip">Auto IP Dialing</string>
-    <string name="Phone_Select_IPNumber">Select the IP number</string>
+    <string name="Phone_Select_Marker">selectable marker category</string>
+    <string name="Phone_Select_Marker_Empty">not add tags categories</string>
+    <string name="Phone_Block_Multimedia_Message">need to restore to the system only after the Inbox view MMS content</string>
+    <string name="Phone_Use_IpCall">IP dialing</string>
+    <string name="Phone_Auto_Ip">Automatic IP-prefix</string>
+    <string name="Phone_Select_IPNumber">Select IP number</string>
     <string name="Phone_Number_UserDefine">Custom</string>
-    <string name="Phone_Write_Manual">Enter custom IP numbers</string>
+    <string name="Phone_Write_Manual">Enter the IP number of custom</string>
     <string name="Phone_Ip_Calling_Setting">IP dial settings</string>
-    <string name="Phone_Ip_Sim_Calling_Setting">%s　IP dial settings</string>
-    <string name="Phone_NoHave_Calling_Permission">LBE security master can not dial, IP functions are blocked</string>
-    <string name="Phone_NoIP_Area">Do not use IP dialing area</string>
-    <string name="Phone_NoUse_AnyProvince">No</string>
-    <string name="Phone_NoIP_Number">Do not use IP dialing numbers</string>
-    <string name="Phone_Manual_NoUseIP">Do not use IP dialing numbers</string>
-    <string name="Phone_Select_AddType">Select Add mode</string>
-    <string name="Phone_Model_Change">Block mode</string>
-    <string name="Phone_Keywords">keyword</string>
+    <string name="Phone_Ip_Sim_Calling_Setting">%s IP dial-up settings</string>
+    <string name="Phone_NoHave_Calling_Permission">LBE Security Master can not dial-up IP functionality is disabled</string>
+    <string name="Phone_NoIP_Area">Regions not to be IP-dialed</string>
+    <string name="Phone_NoUse_AnyProvince">None</string>
+    <string name="Phone_NoIP_Number">Numbers not to be IP-dialed</string>
+    <string name="Phone_Manual_NoUseIP">Numbers not to be IP-dialed</string>
+    <string name="Phone_Select_AddType">Select a way to add</string>
+    <string name="Phone_Model_Change">Blocking Mode</string>
+    <string name="Phone_Keywords">Keywords</string>
     <string name="Phone_Keywords_Match">%1$d(%2$s)</string>
-    <string name="Phone_Keywords_Set">keywords set</string>
-    <string name="Phone_Add_Black">Add blacklist</string>
-    <string name="Phone_Add_White">Add whitelist</string>
-    <string name="Phone_Add_KeyWords">Add keyword</string>
-    <string name="Phone_Add_Selected">Add selected(%d)</string>
-    <string name="Phone_Affirm_Delete">Delete the selected number?</string>
-    <string name="Phone_Affirm_Clear">Clear all settings?</string>
-    <string name="Phone_BlockType">Block mode</string>
+    <string name="Phone_Keywords_Set">Keyword Settings</string>
+    <string name="Phone_Add_Black">Add items to blacklist</string>
+    <string name="Phone_Add_White">Add items to whitelist</string>
+    <string name="Phone_Add_KeyWords">Add keywords</string>
+    <string name="Phone_Add_Selected">Add Selected(%d)</string>
+    <string name="Phone_Affirm_Delete">Sure to delete selected number?</string>
+    <string name="Phone_Affirm_Clear">Sure to clear all items?</string>
+    <string name="Phone_BlockType">Blocking Mode</string>
     <string name="Phone_BlockType_UserDifine_Set">Custom mode settings</string>
-    <string name="Phone_NoUseIP">Do not use IP dialing numbers</string>
+    <string name="Phone_NoUseIP">Numbers not to be IP-dialed</string>
     <string name="Phone_BlockLog_Title">(%1$s)%2$s</string>
     <string name="Phone_Adding">Adding, please wait</string>
-    <string name="Phone_Clear_ALL_Log_Message">Sure you want to Clear all block records?</string>
-    <string name="Phone_Clear_ALL_IpNoUse">OK To Clear all unused IP dialing numbers?</string>
-    <string name="Phone_Report_Success">Phone spam report success</string>
-    <string name="Phone_Import_Log">Import log to phone?</string>
-    <string name="Phone_MISSED__Content">Missed:%s</string>
-    <string name="Phone_Coming_Content">Call duration:%s</string>
-    <string name="Phone_Going_Content">Outgoing length:%s</string>
-    <string name="Phone_Empty_BlackList">Add to blacklist numbers, blocked text messages and telephone spam, allow from contacts, text messages and other ways to add records</string>
-    <string name="Phone_Empty_WhiteList">Add to whitelist number, always accepting calls and text messages</string>
-    <string name="Phone_Empyt_BlockCallLog">Blocked phone calls</string>
-    <string name="Phone_Empyt_BlockMsgLog">Blocked messages</string>
-    <string name="Phone_Empty_Report">No SMS spam</string>
-    <string name="Phone_Empty_SignNumber_Add">Add number</string>
-    <string name="Phone_Empty_SignNumber">Class is not marked unfirmiliar</string>
-    <string name="Phone_Empty_Contact">No contact</string>
+    <string name="Phone_Clear_ALL_Log_Message">Sure to empty all blocking records?</string>
+    <string name="Phone_Clear_ALL_IpNoUse">Sure to clear all no-IP-dialing numbers?</string>
+    <string name="Phone_Report_Success">Reported spam messages successfully, thanks for your support</string>
+    <string name="Phone_Import_Log">Import SMS and call records from these numbers? System records will be deleted on successful import</string>
+    <string name="Phone_MISSED__Content">Missed %s ago</string>
+    <string name="Phone_Coming_Content">Incoming call length: %s</string>
+    <string name="Phone_Going_Content">Outgoing call length: %s</string>
+    <string name="Phone_Empty_BlackList">Add numbers to blacklist, block annoying SMS/phone calls. Adding from contacts, SMS, etc. are supported.</string>
+    <string name="Phone_Empty_WhiteList">Add trusted number to ensure communication</string>
+    <string name="Phone_Empyt_BlockCallLog">intercepted telephone displayed here</string>
+    <string name="Phone_Empyt_BlockMsgLog">intercepted messages displayed here</string>
+    <string name="Phone_Empty_Report">No strange SMS inbox</string>
+    <string name="Phone_Empty_SignNumber_Add">No number to tag</string>
+    <string name="Phone_Empty_SignNumber">No strange number has this tag.</string>
+    <string name="Phone_Empty_Contact">No Contact</string>
     <string name="Phone_Empty_CallLog">No call records</string>
-    <string name="Phone_Empty_SmsLog">No SMS log</string>
-    <string name="Phone_Empty_KeyWords">Add a keyword, you can intercept SMS containing that keyword, completely prevent spam messages or harassment</string>
-    <string name="Phone_Empty_NouseIp">no numbers</string>
-    <string name="Phone_Adding_Log">Adding block log</string>
+    <string name="Phone_Empty_SmsLog">No SMS record</string>
+    <string name="Phone_Empty_KeyWords">SMS with added keyword(s) will be blocked</string>
+    <string name="Phone_Empty_NouseIp">No numbers</string>
+    <string name="Phone_Adding_Log">Adding to blocking log</string>
     <string name="Phone_Loading">Processing</string>
-    <string name="Phone_Data_Upload_Title">Uploading</string>
-    <string name="Phone_Data_Upload_Declare">"LBE security master invites you enable cloud security services.
+    <string name="Phone_Data_Upload_Title">Cloud security services</string>
+    <string name="Phone_Data_Upload_Declare">"LBE Security Master invites you to enable cloud security services. 
 
-Cloud-enabled security service, you will be able to Inform LBE security master of failed blocking of spam messages and harassing phone calls, and provide feedback to the LBE group, helping LBE group Optimize products, improve intercept accuracy.
-Cloud security services by default only use WIFI network, we do not waste your valuable 3G traffic. In use, you can always turn off the harassment intercept service cloud security services.
+When cloud security service is enabled, you will be able to report spam messages and harassing phone calls that LBE Security Master failed to block, and feedback to the Team LBE, helping the Team LBE optimizing our products and improving blocking accuracy.
 
-Do you want to enable cloud security services?"</string>
-    <string name="Phone_MissCall_Title">When there is a missed call alert</string>
-    <string name="Phone_MissMsg_Title">When there is an Unread SMS alert</string>
-    <string name="Phone_MissCallAlert_Type">Type or alert</string>
-    <string name="Phone_MissCallAlert_Time">Prompt alert time</string>
-    <string name="Phone_MissCall_SelectRing">Select a ringtone</string>
-    <string name="Phone_NightSaving_BeginTime">Start time</string>
+By default cloud security services works only when WIFI is connected. It will not waste your valuable 3G traffic. In use, you can also turn off cloud security service in Blocking Service."</string>
+    <string name="Phone_MissCall_Title">Missed call notification</string>
+    <string name="Phone_MissMsg_Title">Unread message notification</string>
+    <string name="Phone_MissCallAlert_Type">Alert Type</string>
+    <string name="Phone_MissCallAlert_Time">Alert Interval</string>
+    <string name="Phone_MissCall_SelectRing">Tone</string>
+    <string name="Phone_NightSaving_BeginTime">Start Time</string>
     <string name="Phone_NightSaving_EndTime">End time</string>
-    <string name="Phone_Alert_Add_White">Restore SMS and Call records to system?</string>
-    <string name="Phone_Common_Number">Frequently called numbers</string>
-    <string name="Phone_Fixed_Line">Landline</string>
-    <string name="Phone_UnKnow_Alert">Unread even reminders</string>
-    <string name="Phone_Select_Location">Select location</string>
-    <string name="Phone_GoingCall_Alert">Vibrate alert</string>
-    <string name="Phone_SignNumber_Title1">beep</string>
-    <string name="Phone_SignNumber_Title2">Harrassing phone calls</string>
-    <string name="Phone_SignNumber_Title3">Advertising</string>
-    <string name="Phone_SignNumber_Title4">Real estate agents</string>
-    <string name="Phone_SignNumber_Title5">Express Delivery</string>
-    <string name="Phone_Edit_categoryType">Edit category type</string>
-    <string name="Phone_Add_categoryType">Add category type</string>
-    <string name="Phone_Del_categoryType">Delete category type</string>
-    <string name="Phone_categoryType_Name"> category type name</string>
-    <string name="Phone_categoryType_Name_Empty">Please enter a name</string>
-    <string name="Phone_categoryType_Name_Exist">Name already exists</string>
+    <string name="Phone_Alert_Add_White">Add this number to whitelist</string>
+    <string name="Phone_Common_Number">Standard numbers (China only)</string>
+    <string name="Phone_Fixed_Line">Fixed line</string>
+    <string name="Phone_UnKnow_Alert">Unread Event Notification</string>
+    <string name="Phone_Select_Location">Number region consult</string>
+    <string name="Phone_GoingCall_Alert">Vibrate on outgoing call picked up</string>
+    <string name="Phone_SignNumber_Title1">Short ring phishing</string>
+    <string name="Phone_SignNumber_Title2">Harassing call</string>
+    <string name="Phone_SignNumber_Title3">Marketer</string>
+    <string name="Phone_SignNumber_Title4">Real Estate Agent</string>
+    <string name="Phone_SignNumber_Title5">Delivery</string>
+    <string name="Phone_Edit_MarkerType">Edit categories</string>
+    <string name="Phone_Add_MarkerType">Add a tag</string>
+    <string name="Phone_Del_MarkerType">Remove Category</string>
+    <string name="Phone_MarkerType_Name">Category Name</string>
+    <string name="Phone_MarkerType_Name_Empty">Please enter the category name</string>
+    <string name="Phone_MarkerType_Name_Exist">classification already exists</string>
     <string name="Phone_Custom_Blacklist">Blacklist</string>
     <string name="Phone_Custom_Whitelist">Whitelist</string>
-    <string name="Phone_Custom_Contact">Phone and SMS contact</string>
-    <string name="Phone_Custom_Conversation">Conversation</string>
-    <string name="Phone_Custom_KeyWord">keyword</string>
-    <string name="Phone_Custom_Smart">Smart</string>
-    <string name="Phone_MIUI_Helper">SMS interception help (for MIUI users)</string>
+    <string name="Phone_Custom_Contact">Contact calls and SMS</string>
+    <string name="Phone_Custom_Conversation">Communicated numbers</string>
+    <string name="Phone_Custom_KeyWord">Keywords</string>
+    <string name="Phone_Custom_Smart">SMS from strangers</string>
+    <string name="Phone_MIUI_Helper">SMS interception Help (applicable MIUI user)</string>
     <string name="Phone_MIUI_Help_Title">MIUI user SMS interception setup instructions</string>
-    <string name="Phone_Alert_Title">Security master</string>
-    <string name="Phone_Alert_Vibrate">When you make a call, after connection, LBE security master will vibrate, this feature is available in communications toolbox Enhanced Communication, Enable vibration function?</string>
-    <string name="Phone_Alert_AddBlack_Content">Blacklist unfirmiliar number:%s is it harrassment？</string>
+    <string name="Phone_Alert_Title">Security Master</string>
+    <string name="Phone_Alert_Vibrate">LBESM can vibrate your phone when your call is answered. It can be set in Communication Enhancements in the Communication Toolbox. Enable vibration-on-answer?</string>
+    <string name="Phone_Alert_AddBlack_Content">Add strange number: %s to blacklist to avoid harassment?</string>
     <string name="Phone_SupperSetting">Advanced Settings</string>
-    <string name="Phone_Alert_AddTo_Black">Mark unfamiliar number, blacklist</string>
-    <string name="Phone_Alert_AddTo_Black_Summary">Strange calls less than 15 Sec, Prompt</string>
-    <string name="Phone_BlockLog_Save_Time">Save time interception record</string>
-    <string name="Phone_Auto_AddTo_White">Smart whitelist</string>
-    <string name="Phone_Sgin_StrangeNumber">Mark strange numbers</string>
-    <string name="Phone_BlockOneRing">Block one ring calls</string>
+    <string name="Phone_Alert_AddTo_Black">Prompt to add to blacklist</string>
+    <string name="Phone_Alert_AddTo_Black_Summary">Notification if incoming strange call shorter than 15s</string>
+    <string name="Phone_BlockLog_Save_Time">Records for blocked will be kept for</string>
+    <string name="Phone_Auto_AddTo_White">Smart Whitelist adding</string>
+    <string name="Phone_Sgin_StrangeNumber">Tag strange numbers</string>
+    <string name="Phone_BlockOneRing">Block short-ring calls</string>
     <string name="Phone_BlockSetting">Block Settings</string>
     <string name="Phone_Sgin_StrangeNumber_Delete">Delete</string>
-    <string name="Phone_Sgin_AddStrangeNumber">Add strange number</string>
-    <string name="Phone_Coming_Call">%s　incoming</string>
-    <string name="Phone_Missed_Call">%s　missed</string>
-    <string name="Phone_Sgin_Number">Mark</string>
-    <string name="Phone_Add_Success">Successfully added</string>
-    <string name="Phone_Update_category_Title">Forward numbers %s to</string>
-    <string name="Phone_Update_category_NoCategory">no category set to transfer numbers to</string>
-    <string name="Phone_Now_State">Current mode:%s</string>
-    <string name="Phone_Mark_TemporarilyNotMark">Mark Temporarily</string>
-    <string name="Phone_Mark_AddMark_Content">Mark number?</string>
-    <string name="Phone_Mark_StrangeNumber">Mark strange numbers</string>
+    <string name="Phone_Sgin_AddStrangeNumber">Tag recent strange numbers</string>
+    <string name="Phone_Coming_Call">%s calls</string>
+    <string name="Phone_Missed_Call">%s missed</string>
+    <string name="Phone_Sgin_Number">Tag</string>
+    <string name="Phone_Add_Success">Done</string>
+    <string name="Phone_Update_Marker_Title">Move number %s to</string>
+    <string name="Phone_Update_Marker_NoCategory">Classification can be no forwarding number</string>
+    <string name="Phone_Now_State">Current mode: %s</string>
+    <string name="Phone_Mark_TemporarilyNotMark">"Don't tag now"</string>
+    <string name="Phone_Mark_AddMark_Content">Tag number?</string>
+    <string name="Phone_Mark_StrangeNumber">Tag strange numbers</string>
     <string name="Phone_Mark_StrangeNumber_Manage">Strange number label management</string>
-    <string name="Phone_Mark_StrangeNumber_Manage_Summary">Add and manage category class tags</string>
-    <string name="Phone_Block_Reason_Smart">Smart block</string>
-    <string name="Phone_Block_Reason_Location">Place blacklist %1$s</string>
-    <string name="Phone_Block_Reason_Number">Blacklist number</string>
-    <string name="Phone_Block_Reason_Mark">Mark number %1$s</string>
-    <string name="Phone_Block_Reason_Keyword">keyword block %1$s</string>
-    <string name="Phone_Block_Reason_Pattern">Block all</string>
-    <string name="Phone_Block_Reason_Report">Inform SMS</string>
-    <string name="Phone_Block_Black_Import">Importing blacklist</string>
+    <string name="Phone_Mark_StrangeNumber_Manage_Summary">Add and manage categories tag</string>
+    <string name="Phone_Block_Reason_Smart">Intelligent intercept</string>
+    <string name="Phone_Block_Reason_Location">Blacklist location %1$s</string>
+    <string name="Phone_Block_Reason_Number">Blacklist numbers</string>
+    <string name="Phone_Block_Reason_Mark">Number tag %1$s</string>
+    <string name="Phone_Block_Reason_Keyword">Keyword blocking %1$s</string>
+    <string name="Phone_Block_Reason_Pattern">Intercept mode</string>
+    <string name="Phone_Block_Reason_Report">Report SMS</string>
+    <string name="Phone_Block_Black_Import">Blacklist Import</string>
     <string name="Phone_Geolocation_Carrier">%1$s %2$s</string>
-    <string name="Phone_Report_SpamSms">Inform SMS Spam</string>
-    <string name="Phone_Report_SpamSms_Message">report SMS spam?</string>
-    <string name="Phone_Clear_MsgLog">Clear SMS log</string>
-    <string name="Phone_Clear_CallLog">Clear call log</string>
-    <string name="Phone_Select_Cate">Select category</string>
-    <string name="Phone_category_Message">Category message%1$s to:</string>
-    <string name="Phone_MsgBlock_Fail_Hint">Block SMS unsuccessful?</string>
-    <string name="Phone_Block_Reason">Block reason :</string>
-    <string name="Phone_Mark_Hint">Mark unfirmilar number to:</string>
+    <string name="Phone_Report_SpamSms">Report Spam SMS</string>
+    <string name="Phone_Report_SpamSms_Message">Confirm Report this text?</string>
+    <string name="Phone_Clear_MsgLog">Empty SMS record</string>
+    <string name="Phone_Clear_CallLog">Empty phone records</string>
+    <string name="Phone_Select_Cate">Please select a category</string>
+    <string name="Phone_Marker_Message">Tag strange number %1$s is:</string>
+    <string name="Phone_MsgBlock_Fail_Hint">Intercept SMS unsuccessful?</string>
+    <string name="Phone_Block_Reason">Intercept reasons:</string>
+    <string name="Phone_Mark_Hint">Tag unfamiliar number is:</string>
     <string name="Phone_Mark_New_Cate">New category:</string>
-    <string name="Phone_Mark_Add_New_Cate_Hint">Click to add new category</string>
-    <string name="Phone_AddBlack_OrNot">Blacklist？</string>
+    <string name="Phone_Mark_Add_New_Cate_Hint">Click Add New Category</string>
+    <string name="Phone_AddBlack_OrNot">Add to the blacklist?</string>
     <string name="Phone_Tools">Communication tools</string>
-    <string name="Phone_IP_Dial">IP Dialing</string>
-    <string name="Phone_Local">Local</string>
-    <string name="Phone_Unread_Event">Unread event</string>
-    <string name="Phone_Connect_Vibrate">Vibrate on connect</string>
-    <string name="Phone_Mark_title">Mark number</string>
-    <string name="Phone_UnKnow_Number">Unknown number</string>
-    <string name="Plugin_Upgrade_Title">Upgrade%1$s</string>
-    <string name="Plugin_Upgrade_Succeed">%1$s Has been successfully upgraded to the latest version</string>
-    <string name="Plugin_Upgrade_Failed">%1$s upgrade failed</string>
+    <string name="Phone_IP_Dial">IP dialing</string>
+    <string name="Phone_Local">Local calls (China only)</string>
+    <string name="Phone_Unread_Event">Unread event reminder</string>
+    <string name="Phone_Connect_Vibrate">Vibrate on connection</string>
+    <string name="Phone_Mark_title">Number tag</string>
+    <string name="Phone_UnKnow_Number">Unknown numbers</string>
+    <string name="Plugin_Upgrade_Title">Upgrading %1$s</string>
+    <string name="Plugin_Upgrade_Succeed">%1$s has been successfully updated to the latest version</string>
+    <string name="Plugin_Upgrade_Failed">%1$s update failed</string>
     <string name="Plugin_Delete_Title">Uninstall %1$s</string>
-    <string name="Plugin_Delete_Message">You are trying to uninstall %1$s. After uninstalling,%1$s will be permanently removed, continue?</string>
-    <string name="Plugin_AntiTheft">Mobile security</string>
-    <string name="Plugin_AntiTheft_Running">Anti-theft protection services: enabled</string>
-    <string name="Plugin_AntiTheft_Stopped">Anti-theft protection services: disabled</string>
-    <string name="Plugin_AntiTheft_Name">LBE security service</string>
-    <string name="Plugin_AntiTheft_Welcome">Welcome LBE security service</string>
-    <string name="Plugin_AntiTheft_Introduction">"LBE security master security services launched an independent anti-theft module for your phone with the best anti-theft protection.
+    <string name="Plugin_Delete_Message">"You are trying to uninstall %1$s . After uninstallation, %1$s will be removed from the system.  you wish to continue?"</string>
+    <string name="Plugin_AntiTheft">Mobile Security</string>
+    <string name="Plugin_AntiTheft_Running">Anti-Theft service is protecting your device</string>
+    <string name="Plugin_AntiTheft_Stopped">Anti-theft service is disabled</string>
+    <string name="Plugin_AntiTheft_Name">LBE Anti-Theft Service</string>
+    <string name="Plugin_AntiTheft_Welcome">Welcome to use LBE anti-theft service</string>
+    <string name="Plugin_AntiTheft_Introduction">"[CAUTION: module not translated, DO NOT USE if you don't speak Chinese]
+The LBE burglar services LBE Security Master launched an independent anti-theft module, to provide the best anti-theft protection for your phone.
 
-LBE security service will provide you with the following features: Mobile Location, data destruction, data backup, anti-theft alarm, and other virtual warnings
+LBE security service to provide you with the following features: mobile phone location data destruction, data backup, anti-theft alarm, virtual warnings
 
-The first time you use LBE security service, please download and install LBE security service module"</string>
-    <string name="Plugin_AntiTheft_RootInstall">ROOT Installation</string>
-    <string name="Plugin_AntiTheft_RootIntroduction">"ROOT installation mode LBE security service can be installed as a system component, can not be easily uninstalled.
-
-Even if your phone is Restore factory settings, LBE security service can still work properly, to protect your phone safety"</string>
+Before enabling LBE anti-theft services, please download and install LBE anti-theft service module"</string>
+    <string name="Plugin_AntiTheft_RootInstall">ROOT installation</string>
+    <string name="Plugin_AntiTheft_RootIntroduction">In ROOT installation mode LBE anti-theft service can be installed as a system component and cannot be easily uninstalled. Even if your phone is restored to factory settings, LBE security service is still operational to protect the security of your phone</string>
     <string name="Plugin_AntiTheft_Install">Download and install LBE security service</string>
     <string name="Plugin_AntiTheft_Installing">Installing</string>
     <string name="Plugin_AntiTheft_Install_Fail">LBE Anti-Theft Service installation failed, please retry later</string>
@@ -1002,7 +1001,7 @@ Even if your phone is Restore factory settings, LBE security service can still w
     <string name="Plugin_AppLock_Install">"[CAUTION: module not translated, DO NOT USE if you don't speak Chinese] Download Private Space?"</string>
     <string name="Plugin_AppLock_Install_Hint">privacy space can protect your phone videos, pictures, documents, etc., for the first time, please download and install</string>
     <string name="Pref_Main_Cat_Service">Security services settings</string>
-    <string name="Pref_Main_HIPS_Service">Active Defense service</string>
+    <string name="Pref_Main_HIPS_Service">Proactive Defense service</string>
     <string name="Pref_Main_Phone_Service">Communication firewall service</string>
     <string name="Pref_Main_Saving_Service">Power-saving services</string>
     <string name="Pref_Main_Traffic_Service">Traffic monitoring service</string>
@@ -1054,7 +1053,7 @@ Even if your phone is Restore factory settings, LBE security service can still w
     <string name="Pref_Phone_CallMsg_Notification">Notification after block</string>
     <string name="Pref_Phone_Data_Upload_Summary">To help LBE Security Master improve the accuracy interception</string>
     <string name="Pref_Phone_UseSuperEndCall">Enable system-level call blocking</string>
-    <string name="Pref_Phone_SuperEndCallDialogBody">"System-level call blocking feature requires Active Defense enabled.
+    <string name="Pref_Phone_SuperEndCallDialogBody">"System-level call blocking feature requires Proactive Defense enabled.
 System-level call blocking has the highest priority. It can effectively avoid incoming call link tone before hanging-up.
 However, the system-level call blocking function only supports some of the models, please turn it off if your phone behaves strangely"</string>
     <string name="Pref_Phone_DelayUnknownCall">Delay ringer for 3 sec on strange number calling</string>
@@ -1138,58 +1137,62 @@ However, the system-level call blocking function only supports some of the model
     <string name="Pref_Shortcut_Notification_On">Enter on main notification</string>
     <string name="Pref_Shortcut_Settings">Shortcut settings</string>
     <string name="Pref_Clear_Ingore_Desc">Software on this list will not be cleaned up</string>
-    <string name="HIPS_Root_Failed">Cannot enable Active Defense</string>
-    <string name="HIPS_Root_Failed_Explain">"LBE Security Master cannot access ROOT permission, some of the features will not work properly
+    <string name="HIPS_Root_Failed">Cannot enable Proactive Defense</string>
+    <string name="HIPS_Root_Failed_Explain">"LBE Security Master cannot access ROOT permissions. Some of the features will not work properly.
 
-if your phone is already ROOTed, please allow LBE Security Master to access ROOT permission in superuser administration app."</string>
-    <string name="HIPS_Root_TryAgain">Retry accessing root permission</string>
+if your phone is ROOTed already, please grant ROOT permissions to LBE Security Master in super user administration application."</string>
+    <string name="HIPS_Root_TryAgain">Retry access to root permissions</string>
     <string name="HIPS_Root_Shuame">One-click root your device</string>
     <string name="HIPS_Root_Shuame_1">Install Flashing Genius to access root by only a tap!</string>
-    <string name="HIPS_Root_LBERoot">LBE a key ROOT, help you easily obtain the phone ROOT permissions</string>
+    <string name="HIPS_Root_LBERoot">LBE ROOT. Helps you easily obtain the phone ROOT permissions</string>
     <string name="HIPS_Root_Shuame_2">Please visit on a computer:</string>
     <string name="HIPS_Root_Shuame_3">www.lbesec.com/root</string>
     <string name="HIPS_Root_Shuame_App">Flashing Genius</string>
-    <string name="HIPS_Root">This function will only take effect after: gaining ROOT permission; turning on Active Defense.</string>
+    <string name="HIPS_Root">"LBE Security Master cannot access ROOT permissions. Some of the features will not work properly.
+
+if your phone is ROOTed already, please grant ROOT permissions to LBE Security Master in super user administration application."</string>
     <string name="HIPS_Root_Tip">Click for ROOT permissions, open the LBE security master all the functions.</string>
-    <string name="HIPS_Root_Guide">How to?</string>
-    <string name="HIPS_Root_Ack">I see.</string>
-    <string name="HIPS">Active Defense</string>
+    <string name="HIPS_Root_Guide">Guide</string>
+    <string name="HIPS_Root_Ack">Dismiss</string>
+    <string name="HIPS">Proactive Defense</string>
+    <string name="HIPS_AppConfig">Application permissions</string>
     <string name="HIPS_Setting">Proactive Defense settings</string>
-    <string name="HIPS_Enable">Active Defense is not turned on, your settings will not take effect. Turn on Active Defense?</string>
+    <string name="HIPS_Enable">Proactive Defense is not turned on, your settings will not take effect. Turn on Proactive Defense?</string>
     <string name="HIPS_No_Open">Do not open</string>
-    <string name="HIPS_State_Loading">Active Defense service is loading</string>
-    <string name="HIPS_State_Running">Active Defense protecting</string>
-    <string name="HIPS_State_Stopped">Active Defense is disabled</string>
+    <string name="HIPS_State_Loading">Proactive Defense service is loading</string>
+    <string name="HIPS_State_Running">Proactive Defense protecting</string>
+    <string name="HIPS_State_Stopped">Proactive Defense is disabled</string>
     <string name="HIPS_App_Empty">No app record</string>
+    <string name="HIPS_App_Type">Select app type</string>
     <string name="HIPS_App_All">All apps</string>
     <string name="HIPS_App_Trust">Trust this app</string>
     <string name="HIPS_App_Count">%1$d apps</string>
     <string name="HIPS_App_Trust_SummaryOn">All actions are allowed</string>
     <string name="HIPS_App_Trust_SummaryOff">Supervised by LBE Security Master</string>
     <string name="HIPS_App_Perm_Count">%1$d Permissions</string>
-    <string name="HIPS_App_Monitored">Monitor Apps ( %1$d )</string>
-    <string name="HIPS_App_Trusted">Trusted Apps ( %1$d )</string>
+    <string name="HIPS_App_Monitored">Monitor Apps (%1$d)</string>
+    <string name="HIPS_App_Trusted">Trusted Apps (%1$d)</string>
     <string name="HIPS_App_System_UntrustFirst">%1$s is a stock app. Supervising a stock app may cause phone problems. Continue?</string>
     <string name="HIPS_App_Config">Configure app permissions</string>
-    <string name="HIPS_App_Config_NoRoot">Active Defense is disabled, you cannot modify app permissions. Tap here to enable Active Defense.</string>
+    <string name="HIPS_App_Config_NoRoot">Proactive Defense is disabled, you cannot modify app permissions. Tap here to enable Proactive Defense.</string>
     <string name="HIPS_App_New">Please configure permissions of %1$s</string>
-    <string name="HIPS_App_NewApp">Click to view %1$s relevant permissions</string>
-    <string name="HIPS_App_NewApps">You have %1$d models software is not configured permissions</string>
+    <string name="HIPS_App_NewApp">Click to view %1$s permissions</string>
+    <string name="HIPS_App_NewApps">You have %1$d app(s) with not configured permissions</string>
     <string name="HIPS_App_New_Installed">%1$s has been installed</string>
     <string name="HIPS_App_New_Configure">Tap to configure app permissions</string>
     <string name="HIPS_App_New_Configure_NoVirus">No threat detected, tap to configure app permissions</string>
     <string name="HIPS_App_Batch">Batch Operation</string>
     <string name="HIPS_Log">Defense Log</string>
-    <string name="HIPS_Log_NoLog">No Active Defense log</string>
+    <string name="HIPS_Log_NoLog">No Proactive Defense log</string>
     <string name="HIPS_Log_Detail_Title">Log details</string>
     <string name="HIPS_Log_Detail_Content">" %1$s
 
  %2$s"</string>
     <string name="HIPS_Log_Detail_None">No detail</string>
-    <string name="HIPS_Log_Earlier">1 week ago ( %1$d)</string>
-    <string name="HIPS_Log_Week">This week ( %1$d)</string>
-    <string name="HIPS_Log_Today">Today( %1$d)</string>
-    <string name="HIPS_Log_Clean">Clear Active Defense log</string>
+    <string name="HIPS_Log_Earlier">1 week ago (%1$d)</string>
+    <string name="HIPS_Log_Week">This week (%1$d)</string>
+    <string name="HIPS_Log_Today">Today (%1$d)</string>
+    <string name="HIPS_Log_Clean">Clear Proactive Defense log</string>
     <string name="HIPS_Action_Accept_Count">%1$d granted</string>
     <string name="HIPS_Action_Reject_Count">%1$d denied</string>
     <string name="HIPS_SecurityPrompt_Caption">Security Warning</string>
@@ -1198,27 +1201,28 @@ if your phone is already ROOTed, please allow LBE Security Master to access ROOT
     <string name="HIPS_SecurityPrompt_Accept">Allow (%d)</string>
     <string name="HIPS_SecurityPrompt_Reject">Deny (%d)</string>
     <string name="HIPS_Perm">Permissions</string>
-    <string name="HIPS_Notif_Limited">Initiative defense functional limitations, click on View Details</string>
-    <string name="HIPS_Notif_LoadFail">Initiative defense failed to load, click on View Details</string>
-    <string name="HIPS_Notif_Conflict">You are using %1$s to provide active defense capabilities, click for details</string>
-    <string name="HIPS_Notif_Integrity">Initiative defense validation fails, click on View Details</string>
-    <string name="HIPS_Notif_Reboot">Active defense capabilities need to restart your phone, click on View Details</string>
-    <string name="HIPS_Notif_Legacy">Detection to active defense components you install an older version Click to view details</string>
+    <string name="HIPS_Trust_NoConfig">Trusted application. You cannot configure permissions</string>
+    <string name="HIPS_Notif_Limited">Proactive defense functional limitations, click on View Details</string>
+    <string name="HIPS_Notif_LoadFail">Proactive defense failed to load, click on View Details</string>
+    <string name="HIPS_Notif_Conflict">You are using %1$s to provide proactive defense capabilities, click for details</string>
+    <string name="HIPS_Notif_Integrity">Proactive defense validation fails, click on View Details</string>
+    <string name="HIPS_Notif_Reboot">Proactive defense capabilities need to restart your phone, click on View Details</string>
+    <string name="HIPS_Notif_Legacy">Detection to proactive defense components you install an older version Click to view details</string>
     <string name="HIPS_Notif_SafeMode">%1$s running in safe mode, click here for details</string>
     <string name="HIPS_Dialog_SystemServerNotFound">Can not find System Server, part of the permission management feature does not work</string>
     <string name="HIPS_Dialog_PhoneNotFound">Can ​​not find com.android.phone, part of the permission management feature does not work</string>
     <string name="HIPS_Dialog_LoadFail">Please be sure your phone has ROOT granted authorization management interface %1$s ROOT permissions</string>
     <string name="HIPS_Dialog_Select">Please select</string>
-    <string name="HIPS_Dialog_Conflict">You are using %1$s to provide active defense capabilities, turn off</string>
-    <string name="HIPS_Dialog_Integrity">Active defense module validation failed, you are using %1$s may be pirated software</string>
-    <string name="HIPS_Dialog_SafeMode">Active defense function is abnormal, and has been restored. In order to ensure the stability of your phone, we recommend that you disable the active defense capabilities, and report the LBE group</string>
-    <string name="HIPS_Dialog_Reboot">Active Defence service will restart after you Reboot device</string>
+    <string name="HIPS_Dialog_Conflict">You are using %1$s to provide proactive defense capabilities, turn off</string>
+    <string name="HIPS_Dialog_Integrity">Proactive defense module validation failed, you are using %1$s may be pirated software</string>
+    <string name="HIPS_Dialog_SafeMode">Proactive defense function is abnormal, and has been restored. In order to ensure the stability of your phone, we recommend that you disable the proactive defense capabilities, and report the LBE group</string>
+    <string name="HIPS_Dialog_Reboot">Proactive Defence service will restart after you Reboot device</string>
     <string name="HIPS_Dialog_Downgrade">Please restart your phone to complete the proactive defense module downgrade</string>
     <string name="HIPS_Dialog_Upgrade">Please restart your phone to complete the proactive defense module upgrade operation</string>
-    <string name="HIPS_Dialog_Legacy_1">You are using an older version of active defense capabilities by the following software:</string>
-    <string name="HIPS_Dialog_Legacy_2">Close the active defense of these software or software rights management functions, and restart your phone</string>
+    <string name="HIPS_Dialog_Legacy_1">You are using an older version of proactive defense capabilities by the following software:</string>
+    <string name="HIPS_Dialog_Legacy_2">Close the proactive defense of these software or software rights management functions, and restart your phone</string>
     <string name="HIPS_Dialog_ManualReboot">Can not automatically restart your phone, manually restart</string>
-    <string name="HIPS_Dialog_AutoClose">Active defense has automatically shut down %1$s</string>
+    <string name="HIPS_Dialog_AutoClose">Proactive defense has automatically shut down %1$s</string>
     <string name="HIPS_Dialog_Btn_Retry">Retry</string>
     <string name="HIPS_Dialog_Btn_Disable">Disable</string>
     <string name="HIPS_Dialog_Btn_Enable">Continue to use</string>
@@ -1324,8 +1328,8 @@ if your phone is already ROOTed, please allow LBE Security Master to access ROOT
     <string name="Scan_Back_Warn_Content">The physical examination is not yet complete, whether you want to exit the medical examination?</string>
     <string name="Scan_Start">Start examination</string>
     <string name="Scan_Check_Configs">Checking configuration</string>
-    <string name="Scan_Check_HIPS">Is checking Active Defense services</string>
-    <string name="Scan_Check_HIPS_Name">Active Defense service</string>
+    <string name="Scan_Check_HIPS">Checking Proactive Defense services</string>
+    <string name="Scan_Check_HIPS_Name">Proactive Defense service</string>
     <string name="Scan_Check_Phone">Examining communication firewall service</string>
     <string name="Scan_Check_Phone_Name">Communication firewall service</string>
     <string name="Scan_Check_DataPlan">Checking data plan</string>
@@ -1389,24 +1393,21 @@ if your phone is already ROOTed, please allow LBE Security Master to access ROOT
     <string name="SoftMgr_Rom_Saving">Memory space to save %1$s</string>
     <string name="SoftMgr_Rom_Waste">Memory space to save %1$s</string>
     <string name="SoftMgr_Cache_Used">Cache %1$s</string>
-    <string name="SoftMgr_AppPerm_Tip">&lt;font color=\"#17A4F5\">active defense&lt;/font> to control app permissions</string>
+    <string name="SoftMgr_AppPerm_Tip">&lt;font color=\"#17A4F5\">Proactive defense&lt;/font> to control app permissions</string>
     <string name="SoftMgr_AppUninstall_Tip">&lt;font color=\"#17A4F5\">%1$d&lt;/font> downloaded apps, &lt;font color=\"#17A4F5\">%2$d&lt;/font> System apps</string>
     <string name="SoftMgr_AppMove_Clean">Your system is very clean, &lt;font color=\"#17A4F5\"> without&lt;/font> Software Moving</string>
-    <string name="SoftMgr_AppMove_Suggest1">&lt;font color=\"#17A4F5\">%1$d&lt;/font> Software recommends moving to the SD card</string>
+    <string name="SoftMgr_AppMove_Suggest1">&lt;font color=\"#17A4F5\">%1$d&lt;/font> applications are recommended to be moved to the SD card</string>
     <string name="SoftMgr_AppMove_Suggest2">Without moving, &lt;font color=\"#17A4F5\">%1$d&lt;/font>software has been on the SD card</string>
-    <string name="SoftMgr_SdApk_LongAgo">&lt;font color=\"#17A4F5\">A long time&lt;/font> never scanned SD card</string>
-    <string name="SoftMgr_SdApk_DaysAgo">Last SD card package management is &lt;font color=\"#17A4F5\">%1$d day&lt;/font>ago</string>
-    <string name="SoftMgr_SdApk_Today">&lt;font color=\"#17A4F5\">today&lt;/font>Packages have been removed from the SD card</string>
+    <string name="SoftMgr_SdApk_LongAgo">"&lt;font color=\"#17A4F5\">Long time&lt;/font> hasn't been used"</string>
+    <string name="SoftMgr_SdApk_DaysAgo">Used &lt;font color=\"#17A4F5\">%1$d day(s)&lt;/font>ago</string>
+    <string name="SoftMgr_SdApk_Today">&lt;font color=\"#17A4F5\">Has been used today&lt;/font></string>
     <string name="SoftMgr_Order">Sort</string>
-    <string name="SoftMgr_OrderByName">Sort by name</string>
-    <string name="SoftMgr_OrderBySize">Sort by size</string>
-    <string name="SoftMgr_OrderByTime">Chronological</string>
-    <string name="SoftMgr_NewApp">Not apps</string>
+    <string name="SoftMgr_NewApp">New application(s)</string>
     <string name="SoftMgr_Signature_Error">%1$s (Certified exception)</string>
     <string name="SoftMgr_Down_Install">%1$s (downgrade installations)</string>
     <string name="SoftMgr_AppUninstall">Uninstall</string>
     <string name="SoftMgr_AppUninstall_Recycle">Recycle bin</string>
-    <string name="SoftMgr_AppUninstall_Action">Uninstall selected ( %1$d apps)</string>
+    <string name="SoftMgr_AppUninstall_Action">Uninstall selected (%1$d apps)</string>
     <string name="SoftMgr_AppUninstall_Uninstalling">Uninstalling %1$s</string>
     <string name="SoftMgr_AppUninstall_ClearCache">Cleaned-up the SD card cache of %1$s</string>
     <string name="SoftMgr_AppUninstall_StartClear">Empty the SD card cache of uninstalled apps</string>
@@ -1431,18 +1432,18 @@ if your phone is already ROOTed, please allow LBE Security Master to access ROOT
     <string name="SoftMgr_App2SD_SD">SD Apps</string>
     <string name="SoftMgr_App2SD_BeforeFroyo">Your phone does not support App2SD! Please update your phone system</string>
     <string name="SoftMgr_App2SD_NoSD">No SD card installed!</string>
-    <string name="SoftMgr_App2SD_ToPhone">Move selected apps to phone ( %1$d apps)</string>
-    <string name="SoftMgr_App2SD_ToSD">Move selected apps to SD card ( %1$d apps)</string>
+    <string name="SoftMgr_App2SD_ToPhone">Move selected apps to phone (%1$d apps)</string>
+    <string name="SoftMgr_App2SD_ToSD">Move selected apps to SD card (%1$d apps)</string>
     <string name="SoftMgr_App2SD_ToSD_Warning">%1$s software itself does not recommend that you move to the SD card to run, forced to move may cause the software to run an unknown error.</string>
     <string name="SoftMgr_App2SD_Phone_Empty">No movable app found in phone</string>
     <string name="SoftMgr_App2SD_SD_Empty">No movable app found in SD card</string>
-    <string name="SoftMgr_App2SD_Emulated">"Your phone has a built-in storage. You don't have to move apps to SD."</string>
-    <string name="SoftMgr_App2SD_ERR_NOMEM">Insufficient memory, move failed ( %1$s)</string>
+    <string name="SoftMgr_App2SD_Emulated">"Your phone has a built-in storage. You don't need to move apps to SD."</string>
+    <string name="SoftMgr_App2SD_ERR_NOMEM">Insufficient memory, move failed (%1$s)</string>
     <string name="SoftMgr_App2SD_ERR_NOEXIST">%1$s does not exist, cannot move</string>
-    <string name="SoftMgr_App2SD_ERR_SYSTEM">System app ( %1$s), cannot move</string>
+    <string name="SoftMgr_App2SD_ERR_SYSTEM">System app (%1$s), cannot move</string>
     <string name="SoftMgr_App2SD_ERR_LOCKED">%1$s is locked, unable to move currently</string>
     <string name="SoftMgr_App2SD_ERR_INVLOC">%1$s cannot be moved to the specified location</string>
-    <string name="SoftMgr_App2SD_ERR_INTERN">Internal error. Move failed ( %1$s)</string>
+    <string name="SoftMgr_App2SD_ERR_INTERN">Internal error. Move failed (%1$s)</string>
     <string name="SoftMgr_App2SD_ERR_ALREADY">%1$s moving</string>
     <string name="SoftMgr_App2SD_ERR_GENERAL">%1$s move failed</string>
     <string name="SoftMgr_SysUninstall_UWarning">"CAUTION:
@@ -1450,8 +1451,8 @@ Apps you slimmed contain optimization files (odex), they might be unusable if re
     <string name="SoftMgr_SysUninstall_RWarning">"CAUTION:
 Apps you slimmed contain optimization files (odex), they might be unusable if they are slimmed from another ROM or device."</string>
     <string name="SoftMgr_SysUninstall_Summary">%1$d apps in total, %2$d apps slimmed out</string>
-    <string name="SoftMgr_SysUninstall_Disable">Freeze selected apps ( %1$d apps)</string>
-    <string name="SoftMgr_SysUninstall_Enable">Restore selected apps ( %1$d apps)</string>
+    <string name="SoftMgr_SysUninstall_Disable">Freeze selected apps (%1$d apps)</string>
+    <string name="SoftMgr_SysUninstall_Enable">Restore selected apps (%1$d apps)</string>
     <string name="SoftMgr_SysUninstall_Guide">"This feature is for advanced users only!
 
 Security Master can help you clean stock junk apps
@@ -1469,6 +1470,9 @@ Sure to restore all selected apps?"</string>
     <string name="SoftMgr_App_UnknownSize">Unknown size</string>
     <string name="SoftMgr_SDHelper">APK Manager</string>
     <string name="SoftMgr_SDHelper_Scan">Searching</string>
+    <string name="SoftMgr_SDHelper_InnerSD">Built-in storage</string>
+    <string name="SoftMgr_SDHelper_DefaultSD">Default storage</string>
+    <string name="SoftMgr_SDHelper_ExternSD">SD card</string>
     <string name="SoftMgr_SDHelper_DeleteWait">Delete selected %1$d APKs?</string>
     <string name="SoftMgr_SDHelper_Result">" %1$d installed successfully.
 %2$d failed to install. Failed:"</string>
@@ -1477,13 +1481,13 @@ It is recommended that you release some space using App Uninstall or App Moving 
 Sure to install selected apps?"</string>
     <string name="SoftMgr_SDHelper_StartInstall">Installing</string>
     <string name="SoftMgr_SDHelper_StartDelete">Deleting</string>
-    <string name="SoftMgr_SDHelper_Install">Install ( %1$d)</string>
+    <string name="SoftMgr_SDHelper_Install">Install (%1$d)</string>
     <string name="SoftMgr_SDHelper_SkipDifSig">" %1$d installations skipped due to mismatching signature.  Please uninstall before installing."</string>
     <string name="SoftMgr_SDHelper_InstallWait">Signature or version issue, you need to replace the installation, the old data will be lost. Click OK to start, or click Cancel to exit</string>
     <string name="SoftMgr_SDHelper_Selected">%1$d APKs selected</string>
-    <string name="SoftMgr_SDHelper_Delete">Delete ( %1$d)</string>
-    <string name="SoftMgr_SDHelper_Installed">Installed APKs</string>
-    <string name="SoftMgr_SDHelper_NotInstalled">Not Installed APKs</string>
+    <string name="SoftMgr_SDHelper_Delete">Delete (%1$d)</string>
+    <string name="SoftMgr_SDHelper_Installed">Installed</string>
+    <string name="SoftMgr_SDHelper_NotInstalled">Not installed</string>
     <string name="SoftMgr_SDHelper_ApkInfo">" %1$s
 
 APK name:
@@ -1495,7 +1499,7 @@ Last modified:
     <string name="SoftMgr_SDHelper_Type">Package Category</string>
     <string name="SoftMgr_SDHelper_OldVer">Older version</string>
     <string name="SoftMgr_SDHelper_NewVer">Newer version</string>
-    <string name="SoftMgr_SDHelper_DifSig">Signatures mismatch</string>
+    <string name="SoftMgr_SDHelper_DifSig">Signature mismatch</string>
     <string name="SoftMgr_SDHelper_SigChecking">Checking signatures</string>
     <string name="SoftMgr_SDHelper_NoApk">No APK in your SD card.</string>
     <string name="SoftMgr_SDHelper_NoFile">%1$d invalid APK packages removed.</string>
@@ -1539,8 +1543,8 @@ To continue, please tap on the unlock button"</string>
     <string name="SysOpt_Boost_Allowed">Allowed</string>
     <string name="SysOpt_Boost_Blocked">Forbidden</string>
     <string name="SysOpt_Boost_None">Congratulations! No auto-start apps</string>
-    <string name="SysOpt_TrustApp">Trust app permission requests</string>
-    <string name="SysOpt_UntrustApp">Monitor app permission requests</string>
+    <string name="SysOpt_TrustApp">Trusted application permissions</string>
+    <string name="SysOpt_UntrustApp">Monitored application permissions</string>
     <string name="SysOpt_Boot_Permission">On boot permissions</string>
     <string name="SysOpt_RejectBootStart">Block start on boot</string>
     <string name="SysOpt_RejectAutoStart">Block auto start</string>
@@ -1594,7 +1598,7 @@ Please be sure that these data are completely useless!"</string>
     <string name="SysOpt_TaskMgr_Critical">Critical Tasks</string>
     <string name="SysOpt_TaskMgr_AddToWhite">Edit whitelist</string>
     <string name="SysOpt_TaskMgr_RemoveAllFromWhite">Clear Task Whitelist</string>
-    <string name="SysOpt_TaskMgr_ToWhiteList">+Whitelist ( %1$d)</string>
+    <string name="SysOpt_TaskMgr_ToWhiteList">+Whitelist (%1$d)</string>
     <string name="SysOpt_TaskMgr_ToBlackList">-Whitelist</string>
     <string name="SysOpt_WhiteList_Tips">Protect your apps from clean-up</string>
     <string name="Update">Update…</string>
@@ -1645,7 +1649,7 @@ Please be sure that these data are completely useless!"</string>
     <string name="DownloadManager_State_FAILED">Download failed</string>
     <string name="DownloadManager_State_SUCCEED">Download succeessful</string>
     <string name="DownloadManager_State_RETRY">Download error, retrying</string>
-    <string name="Update_Upto_Latest">is the latest version</string>
+    <string name="Update_Upto_Latest">Latest</string>
     <string name="Traffic_Graph_Trend">Traffic Tendency</string>
     <string name="Traffic_Graph_Detail">Details of Daily Traffic</string>
     <string name="Traffic_Graph_Legend_Limit">Data Plan</string>
@@ -1653,11 +1657,4 @@ Please be sure that these data are completely useless!"</string>
     <string name="Traffic_Graph_Legend_Month">Consumed This Month</string>
     <string name="Traffic_Graph_Legend_Today">Consumed Today</string>
     <string name="Traffic_Graph_Legend_Projection">Estimated This Month</string>
-    <string name="Phone_Black_Multimedia_Message">Restore MMS to system inbox to view content</string>
-    <string name="Phone_Empyt_BlockLog">Blocked calls &amp; SMS will be displayed here</string>
-    <string name="Phone_Sign_StrangeNumber">Tag strange numbers</string>
-    <string name="Phone_Sign_StrangeNumber_Manage">Manage strange number tags</string>
-    <string name="Phone_Sign_StrangeNumber_Manage_Summary">Manage tags</string>
-    <string name="Phone_InputMarkerType_Name">Please enter tag name</string>
-    <string name="SysOpt_TaskMgr_RunningAppHeader">Running tasks</string>
 </resources>

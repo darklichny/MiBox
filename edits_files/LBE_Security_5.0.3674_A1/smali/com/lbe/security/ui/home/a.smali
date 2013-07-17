@@ -117,27 +117,9 @@
 
     new-instance v2, Ljava/lang/StringBuilder;
 
-    const-string v3, "("
+    const-string v3, " ("
 
     invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    iget-object v3, p0, Lcom/lbe/security/ui/home/a;->a:Lcom/lbe/security/ui/home/AboutActivity;
-
-    const v4, 0x7f07007c
-
-    invoke-virtual {v3, v4}, Lcom/lbe/security/ui/home/AboutActivity;->getString(I)Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    const-string v3, ":"
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
 
     sget-object v3, Lcom/lbe/security/LBEApplication;->c:Ljava/lang/String;
 

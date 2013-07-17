@@ -430,7 +430,7 @@
 
     if-nez p1, :cond_1
 
-    const-string v1, "\u8f6f\u4ef6\u7cfb\u7edf\u7f13\u5b58(%d)"
+    const-string v1, "System cache (%d)"
 
     new-array v2, v3, [Ljava/lang/Object;
 
@@ -459,7 +459,7 @@
     goto :goto_0
 
     :cond_1
-    const-string v1, "\u8f6f\u4ef6SD\u7f13\u5b58(%d)"
+    const-string v1, "Cache on SD card (%d)"
 
     new-array v2, v3, [Ljava/lang/Object;
 
