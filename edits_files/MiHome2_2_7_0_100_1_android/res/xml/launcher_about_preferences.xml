@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/pref_launcher_setting"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.launcher2.V5PreferenceCategory android:key="pref_key_checkboxes">
+        <com.android.launcher2.V5Preference android:title="@string/wallpaper_settings_title" android:key="wallpaper_settings" />
+        <com.android.launcher2.V5CheckBoxPreference android:title="@string/pref_render_in_truecolor_title" android:key="pref_key_render_in_truecolor" android:summary="@string/pref_render_in_truecolor_summary" />
+        <com.android.launcher2.V5CheckBoxPreference android:title="@string/pref_icon_shadow_title" android:key="pref_key_icon_shadow" android:summary="@string/pref_icon_shadow_summary" android:defaultValue="true" />
+        <com.android.launcher2.V5Preference android:title="@string/default_launcher_settings_title" android:key="default_launcher_settings" />
+    </com.android.launcher2.V5PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,13 @@
+version: 1.5.3.f3e50fbc56
+apkFileName: MiHome2_2_7_0_100_1_android.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '9'
+  targetSdkVersion: '14'
+packageInfo:
+  cur_package: com.miui.mihome2
+  orig_package: com.miui.mihome2
+compressionType: false

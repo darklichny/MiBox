@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:paddingTop="@dimen/v5_preference_item_padding_top" android:paddingRight="@dimen/v5_preference_item_padding_inner" android:paddingBottom="@dimen/v5_preference_item_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textAppearance="@style/V5.TextAppearance.PreferenceList" android:ellipsize="marquee" android:id="@*android:id/title" android:paddingLeft="@dimen/v5_preference_item_padding_side" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textAppearance="@style/V5.TextAppearance.List.Secondary" android:id="@*android:id/summary" android:paddingLeft="@dimen/v5_preference_item_padding_side" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="10" android:layout_below="@*android:id/title" android:layout_alignLeft="@*android:id/title" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@*android:id/widget_frame" android:paddingRight="@dimen/v5_preference_item_padding_side" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+</LinearLayout>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="red">#ffff0000</color>
+    <color name="grey">#ff888888</color>
+    <color name="tab_text_color">#ff808080</color>
+    <color name="tab_text_pressed_color">#ff000000</color>
+    <color name="list_page_item_text_color">#ff313131</color>
+    <color name="detail_page_widow_title_color">#ff000000</color>
+    <color name="detail_page_property_title_color">#ff838383</color>
+    <color name="detail_page_property_content_color">#ff000000</color>
+    <color name="button_text_shadow">#80ffffff</color>
+    <color name="mi_screen_background_light">#fff7f7f7</color>
+    <color name="mi_screen_background_dark">#fff7f7f7</color>
+    <color name="mi_screen_background_dark_transparent">#80f7f7f7</color>
+    <color name="mi_screen_background_light_transparent">#80f7f7f7</color>
+    <color name="mi_background_dark">#fff7f7f7</color>
+    <color name="mi_background_light">#fff7f7f7</color>
+    <color name="mi_bright_foreground_dark">#cc000000</color>
+    <color name="mi_bright_foreground_dark_inverse">#ffffffff</color>
+    <color name="mi_bright_foreground_dark_disabled">#80000000</color>
+    <color name="mi_dim_foreground_dark">#ff999999</color>
+    <color name="mi_dim_foreground_dark_disabled">#80000000</color>
+    <color name="mi_dim_foreground_dark_inverse">#ffffffff</color>
+    <color name="mi_dim_foreground_dark_inverse_disabled">#80ffffff</color>
+    <color name="mi_bright_foreground_light">#cc000000</color>
+    <color name="mi_bright_foreground_light_inverse">#ffffffff</color>
+    <color name="mi_bright_foreground_light_disabled">#80000000</color>
+    <color name="mi_dim_foreground_light">#ff999999</color>
+    <color name="mi_dim_foreground_light_disabled">#80000000</color>
+    <color name="mi_dim_foreground_light_inverse">#ffffffff</color>
+    <color name="mi_dim_foreground_light_inverse_disabled">#80ffffff</color>
+    <color name="mi_options_menu_text_normal">#cc000000</color>
+    <color name="mi_options_menu_text_inverse">#ffffffff</color>
+    <color name="mi_options_menu_text_disabled">#80000000</color>
+    <color name="mi_preference_primary">#cc000000</color>
+    <color name="mi_preference_primary_inverse">#ffffffff</color>
+    <color name="mi_preference_primary_disabled">#80000000</color>
+    <color name="mi_preference_secondary">#ff999999</color>
+    <color name="mi_preference_secondary_disabled">#80000000</color>
+    <color name="mi_preference_secondary_inverse">#ffffffff</color>
+    <color name="dlg_bright_foreground_dark">#cc000000</color>
+    <color name="dlg_bright_foreground_dark_inverse">#ffffffff</color>
+    <color name="dlg_bright_foreground_dark_disabled">#80000000</color>
+    <color name="dlg_dim_foreground_dark">#ff999999</color>
+    <color name="dlg_dim_foreground_dark_disabled">#80000000</color>
+    <color name="dlg_dim_foreground_dark_inverse">#ffffffff</color>
+    <color name="dlg_dim_foreground_dark_inverse_disabled">#80ffffff</color>
+    <color name="dlg_bright_foreground_light">#cc000000</color>
+    <color name="dlg_bright_foreground_light_inverse">#ffffffff</color>
+    <color name="dlg_bright_foreground_light_disabled">#80000000</color>
+    <color name="dlg_dim_foreground_light">#ff999999</color>
+    <color name="dlg_dim_foreground_light_disabled">#80000000</color>
+    <color name="dlg_dim_foreground_light_inverse">#ffffffff</color>
+    <color name="dlg_dim_foreground_light_inverse_disabled">#80ffffff</color>
+    <color name="button_text_color">#cc000000</color>
+    <color name="button_text_color_disabled">#53000000</color>
+    <color name="title_text_color">#ffffffff</color>
+    <color name="info_color">#ff458500</color>
+    <color name="attention_color">#ffd77a12</color>
+    <color name="alert_color">#ffb22828</color>
+    <color name="scroll_overlay_image">#ffff9f2e</color>
+    <color name="expandlistview_header_text_color">#ff636772</color>
+    <color name="expandlistview_header_shadow_color">#92ffffff</color>
+    <color name="secondary_tab_text_color">#b2000000</color>
+    <color name="secondary_tab_text_pressed_color">#ff000000</color>
+    <item type="color" name="status_bar_textColor">@color/title_text_color</item>
+    <item type="color" name="status_bar_event_title_normal">@color/mi_bright_foreground_light</item>
+    <item type="color" name="status_bar_event_title_inverse">@color/mi_bright_foreground_light_inverse</item>
+    <item type="color" name="status_bar_event_content_normal">@color/mi_dim_foreground_light</item>
+    <item type="color" name="status_bar_event_content_inverse">@color/mi_dim_foreground_light_inverse</item>
+    <item type="color" name="guide_popup_window_textColor">@*android:color/white</item>
+    <color name="wheel_view_textColor">#ff111111</color>
+    <color name="primary_text_holo_dark">#fff9f9f9</color>
+    <color name="secondary_text_holo_dark">#ffbebebe</color>
+    <color name="primary_text_holo_light">#cc000000</color>
+    <color name="secondary_text_holo_light">#66000000</color>
+    <item type="color" name="primary_text_color_inverse">@*android:color/white</item>
+    <item type="color" name="secondary_text_color_inverse">@*android:color/white</item>
+    <color name="primary_text_color_shadow">#80ffffff</color>
+    <color name="secondary_text_color_shadow">#80ffffff</color>
+    <item type="color" name="primary_tab_text_color">@color/primary_text_holo_light</item>
+    <item type="color" name="primary_tab_text_pressed_color">@color/primary_text_color_inverse</item>
+    <color name="primary_tab_text_selected_color">#ffff7e00</color>
+    <color name="v5_text_color_pressed_light">#ffffffff</color>
+    <color name="v5_text_color_disable_light">#4d000000</color>
+    <color name="v5_text_color_hilighted_light">#fff05000</color>
+    <color name="v5_menu_preference_list_color_light">#cc000000</color>
+    <color name="v5_text_color_disable_dark">#4dffffff</color>
+    <color name="v5_text_color_pressed_dark">#ffffffff</color>
+    <color name="v5_secondary_text_color_dark">#80ffffff</color>
+    <color name="v5_list_secondary_text_color_light">#80000000</color>
+    <color name="v5_list_secondary_text_shadow_light">#80ffffff</color>
+    <color name="v5_list_text_color_light">#e6000000</color>
+    <color name="v5_secondary_text_color_light">#80000000</color>
+    <color name="v5_button_text_color_light">#b3000000</color>
+    <color name="v5_primary_text_color_light">#ff000000</color>
+    <color name="footer_color">#ff6e6e6e</color>
+    <color name="resource_list_tab_title_selected_color">#fff36e0d</color>
+    <color name="resource_comment_list_text_color">#ff000000</color>
+    <color name="resource_comment_list_signature_color">#66000000</color>
+    <color name="window_background">#ff191919</color>
+    <color name="delete_color_filter">#a5ff0000</color>
+    <color name="appwidget_error_color">#ffcccccc</color>
+    <color name="preview_background">#99000000</color>
+    <color name="gadget_player_lyric_shadow_color">#ffffae00</color>
+    <color name="icon_title_text">#ffffffff</color>
+    <color name="icon_title_text_shadow">#ff000000</color>
+    <color name="folder_icon_title_text">#ffffffff</color>
+    <color name="folder_icon_title_text_shadow">#ff000000</color>
+    <color name="icon_message_text">#ffffffff</color>
+    <color name="folder_title_text">#ffffffff</color>
+    <color name="folder_title_text_shadow">#00000000</color>
+    <color name="folder_setting_remane_text">#ffffffff</color>
+    <color name="folder_foreground_mask">#70000000</color>
+    <color name="folder_background_mask">#aa000000</color>
+    <color name="icon_shadow">#60000000</color>
+    <color name="icon_reflection_level">#60000000</color>
+    <color name="uninstall_dialog_title_text">#ffffffff</color>
+    <color name="uninstall_dialog_title_text_shadow">#ff000000</color>
+    <color name="uninstall_dialog_message_text">#ff888888</color>
+    <color name="uninstall_dialog_message_text_shadow">#ff000000</color>
+    <color name="uninstall_dialog_button_text">#ffffffff</color>
+    <color name="uninstall_dialog_button_text_shadow">#ff000000</color>
+    <color name="dragging_outline">#ffff7e00</color>
+    <color name="upside_loading_bg_color">#58000000</color>
+    <color name="dim_foreground_holo_light">#ff000000</color>
+    <color name="bright_foreground_light">#ff000000</color>
+    <color name="cleartask_title_text">#ff000000</color>
+    <color name="version_check_txt_shadowcolor">#7f000000</color>
+    <color name="version_check_progress_txt_color">#ff727475</color>
+    <color name="version_check_slogan_txt_color">#ff0e0e0e</color>
+    <color name="version_updatestate_txt_shadowcolor">#7fffffff</color>
+    <color name="task_manager_text">#ffffffff</color>
+    <color name="task_item_text_shadowColor">#ff000000</color>
+    <color name="text_color_black">#cc000000</color>
+    <color name="text_color_gray">#66000000</color>
+    <item type="color" name="text_color_white">@*android:color/white</item>
+    <color name="text_color_dark_gray">#99000000</color>
+    <color name="text_color_orange">#ffff7e00</color>
+    <color name="text_color_red">#ffee0000</color>
+    <color name="a_text_color_primary">#cc000000</color>
+    <color name="a_text_color_secondary">#66000000</color>
+    <item type="color" name="a_text_color_inverse">@*android:color/white</item>
+    <color name="a_text_color_shadow">#80ffffff</color>
+    <color name="a_text_color_link">#ff307ab3</color>
+    <color name="a_text_color_highlight">#ffff7e00</color>
+    <color name="abs__background_holo_dark">#ff000000</color>
+    <color name="abs__background_holo_light">#fff3f3f3</color>
+    <item type="color" name="abs__bright_foreground_holo_dark">@color/abs__background_holo_light</item>
+    <item type="color" name="abs__bright_foreground_holo_light">@color/abs__background_holo_dark</item>
+    <color name="abs__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="abs__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <item type="color" name="abs__bright_foreground_inverse_holo_dark">@color/abs__bright_foreground_holo_light</item>
+    <item type="color" name="abs__bright_foreground_inverse_holo_light">@color/abs__bright_foreground_holo_dark</item>
+    <color name="abs__holo_blue_light">#ff33b5e5</color>
+</resources>

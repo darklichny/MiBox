@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="application_name">Launcher</string>
+    <string name="folder_name">Složka</string>
+    <string name="chooser_wallpaper">Vybrat tapetu ze složky</string>
+    <string name="activity_not_found">Aplikace není v telefonu nainstalována.</string>
+    <string name="cancel_action">Zrušit</string>
+    <string name="menu_item_add_item">Přidat na plochu</string>
+    <string name="group_shortcuts">Zástupce</string>
+    <string name="out_of_space">Na této ploše již není místo.</string>
+    <string name="title_select_shortcut">Vyberte zástupce</string>
+    <string name="menu_add">Přidat</string>
+    <string name="menu_wallpaper">Tapeta</string>
+    <string name="menu_search">Hledat</string>
+    <string name="menu_settings">Nastavení</string>
+    <string name="permlab_install_shortcut">instalovat zástupce</string>
+    <string name="permdesc_install_shortcut">Povoluje aplikaci přidat zástupce bez zásahu uživatele.</string>
+    <string name="permlab_uninstall_shortcut">odinstalovat zástupce</string>
+    <string name="permdesc_uninstall_shortcut">Povoluje aplikaci odstranit zástupce bez zásahu uživatele.</string>
+    <string name="permlab_read_settings">čtení nastavení a odkazů plochy</string>
+    <string name="permdesc_read_settings">Povoluje aplikaci číst nastavení a odkazy plochy.</string>
+    <string name="permlab_write_settings">zápis nastavení a odkazů plochy</string>
+    <string name="permdesc_write_settings">Povoluje aplikaci změnit nastavení a odkazy plochy.</string>
+    <string name="gadget_error_text">Problém s načtením widgetu</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:text="@string/description_author" style="@style/WallpaperDetailInfoTitle" />
+        <TextView android:id="@id/author" style="@style/WallpaperDetailInfoContent" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:text="@string/description_size" style="@style/WallpaperDetailInfoTitle" />
+        <TextView android:id="@id/size" style="@style/WallpaperDetailInfoContent" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:text="@string/description_uploadtime" style="@style/WallpaperDetailInfoTitle" />
+        <TextView android:id="@id/modifiedTime" style="@style/WallpaperDetailInfoContent" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:text="@string/description_download" style="@style/WallpaperDetailInfoTitle" />
+        <TextView android:id="@id/downloadCount" style="@style/WallpaperDetailInfoContent" />
+    </LinearLayout>
+</LinearLayout>

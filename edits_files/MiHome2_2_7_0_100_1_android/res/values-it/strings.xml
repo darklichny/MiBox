@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_locker_name">MiLocker</string>
+    <string name="resource_none">Nessuno</string>
+    <string name="description_resolution">Risoluzione:</string>
+    <string name="crop_save_text">Salva</string>
+    <string name="crop_discard_text">Elimina</string>
+    <string name="savingImage">Salvataggio immagine…</string>
+    <string name="runningFaceDetection">Attendere prego…</string>
+    <string name="error_unkown_exception">errore sconosciuto</string>
+    <string name="error_out_of_memory">memoria insufficiente</string>
+    <string name="no_advance_lockscreen_res">Tema non riconosciuto, si prega di selezionarne un altro.</string>
+    <string name="menu_general_settings">Impostazioni generali</string>
+    <string name="not_support_sdk_version">"Spiacente, l'applicazione non può funzionare con la versione di Android utilizzata!"</string>
+    <string name="insert_sd_card">Si prega di inserire la scheda SD!</string>
+    <string name="resolution_not_support">Questo tema potrebbe non adattarsi automaticamente alla risoluzione del tuo schermo, vuoi proseguire?</string>
+    <string name="general_settings_label">Impostazioni generali</string>
+    <string name="personal_settings_title">Personalizzazione</string>
+    <string name="other_settings_title">Altro</string>
+    <string name="lockscreen_enable">Abilita MiLocker</string>
+    <string name="lockscreen_wallpaper_setting">imposta sfondo lockscreen</string>
+    <string name="label_about">Informazioni</string>
+    <string name="label_feedback">Feedback</string>
+    <string name="about_detail_1">Sei stanco dei soliti lockscreen?</string>
+    <string name="about_detail_2">MiLocker ti offre una lockscreen sempre diversi, inclusi quelli a sblocco laterale, verticale, a punti multipli e addirittura sblocchi animati.</string>
+    <string name="about_detail_3">"MIUI possiede il più grande archivio di lockscreen del mondo, realizzato con il contributo di talentuosi utenti e designer. Se sei un designer a cui piace divertirsi con i temi, l'unico limite sarà la tua fantasia."</string>
+    <string name="about_detail_4">Per maggiori informazioni visita http://www.miui.com</string>
+    <string name="label_tip">Suggerimento</string>
+    <string name="label_tip_detail">Premi [Indietro] e [Volume+] contemporaneamente per sbloccare se non riesci a farlo normalmente.</string>
+    <string name="label_check_version">Cerca aggiornamenti</string>
+    <string name="label_auto_check_all">Cerca aggiornamenti automaticamente</string>
+    <string name="summary_auto_check_all">Include applicazione e temi</string>
+    <string name="label_samsung_home_key_title">Blocca tasto \"Home\"</string>
+    <string name="label_samsung_home_key_summary">Solo per terminali che possono essere sbloccati tramite l apressione del tasto Home (es. I9100)</string>
+    <string name="lockhome_samsung_step_title">Se premendo il tasto Home si sblocca direttamente, segui questi due passi:</string>
+    <string name="lockhome_samsung_clear_home_button">Cancella impostazioni predefinite</string>
+    <string name="lockhome_samsung_clear_home_text">Cancella le impostazioni predefinite del laucher</string>
+    <string name="lockhome_samsung_set_milocker_button">Blocca tasto Home</string>
+    <string name="lockhome_samsung_set_milocker_text">Imposta MiHome come launcher predefinito</string>
+    <string name="lockhome_samsung_select_home_title">Hai veri launcher installati, seleziona il launcher da utilizzare dopo lo sblocco:</string>
+    <string name="lockhome_samsung_select_home_unselect_title">Non selezionato</string>
+    <string name="lockhome_samsung_dialog_clear_home_title">Nella prossima schermata premi il tasto Cancella predefinito.</string>
+    <string name="lockhome_samsung_dialog_select_milocker_title">Nella prossima schermata seleziona Usa come predefinito per questa azione e poi seleziona MiHome.</string>
+    <string name="lockhome_samsung_spinner_select_home_title">Seleziona il launcher da utilizzare:</string>
+    <string name="no_new_version">Nessun aggiornamento disponibile</string>
+    <string name="has_new_version">Aggiornamento trovato, vuoi scaricarlo?</string>
+    <string name="checking_update_tips">Ricerca aggiornamenti in corso</string>
+    <string name="update_title">Aggiorna</string>
+    <string name="update_public_version_title">Versione aggiornamento：</string>
+    <string name="update_content_title">Contenuto aggiornamento：</string>
+    <string name="email_subject">[MiLocker Feedback]</string>
+    <string name="label_faq">FAQ</string>
+    <string name="faq_content">"Q1: #bs#Perchè alcuni lockscreen non vengono visualizzati normalmente?#be#
+        #br#
+        A1: La ragione più comune è che il tema lockscreen non supporta la risoluzione dello schermo del tuo telefono. La maggior parte dei temi lockscreen di Milocker sono stati creati dai fan MIUI e sono distribuiti gratuitamente e chiunque può utilizzarli. Chi realizza i temi solitaemnte testa il proprio lavoro solo su un certo numero di telefoni, perciò alcuni temi potrebbero non essere compatibili con la risoluzione del tuo telefono. Puoi però scaricare ed installare quei temi compatibili con la risoluzione del tuo telefono.
+        #br#
+        A2. Esiste un'altra possibile motivazione. Le immagini contenute in alcuni temi complessi sono talmente grandi che alcuni terminali non riescono a fornire un quantitativo di memoria sufficiente per il corretto funzionamento. In questo caso puoi utilizzare temi più semplici.
+        #br#
+        #br#
+        Q2: #bs#La password del lockscreen non funziona, perchè?#be#
+        #br#
+        A: Per qualche motivo, i lockscreen non di sistema possono essere bypassati con il longpress dei tasti Home e accensione. Perquesto motivo la password non è supportata per il momento.
+        #br#
+        #br#
+        Q3: #bs#Perchè il lockscreen di sistema viene visualizzato dopo il riavvio?#be#
+        #br#
+        A: Questo è dovuto a restrizioni del sistema Android. E' necessario utilizzare il lockscreen nativo per il primo avvio, altrimenti il lockscreen potrebbe non funzionare correttamente in alcuni casi.
+        #br#
+        #br#
+        Q4: #bs#Premo il tasto accensione due volte in rapida successione ma lo schermo non si blocca, come mai?#be#
+        #br#
+        A: Se premi con un intervallo troppo breve il lockscreen non sarà avviato.
+        #br#
+        #br#
+        Q5: #bs#Lo sfondo di alcuni lockscreen non può essere modificato, perchè?#be#
+        #br#
+        A: Questo dipende dall'autore del tema. Forse per questioni estetiche o altri motivi alcuni autori utilizzano un'immagine di sfondo fissa che non può essere modificata.
+        #br#
+        #br#
+        Q6: #bs#Perchè il testo del lockscreen viene visualizzato in altre lingue?#be#
+        #br#
+        A: Dipende dall'autore del tema. Forse il tema selezionato è stato realizzato da un autore straniero. Puoi selezionare la lingua appropriata del pacchetto tema oppure puoi modificare la lingua da solo (per utenti esperti).
+        #br#
+        #br#
+        Q7: #bs#Alcuni temi lockscreen implementano il lettore musicale mentre altri no, perchè?#be#
+        #br#
+        A: I comandi per la riproduzione musicale devono essere supportati dal tema. Alcuni temi potrebbero non avere il supporto per le funzioni musicali. Puoi scaricare un tema che supporti tali funzioni.
+        #br#
+        #br#
+        Q8: #bs#le anteprime di alcuni temi mostrano anche le informazioni meteo, perchè questo non compare sul mio telefono?#be#
+        #br#
+        A: Devi installare l'applicazione meteo, leggi #as# href=http://www.miui.com/thread-335430-1-1.html>qui#ae# per le modalità specifiche.
+        #br#
+        #br#
+        Q9: #bs#HCome posso spostare i lockscreen scaricati dal mio computer al mio telefono?#be#
+        #br#
+        A: Copiali sulla scheda SD del telefono, nella cartella / MIUI / theme.
+        #br#
+        #br#
+        Q10: #bs#Perchè non riesco a disinstallare correttamente Milocker?#be#
+        #br#
+        A: Potresti aver attivato blocca con un tasto. Vai in Impostazioni e disattiva questa opzione prima di disinstallare.
+        #br#
+        #br#
+        Q11: #bs#Perchè l'effetto di visualizzazione homescreen non funziona quando disabilito la visualizzazione della barra di stato ?#be#
+        #br#
+        A: Su Android 2.2 ed alcuni terminali (es. Samsung I9100) l'effetto di visualizzazione homescreen viene disabilitato quando la visualizzazione della barra di stato è disabilitata.
+        #br#
+        #br#
+        Q12: #bs#Perchè blocca con un tasto o password lockscreen di sistema non funzionano?#be#
+        #br#
+        A1: Forse la ROM che stai utilizzando modifica alcune funzioni del sistema Android stock, come MEB525 + ed altri terminali. Puoi provare ad installare un'altra ROM.
+        A2: MiLocker supporta solo la password a sequenza per il lockscreen di sistema su Android 4.0.
+        #br#"</string>
+    <string name="new_version_update_title">Questo aggiornamento include principalmente:</string>
+    <string name="new_version_update_content">1. Improve stability, efficiency and optimize memory consumption. #br#</string>
+    <string name="button_yes">Si</string>
+    <string name="button_no">No</string>
+    <string name="button_close">Chiudi</string>
+    <string name="button_i_know">OK</string>
+    <string name="button_goon">Vai</string>
+    <string name="button_cancel">Annulla</string>
+    <string name="button_not_ask">Non chiedere più.</string>
+    <string name="email_setting_error">errore impostazioni email</string>
+    <string name="current_lockscreen_setting">Impostazioni lockscreen attuale</string>
+    <string name="app_picker_default">Predefinito</string>
+    <string name="setting_fullscreen">Nascondi barra di stato</string>
+    <string name="setting_hapticfeedback">Abilita feedback aptico</string>
+    <string name="setting_sound_effect">Abilita effetti sonori</string>
+    <string name="setting_sound_effect_summary">Necessita del supporto tema</string>
+    <string name="one_key_locker_title">Blocco con un tasto</string>
+    <string name="label_send_shortcut">Aggiungi collegamento in home</string>
+    <string name="label_active_lock_device">Attiva blocco con un tasto</string>
+    <string name="summary_active_lock_device">Abilitando uesta opzione si attiva il blocco con un tasto e sarà possibile bloccare automaticamente dopo aver attivato lo schermo</string>
+    <string name="summary_deactive_lock_device">Chiudere qui prima di disinstallare</string>
+    <string name="tips_active_lock_device">"Blocco con un tasto è attivo. se vuoi disinstallare Milocker, disattiva prima il blocco con un tasto, altrimenti non potrai disinstallarlo correttamente.
+
+    Attenzione: blocco con un tasto potrebbe non funzionare su alcuni terminali, vedi FAQ12."</string>
+    <string name="lock_device_admin_label">Collegamento MiLocker</string>
+    <string name="lock_device_admin_description">Applica per autorizzare il blocco dello schermo</string>
+    <string name="lock_device_admin_explanation">Devi abilitare questa autorizzazione per utilizzare il blocco con un tasto</string>
+    <string name="lock_device_shortcut_tip">Attiva il blocco con un tasto nelle impostazioni di MiHome</string>
+    <string name="one_key_locker_not_support_tip">La tua ROM non supporta il blocco con un tasto.</string>
+    <string name="lock_password_dialog_title">Avvis odi Sicurezza</string>
+    <string name="lock_password_lock_home_key_tip">"MiLocker ha rilevato che hai attivato la password lockscreen di sistema, per sicurezza completa l'operazione blocca tasto Home per attivare la verifica password."</string>
+    <string name="lock_password_unsupport_type_tip">MiLocker supporta solo password a sequenza per adesso, selezionare la password a sequenza del lockscreen nelle impostazioni di sistema.</string>
+    <string name="start_one_key_locker_title">Enable Locker Shortcut</string>
+    <string name="one_key_locker_explanation">You need to install OneKey Locker to enable Locker Shortcut, are you sure to continue?</string>
+    <string name="one_key_locker_summary">You need to install OneKey Locker to enable Locker Shortcut</string>
+    <string name="one_key_locker_started_title">Locker Shortcut enabled</string>
+    <string name="one_key_locker_installed">Xiaomi OneKey Locker installed!</string>
+    <string name="enable_auto_update">AutoUpdate</string>
+    <string name="check_for_updates">Check for updates</string>
+    <string name="confirm_update">Update</string>
+    <string name="cancel_update">Ignore this version</string>
+    <string name="kilobyteShort">KB</string>
+    <string name="megabyteShort">MB</string>
+    <string name="ringtone_default">Default ringtone</string>
+    <string name="ringtone_default_with_actual">Default ringtone (%1$s)</string>
+    <string name="resourcebrowser_lable">Elementi</string>
+    <string name="sdcard_status_changed_dialog_title">"E' stato modificato lo stato della scheda SD"</string>
+    <string name="sdcard_status_changed_dialog_message">In fase di uscita. Aprire nuovamente questa applicazione per aggiornare gli elementi.</string>
+    <string name="resource_transparent_wallpaper">Transparente</string>
+    <string name="resource_mute">Nulla</string>
+    <string name="resource_default">Suoneria predefinita</string>
+    <string name="resource_ringtone_default">Suonerie</string>
+    <string name="resource_notification_default">Notifiche</string>
+    <string name="resource_alarm_default">Sveglia</string>
+    <string name="description_unknown">Sconosciuto</string>
+    <string name="description_missed">N/A</string>
+    <string name="description_designer">Designer:</string>
+    <string name="description_author">Autore:</string>
+    <string name="description_size">Dimensione:</string>
+    <string name="description_uploadtime">Modificato:</string>
+    <string name="description_download">Download:</string>
+    <string name="description_version">Versione:</string>
+    <string name="description_file">File:</string>
+    <string name="resource_local">%1$s locali</string>
+    <string name="resource_online">%1$s online</string>
+    <string name="resource_title">Dettaglio elemento</string>
+    <string name="resource_download">Download</string>
+    <string name="resource_downloading">Download in corso</string>
+    <string name="resource_apply">Applica</string>
+    <string name="resource_update">Aggiorna</string>
+    <string name="resource_select">Seleziona</string>
+    <string name="online_hottest">Hot</string>
+    <string name="online_latest">Ultimi</string>
+    <string name="online_hottest_short">Hot</string>
+    <string name="online_latest_short">Ultimi</string>
+    <string name="online_no_network">Impossibile connettersi alla rete</string>
+    <string name="online_search_hint">Cerca elementi online</string>
+    <string name="loading">Caricamento in corso...</string>
+    <string name="download_failed">Download fallito</string>
+    <string name="download_failed_tips">Download failed,please enabled Download Manager,path：Settings->Applications->Storage use->Download Manager</string>
+    <string name="download_preview_failed">Impossibile caricare anteprima</string>
+    <string name="invalid_url">URL non valido:</string>
+    <string name="resource_delete_confirm">Sicuro di voler eliminare questo elemento?</string>
+    <string name="all_resources">Tutti</string>
+    <string name="resource_default_name">Elemento</string>
+    <string name="resource_detail">Dettagli</string>
+    <string name="sd_not_available">Scheda SD non montata o non disponibile</string>
+    <string name="sd_not_available_use_internal_storage">Scheda SD non disponibile, salvato su memoria interna</string>
+    <string name="sd_not_available_low_internal_storage">Sccheda SD non montata o non disponibile, memoria interna in esaurimento</string>
+    <string name="sd_not_available_saved_to_internal_storage">Salvato su memoria interna</string>
+    <string name="delete">Delete</string>
+    <string name="select_all">Select all</string>
+    <string name="reverse_all">Clear all</string>
+    <string name="multi_select_title">Selected %1$s item(s)</string>
+    <string name="resource_selected_number">Selected %1$d resource(s)</string>
+    <string name="resource_delete_all">Are you sure to delete %1$d selected resources?</string>
+    <string name="resource_can_not_selected">%1$s can not be selected!</string>
+    <string name="resource_system_title">System resources</string>
+    <string name="resource_downloaded_title">Downlaoded resources</string>
+    <string name="resource_see_more">See more</string>
+    <string name="processing">Processing ...</string>
+    <string name="app_name">Temi</string>
+    <string name="theme_activity_label">Temi</string>
+    <string name="theme_changing_dialog_title">Installazione nuovo tema, attendere prego..</string>
+    <string name="theme_changed_message">Installato con successo!</string>
+    <string name="theme_changed_failed_message">Cambio tema non riuscito!</string>
+    <string name="backup_preference_title">Impostazioni Backup</string>
+    <string name="backup_theme_dialog_ok">Backup</string>
+    <string name="backup_theme_dialog_message">"Backup tema corrente to
+    SD Card/MIUI/theme/backup/backup.mtz"</string>
+    <string name="backup_theme_progress_message">Backup in corso, attendere prego...</string>
+    <string name="backup_theme_success_message">Backup tema eseguito correttamente</string>
+    <string name="backup_theme_name">My Backup</string>
+    <string name="theme_description_title_default">Default</string>
+    <string name="theme_description_title_customized">Modificato</string>
+    <string name="component_category_title">Modifica tema</string>
+    <string name="theme_component_title_framework">Temi</string>
+    <string name="theme_component_title_mms">SMS</string>
+    <string name="theme_component_title_wallpaper">Sfondi Desktop</string>
+    <string name="theme_component_title_lockwallpaper">Sfondi Lockscreen</string>
+    <string name="theme_component_title_icon">Icone</string>
+    <string name="theme_component_title_boot_animation">Animazioni Boot</string>
+    <string name="theme_component_title_boot_audio">Audio Boot</string>
+    <string name="theme_component_title_font">Caratteri</string>
+    <string name="theme_component_title_ringtone">Suonerie</string>
+    <string name="theme_component_title_notification">Notifiche</string>
+    <string name="theme_component_title_alarm">Suonerie Sveglia</string>
+    <string name="theme_component_title_contact">Tastiere Telefono</string>
+    <string name="theme_component_title_lockstyle">Lockscreen</string>
+    <string name="theme_component_title_statusbar">Barre di stato</string>
+    <string name="theme_component_title_launcher">Pagine home</string>
+    <string name="theme_component_title_audio_effect">Effetti Audio</string>
+    <string name="theme_component_title_clock">Orologi</string>
+    <string name="theme_component_title_photo_frame">Cornici</string>
+    <string name="theme_component_title_others">Altro</string>
+    <string name="theme_component_title_all">Temi</string>
+    <string name="apply_theme_no_select_message">Selezionare un tema</string>
+    <string name="apply_lockscreen_paper_tips">"Tema Lockscreen attualmente in uso, l'anteprima del nuovo lockscreen potrebbe non essere visibile!"</string>
+    <string name="play_all_audio_effect">riproduci effetto audio (totale: %1$s)</string>
+    <string name="theme_select_others">Altro</string>
+    <string name="third_party_pickers_activity_title">Imposta %1$s</string>
+    <string name="lockstyle_personal_settings">Customization</string>
+    <string name="component_lockstyle_personal_title">Customize lockstyle</string>
+    <string name="wallpaper_settings">Impostazioni Sfondi</string>
+    <string name="desktop_wallpaper">Sfondi Desktop</string>
+    <string name="live_wallpaper">Live Wallpaper</string>
+    <string name="lockscreen_wallpaper">Sfondi Lockscreen</string>
+    <string name="component_settings_title">Modifica tema</string>
+    <string name="component_select_title">%1$s elementi selezionati</string>
+    <string name="component_include_title">Contiene %1$s elementi</string>
+    <string name="component_screen_title">Sfondi</string>
+    <string name="resource_fail_to_show">Il tema mtz non contiene le risorse necessarie</string>
+    <string name="wrong_title">Error</string>
+    <string name="theme_format_wrong_content">Theme format is wrong</string>
+    <string name="apply_font_tip">The theme contains font, so reboot is needed.</string>
+    <string name="apply_font_btn_reboot">Apply and reboot</string>
+    <string name="apply_font_btn_exclude">Apply without font</string>
+    <string name="title_local">Local</string>
+    <string name="title_online">Online</string>
+    <string name="title_component">Mix</string>
+    <string name="resource_preview">Preview</string>
+    <string name="wallpaper_set_as_both">Set as both</string>
+    <string name="wallpaper_set_as_destop">Set as wallpaper</string>
+    <string name="wallpaper_set_as_lockscreen">Set as lockscreen</string>
+    <string name="wallpaper_crop">Crop</string>
+    <string name="wallpaper_loading_text">Loading ...</string>
+    <string name="wallpaper_decoded_error">Failed to decode</string>
+    <string name="close">Close</string>
+    <string name="download_success">Download successfully</string>
+    <string name="application_name">MiHome</string>
+    <string name="folder_name">Cartella</string>
+    <string name="chooser_wallpaper">Scegli sfondo da</string>
+    <string name="activity_not_found">"L'applicazione non è installata sul telefono."</string>
+    <string name="cancel_action">Annulla</string>
+    <string name="menu_item_add_item">Aggiungi alla Home</string>
+    <string name="group_shortcuts">Collegamenti</string>
+    <string name="out_of_space">Spazio insufficiente.</string>
+    <string name="title_select_shortcut">Seleziona collegamento</string>
+    <string name="menu_add">Aggiungi</string>
+    <string name="menu_wallpaper">Sfondo</string>
+    <string name="menu_search">Cerca</string>
+    <string name="menu_workspace_preview">Pagine Home</string>
+    <string name="menu_back_desktop">Torna alla Home</string>
+    <string name="menu_settings">Impostazioni</string>
+    <string name="permlab_install_shortcut">Installa collegamenti</string>
+    <string name="permdesc_install_shortcut">"Permette all' applicazione di aggiungere
+        collegamenti senza richiesta."</string>
+    <string name="permlab_uninstall_shortcut">Disinstalla collegamenti</string>
+    <string name="permdesc_uninstall_shortcut">"Permette all' applicazione di rimuovere
+        collegamenti senza richiesta."</string>
+    <string name="permlab_read_settings">Leggi impostazioni Home e collegamenti</string>
+    <string name="permdesc_read_settings">"Permette all' applicazione di leggere le impostazioni e
+        i collegamenti in Home"</string>
+    <string name="permlab_write_settings">Scrivi le impostazioni Home e i collegamenti</string>
+    <string name="permdesc_write_settings">"Permette all' applicazione di modificare le impostazioni e
+        i collegamenti in Home."</string>
+    <string name="start_activity_failed">Avvio non riuscito, provare di nuovo</string>
+    <string name="gadget_error_text">Problema nel caricamento widget</string>
+    <string name="menu_edit">Modifica</string>
+    <string name="menu_sort">Ordina icone desktop</string>
+    <string name="menu_launcher_setting">Launcher</string>
+    <string name="editing_tips">Aggiungi o modifica widget</string>
+    <string name="cant_remove_system_app">Applicazione di sistema. Impossibile rimuovere.</string>
+    <string name="cant_remove_retained_app">"Impossibile disinstallare applicazioni personalizzate dall'operatore"</string>
+    <string name="uninstall">Disinstalla</string>
+    <string name="failed_to_drop">Spostamento fallito.</string>
+    <string name="failed_to_drop_widget_nospace">Spostamento fallito, spazio non sufficiente!</string>
+    <string name="failed_to_drop_widget_invalid">Inserimento non valido.</string>
+    <string name="failed_to_delete_temporary">Eliminazione fallita, provare di nuovo.</string>
+    <string name="widget_favorite_contacts_label">Contatti Preferiti</string>
+    <string name="widget_favorite_contacts_edit">Edit</string>
+    <string name="widget_favorite_contacts_style">Zoom</string>
+    <string name="confirm_btn_label">Ok</string>
+    <string name="cancel_btn_label">Annulla</string>
+    <string name="default_folder_title_tools">Strumenti</string>
+    <string name="default_folder_title_recommend">Preferiti</string>
+    <string name="pref_render_in_truecolor_title">Grafica Alta Definizione</string>
+    <string name="pref_render_in_truecolor_summary">Attiva miglioramenti prestazioni.</string>
+    <string name="pref_icon_shadow_title">Ombra icone</string>
+    <string name="pref_icon_shadow_summary">Abilita e disabilita le ombre delle icone sul desktop</string>
+    <string name="pref_screen_transformation_type_title">Effetti Transizione</string>
+    <string name="pref_wallpaper_scroll_type_title">Scorrimento sfondo</string>
+    <string name="pref_cell_layout_size">Cell layout type</string>
+    <string name="widget_gadget_player">Musica</string>
+    <string name="buffering">Buffering...</string>
+    <string name="global_search_hint">Inserire le parole da cercare</string>
+    <string name="widget_global_search">Ricerca Globale</string>
+    <string name="gadget_clock_12_label">Orologio 1x2</string>
+    <string name="gadget_clock_22_label">Orologio 2x2</string>
+    <string name="gadget_clock_24_label">Orologio 2x4</string>
+    <string name="gadget_photo_44_label">Cornice 4x4</string>
+    <string name="gadget_photo_22_label">Cornice 2x2</string>
+    <string name="gadget_photo_24_label">Cornice 2x4</string>
+    <string name="gadget_load_error">Errore caricamento widget...</string>
+    <string name="invalid_contact_shortcut">Collegamento non valido</string>
+    <string name="guide_tips_editing_mode">Tieni premuto per spostare widget e selezionare le home</string>
+    <string name="photo_adjust">Modifica foto</string>
+    <string name="select_photo">Foto</string>
+    <string name="select_frame">Cornice</string>
+    <string name="photo_confirm">Conferma</string>
+    <string name="photo_load_failed">Impossibile caricare foto!</string>
+    <string name="other_widget">Altri Widget</string>
+    <string name="wallpaper_settings_title">Sfondo</string>
+    <string name="default_launcher_settings_title">Launcher predefinito</string>
+    <string name="pref_locker_enable">Usa Blocco MiHome</string>
+    <string name="locker_style_settings_title">Stile Blocco</string>
+    <string name="locker_wallpaper_settings_title">Sfondo Blocco</string>
+    <string name="pref_about_help_title">Informazioni</string>
+    <string name="quick_switch_label">cambio veloce</string>
+    <string name="clear_task_label">clear task</string>
+    <string name="hold_momory_size">used%dMmem</string>
+    <string name="free_momory_size">%dMfree</string>
+    <string name="status_bar_toggle_bluetooth">BT</string>
+    <string name="status_bar_toggle_brightness">Lumin.</string>
+    <string name="status_bar_toggle_data">Dati</string>
+    <string name="status_bar_toggle_flight_mode">Aereo</string>
+    <string name="status_bar_toggle_gps">GPS</string>
+    <string name="status_bar_toggle_lock">Blocco</string>
+    <string name="status_bar_toggle_mute">Silenz.</string>
+    <string name="status_bar_toggle_rotate">Rotaz.</string>
+    <string name="status_bar_toggle_torch">Torcia</string>
+    <string name="status_bar_toggle_vibrate">Vibraz.</string>
+    <string name="status_bar_toggle_wifi">Wi-Fi</string>
+    <string name="status_bar_no_recent_apps">No recent apps</string>
+    <string name="recent_clear_memory_sucessful">Successfully！freed %d memory.</string>
+    <string name="recent_clear_memory_size">freed 4M memory，already clear to best state。</string>
+    <string name="recent_clear_best_state">already clear to best state</string>
+    <string name="clear_task_user_tip">drag icon，up clear，down lock</string>
+    <string name="settings_separator">,</string>
+    <string name="incoming_call_vibrate_hint">Chiamata in arrivo</string>
+    <string name="notification_vibrate_hint">Notifica</string>
+    <string name="mms_vibrate_hint">Messaggio</string>
+    <string name="not_all_vibrate_hint">In base alle tue impostazioni, %1$s vibrerà, %2$s non vibrerà, puoi modificare tramite Impostazioni > Audio > Vibrazione</string>
+    <string name="no_vibrate_hint">"In base alle tue impostazioni, le notifiche di chiamata in arrivo e SMS non vibrerannom, l'abilitazione della vibrazione non navrà effetto"</string>
+    <string name="to_vibrate_settings">Impostazioni Vibrazione</string>
+    <string name="longclick_goto_detail">Premi a lungo per entrare nelle impostazioni</string>
+    <string name="warning_title_has_milockscreen">Attenzione</string>
+    <string name="mihome_fc_restart">I am sorry, Mihome is abnormal and will restart.</string>
+    <string name="warning_body_has_milockscreen">Hai installato MiLocker. Disinstalla MiLocker prima di utilizzare MiHome.</string>
+    <string name="warning_body_has_old_mihome">"You've got incompatible old version MiLauncher/MiHome installed. You must uninstall that old application before using this！"</string>
+    <string name="mihome_not_support">The function is not supported.</string>
+    <string name="permlab_downloadCompletedIntent">invia messaggio downlaod</string>
+    <string name="permdesc_downloadCompletedIntent">"Permetti all'applicazione di inviare notifiche riguardo i downloads completati. Applicazioni maligne possono usarlo per ingannare altre applicazioni che scaricano files."</string>
+    <string name="download_unknown_title">&lt;Nuovo></string>
+    <string name="notification_filename_separator">", "</string>
+    <string name="notification_filename_extras">" and %d download"</string>
+    <string name="notification_download_complete">Download completato</string>
+    <string name="notification_download_failed">Download fallito</string>
+    <string name="downloading_queue_size">%d processi in coda</string>
+    <string name="delete_all_downloads_tasks">Rimuovi tutto</string>
+    <string name="download_delete_all_running_tasks">Sicuro di voler eliminare tutti i download?</string>
+    <string name="download_info_start_deleted_tasks">Inizio eliminazione processi</string>
+    <string name="download_info_count_deleted_tasks">Eliminati correttamente: %s</string>
+    <string name="back">Indietro</string>
+    <string name="stop_all_downloads_tasks">Interrompi tutti</string>
+    <string name="start_all_downloads_tasks">Avvia tutti</string>
+    <string name="download_delete_task">Elimina Processo</string>
+    <string name="download_delete_one_running_task">Sicuro di voler eliminare questo download?</string>
+    <string name="download_action_pause">Pausa Download</string>
+    <string name="download_status_downloading">In corso</string>
+    <string name="download_action_waiting">In attesa</string>
+    <string name="download_status_pending">In sospeso</string>
+    <string name="download_action_start">Inizia</string>
+    <string name="download_status_suspended">In pausa</string>
+    <string name="into_downloading_task_list">Guarda lista download</string>
+    <string name="downloading_list_title">Coda download</string>
+</resources>

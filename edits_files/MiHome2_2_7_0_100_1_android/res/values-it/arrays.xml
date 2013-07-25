@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="transformation_entries">
+        <item>Classico</item>
+        <item>Classico(senza rimbalzo)</item>
+        <item>Sfumature</item>
+        <item>Falldown</item>
+        <item>Pagina</item>
+        <item>Cascata</item>
+        <item>Rotazione</item>
+        <item>Cubo 3D</item>
+    </string-array>
+    <string-array name="wallpaper_scroll_entries">
+        <item>Per tema</item>
+        <item>Centro</item>
+        <item>Sinistra</item>
+        <item>Destra</item>
+    </string-array>
+</resources>

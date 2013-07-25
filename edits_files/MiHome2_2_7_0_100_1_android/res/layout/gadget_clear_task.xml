@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/relativeLayout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="#ff000000" android:id="@id/relativeview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="6.0dip" />
+    <TextView android:textColor="#ff000000" android:id="@id/relativeview1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="73.0dip" android:layout_alignTop="@id/relativeview" android:layout_alignParentRight="true" />
+    <ProgressBar android:id="@id/progress_cleartask" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginRight="73.0dip" android:layout_marginBottom="6.0dip" android:max="100" android:progress="30" android:indeterminate="false" android:progressDrawable="@drawable/cleartask_progress" android:layout_below="@id/relativeview" android:layout_alignLeft="@id/relativeview" android:layout_alignParentRight="true" style="?android:attr/progressBarStyleHorizontal" />
+    <ImageView android:id="@id/cleartask_separation_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_marginRight="54.0dip" android:src="@drawable/cleartask_separation_line" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <ImageView android:id="@id/cleartask_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginRight="3.0dip" android:src="@drawable/cleartask" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</RelativeLayout>

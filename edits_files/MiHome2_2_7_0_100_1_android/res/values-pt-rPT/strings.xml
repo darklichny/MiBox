@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="application_name">Launcher</string>
+    <string name="folder_name">Pasta</string>
+    <string name="chooser_wallpaper">Seleccionar imagem de fundo a partir de</string>
+    <string name="activity_not_found">A aplicação não está instalada no telefone.</string>
+    <string name="cancel_action">Cancelar</string>
+    <string name="menu_item_add_item">Adicionar ao ecrã principal</string>
+    <string name="group_shortcuts">Atalhos</string>
+    <string name="out_of_space">Não existe espaço suficiente neste ecrã principal.</string>
+    <string name="title_select_shortcut">Seleccione o atalho</string>
+    <string name="menu_add">Adicionar</string>
+    <string name="menu_wallpaper">Imagem de fundo</string>
+    <string name="menu_search">Pesquisar</string>
+    <string name="menu_settings">Definições</string>
+    <string name="permlab_install_shortcut">instalar atalhos</string>
+    <string name="permdesc_install_shortcut">Permite que uma aplicação adicione atalhos sem a intervenção do utilizador.</string>
+    <string name="permlab_uninstall_shortcut">desinstalar atalhos</string>
+    <string name="permdesc_uninstall_shortcut">Permite que uma aplicação remova atalhos sem a intervenção do utilizador.</string>
+    <string name="permlab_read_settings">ler definições e atalhos do ecrã principal</string>
+    <string name="permdesc_read_settings">Permite que uma aplicação leia as definições e os atalhos do ecrã principal.</string>
+    <string name="permlab_write_settings">escrever definições e atalhos do ecrã principal</string>
+    <string name="permdesc_write_settings">Permite que uma aplicação altere as definições e os atalhos do ecrã principal.</string>
+    <string name="gadget_error_text">Erro ao carregar o widget</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_common_setting_title" android:key="pref_key_checkboxes">
+        <com.android.launcher2.V5Preference android:title="@string/pref_launcher_setting" android:key="pref_launcher_setting_key" />
+        <com.android.launcher2.V5Preference android:title="@string/pref_locker_setting" android:key="pref_locker_setting_key" />
+        <com.android.launcher2.V5Preference android:title="@string/pref_ringtone_setting" android:key="pref_ringtone_setting_key" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_more_function_title" android:key="pref_more_function_key">
+        <com.android.launcher2.V5Preference android:title="@string/pref_backup_restore_title" android:key="pref_backup_restore_key" />
+        <com.android.launcher2.V5Preference android:title="@string/pref_app_intelligent_category" android:key="pref_key_app_intelligent_category" />
+        <com.android.launcher2.V5Preference android:title="@string/pref_share_launcher_title" android:key="pref_share_launcher_key" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_about_help_title" android:key="pref_about_help">
+        <com.android.launcher2.V5Preference android:title="@string/log_file" android:key="log_file" android:summary="@string/log_file_summary" />
+        <com.android.launcher2.V5Preference android:title="@string/check_for_updates" android:key="check_for_updates" />
+        <com.android.launcher2.V5Preference android:title="@string/pref_suggestions_title" android:key="pref_suggestions_key" />
+        <com.android.launcher2.V5Preference android:key="key_about" />
+    </PreferenceCategory>
+</PreferenceScreen>

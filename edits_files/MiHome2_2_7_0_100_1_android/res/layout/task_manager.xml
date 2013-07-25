@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<miui.mihome.taskmanager.TaskManagerView android:gravity="bottom" android:background="#99000000" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/taskManagerView" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="bottom|left|center" android:id="@id/background" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <miui.mihome.taskmanager.ClearButton android:layout_gravity="bottom|center" android:id="@id/clearButton" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <miui.mihome.taskmanager.TasksView android:layout_gravity="top|center" android:id="@id/tasksView" android:clickable="true" android:longClickable="true" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/task_manager_text" android:gravity="center" android:layout_gravity="top|center" android:id="@id/txtNoRecentApps" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/status_bar_no_recent_apps" android:alpha="0.3" />
+        <TextView android:textStyle="bold" android:textColor="@color/task_manager_text" android:layout_gravity="bottom|center" android:id="@id/txtMemoryInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@android:style/TextAppearance.Small" />
+    </FrameLayout>
+</miui.mihome.taskmanager.TaskManagerView>

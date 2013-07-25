@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/voucher" android:background="@drawable/common_bg" android:layout_width="fill_parent" android:layout_height="@dimen/list_item_height_medium">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_voucher" />
+        <LinearLayout android:orientation="vertical" android:duplicateParentState="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/text_font_size_large" android:textColor="@color/primary_color" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/recharge_voucher_title" android:singleLine="true" />
+            <TextView android:textSize="@dimen/text_font_size_small" android:textColor="@color/secondary_color" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/recharge_voucher_summary" android:singleLine="true" />
+        </LinearLayout>
+        <ImageView android:background="@drawable/arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/prepaid_card" android:background="@drawable/common_bg" android:layout_width="fill_parent" android:layout_height="@dimen/list_item_height_medium">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_prepaid" />
+        <LinearLayout android:orientation="vertical" android:duplicateParentState="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/text_font_size_large" android:textColor="@color/primary_color" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/recharge_prepaid_title" android:singleLine="true" />
+            <TextView android:textSize="@dimen/text_font_size_small" android:textColor="@color/secondary_color" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/recharge_prepaid_summary" android:singleLine="true" />
+        </LinearLayout>
+        <ImageView android:background="@drawable/arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/alipay" android:background="@drawable/common_bg" android:layout_width="fill_parent" android:layout_height="@dimen/list_item_height_medium">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_alipay" />
+        <LinearLayout android:orientation="vertical" android:duplicateParentState="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/text_font_size_large" android:textColor="@color/primary_color" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/recharge_alipay_title" android:singleLine="true" />
+            <TextView android:textSize="@dimen/text_font_size_small" android:textColor="@color/secondary_color" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/recharge_alipay_summary" android:singleLine="true" />
+        </LinearLayout>
+        <ImageView android:background="@drawable/arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/tenpay" android:background="@drawable/common_bg" android:layout_width="fill_parent" android:layout_height="@dimen/list_item_height_medium">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_tenpay" />
+        <LinearLayout android:orientation="vertical" android:duplicateParentState="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/text_font_size_large" android:textColor="@color/primary_color" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/recharge_tenpay_title" android:singleLine="true" />
+            <TextView android:textSize="@dimen/text_font_size_small" android:textColor="@color/secondary_color" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/recharge_tenpay_summary" android:singleLine="true" />
+        </LinearLayout>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/arrow" />
+    </LinearLayout>
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <TextView android:textSize="@dimen/text_font_size_small" android:textColor="@color/text_color_black" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="25.0dip" android:text="@string/recharge_hint" android:singleLine="true" />
+</LinearLayout>

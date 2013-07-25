@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/thememanager_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:background="@drawable/resource_detail_title_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/downloading_list_title" style="@style/WindowTitle" />
+    </LinearLayout>
+    <ListView android:id="@id/download_tasks_listview" android:layout_width="fill_parent" android:layout_height="0.0dip" android:divider="#ff888888" android:dividerHeight="1.5dip" android:layout_weight="1.0"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="horizontal" android:background="@drawable/bottom_bar_bg_n" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textSize="@dimen/button_bar_text_size" android:gravity="center" android:layout_gravity="left|center" android:id="@id/downloadtasks_back" android:background="@drawable/download_button" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="@string/back" android:drawableLeft="@drawable/dmgr2_reader_bottom_back_icon" android:drawablePadding="5.0dip" />
+        <LinearLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/button_bar_text_size" android:gravity="center" android:layout_gravity="left|center" android:id="@id/downloadtasks_action" android:background="@drawable/bottom_button_bar" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="@string/stop_all_downloads_tasks" />
+    </LinearLayout>
+</LinearLayout>

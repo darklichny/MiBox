@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:paddingLeft="@dimen/a_main_padding" android:paddingRight="@dimen/a_main_padding" android:paddingBottom="@dimen/a_main_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/bottom_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/title_login" style="@style/TextStyle.Title" />
+        <Button android:id="@id/btn_login" android:layout_marginTop="@dimen/a_common_padding" android:text="@string/micloud_use_existing" style="@style/AccountButton.Highlight" />
+        <Button android:id="@id/btn_reg" android:layout_marginTop="@dimen/a_common_padding" android:text="@string/micloud_reg_new" style="@style/AccountButton" />
+    </LinearLayout>
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/a_mi_rabbit" android:scaleType="center" android:layout_above="@id/bottom_panel" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RatingBar android:layout_gravity="center" android:id="@id/resource_comment_ratingbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/resource_comment_common_padding" android:layout_marginBottom="@dimen/resource_comment_common_padding" style="@style/Resource.Comment.RatingBar.Edit" />
+    <EditText android:gravity="left" android:id="@id/resource_comment_edit" android:layout_width="fill_parent" android:layout_height="0.0dip" android:hint="@string/resource_comment_edit_text_default" android:maxLength="300" android:layout_weight="1.0" />
+    <Button android:id="@id/resource_comment_publish" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/resource_comment_common_padding" android:layout_marginBottom="@dimen/resource_comment_common_padding" android:text="@string/resource_comment_publish" />
+</LinearLayout>

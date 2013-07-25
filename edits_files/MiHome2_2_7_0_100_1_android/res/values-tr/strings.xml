@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="application_name">Launcher</string>
+    <string name="folder_name">Klasör</string>
+    <string name="chooser_wallpaper">Buradan duvar kağıdını seçin:</string>
+    <string name="activity_not_found">Uygulama telefonunuza yüklenmemiş.</string>
+    <string name="cancel_action">İptal</string>
+    <string name="menu_item_add_item">Ana ekrana ekle</string>
+    <string name="group_shortcuts">Kısayollar</string>
+    <string name="out_of_space">Bu Ana ekranda başka yer yok.</string>
+    <string name="title_select_shortcut">Kısayolu seçin</string>
+    <string name="menu_add">Ekle</string>
+    <string name="menu_wallpaper">Duvar Kağıdı</string>
+    <string name="menu_search">Ara</string>
+    <string name="menu_settings">Ayarlar</string>
+    <string name="permlab_install_shortcut">kısayolları yükle</string>
+    <string name="permdesc_install_shortcut">Bir uygulamaya, kısayolları kullanıcı müdahale etmeden ekleme izni verir.</string>
+    <string name="permlab_uninstall_shortcut">kısayolları kaldır</string>
+    <string name="permdesc_uninstall_shortcut">Bir uygulamaya, kısayolları kullanıcı müdahale etmeden kaldırma izni verir.</string>
+    <string name="permlab_read_settings">Ana Sayfa ayarlarını ve kısayollarını oku</string>
+    <string name="permdesc_read_settings">Bir uygulamaya Ana Sayfadaki ayarları ve kısayolları okuma izni verir.</string>
+    <string name="permlab_write_settings">Ana Sayfa ayarlarını ve kısayollarını yaz</string>
+    <string name="permdesc_write_settings">Bir uygulamaya Ana Sayfadaki ayarları ve kısayolları değiştirme izni verir.</string>
+    <string name="gadget_error_text">Widget yüklenirken sorun oluştu</string>
+</resources>

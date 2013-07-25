@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="audio_effect_file_showing_names">
+        <item>锁屏音</item>
+        <item>解锁音</item>
+        <item>点击音</item>
+        <item>键盘回退音</item>
+        <item>键盘回车音</item>
+        <item>键盘按键音</item>
+        <item>键盘空格音</item>
+        <item>拍照音</item>
+        <item>摄像开始音</item>
+        <item>定时拍照倒计时音</item>
+        <item>对焦成功音</item>
+        <item>对焦失败音</item>
+        <item>防抖拍照音1</item>
+        <item>防抖拍照音2</item>
+        <item>防抖拍照音3</item>
+        <item>甩动切歌音</item>
+        <item>短信送达音</item>
+        <item>录音开始音</item>
+        <item>录音暂停音</item>
+        <item>倒带音</item>
+        <item>低电量通知音</item>
+    </string-array>
+    <string-array name="transformation_entries">
+        <item>经典</item>
+        <item>经典(无回弹)</item>
+        <item>淡入淡出</item>
+        <item>转盘</item>
+        <item>翻页</item>
+        <item>层叠</item>
+        <item>旋转</item>
+        <item>方块</item>
+    </string-array>
+    <string-array name="wallpaper_scroll_entries">
+        <item>主题指定</item>
+        <item>居中</item>
+        <item>居左</item>
+        <item>居右</item>
+    </string-array>
+    <string-array name="share_launcher_nickname">
+        <item>隐士高人</item>
+        <item>初露锋芒</item>
+        <item>称霸武林</item>
+        <item>一统天下</item>
+    </string-array>
+    <string-array name="new_account_types">
+        <item>用本手机号码注册（推荐）</item>
+        <item>用邮箱注册</item>
+    </string-array>
+</resources>

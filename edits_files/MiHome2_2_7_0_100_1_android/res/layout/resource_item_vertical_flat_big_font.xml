@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/ResourceBrowser.ListItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/thumbnail" android:background="@drawable/resource_font_bg" android:paddingBottom="30.0dip" android:scaleType="centerInside" style="@style/ResourceBrowser.ResourceImage" />
+        <TextView android:id="@id/inline_title" style="@style/ResourceBrowser.ResourceDescription.Font" />
+        <include layout="@layout/resource_flag" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="@integer/config_delete_zone_animation_duration" android:drawable="@drawable/delete_zone_t5" />
+    <item android:duration="@integer/config_delete_zone_animation_duration" android:drawable="@drawable/delete_zone_t4" />
+    <item android:duration="@integer/config_delete_zone_animation_duration" android:drawable="@drawable/delete_zone_t3" />
+    <item android:duration="@integer/config_delete_zone_animation_duration" android:drawable="@drawable/delete_zone_t2" />
+    <item android:duration="@integer/config_delete_zone_animation_duration" android:drawable="@drawable/delete_zone_t1" />
+    <item android:duration="@integer/config_delete_zone_animation_duration" android:drawable="@drawable/delete_zone_t0" />
+</animation-list>

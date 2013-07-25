@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.launcher2.DropableGridView android:scrollbarThumbVertical="@drawable/folder_scrollbar_v" android:scrollbarStyle="insideInset" android:gravity="center" android:id="@id/folder_content" android:paddingLeft="@dimen/folder_content_padding_left" android:paddingTop="@dimen/folder_content_padding_top" android:paddingRight="@dimen/folder_content_padding_right" android:paddingBottom="@dimen/folder_content_padding_bottom" android:scrollbars="vertical" android:fadingEdge="none" android:clipToPadding="false" android:animationCache="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/grid_selector" android:drawSelectorOnTop="true" android:cacheColorHint="#00000000" android:horizontalSpacing="5.0dip" android:verticalSpacing="5.0dip" android:numColumns="@integer/config_folder_columns_count" android:layout_weight="1.0" android:layerType="hardware" />
+</FrameLayout>

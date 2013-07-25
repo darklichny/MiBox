@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/thememanager_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:background="@drawable/resource_detail_title_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/titlecontent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/label_samsung_home_key_title" style="@style/WindowTitle" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:paddingLeft="10.0dip" android:paddingTop="20.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/lockhome_text_size" android:textColor="@color/black" android:gravity="left" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/lockhome_samsung_step_title" />
+        <LinearLayout android:orientation="vertical" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/lockhome_step1" />
+                <Button android:textSize="@dimen/lockhome_text_size" android:id="@id/clearHomeBtn" android:background="@drawable/lockhome_btn_bg" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/lockhome_samsung_clear_home_button" android:layout_weight="1.0" />
+                <ImageView android:id="@id/clearHomeCheck" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/green_check" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/lockhome_text_size" android:textColor="@color/grey" android:gravity="center" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/lockhome_samsung_clear_home_text" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/lockhome_step2" />
+                <Button android:textSize="@dimen/lockhome_text_size" android:id="@id/setHomeBtn" android:background="@drawable/lockhome_btn_bg" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/lockhome_samsung_set_milocker_button" android:layout_weight="1.0" />
+                <ImageView android:id="@id/setHomeCheck" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/green_check" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/lockhome_text_size" android:textColor="@color/grey" android:gravity="center" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/lockhome_samsung_set_milocker_text" />
+        </LinearLayout>
+        <LinearLayout android:background="@drawable/lockhome_line" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" />
+    </LinearLayout>
+</LinearLayout>
