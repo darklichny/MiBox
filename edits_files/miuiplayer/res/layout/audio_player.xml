@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/MusicActivityStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/folder_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="60.0dip" android:src="@drawable/folder_button" android:scaleType="center" />
+        <LinearLayout android:orientation="vertical" android:id="@id/content_wrap" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip">
+                <com.miui.player.ui.view.SpectrumVisualizer android:layout_gravity="center_horizontal" android:id="@id/spectrum_visualizer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" />
+            </FrameLayout>
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="300.0dip">
+                <include layout="@layout/audio_player_album" />
+                <include layout="@layout/audio_player_lyric" />
+                <View android:id="@id/album_mask" android:background="@drawable/audio_player_album_mask" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <RelativeLayout android:layout_gravity="top" android:id="@id/time_indicator" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="45.0dip">
+                    <include layout="@layout/time_indicator" />
+                </RelativeLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/current_track" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/nowplaying_item" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/NowplayingItemStyle">
+                        <include layout="@layout/nowplaying_item" />
+                    </LinearLayout>
+                    <TextView android:gravity="left|center" android:id="@id/download_status" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="3.0dip" android:layout_alignParentRight="true" />
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="bottom" android:id="@id/tool_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                    <include layout="@layout/playing_tool_bar" />
+                </LinearLayout>
+            </FrameLayout>
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/common_tabs" android:background="@drawable/player_common" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include layout="@layout/audio_player_common" />
+            </LinearLayout>
+            <FrameLayout android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/nextplaying_item" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/NowplayingItemStyle">
+                    <include layout="@layout/nowplaying_item" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

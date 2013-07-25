@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/folder_item_bg_selector" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/ItemPrimaryIcon" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_weight="1.0">
+        <TextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ItemPrimaryText" />
+        <TextView android:id="@id/details" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ItemSecondaryText" />
+    </LinearLayout>
+</LinearLayout>

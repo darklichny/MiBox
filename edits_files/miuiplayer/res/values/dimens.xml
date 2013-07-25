@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="action_bar_height">50.0dip</dimen>
+    <dimen name="bottom_bar_text">18.0dip</dimen>
+    <dimen name="normal_height">66.0dip</dimen>
+    <dimen name="current_album_height">238.66699dip</dimen>
+    <dimen name="recently_album_width">80.0dip</dimen>
+    <dimen name="title_primary_text">16.0dip</dimen>
+    <dimen name="title_secondary_text">12.0dip</dimen>
+    <dimen name="item_primary_text">16.0dip</dimen>
+    <dimen name="item_secondary_text">10.0dip</dimen>
+    <dimen name="alphabet_indexer_overlay_text_size">28.0dip</dimen>
+    <dimen name="alphabet_indexer_overlay_padding_top">5.0dip</dimen>
+    <dimen name="alphabet_indexer_overlay_offset">20.0dip</dimen>
+    <dimen name="alphabet_indexer_text_size">12.0dip</dimen>
+    <dimen name="lyric_line_extra_spacing">24.0dip</dimen>
+    <dimen name="history_album_space">1.3329773dip</dimen>
+    <dimen name="picker_list_margin">12.0dip</dimen>
+    <dimen name="track_item_padding">6.0dip</dimen>
+    <dimen name="nowplaying_item_padding">14.0dip</dimen>
+</resources>

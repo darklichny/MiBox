@@ -1,0 +1,13 @@
+version: 1.5.3.f3e50fbc56
+apkFileName: miuiplayer.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '15'
+  targetSdkVersion: '15'
+packageInfo:
+  cur_package: com.miui.player
+  orig_package: com.miui.player
+compressionType: true

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/no_history_frame" android:background="@drawable/current_default_big" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="20.0dip" android:id="@id/click_to_shuffle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/click_to_shuffle" android:singleLine="true" />
+        <TextView android:textSize="12.0dip" android:id="@id/track_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/playing_frame" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/nowplaying_frame" android:background="@drawable/current_default_middle" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/nowplaying_album" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+            <RelativeLayout android:background="@drawable/current_album_mask" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="20.0dip" android:id="@id/primary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                <TextView android:textSize="12.0dip" android:id="@id/secondary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/primary_text" />
+                <LinearLayout android:id="@id/common_tabs" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                    <include layout="@layout/audio_player_common" />
+                </LinearLayout>
+            </RelativeLayout>
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/history_frame" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/history_album_space">
+            <ImageView android:id="@id/latest_album_1" android:layout_width="@dimen/recently_album_width" android:layout_height="0.0dip" android:src="@drawable/history_default_small" android:scaleType="fitXY" android:layout_weight="1.0" />
+            <ImageView android:id="@id/latest_album_2" android:layout_width="@dimen/recently_album_width" android:layout_height="0.0dip" android:layout_marginTop="@dimen/history_album_space" android:layout_marginBottom="@dimen/history_album_space" android:src="@drawable/history_default_small" android:scaleType="fitXY" android:layout_weight="1.0" />
+            <ImageView android:id="@id/latest_album_3" android:layout_width="@dimen/recently_album_width" android:layout_height="0.0dip" android:src="@drawable/history_default_small" android:scaleType="fitXY" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>
